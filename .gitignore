@@ -1,0 +1,17 @@
+# Archivos locales y credenciales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Cachés y archivos temporales de herramientas
+__pycache__/
+*.py[cod]
+.pytest_cache/
+~$*
+Thumbs.db
+.DS_Store
+
+# Borradores y extracciones temporales, no documentos oficiales
+_archivo_temporal/
