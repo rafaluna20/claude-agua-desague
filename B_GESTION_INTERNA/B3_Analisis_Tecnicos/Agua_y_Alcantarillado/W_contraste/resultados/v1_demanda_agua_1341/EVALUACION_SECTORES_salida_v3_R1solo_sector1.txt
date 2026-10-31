@@ -1,0 +1,135 @@
+== LONGITUDES (m)
+matriz: 888 m, 1 trazos
+sector1: 1677 m, 9 trazos
+sector2: 835 m, 5 trazos
+sector3: 1720 m, 8 trazos
+sector4: 1660 m, 8 trazos
+sector5: 1139 m, 7 trazos
+sector6: 1044 m, 6 trazos
+   total 8963
+
+== CONEXIONES (distancia minima entre trazados, m)
+  matriz - sector1: 0.5 m
+  matriz - sector2: 0.0 m
+  matriz - sector3: 0.0 m
+  matriz - sector4: 0.0 m
+  matriz - sector5: 0.2 m
+  matriz - sector6: 0.2 m
+  sector1 - sector2: 4.0 m
+  sector1 - sector3: 5.2 m
+  sector2 - sector3: 7.4 m
+  sector2 - sector4: 12.0 m
+  sector3 - sector4: 10.4 m
+  sector4 - sector5: 12.4 m
+  sector5 - sector6: 0.0 m
+
+reservorio1: terreno 130.2 m; trazos a <=10 m del borde: ['sector1']
+
+reservorio2: terreno 116.2 m; trazos a <=10 m del borde: ['matriz']
+
+== COBERTURA: distancia del centroide del lote a la tuberia mas cercana (cualquier capa)
+  <= 20 m: 1224 lotes (91 %)
+  <= 30 m: 1305 lotes (97 %)
+  <= 40 m: 1337 lotes (100 %)
+  <= 60 m: 1340 lotes (100 %)
+  <= 100 m: 1341 lotes (100 %)
+  mas alejados: [('E04MZZ002P', 76), ('E04MZZ003P', 60), ('E04MZZ006P', 59), ('E04MZZ001P', 48), ('E01MZR001P', 36), ('E01MZQ057P', 35), ('E01MZQ056P', 35), ('E02MZM022P', 35), ('E01MZQ055P', 34), ('E01MZQ054P', 34), ('E01MZQ053P', 34), ('E01MZQ068P', 34), ('E01MZQ067P', 33), ('E01MZQ066P', 33), ('E01MZQ065P', 33)]
+  lotes a >40 m: 4; por manzana: [('E04MZZ', 4)]
+  area que centroide >40 m: E: Counter({'E04': 4})
+
+== LOTES POR SECTOR (asignacion por trazado mas cercano, <=40 m)
+matriz: 11 lotes | cota 80.0-101.4 (media 96.0) | 14 m3/d | Qmh 0.4 L/s | trazado 888 m (80.7 m/lote)
+sector1: 333 lotes | cota 92.7-117.7 (media 103.6) | 377 m3/d | Qmh 10.9 L/s | trazado 1677 m (5.0 m/lote)
+sector2: 128 lotes | cota 87.2-98.9 (media 91.7) | 143 m3/d | Qmh 4.1 L/s | trazado 835 m (6.5 m/lote)
+sector3: 236 lotes | cota 82.8-95.9 (media 89.4) | 437 m3/d | Qmh 12.6 L/s | trazado 1720 m (7.3 m/lote)
+sector4: 259 lotes | cota 78.0-90.2 (media 82.6) | 262 m3/d | Qmh 7.6 L/s | trazado 1660 m (6.4 m/lote)
+sector5: 196 lotes | cota 80.0-92.3 (media 85.6) | 199 m3/d | Qmh 5.8 L/s | trazado 1139 m (5.8 m/lote)
+sector6: 174 lotes | cota 78.0-87.9 (media 81.5) | 176 m3/d | Qmh 5.1 L/s | trazado 1044 m (6.0 m/lote)
+matriz mas cercana: 11 lotes (no tienen sector) cota 80-101
+
+RESERVORIO 1 (sector1): 333 lotes, 377 m3/d, Qmd 5.7 Qmh 10.9 L/s, reservorio ~129 m3
+   cotas lotes 92.7-117.7; terreno del reservorio 130.2
+   nivel minimo necesario (lote mas alto + 10 m + 5 m perdidas): 132.7; max 134.7; estatica max 42.0 m; altura sobre el terreno del reservorio: +2.5 m
+   si Nmin=132.2: lotes <10 m: 0, <15 m: 1, >50 con Nmax=134: 0
+   si Nmin=134.2: lotes <10 m: 0, <15 m: 0, >50 con Nmax=136: 0
+   si Nmin=136.2: lotes <10 m: 0, <15 m: 0, >50 con Nmax=138: 0
+
+RESERVORIO 2 (resto): 993 lotes, 1218 m3/d, Qmd 18.3 Qmh 35.2 L/s, reservorio ~415 m3
+   cotas lotes 78.0-98.9; terreno del reservorio 116.2
+   nivel minimo necesario (lote mas alto + 10 m + 5 m perdidas): 113.9; max 115.9; estatica max 37.9 m; altura sobre el terreno del reservorio: -2.3 m
+   si Nmin=118.2: lotes <10 m: 0, <15 m: 0, >50 con Nmax=120: 0
+   si Nmin=120.2: lotes <10 m: 0, <15 m: 0, >50 con Nmax=122: 0
+   si Nmin=122.2: lotes <10 m: 0, <15 m: 0, >50 con Nmax=124: 0
+
+== TRAZADO QUE ATRAVIESA LOTES (muestreo cada 3 m)
+  matriz: 0 de 289 puntos dentro de lotes (0 m aprox.); lotes: []
+  sector1: 0 de 556 puntos dentro de lotes (0 m aprox.); lotes: []
+  sector2: 0 de 278 puntos dentro de lotes (0 m aprox.); lotes: []
+  sector3: 0 de 566 puntos dentro de lotes (0 m aprox.); lotes: []
+  sector4: 0 de 542 puntos dentro de lotes (0 m aprox.); lotes: []
+  sector5: 0 de 377 puntos dentro de lotes (0 m aprox.); lotes: []
+  sector6: 0 de 346 puntos dentro de lotes (0 m aprox.); lotes: []
+
+
+===== PARTE 2 =====
+
+-- Lotes por trazado individual en sector1 y sector2 (cota)
+  sector1 trazo 0: 129 lotes, cota 92.7-111.5 media 100.9; >103 m: 49; <=100 m: 61
+  sector1 trazo 1: 12 lotes, cota 94.4-99.3 media 97.7; >103 m: 0; <=100 m: 12
+  sector1 trazo 2: 150 lotes, cota 96.2-116.0 media 105.8; >103 m: 96; <=100 m: 33
+  sector1 trazo 3: 16 lotes, cota 97.5-100.5 media 99.0; >103 m: 0; <=100 m: 14
+  sector1 trazo 4: 13 lotes, cota 101.8-106.9 media 104.2; >103 m: 10; <=100 m: 0
+  sector1 trazo 5: 6 lotes, cota 115.3-117.7 media 116.2; >103 m: 6; <=100 m: 0
+  sector1 trazo 6: 7 lotes, cota 110.2-116.6 media 113.4; >103 m: 7; <=100 m: 0
+  sector1 trazo 7: 0 lotes propios (longitud 12 m)
+  sector1 trazo 8: 0 lotes propios (longitud 166 m)
+  sector2 trazo 0: 10 lotes, cota 91.3-98.0 media 95.4; >103 m: 0; <=100 m: 10
+  sector2 trazo 1: 21 lotes, cota 87.5-94.0 media 90.2; >103 m: 0; <=100 m: 21
+  sector2 trazo 2: 74 lotes, cota 87.2-98.9 media 91.5; >103 m: 0; <=100 m: 74
+  sector2 trazo 3: 23 lotes, cota 88.3-98.0 media 92.2; >103 m: 0; <=100 m: 23
+  sector2 trazo 4: 0 lotes propios (longitud 5 m)
+
+-- Puntos donde la red de R1 (sector1+2) toca o se acerca (<=12 m) a otras capas
+  sector1[0] con sector2[2]: min 7.4 m en (308473,8622857)
+  sector1[1] con matriz[0]: min 2.8 m en (308460,8622907)
+  sector1[1] con sector2[1]: min 5.9 m en (308443,8622983)
+  sector1[1] con sector2[2]: min 7.4 m en (308472,8622858)
+  sector1[1] con sector2[3]: min 4.0 m en (308451,8622946)
+  sector1[2] con matriz[0]: min 6.9 m en (308432,8622986)
+  sector1[2] con sector3[0]: min 7.4 m en (308422,8623037)
+  sector1[2] con sector3[1]: min 5.2 m en (308406,8623085)
+  sector1[2] con sector3[5]: min 7.9 m en (308430,8622997)
+  sector1[3] con sector3[0]: min 7.7 m en (308422,8623035)
+  sector1[7] con matriz[0]: min 0.5 m en (308440,8622984)
+  sector1[7] con sector2[1]: min 5.9 m en (308443,8622983)
+
+-- Puntas muertas (extremo de trazado a >3 m de cualquier otro trazado o de si mismo)
+  matriz: 2 -> [(308394, 8622884), (309141, 8622978)]
+  sector1: 4 -> [(308359, 8623017), (308165, 8623035), (308211, 8623138), (308306, 8622839)]
+  sector2: 4 -> [(308449, 8622984), (308480, 8622859), (308510, 8622753), (308455, 8622946)]
+  sector3: 4 -> [(308429, 8623039), (308431, 8623178), (308586, 8623068), (308437, 8622998)]
+  sector4: 7 -> [(308688, 8622956), (308811, 8623061), (308637, 8622867), (308613, 8622832), (308594, 8622793), (308665, 8622920), (308658, 8622902)]
+  sector5: 2 -> [(308883, 8623048), (308971, 8623070)]
+  sector6: 2 -> [(309035, 8622838), (308946, 8622813)]
+
+-- 37 lotes cuyo trazado mas cercano es la matriz: [('E01MZS', 9), ('E04MZZ', 1), ('E04MZA', 1)]  dist media 12.9
+  matriz 888 m, Q 15 L/s, D 200 mm: v 0.48 m/s, hf 1.07 m
+  matriz 888 m, Q 15 L/s, D 250 mm: v 0.31 m/s, hf 0.36 m
+  matriz 888 m, Q 15 L/s, D 315 mm: v 0.19 m/s, hf 0.12 m
+  matriz 888 m, Q 30 L/s, D 200 mm: v 0.95 m/s, hf 3.85 m
+  matriz 888 m, Q 30 L/s, D 250 mm: v 0.61 m/s, hf 1.30 m
+  matriz 888 m, Q 30 L/s, D 315 mm: v 0.38 m/s, hf 0.42 m
+  matriz 888 m, Q 45 L/s, D 200 mm: v 1.43 m/s, hf 8.16 m
+  matriz 888 m, Q 45 L/s, D 250 mm: v 0.92 m/s, hf 2.75 m
+  matriz 888 m, Q 45 L/s, D 315 mm: v 0.58 m/s, hf 0.89 m
+
+===== PARTE 3: R1 con niveles 132.7/134.7 y propuesta de reasignacion =====
+  R1 actual (462 lotes): estatica > 45 m en Nmax 134.7: 0 lotes
+  R1 actual (462 lotes): estatica > 40 m en Nmax 134.7: 20 lotes
+  R1 actual (462 lotes): estatica > 35 m en Nmax 134.7: 106 lotes
+  corte 100 m: R1 se quedaria con 213 lotes (229 m3/d, Qmh 6.6 L/s, reservorio ~78 m3); pasarian a R2: 120 lotes (148 m3/d)
+     R2 total quedaria: 1124 lotes, 1380 m3/d, Qmd 20.8 Qmh 39.9 L/s, reservorio ~470 m3; cota max 101.4
+  corte 103 m: R1 se quedaria con 168 lotes (184 m3/d, Qmh 5.3 L/s, reservorio ~63 m3); pasarian a R2: 165 lotes (194 m3/d)
+     R2 total quedaria: 1169 lotes, 1425 m3/d, Qmd 21.4 Qmh 41.2 L/s, reservorio ~486 m3; cota max 103.0
+  corte 105 m: R1 se quedaria con 131 lotes (133 m3/d, Qmh 3.8 L/s, reservorio ~45 m3); pasarian a R2: 202 lotes (244 m3/d)
+     R2 total quedaria: 1206 lotes, 1476 m3/d, Qmd 22.2 Qmh 42.7 L/s, reservorio ~503 m3; cota max 104.9

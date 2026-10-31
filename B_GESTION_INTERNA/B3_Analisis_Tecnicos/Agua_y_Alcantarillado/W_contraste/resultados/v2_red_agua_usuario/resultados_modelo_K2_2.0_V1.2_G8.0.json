@@ -1,0 +1,163 @@
+[
+ {
+  "red": "R1",
+  "lotes": 333,
+  "nodos": 67,
+  "tuberias": 69,
+  "longitud_m": 1677,
+  "nodos_aislados_del_reservorio": 0,
+  "distancia_salida_a_nodo_m": 0.0,
+  "Qmh_Ls": 8.73,
+  "iteraciones": 5,
+  "presion_min_pico": 14.7,
+  "presion_p5_pico": 18.0,
+  "presion_mediana_pico": 29.5,
+  "nodos_con_demanda": 56,
+  "nodos_menos_10": 0,
+  "nodos_menos_15": 1,
+  "estatica_max": 39.7,
+  "nodos_mas_50": 0,
+  "v_max": 0.68,
+  "grad_max_m_km": 5.3,
+  "DN": {
+   "110": 62,
+   "160": 7
+  },
+  "puntas_muertas": 4,
+  "peores_lotes": [
+   [
+    "E01MZS046P",
+    14.7,
+    115.3
+   ],
+   [
+    "E01MZS0471",
+    14.7,
+    116.8
+   ],
+   [
+    "E01MZS0472",
+    14.7,
+    117.7
+   ],
+   [
+    "E01MZS0481",
+    16.8,
+    116.2
+   ],
+   [
+    "E01MZS0482",
+    16.8,
+    116.0
+   ],
+   [
+    "E01MZS0491",
+    16.8,
+    116.0
+   ],
+   [
+    "E01MZS0492",
+    16.8,
+    115.8
+   ],
+   [
+    "E01MZS050P",
+    17.6,
+    115.6
+   ]
+  ],
+  "tubo_mas_cargado": {
+   "Q_Ls": 5.26,
+   "v": 0.68,
+   "DN": 110,
+   "x": 308463,
+   "y": 8622894
+  },
+  "caudal_salida_reservorio_Ls": 8.73,
+  "nivel_min_max_usado": [
+   132.7,
+   134.7
+  ]
+ },
+ {
+  "red": "R2",
+  "lotes": 1008,
+  "nodos": 305,
+  "tuberias": 312,
+  "longitud_m": 7286,
+  "nodos_aislados_del_reservorio": 0,
+  "distancia_salida_a_nodo_m": 0.0,
+  "Qmh_Ls": 29.8,
+  "iteraciones": 4,
+  "presion_min_pico": 17.7,
+  "presion_p5_pico": 20.2,
+  "presion_mediana_pico": 29.3,
+  "nodos_con_demanda": 253,
+  "nodos_menos_10": 0,
+  "nodos_menos_15": 0,
+  "estatica_max": 41.7,
+  "nodos_mas_50": 0,
+  "v_max": 1.17,
+  "grad_max_m_km": 7.2,
+  "DN": {
+   "110": 280,
+   "160": 16,
+   "200": 16
+  },
+  "puntas_muertas": 21,
+  "peores_lotes": [
+   [
+    "E02MZU0092",
+    17.7,
+    95.9
+   ],
+   [
+    "E02MZU010P",
+    17.7,
+    95.7
+   ],
+   [
+    "E01MZD100P",
+    18.1,
+    97.1
+   ],
+   [
+    "E01MZD101P",
+    18.1,
+    98.9
+   ],
+   [
+    "E02MZO031P",
+    18.4,
+    95.6
+   ],
+   [
+    "E02MZM053P",
+    18.5,
+    94.8
+   ],
+   [
+    "E02MZU019P",
+    18.6,
+    94.7
+   ],
+   [
+    "E02MZU020P",
+    18.6,
+    95.0
+   ]
+  ],
+  "tubo_mas_cargado": {
+   "Q_Ls": 29.8,
+   "v": 1.17,
+   "DN": 200,
+   "x": 308394,
+   "y": 8622884
+  },
+  "caudal_salida_reservorio_Ls": 29.8,
+  "nivel_min_max_usado": [
+   118.2,
+   120.2
+  ]
+ }
+]
