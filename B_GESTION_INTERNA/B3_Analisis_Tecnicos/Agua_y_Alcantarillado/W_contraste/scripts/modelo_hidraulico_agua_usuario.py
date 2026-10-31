@@ -40,7 +40,7 @@ PASO = 30.0
 NIV = {"R1": (132.7, 134.7), "R2": (118.2, 120.2)}  # Nmin, Nmax (supuestos)
 GRUPOS = {"R1": ["sector1"], "R2": ["matriz", "sector2", "sector3", "sector4", "sector5", "sector6"]}
 SALIDA = {"R1": (308306.41, 8622839.35), "R2": (308394.50, 8622884.28)}
-DNS = [(90, 0.081), (110, 0.099), (160, 0.144), (200, 0.180), (250, 0.226), (315, 0.285)]  # DN, ID supuesto ~0.9 DN
+DNS = [(75, 0.068), (90, 0.081), (110, 0.099), (160, 0.144), (200, 0.180), (250, 0.226), (315, 0.285)]  # DN, ID supuesto ~0.9 DN
 VMAX = float(os.environ.get("VMAX", 1.2))
 GMAX = float(os.environ.get("GMAX", 8.0))
 
@@ -195,7 +195,7 @@ for g in ("R1", "R2"):
         q[n] += K2 * lv[k] / 86400.0
     zn = np.array([terr(*p) for p in nodos])
     grado = np.array([len(adj[i]) for i in range(nn)])
-    D = np.array([0.099] * len(ed))
+    D = np.array([float(os.environ.get("DMIN", 0.099))] * len(ed))
     for ciclo in range(15):
         H, Q, nit = resolver(q, ed, nn, D, {nres: NIV[g][0]})
         v = np.abs(Q) / (np.pi * D ** 2 / 4)
@@ -233,14 +233,36 @@ for g in ("R1", "R2"):
     out["caudal_salida_reservorio_Ls"] = round(float(sum(abs(Q[p]) for p, (a, b, Lm) in enumerate(ed) if a == nres or b == nres) * 1000), 2)
     out["nivel_min_max_usado"] = NIV[g]
     informe.append(out)
-    with open(os.path.join(OUT, "tuberias_%s_K2_%s.csv" % (g, K2)), "w", encoding="utf-8") as fh:
+    with open(os.path.join(OUT, "tuberias_%s_K2_%s%s.csv" % (g, K2, os.environ.get("TAG", ""))), "w", encoding="utf-8") as fh:
         fh.write("x1,y1,x2,y2,L_m,DN,Q_Ls,v_ms,hf_m_km,p_nodo1_pico,p_nodo2_pico\n")
         for p_, (a_, b_, Lm_) in enumerate(ed):
             fh.write("%.1f,%.1f,%.1f,%.1f,%.1f,%d,%.2f,%.2f,%.1f,%.1f,%.1f\n" % (
                 nodos[a_][0], nodos[a_][1], nodos[b_][0], nodos[b_][1], Lm_,
                 min(DNS, key=lambda t: abs(t[1] - D[p_]))[0], abs(Q[p_]) * 1000, v[p_], grad[p_], pr[a_], pr[b_]))
+    if os.environ.get("INP", "1") == "1":
+        os.makedirs(os.path.join(OUT, "epanet"), exist_ok=True)
+        zfix = np.where(np.isnan(zn), np.nanmean(zn), zn)
+        nmin_ = NIV[g][0]
+        lines = ["[TITLE]", "Red %s - PRELIMINAR - generado por modelo_hidraulico_agua_usuario.py (K2=%s). Diametros de predimensionamiento." % (g, K2), "",
+                 "[JUNCTIONS]", ";ID Elev Demand(L/s)"]
+        for i in range(nn):
+            lines.append("N%d %.2f %.4f" % (i, zfix[i], q[i] * 1000))
+        lines += ["", "[RESERVOIRS]", ";ID Head", "RES_%s %.2f" % (g, nmin_), "", "[TANKS]", "",
+                  "[PIPES]", ";ID N1 N2 Length(m) Diam(mm) Rough(HW) MinorLoss Status"]
+        lines.append("SALIDA_%s RES_%s N%d 2 600 140 0 Open" % (g, g, nres))
+        for p_, (a_, b_, Lm_) in enumerate(ed):
+            lines.append("T%d N%d N%d %.2f %.1f 140 0 Open" % (p_, a_, b_, Lm_, D[p_] * 1000))
+        lines += ["", "[PUMPS]", "", "[VALVES]", "", "[DEMANDS]", "", "[PATTERNS]", "", "[CONTROLS]", "",
+                  "[OPTIONS]", "Units LPS", "Headloss H-W", "Specific Gravity 1", "Viscosity 1", "Trials 100", "Accuracy 0.001",
+                  "Unbalanced Continue 10", "Pattern 1", "Demand Multiplier 1", "", "[TIMES]", "Duration 0", "", "[REPORT]", "Status No", "Summary No", "",
+                  "[COORDINATES]", ";Node X Y"]
+        for i in range(nn):
+            lines.append("N%d %.2f %.2f" % (i, nodos[i][0], nodos[i][1]))
+        lines.append("RES_%s %.2f %.2f" % (g, SALIDA[g][0], SALIDA[g][1]))
+        lines += ["", "[END]"]
+        open(os.path.join(OUT, "epanet", "red_%s_K2_%s.inp" % (g, K2)), "w", encoding="ascii", errors="replace").write("\n".join(lines) + "\n")
     res[g] = dict(lotes=[(lot_ids[k], float(p)) for k, p in zip(lotes_g, pl_lote)])
 
-json.dump(informe, open(os.path.join(OUT, "resultados_modelo_K2_%s_V%s_G%s.json" % (K2, VMAX, GMAX)), "w"), indent=1, ensure_ascii=False)
+json.dump(informe, open(os.path.join(OUT, "resultados_modelo_K2_%s_V%s_G%s%s.json" % (K2, VMAX, GMAX, os.environ.get("TAG", ""))), "w"), indent=1, ensure_ascii=False)
 for o in informe:
     print(json.dumps(o, ensure_ascii=False))
