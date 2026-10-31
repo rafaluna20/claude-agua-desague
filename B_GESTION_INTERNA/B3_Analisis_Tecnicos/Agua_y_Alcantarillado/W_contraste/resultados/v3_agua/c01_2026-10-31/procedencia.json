@@ -1,0 +1,24 @@
+{
+ "corrida": "c01_2026-10-31",
+ "fecha": "2026-10-31T05:07:31",
+ "entradas": {
+  "parametros_agua_potable_v1.json": "303d7d4777c280a7",
+  "Red dibujada (red_agua_sectores_usuario_v1.json)": "6a51b12ee354beaa; sectores de agua.dwg, revision 3 (2026-10-31): el usuario rediseno la parte alta: sector1 ",
+  "Grilla del terreno": "D37A6949EF1C32B9",
+  "Cotas de lotes": "fc01af207c2547e3",
+  "Lotes (parcels_export)": "c4e52fc7c079e43a"
+ },
+ "scripts": {
+  "comun.py": "8f05b8f66360",
+  "correr.py": "9219f05e7f42",
+  "demanda.py": "152d7431b0d4",
+  "epanet.py": "d84c72d80cfb",
+  "exportar_dxf.py": "15cad07ef2ac",
+  "importar_red.py": "d80235e77761",
+  "informe.py": "5761aedc864a",
+  "modelo.py": "206343c05b0e",
+  "pruebas.py": "563437cf014a"
+ },
+ "parametros_sha256_16": "303d7d4777c280a7",
+ "cambios": {}
+}

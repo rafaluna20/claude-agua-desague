@@ -1,0 +1,90 @@
+{
+  "_meta": {
+    "documento": "Parametros del calculo de agua potable de Terra Lima (1,341 lotes)",
+    "version": "v1",
+    "fecha": "2026-10-31",
+    "estado_general": "PRELIMINAR",
+    "estados_validos": {
+      "VERIFICADO": "valor tomado de una norma con numeral citado en normas/libro_normas.md (N-xxx) y contrastado con el texto original",
+      "CONFIRMADO": "decision o dato dado por el usuario (Rafael) en la fecha indicada",
+      "ELEGIDO": "valor escogido por el asistente dentro de un rango normativo o de buena practica; el usuario puede cambiarlo",
+      "SUPUESTO": "valor asumido sin fuente; a validar",
+      "NO VERIFICADO": "valor usado sin confirmar en ninguna fuente del expediente; no debe salir en un entregable sin esa marca"
+    },
+    "regla": "Cada parametro lleva valor, unidad, fuente y estado. Para cambiar un calculo se cambia aqui (o con --set en correr.py), nunca dentro de los scripts."
+  },
+
+  "demanda": {
+    "hab_por_vivienda": {"valor": 6, "unidad": "hab/vivienda", "fuente": "Usuario 2026-10-31; RNE OS.100 1.3 b) (N-073); CTPS-PR-02 4.2.3 a) (N-038)", "estado": "CONFIRMADO"},
+    "viviendas_por_lote_ordinario": {"valor": 1, "unidad": "viv/lote", "fuente": "Usuario 2026-10-31", "estado": "CONFIRMADO"},
+    "pisos_multifamiliar": {"valor": 7, "unidad": "pisos", "fuente": "Usuario 2026-10-31 (promedio)", "estado": "CONFIRMADO"},
+    "viviendas_por_piso_multifamiliar": {"valor": 2, "unidad": "viv/piso", "fuente": "Asistente 2026-10-31 (igual a T-12); con regla por area la poblacion pasa de 10,000 hab y entra contra incendio", "estado": "SUPUESTO"},
+    "umbral_multifamiliar_area_m2": {"valor": 300.0, "unidad": "m2", "fuente": "Libro de normas S-011 (lote residencial >= 300 m2)", "estado": "CONFIRMADO"},
+    "manzana_no_residencial": {"valor": "Z", "unidad": "letra", "fuente": "Usuario 2026-10-31: manzana Z (E04MZZ001-006) = grifo y zonas comerciales", "estado": "CONFIRMADO"},
+    "lote_ptar": {"valor": "E03MZD049P", "unidad": "codigo", "fuente": "Expediente (S-017): sin poblacion ni consumo", "estado": "CONFIRMADO"},
+    "dotacion_l_hab_d": {"valor": 169, "unidad": "L/hab/d", "fuente": "RNE IS.010 2.2 a) mod. RM 0107-2025-VIVIENDA, clima calido (N-036, S-004)", "estado": "ELEGIDO", "nota": "Pendiente clasificar el clima de Terra Lima (N-081 NO VERIFICADO); alternativa templado 155"},
+    "k1": {"valor": 1.3, "unidad": "-", "fuente": "RNE OS.100 1.5 (N-075); CTPS usa 1.2 (N-039)", "estado": "ELEGIDO"},
+    "k2": {"valor": 2.5, "unidad": "-", "fuente": "Rango 1.8-2.5 de OS.100 1.5 y CTPS-PR-02 (N-039, N-075); se aplica sobre el caudal promedio Qp", "estado": "ELEGIDO"},
+    "comercial_l_m2_d": {"valor": 6.0, "unidad": "L/m2/d", "fuente": "Valor usual de la IS.010 anterior; no esta en los textos del libro de normas", "estado": "NO VERIFICADO"},
+    "comercial_cobertura_lote": {"valor": 0.6, "unidad": "fraccion del lote", "fuente": "Asistente (area util del lote)", "estado": "NO VERIFICADO"},
+    "riego_l_m2_d": {"valor": 2.0, "unidad": "L/m2/d", "fuente": "Asistente; solo referencia, el riego va por red propia con agua tratada de la PTAR (Usuario 2026-10-31)", "estado": "NO VERIFICADO"},
+    "regulacion_fraccion": {"valor": 0.25, "unidad": "fraccion del volumen diario", "fuente": "CTPS-PR-02 7.2.2-7.2.5 (N-034); OS.030 4.2 (N-077): minimo 25 % con 24 h de suministro", "estado": "VERIFICADO"},
+    "reserva_fraccion_qmd": {"valor": 0.07, "unidad": "fraccion del consumo maximo diario", "fuente": "CTPS-PR-02 7.2.x (N-034): 7 % del consumo maximo diario", "estado": "VERIFICADO", "nota": "Aplicabilidad y esquema de fuente pendientes segun libro de normas (C-011)"},
+    "incendio_umbral_hab": {"valor": 10000, "unidad": "hab", "fuente": "CTPS-PR-02 4.4.1; OS.100 1.6 (N-076)", "estado": "VERIFICADO"},
+    "incendio_volumen_m3": {"valor": 100, "unidad": "m3", "fuente": "CTPS-PR-02 7.2.x residencial (N-034)", "estado": "VERIFICADO"}
+  },
+
+  "hidraulica": {
+    "presion_min_normativa_mca": {"valor": 10.0, "unidad": "m.c.a.", "fuente": "CTPS-PR-02 8.1.3 (N-025): dinamica minima en maxima horaria", "estado": "VERIFICADO"},
+    "presion_estatica_max_mca": {"valor": 50.0, "unidad": "m.c.a.", "fuente": "CTPS-PR-02 8.1.3 (N-025)", "estado": "VERIFICADO"},
+    "presion_min_diseno_mca": {"valor": 15.0, "unidad": "m.c.a.", "fuente": "Margen de diseno sobre los 10 m de la norma (criterio del asistente para marcar nodos)", "estado": "ELEGIDO"},
+    "dn_minimo_mm": {"valor": 90, "unidad": "mm", "fuente": "CTPS-PR-02 Art. 8.1.4 (N-026): DN 90 en redes de vivienda; DN 63 solo por excepcion; RNE OS.050 4.6: 75 mm", "estado": "VERIFICADO"},
+    "velocidad_min_ms": {"valor": 0.6, "unidad": "m/s", "fuente": "CTPS-PR-02 8.1.5 (N-027)", "estado": "VERIFICADO"},
+    "velocidad_max_norma_ms": {"valor": 3.0, "unidad": "m/s", "fuente": "CTPS-PR-02 8.1.5 (N-027); hasta 5 m/s en casos justificados", "estado": "VERIFICADO"},
+    "velocidad_max_diseno_ms": {"valor": 1.2, "unidad": "m/s", "fuente": "Criterio del asistente para predimensionar (se cumple con holgura la norma)", "estado": "ELEGIDO"},
+    "gradiente_max_m_km": {"valor": 8.0, "unidad": "m/km", "fuente": "Criterio del asistente para predimensionar", "estado": "ELEGIDO"},
+    "hazen_williams_c": {"valor": 140, "unidad": "-", "fuente": "Tuberia plastica nueva; material y clase aun por definir", "estado": "SUPUESTO"},
+    "diametros_comerciales_dn_id_m": {"valor": [[75, 0.068], [90, 0.081], [110, 0.099], [160, 0.144], [200, 0.180], [250, 0.226], [315, 0.285]], "unidad": "[DN mm, diametro interior m]", "fuente": "Diametro interior supuesto = 0.9 DN (depende del material y la clase)", "estado": "SUPUESTO"},
+    "pn_tuberia": {"valor": "sin definir", "unidad": "-", "fuente": "El CTPS-PR-02 solo pide PN10 en valvulas de compuerta (N-032); el PN de la tuberia no esta verificado", "estado": "NO VERIFICADO"},
+    "paso_discretizacion_m": {"valor": 30.0, "unidad": "m", "fuente": "Tramos de calculo (nodos intermedios cada ~30 m)", "estado": "ELEGIDO"},
+    "tolerancia_union_m": {"valor": 1.0, "unidad": "m", "fuente": "Distancia para unir vertices/extremos como un mismo nodo", "estado": "ELEGIDO"},
+    "distancia_max_lote_tuberia_m": {"valor": 40.0, "unidad": "m", "fuente": "Criterio de cobertura del asistente (centroide del lote a la tuberia mas cercana)", "estado": "ELEGIDO"},
+    "distancia_frontera_m": {"valor": 12.0, "unidad": "m", "fuente": "Distancia entre trazados de redes distintas para marcar una frontera", "estado": "ELEGIDO"},
+    "patron_24h_forma": {"valor": [0.4, 0.3, 0.3, 0.3, 0.5, 1.0, 1.8, 2.5, 2.2, 1.5, 1.3, 1.2, 1.4, 1.5, 1.2, 1.0, 1.1, 1.3, 1.9, 2.3, 1.9, 1.2, 0.8, 0.5], "unidad": "multiplicador relativo", "fuente": "Forma tipica de consumo domestico; se reescala para media 1 y maximo K2", "estado": "SUPUESTO"}
+  },
+
+  "reservorios": {
+    "grupos": {"valor": {"R1": ["sector1"], "R2": ["matriz", "sector2", "sector3", "sector4", "sector5", "sector6"]}, "unidad": "red -> capas", "fuente": "Usuario 2026-10-31: R1 alimenta sector1; R2 alimenta matriz y sectores 2 a 6 (sector 2 confirmado con R2)", "estado": "CONFIRMADO"},
+    "niveles_calculo_m": {"valor": {"R1": [132.7, 134.7], "R2": [118.2, 120.2]}, "unidad": "[nivel minimo, nivel maximo] msnm", "fuente": "R1: terreno 130.2 + 2.5/4.5 m; R2: terreno 116.2 + 2/4 m. Alturas reales aun por definir", "estado": "SUPUESTO"},
+    "capas_dibujo": {"valor": {"reservorio1": "agua_reservorio1", "reservorio2": "agua_reservorio2", "matriz": "agua_matriz principal", "sector1": "agua_sector1", "sector2": "agua_sector2", "sector3": "agua_sector3", "sector4": "agua_sector4", "sector5": "agua_sector5", "sector6": "agua_sector6"}, "unidad": "clave -> capa del DWG", "fuente": "sectores de agua.dwg (usuario, 2026-10-31)", "estado": "CONFIRMADO"},
+    "dwg_esperado_contiene": {"valor": "sectores de agua", "unidad": "texto", "fuente": "Nombre del DWG con el diseno de la red", "estado": "CONFIRMADO"}
+  },
+
+  "fuente_agua": {
+    "punto_medidor_xy": {"valor": [308466.6, 8622891.9], "unidad": "UTM 18S", "fuente": "Punto del medidor de Santa Maria usado en el analisis del 2026-10-31; documento fuente por citar", "estado": "NO VERIFICADO"},
+    "cota_medidor_m": {"valor": 101.5, "unidad": "msnm", "fuente": "Cota leida del terreno en el medidor (2026-10-31)", "estado": "SUPUESTO"},
+    "presion_declarada_mca": {"valor": 30.0, "unidad": "m.c.a.", "fuente": "Dato del expediente; no se sabe si es estatica o residual", "estado": "NO VERIFICADO"},
+    "carga_hidraulica_m": {"valor": 131.5, "unidad": "msnm", "fuente": "cota 101.5 + 30 m.c.a.", "estado": "NO VERIFICADO"},
+    "sensibilidad_carga_m": {"valor": [131.5, 121.5, 111.5], "unidad": "msnm", "fuente": "Cargas alternativas si la presion declarada fuera residual y menor", "estado": "SUPUESTO"},
+    "asociacion_santa_maria_criterios_sedapal": {"valor": "sin confirmar", "unidad": "-", "fuente": "Pendiente: confirmar si la Asociacion Santa Maria se rige por criterios SEDAPAL; sin factibilidad escrita", "estado": "NO VERIFICADO"}
+  },
+
+  "bombeo_llenado": {
+    "horas_bombeo_dia": {"valor": 12, "unidad": "h/d", "fuente": "Supuesto de operacion para dimensionar la linea de llenado", "estado": "SUPUESTO"},
+    "eficiencia_bomba": {"valor": 0.6, "unidad": "-", "fuente": "Supuesto de predimensionamiento", "estado": "SUPUESTO"},
+    "factor_longitud_aduccion": {"valor": 1.15, "unidad": "-", "fuente": "Recorrido real = distancia en linea recta x factor (trazado sin dibujar)", "estado": "SUPUESTO"},
+    "velocidad_aduccion_ms": {"valor": 1.2, "unidad": "m/s", "fuente": "Para elegir el diametro de la aduccion", "estado": "ELEGIDO"},
+    "perdidas_locales_fraccion": {"valor": 0.10, "unidad": "fraccion de hf", "fuente": "Supuesto", "estado": "SUPUESTO"}
+  },
+
+  "archivos": {
+    "parcels": "datos/v3_48calles/parcels_export.json",
+    "jardin": "datos/v3_48calles/jardin_import.json",
+    "aporte_recreacion": "datos/v3_48calles/aporte_recreacion_import.json",
+    "terreno_grilla": "datos/v5_habilitacion_1341/topografia/terreno_habilitacion_2m_v1.f32",
+    "cotas_lotes": "datos/v5_habilitacion_1341/topografia/cotas_lotes_terreno_2m_v1.json",
+    "red_dibujada": "datos/v5_habilitacion_1341/red_agua_sectores_usuario_v1.json",
+    "grilla": {"nx": 523, "ny": 308, "x0": 308140.0, "y0": 8622675.0, "paso_m": 2.0, "origen_pestana": "Curvas de Nivel.dwg (superficie 'terreno natural')", "sha256_16": "D37A6949"},
+    "epanet_cli": "C:/Program Files (x86)/EPANET 2.2/runepanet.exe"
+  }
+}
