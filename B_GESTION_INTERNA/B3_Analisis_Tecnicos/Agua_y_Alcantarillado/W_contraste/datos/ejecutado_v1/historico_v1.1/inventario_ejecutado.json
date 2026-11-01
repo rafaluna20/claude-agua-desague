@@ -1,0 +1,28 @@
+{
+  "version": "v1.1",
+  "correccion_trazabilidad": "G1-04: los 12 registros E-001 a E-012 de hechos son equivalentes a la tabla Markdown de inventario_ejecutado.md; no se modificaron valores, fuentes ni estados de evidencia.",
+  "corte": "2026-10-10",
+  "uso": "Contraste técnico interno; PARA VALIDAR CON VALVERDE e ingeniero sanitario colegiado.",
+  "estados": {
+    "CONFIRMADO": "Existencia o ausencia documental comprobada al corte; no es verificación física.",
+    "ALEGADO POR EL CONTRATISTA": "Declaración de S&G sin levantamiento independiente adjunto.",
+    "BORRADOR": "Afirmación de documento no firmado ni enviado.",
+    "POR CONFIRMAR": "Exige evidencia primaria, verificación física o resolución de conflicto."
+  },
+  "hechos": [
+    {"id":"E-001","tema":"alcance contractual","valor":"Construcción de red de agua potable y alcantarillado del Sector I, Terra Lima, Pucusana; contrato 005-2026-S&G/EDIFICA.","fuente":"B_GESTION_INTERNA/B1_Gestion/04.04_Contratos/CON-005_SG-Edifica/TL-CON-005_2026-10-03_FICHA_Contrato.md, tabla líneas 7-12.","estado":"CONFIRMADO","nota":"PARA VALIDAR CON VALVERDE contra PDF firmado."},
+    {"id":"E-002","tema":"anexos contractuales","valor":"El contrato declara Anexo A (memorias, especificaciones, planos, cronograma) y Anexo B (metrados, ACU, presupuesto, fórmula polinómica); no están archivados en el expediente revisado.","fuente":"TL-CON-005_2026-10-03_FICHA_Contrato.md, sección Anexos que el contrato declara, líneas 23-27.","estado":"CONFIRMADO","nota":"Ausencia documental, no inexistencia fuera del expediente."},
+    {"id":"E-003","tema":"interferencia puntual","valor":"S&G reporta una interferencia entre red de agua y conexión domiciliaria de alcantarillado.","fuente":"obra agua y desague/SUSTENTO_TECNICO_contratista.md, I. Antecedentes, líneas 79-86.","estado":"ALEGADO POR EL CONTRATISTA"},
+    {"id":"E-004","tema":"posición vertical en interferencia","valor":"S&G reporta agua aproximadamente 0.30-0.45 m por debajo de conexión predial de alcantarillado.","fuente":"SUSTENTO_TECNICO_contratista.md, V. Análisis, líneas 109-125; conclusiones, líneas 149-158.","estado":"ALEGADO POR EL CONTRATISTA","nota":"Sin coordenada, cotas absolutas ni levantamiento independiente."},
+    {"id":"E-005","tema":"PN 7.5","valor":"El borrador afirma instalación de PN 7.5; no se hallaron fotos de marcado, guías, certificados ni protocolo de prueba.","fuente":"obra agua y desague/informe_tecnico_deNoConformidad.md, líneas 21-30; TL-GES-009, tabla 2, líneas 21-25.","estado":"BORRADOR","nota":"Evidencia de material instalado: POR CONFIRMAR."},
+    {"id":"E-006","tema":"cruce invertido y protección","valor":"El borrador afirma alcantarillado sobre agua y falta de protección; Carta 014 trata una interferencia puntual sin número de cruces.","fuente":"informe_tecnico_deNoConformidad.md, líneas 34-50; TL-GES-009, líneas 14-16.","estado":"BORRADOR","nota":"Cantidad, tipo, cotas y protección existente: POR CONFIRMAR."},
+    {"id":"E-007","tema":"respuesta de S&G sobre PN","valor":"Carta 014 no menciona clase ni PN de tubería.","fuente":"TL-GES-009, tabla 2, línea 25; contraste con Carta 014.","estado":"CONFIRMADO","nota":"Ausencia de respuesta documental."},
+    {"id":"E-008","tema":"avance","valor":"Registros internos atribuyen aproximadamente 90% físico y 90% valorizado; otro registro reporta 23.86% anterior.","fuente":"TL-GES-005, líneas 25-28 y 34; TL-GES-008, líneas 110-111 y 146-150.","estado":"POR CONFIRMAR","nota":"Requiere valorizaciones, pagos y metrados reales de Odoo."},
+    {"id":"E-009","tema":"área ejecutada","valor":"Registros internos discrepan entre obra solo en Parte 1 y obra a caballo entre Partes 1/2.","fuente":"TL-GES-005, línea 49; A_EXPEDIENTE_HU/A0_Comun/4_Division_P1_P2/00_LEEME_Division.md, líneas 78-88.","estado":"POR CONFIRMAR","nota":"No existe polígono as-built."},
+    {"id":"E-010","tema":"as-built georreferenciado","valor":"No se encontró as-built de agua, de alcantarillado ni CAD/GIS UTM de red ejecutada.","fuente":"TL-GES-004, tabla 2, líneas 20-29; búsqueda de archivos del expediente al corte.","estado":"CONFIRMADO","nota":"Ausencia en expediente revisado."},
+    {"id":"E-011","tema":"pruebas y calidad","valor":"No se localizaron protocolos hidráulicos, estanqueidad, certificados de tuberías/accesorios, compactación, concreto ni cuaderno firmado.","fuente":"TL-GES-004, tabla 3, líneas 31-43.","estado":"CONFIRMADO","nota":"Ausencia en expediente revisado."},
+    {"id":"E-012","tema":"PTAR y descarga","valor":"Registros internos indican PTAR no construida y 250 lotes sin punto de descarga.","fuente":"TL-GES-008, líneas 174-188; P1_Parte_1/00_LEEME_Parte1.md, líneas 7-12.","estado":"POR CONFIRMAR","nota":"No hay expediente de PTAR ni inspección física adjunta."}
+  ],
+  "campos_sin_evidencia": ["trazado/progresivas/coordenadas", "diámetros", "materiales", "clase/PN", "cotas/profundidades/recubrimientos", "cantidad y tipo de buzones", "metrados reales", "cruces y protección", "protocolos de prueba", "certificados de calidad"],
+  "bloqueador": "No es posible conciliar diseño versus ejecutado sin as-built, levantamiento independiente y dossier de calidad."
+}

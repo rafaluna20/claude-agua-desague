@@ -1,0 +1,80 @@
+{
+ "congelado": "2026-10-09",
+ "nota": "Reexportacion final de las 11 capas de Civil 3D del 2026-10-09 (48 calles, 1,341 lotes), conciliada con Odoo y validada; + pasajes_inferidos.json (5 pasajes peatonales inferidos de los huecos de la matriz).",
+ "archivos": {
+  "RESPALDO_LINEA1-4_proyecto_P03154725_veredas.json": {
+   "sha256_16": "8cc3dcff4ab32467",
+   "bytes": 2350
+  },
+  "agua_import.json": {
+   "sha256_16": "f903e3ceab35b049",
+   "bytes": 9822
+  },
+  "aporte_educacion_import.json": {
+   "sha256_16": "58fb6094aa92cf06",
+   "bytes": 3920
+  },
+  "aporte_otros_import.json": {
+   "sha256_16": "ffc2e83b70faae1f",
+   "bytes": 1764
+  },
+  "aporte_recreacion_import.json": {
+   "sha256_16": "85cbbf1752af22c4",
+   "bytes": 31326
+  },
+  "borrar_en_odoo.csv": {
+   "sha256_16": "189461357666cfe7",
+   "bytes": 1287
+  },
+  "calle_import.json": {
+   "sha256_16": "dc3e0224b4c6bcd9",
+   "bytes": 74960
+  },
+  "conciliacion_codigos.csv": {
+   "sha256_16": "6061ff22c949dffe",
+   "bytes": 91596
+  },
+  "geometria_E01MZS081P_E02MZU0082.json": {
+   "sha256_16": "cc0b2973a5622808",
+   "bytes": 608
+  },
+  "geometria_E02MZU021P_E02MZU022P.json": {
+   "sha256_16": "cc58faffcf690efe",
+   "bytes": 607
+  },
+  "jardin_import.json": {
+   "sha256_16": "d4505dd11dfcdbaf",
+   "bytes": 798643
+  },
+  "matriz_import.json": {
+   "sha256_16": "18835453ced19860",
+   "bytes": 1353
+  },
+  "odoo_lotes.json": {
+   "sha256_16": "41b093d82fe0e492",
+   "bytes": 52372
+  },
+  "parcels_export.json": {
+   "sha256_16": "c4e52fc7c079e43a",
+   "bytes": 412379
+  },
+  "pasajes_inferidos.json": {
+   "sha256_16": "5d0d42dbba516c7b",
+   "bytes": 8714
+  },
+  "propiedad_terceros_import.json": {
+   "sha256_16": "48c6ae89b77879c4",
+   "bytes": 2023
+  },
+  "veredas_import.json": {
+   "sha256_16": "86fad62b3f30f2f7",
+   "bytes": 478028
+  }
+ },
+ "referencias_externas": {
+  "rasante_calles48 (Hd_final_calles48.npy, diseno vertical propio, S-015)": {
+   "ruta": "C:\\Users\\henry\\AppData\\Local\\Civil3DAgent\\exports\\unreal_pucusana\\Hd_final_calles48.npy",
+   "sha256_16": "9773c64a7dc14fce"
+  }
+ }
+}

@@ -1,0 +1,148 @@
+{
+  "version": "v4_primera_expediente_interfaces_referenciales_v1",
+  "purpose": "Alternativas geométricas de interfaz junto a los predios de referencia de Santa María y PTAR; no constituye definición de puntos físicos, factibilidad ni diseño de red.",
+  "generatedAtUtc": "2026-10-10T18:56:09+00:00",
+  "sources": {
+    "parcelsFile": "parcels_primera_expediente.json",
+    "parcelsSha256": "FDC5C335FAF6EF2216BCB1AA425A81D6D066748DAA4A4E2811592A8664C1C30A",
+    "assignmentFile": "asignacion_lotes_grafo_v1.json",
+    "assignmentSha256": "61E35990C30DCC111823D0C48C39E82EC2003CD558FD7C4D4A37152741FC3D6A",
+    "graphFile": "grafo_vial_primera_expediente_v3.json",
+    "graphSha256": "C61C38453D9D62BAA270F7C997CE9F0B308D4055A50E9615E57F54712956890D",
+    "gridFile": "terreno_primera_expediente_1m_v1.f32",
+    "gridSha256": "74985D008B3C478A98DDA77AEE4FE7199C2D05333B533D40CEE7DAC331C20270"
+  },
+  "limitations": [
+    "El usuario indicó Santa María a la mano derecha de E01MZD155P y el destino PTAR en E03MZD049P; falta la coordenada física exacta de ambos puntos.",
+    "Las cotas provienen de terreno natural interpolado sobre grilla de 1 m, no de estructuras hidráulicas.",
+    "La orientación derecha/izquierda no se interpreta sin un eje de referencia y la inspección de campo."
+  ],
+  "references": [
+    {
+      "rol": "FUENTE_DE_AGUA_REFERENCIAL_SANTA_MARIA",
+      "predioReferencia": "E01MZD155P",
+      "centroidePredio": [
+        308454.519,
+        8622866.118
+      ],
+      "cotaTerrenoCentroide": 97.795,
+      "metodoCotaCentroide": "BILINEAL_F32_TIN",
+      "alternativasGeometricas": [
+        {
+          "via": "AVENIDA E",
+          "tramoVial": "TV-0001",
+          "nodoDesde": "NV-0001",
+          "nodoHasta": "NV-0002",
+          "puntoLoteProvisional": [
+            308461.589,
+            8622875.897
+          ],
+          "puntoEjeProvisional": [
+            308469.167,
+            8622877.905
+          ],
+          "distanciaLoteAEje": 7.84,
+          "cotaTerrenoEje": 98.654,
+          "metodoCota": "BILINEAL_F32_TIN"
+        },
+        {
+          "via": "CALLE11",
+          "tramoVial": "TV-0006",
+          "nodoDesde": "NV-0008",
+          "nodoHasta": "NV-0009",
+          "puntoLoteProvisional": [
+            308456.81,
+            8622851.101
+          ],
+          "puntoEjeProvisional": [
+            308456.38,
+            8622849.351
+          ],
+          "distanciaLoteAEje": 1.802,
+          "cotaTerrenoEje": 96.018,
+          "metodoCota": "BILINEAL_F32_TIN"
+        },
+        {
+          "via": "CALLE28",
+          "tramoVial": "TV-0039",
+          "nodoDesde": "NV-0051",
+          "nodoHasta": "NV-0052",
+          "puntoLoteProvisional": [
+            308461.689,
+            8622860.448
+          ],
+          "puntoEjeProvisional": [
+            308473.56,
+            8622858.84
+          ],
+          "distanciaLoteAEje": 11.979,
+          "cotaTerrenoEje": 95.301,
+          "metodoCota": "BILINEAL_F32_TIN"
+        }
+      ]
+    },
+    {
+      "rol": "DESTINO_PTAR_REFERENCIAL",
+      "predioReferencia": "E03MZD049P",
+      "centroidePredio": [
+        308840.037,
+        8622743.365
+      ],
+      "cotaTerrenoCentroide": 78.958,
+      "metodoCotaCentroide": "BILINEAL_F32_TIN",
+      "alternativasGeometricas": [
+        {
+          "via": "CALLE30",
+          "tramoVial": "TV-0041",
+          "nodoDesde": "NV-0055",
+          "nodoHasta": "NV-0056",
+          "puntoLoteProvisional": [
+            308851.889,
+            8622759.491
+          ],
+          "puntoEjeProvisional": [
+            308851.681,
+            8622760.3
+          ],
+          "distanciaLoteAEje": 0.836,
+          "cotaTerrenoEje": 78.556,
+          "metodoCota": "BILINEAL_F32_TIN"
+        },
+        {
+          "via": "CALLE31",
+          "tramoVial": "TV-0043",
+          "nodoDesde": "NV-0058",
+          "nodoHasta": "NV-0059",
+          "puntoLoteProvisional": [
+            308823.694,
+            8622747.004
+          ],
+          "puntoEjeProvisional": [
+            308820.557,
+            8622749.186
+          ],
+          "distanciaLoteAEje": 3.821,
+          "cotaTerrenoEje": 79.347,
+          "metodoCota": "BILINEAL_F32_TIN"
+        },
+        {
+          "via": "CALLE32",
+          "tramoVial": "TV-0045",
+          "nodoDesde": "NV-0061",
+          "nodoHasta": "NV-0062",
+          "puntoLoteProvisional": [
+            308853.968,
+            8622760.024
+          ],
+          "puntoEjeProvisional": [
+            308857.71,
+            8622761.238
+          ],
+          "distanciaLoteAEje": 3.933,
+          "cotaTerrenoEje": 78.413,
+          "metodoCota": "BILINEAL_F32_TIN"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8434 @@
+{
+  "purpose": "Auditoría geométrica preliminar de acceso de lote a vía para diseño sanitario.",
+  "generatedAtUtc": "2026-10-10T18:35:33+00:00",
+  "sources": {
+    "parcelsFile": "parcels_primera_expediente.json",
+    "parcelsSha256": "FDC5C335FAF6EF2216BCB1AA425A81D6D066748DAA4A4E2811592A8664C1C30A",
+    "roadsFile": "vias_primera_expediente_v1.json",
+    "roadsSha256": "378BE88BE16212B1EBFDA66F5558125376C995B16939122B572A5B6075220F1C"
+  },
+  "tolerance": 1.0,
+  "caveat": "La tolerancia se expresa en unidades del DWG, interpretadas provisionalmente como metros. Validar acceso físico, servidumbres y trazo oficial antes de diseñar red.",
+  "summary": {
+    "totalParcels": 444,
+    "frontStreet": 416,
+    "frontPassageOnly": 24,
+    "withoutGeometricFront": 4
+  },
+  "records": [
+    {
+      "codigo": "E01MZD090P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD091P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD092P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD093P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD094P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD095P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD096P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD097P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD098P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD099P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD100P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD101P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD102P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD103P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD104P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD105P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD106P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD107P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD108P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD109P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD110P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD111P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD112P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD113P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD114P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD115P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD116P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD117P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD118P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD119P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD120P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD121P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD122P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD123P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE25",
+          "nombre": "calle 25",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE44",
+          "nombre": "calle 44",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE25",
+        "nombre": "calle 25",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD1241",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE44",
+          "nombre": "calle 44",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE44",
+        "nombre": "calle 44",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD1242",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE25",
+          "nombre": "calle 25",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE44",
+          "nombre": "calle 44",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE25",
+        "nombre": "calle 25",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD1243",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE25",
+          "nombre": "calle 25",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE44",
+          "nombre": "calle 44",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE25",
+        "nombre": "calle 25",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD125P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE25",
+          "nombre": "calle 25",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE25",
+        "nombre": "calle 25",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD126P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE25",
+          "nombre": "calle 25",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE25",
+        "nombre": "calle 25",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD127P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE25",
+          "nombre": "calle 25",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE25",
+        "nombre": "calle 25",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD128P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE25",
+          "nombre": "calle 25",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE25",
+        "nombre": "calle 25",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD1291",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE25",
+          "nombre": "calle 25",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE45",
+          "nombre": "calle 45",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE25",
+        "nombre": "calle 25",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD1292",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE45",
+          "nombre": "calle 45",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE45",
+        "nombre": "calle 45",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD1293",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE25",
+          "nombre": "calle 25",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE45",
+          "nombre": "calle 45",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE25",
+        "nombre": "calle 25",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD130P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE25",
+          "nombre": "calle 25",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE45",
+          "nombre": "calle 45",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD131P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD132P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD133P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD134P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD135P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD136P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD137P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD138P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD139P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD140P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD141P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.001
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.001
+      }
+    },
+    {
+      "codigo": "E01MZD142P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD143P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD144P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD145P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD146P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD147P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD148P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD149P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD150P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD151P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD152P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD153P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD154P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZD155P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP001P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP002P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.775
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP003P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP004P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP005P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP006P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP007P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP008P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP009P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP010P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP011P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP012P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP013P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP014P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP015P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP016P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP017P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP018P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP019P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP020P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP021P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP022P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP023P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP024P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE01",
+          "nombre": "PASAJE01",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP025P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE01",
+          "nombre": "PASAJE01",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP026P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP027P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP028P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP029P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP030P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP031P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP032P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP033P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP034P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP035P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP036P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP037P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE16",
+        "nombre": "calle 16",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP038P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP039P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP040P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP041P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP042P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP043P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP044P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP045P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE01",
+          "nombre": "PASAJE01",
+          "tipo": "passages",
+          "distancia": 0.026
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP046P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE01",
+          "nombre": "PASAJE01",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP047P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE01",
+          "nombre": "PASAJE01",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE01",
+        "nombre": "PASAJE01",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZP048P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE01",
+          "nombre": "PASAJE01",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE01",
+        "nombre": "PASAJE01",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZP049P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE01",
+          "nombre": "PASAJE01",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE01",
+        "nombre": "PASAJE01",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZP050P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE01",
+          "nombre": "PASAJE01",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE01",
+        "nombre": "PASAJE01",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZP051P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE01",
+          "nombre": "PASAJE01",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE01",
+        "nombre": "PASAJE01",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZP052P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE01",
+          "nombre": "PASAJE01",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE01",
+        "nombre": "PASAJE01",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZP053P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE01",
+          "nombre": "PASAJE01",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE01",
+        "nombre": "PASAJE01",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZP054P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE01",
+          "nombre": "PASAJE01",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE01",
+        "nombre": "PASAJE01",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZP055P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE01",
+          "nombre": "PASAJE01",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE01",
+        "nombre": "PASAJE01",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZP056P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE01",
+          "nombre": "PASAJE01",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP057P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE01",
+          "nombre": "PASAJE01",
+          "tipo": "passages",
+          "distancia": 0.058
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP058P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP059P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP060P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP061P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP062P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP063P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP064P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP065P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP066P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP067P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE16",
+        "nombre": "calle 16",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP068P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE16",
+        "nombre": "calle 16",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP069P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE16",
+        "nombre": "calle 16",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZP070P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE18",
+          "nombre": "calle 18",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE16",
+        "nombre": "calle 16",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ001P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE16",
+        "nombre": "calle 16",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ002P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ003P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ004P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ005P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ006P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ007P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ008P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ009P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ010P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ011P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ012P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ013P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ014P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ015P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ016P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ017P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE03",
+          "nombre": "PASAJE03",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ018P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE03",
+          "nombre": "PASAJE03",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ019P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ020P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ021P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ022P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ023P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ024P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ025P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ026P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ027P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ028P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ029P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ030P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ031P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ032P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ033P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ034P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ035P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ036P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ037P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ038P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ039P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ040P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE16",
+        "nombre": "calle 16",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ041P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE27",
+        "nombre": "calle 27",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ042P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE27",
+        "nombre": "calle 27",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ043P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE27",
+        "nombre": "calle 27",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ044P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE27",
+        "nombre": "calle 27",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ045P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE27",
+        "nombre": "calle 27",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ046P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE27",
+        "nombre": "calle 27",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ047P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE27",
+        "nombre": "calle 27",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ048P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE27",
+        "nombre": "calle 27",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ049P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE27",
+        "nombre": "calle 27",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ050P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE27",
+        "nombre": "calle 27",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ051P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE27",
+        "nombre": "calle 27",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ052P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE27",
+        "nombre": "calle 27",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ053P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE26",
+          "nombre": "calle 26",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE26",
+        "nombre": "calle 26",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ054P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE26",
+          "nombre": "calle 26",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE26",
+        "nombre": "calle 26",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ055P",
+      "estado": "SIN_FRENTE_GEOMETRICO",
+      "viasEnTolerancia": [],
+      "viaMasCercana": {
+        "codigo": "CALLE26",
+        "nombre": "calle 26",
+        "tipo": "streets",
+        "distancia": 5.22
+      }
+    },
+    {
+      "codigo": "E01MZQ056P",
+      "estado": "SIN_FRENTE_GEOMETRICO",
+      "viasEnTolerancia": [],
+      "viaMasCercana": {
+        "codigo": "PASAJE03",
+        "nombre": "PASAJE03",
+        "tipo": "passages",
+        "distancia": 6.037
+      }
+    },
+    {
+      "codigo": "E01MZQ057P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE03",
+          "nombre": "PASAJE03",
+          "tipo": "passages",
+          "distancia": 0.038
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE03",
+        "nombre": "PASAJE03",
+        "tipo": "passages",
+        "distancia": 0.038
+      }
+    },
+    {
+      "codigo": "E01MZQ058P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE03",
+          "nombre": "PASAJE03",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE03",
+        "nombre": "PASAJE03",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZQ059P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE03",
+          "nombre": "PASAJE03",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE03",
+        "nombre": "PASAJE03",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZQ060P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE03",
+          "nombre": "PASAJE03",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE03",
+        "nombre": "PASAJE03",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZQ061P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE03",
+          "nombre": "PASAJE03",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE03",
+        "nombre": "PASAJE03",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZQ062P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE03",
+          "nombre": "PASAJE03",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE03",
+        "nombre": "PASAJE03",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZQ063P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE03",
+          "nombre": "PASAJE03",
+          "tipo": "passages",
+          "distancia": 0.029
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE03",
+        "nombre": "PASAJE03",
+        "tipo": "passages",
+        "distancia": 0.029
+      }
+    },
+    {
+      "codigo": "E01MZQ064P",
+      "estado": "SIN_FRENTE_GEOMETRICO",
+      "viasEnTolerancia": [],
+      "viaMasCercana": {
+        "codigo": "PASAJE03",
+        "nombre": "PASAJE03",
+        "tipo": "passages",
+        "distancia": 6.021
+      }
+    },
+    {
+      "codigo": "E01MZQ065P",
+      "estado": "SIN_FRENTE_GEOMETRICO",
+      "viasEnTolerancia": [],
+      "viaMasCercana": {
+        "codigo": "CALLE26",
+        "nombre": "calle 26",
+        "tipo": "streets",
+        "distancia": 6.0
+      }
+    },
+    {
+      "codigo": "E01MZQ066P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE26",
+          "nombre": "calle 26",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE26",
+        "nombre": "calle 26",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ067P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE26",
+          "nombre": "calle 26",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE26",
+        "nombre": "calle 26",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ068P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE26",
+          "nombre": "calle 26",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE26",
+        "nombre": "calle 26",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ069P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE26",
+          "nombre": "calle 26",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE26",
+        "nombre": "calle 26",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ070P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE26",
+          "nombre": "calle 26",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE26",
+        "nombre": "calle 26",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ071P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE26",
+          "nombre": "calle 26",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE26",
+        "nombre": "calle 26",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ072P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE26",
+          "nombre": "calle 26",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE16",
+        "nombre": "calle 16",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ073P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE26",
+          "nombre": "calle 26",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE16",
+        "nombre": "calle 16",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ074P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE16",
+        "nombre": "calle 16",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ075P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE16",
+        "nombre": "calle 16",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZQ076P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE16",
+          "nombre": "calle 16",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE27",
+          "nombre": "calle 27",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE16",
+        "nombre": "calle 16",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR001P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE02",
+          "nombre": "PASAJE02",
+          "tipo": "passages",
+          "distancia": 0.02
+        },
+        {
+          "codigo": "PASAJE05",
+          "nombre": "PASAJE05",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE05",
+        "nombre": "PASAJE05",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZR002P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE02",
+          "nombre": "PASAJE02",
+          "tipo": "passages",
+          "distancia": 0.02
+        },
+        {
+          "codigo": "PASAJE05",
+          "nombre": "PASAJE05",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE05",
+        "nombre": "PASAJE05",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZR003P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE02",
+          "nombre": "PASAJE02",
+          "tipo": "passages",
+          "distancia": 0.02
+        },
+        {
+          "codigo": "PASAJE05",
+          "nombre": "PASAJE05",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE05",
+        "nombre": "PASAJE05",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZR004P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE02",
+          "nombre": "PASAJE02",
+          "tipo": "passages",
+          "distancia": 0.02
+        },
+        {
+          "codigo": "PASAJE05",
+          "nombre": "PASAJE05",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE05",
+        "nombre": "PASAJE05",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZR005P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE02",
+          "nombre": "PASAJE02",
+          "tipo": "passages",
+          "distancia": 0.02
+        },
+        {
+          "codigo": "PASAJE05",
+          "nombre": "PASAJE05",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR006P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE05",
+          "nombre": "PASAJE05",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR007P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE05",
+          "nombre": "PASAJE05",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR008P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE05",
+          "nombre": "PASAJE05",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR009P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE05",
+          "nombre": "PASAJE05",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR010P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE05",
+          "nombre": "PASAJE05",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR011P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE05",
+          "nombre": "PASAJE05",
+          "tipo": "passages",
+          "distancia": 0.028
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR012P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR013P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR014P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR015P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR016P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR017P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR018P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR019P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR020P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR021P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR022P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR023P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR0241",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR0242",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE25",
+          "nombre": "calle 25",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE12",
+          "nombre": "calle 12",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE25",
+        "nombre": "calle 25",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR0251",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR0252",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE25",
+          "nombre": "calle 25",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR026P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR027P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR028P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR029P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR030P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR031P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR032P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR033P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR034P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR035P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR036P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR037P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR038P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR039P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR040P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR041P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR042P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR043P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR044P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR045P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE11",
+          "nombre": "calle 11",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR046P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE28",
+          "nombre": "calle 28",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "PASAJE02",
+          "nombre": "PASAJE02",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZR047P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE02",
+          "nombre": "PASAJE02",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE02",
+        "nombre": "PASAJE02",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZR048P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE02",
+          "nombre": "PASAJE02",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE02",
+        "nombre": "PASAJE02",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZR049P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE02",
+          "nombre": "PASAJE02",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE02",
+        "nombre": "PASAJE02",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZR050P",
+      "estado": "FRENTE_PASAJE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "PASAJE02",
+          "nombre": "PASAJE02",
+          "tipo": "passages",
+          "distancia": 0.02
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "PASAJE02",
+        "nombre": "PASAJE02",
+        "tipo": "passages",
+        "distancia": 0.02
+      }
+    },
+    {
+      "codigo": "E01MZS001P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE10",
+          "nombre": "calle 10",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZS091P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZS092P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZS093P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZS094P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZS095P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZS096P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZS097P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E01MZS098P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "AVENIDA E",
+          "nombre": "avenida E",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD049P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE32",
+          "nombre": "calle 32",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD052P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD053P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD054P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD055P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD056P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD057P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD058P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD059P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD060P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD061P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD062P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD063P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD064P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD065P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD066P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD067P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD068P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD069P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD070P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE46",
+          "nombre": "calle 46",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD071P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE46",
+          "nombre": "calle 46",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD072P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE46",
+          "nombre": "calle 46",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE46",
+        "nombre": "calle 46",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD073P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE46",
+          "nombre": "calle 46",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE46",
+        "nombre": "calle 46",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD074P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE46",
+          "nombre": "calle 46",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZD075P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE31",
+          "nombre": "calle 31",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH001P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE32",
+          "nombre": "calle 32",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH002P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH003P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH004P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH005P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH006P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH007P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH008P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH009P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH010P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH011P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH012P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH013P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH014P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH015P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH016P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH017P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH018P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH019P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH020P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH021P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH022P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH023P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH024P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH025P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH026P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH027P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH028P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH029P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH030P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH031P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH032P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH033P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH034P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH035P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH036P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH037P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH038P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH039P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH040P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH041P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH042P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH043P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH044P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH045P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH046P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH047P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH048P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH049P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH050P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH051P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH052P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH053P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH054P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH055P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH056P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH057P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZH058P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE30",
+          "nombre": "calle 30",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE32",
+          "nombre": "calle 32",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI001P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE32",
+          "nombre": "calle 32",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI002P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI003P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI004P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI005P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI006P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI007P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI008P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI009P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI010P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI011P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI012P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI013P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI014P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI015P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI016P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI017P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI018P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI019P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI020P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI021P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI022P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI023P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI024P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI025P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI026P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI027P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI028P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI029P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI030P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI031P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI032P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI033P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI034P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI035P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI036P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI037P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI038P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI039P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI040P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI041P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZI042P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE29",
+          "nombre": "calle 29",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE32",
+          "nombre": "calle 32",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ001P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE32",
+          "nombre": "calle 32",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ002P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ003P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ004P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ005P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ006P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ007P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ008P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ009P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ010P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ011P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ012P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ013P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ014P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ015P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ016P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ017P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ018P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ019P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ020P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ021P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE14",
+          "nombre": "calle 14",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ022P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE15",
+          "nombre": "calle 15",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ023P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ024P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ025P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ026P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ027P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ028P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ029P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ030P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ031P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ032P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ033P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ034P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ035P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ036P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ037P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ038P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ039P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ040P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ041P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    },
+    {
+      "codigo": "E03MZJ042P",
+      "estado": "FRENTE_CALLE",
+      "viasEnTolerancia": [
+        {
+          "codigo": "CALLE24",
+          "nombre": "calle 24",
+          "tipo": "streets",
+          "distancia": 0.0
+        },
+        {
+          "codigo": "CALLE32",
+          "nombre": "calle 32",
+          "tipo": "streets",
+          "distancia": 0.0
+        }
+      ],
+      "viaMasCercana": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets",
+        "distancia": 0.0
+      }
+    }
+  ]
+}

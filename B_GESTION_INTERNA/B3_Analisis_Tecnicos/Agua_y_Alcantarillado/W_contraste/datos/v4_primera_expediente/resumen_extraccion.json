@@ -1,0 +1,18 @@
+{
+  "version": "v4_primera_expediente",
+  "extractionDate": "2026-10-10",
+  "sourceDrawingLayer": "00_lotes_terraLima",
+  "sourceTextLayer": "01_LT_TXT",
+  "boundaryLayer": "00_primera_expediente",
+  "boundaryHandle": "928E5",
+  "boundaryClosedInDrawing": false,
+  "boundaryClosure": "El primer vertice se repite al final; se trato como poligono cerrado para clasificacion.",
+  "coordinateSystem": "UTM, segun dibujo Civil 3D; zona/datum pendiente de confirmar con topografia.",
+  "rawExportFile": "parcels_export_base_civil_2026-10-10.json",
+  "rawExportSha256": "AFD7B29E1D6F30078FD18CB360EC58E9C851D7D1CAEDD0AD8F9CA6D44720622F",
+  "totalLotes": 1341,
+  "dentro": 444,
+  "revisarLimite": 1,
+  "fuera": 896,
+  "membershipRule": "DENTRO solo si todos los vertices del lote estan dentro o sobre el limite y ningun segmento intersecta el limite; REVISAR_LIMITE si hay interseccion o centroide dentro con vertices fuera."
+}

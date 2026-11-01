@@ -1,0 +1,50 @@
+{
+ "congelado": "2026-10-09",
+ "archivos": {
+  "datos/calle_import.json": {
+   "sha256_16": "b2a4cde5a66fcef8",
+   "bytes": 51946
+  },
+  "datos/odoo_agua.json": {
+   "sha256_16": "64ef3790ccc18c95",
+   "bytes": 9972
+  },
+  "datos/odoo_calles.json": {
+   "sha256_16": "3f06e9ca699af978",
+   "bytes": 56672
+  },
+  "datos/odoo_lotes.json": {
+   "sha256_16": "257e60d8600b958a",
+   "bytes": 52473
+  },
+  "datos/odoo_veredas.json": {
+   "sha256_16": "3068aea37b00ccc3",
+   "bytes": 495403
+  },
+  "datos/parcels_export.json": {
+   "sha256_16": "1cf8662ddc14488e",
+   "bytes": 414111
+  },
+  "resultados/Pucusana_desague_prediseno.dxf": {
+   "sha256_16": "3d00c51576d956a4",
+   "bytes": 643835
+  },
+  "resultados/Pucusana_desague_prediseno.xlsx": {
+   "sha256_16": "3a053acd0ec0f728",
+   "bytes": 43594
+  },
+  "resultados/desague_resultado.json": {
+   "sha256_16": "a05249a0ae1f4954",
+   "bytes": 236416
+  },
+  "resultados/perfil_colector_principal.png": {
+   "sha256_16": "5b5fa22da584b4fa",
+   "bytes": 85838
+  },
+  "resultados/plano_desague.png": {
+   "sha256_16": "e6c96c6459388811",
+   "bytes": 431760
+  }
+ },
+ "nota": "Entradas congeladas (datos/) y resultados v0.1 del prediseno de desague (resultados/). Si cambia una entrada, cambia su hash: los entregables que dependen de ella quedan DESACTUALIZADOS."
+}

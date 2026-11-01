@@ -1,0 +1,58 @@
+{
+  "version": "v4_primera_expediente_predimensionamiento_reservorio_v1",
+  "purpose": "Escenario conservador de predimensionamiento para reservorio apoyado. No reemplaza el modelo hidráulico EPANET, estudio de suelos ni diseño estructural.",
+  "basis": {
+    "ordinaryLots": 441,
+    "ordinaryDwellingsPerLot": 1,
+    "ordinaryPeoplePerDwelling": 6,
+    "multifamilyLot": "E01MZQ039P",
+    "multifamilyFloors": 7,
+    "multifamilyDwellingsPerFloor": 2,
+    "multifamilyPeoplePerDwelling": 5,
+    "waterSourceReferenceLotExcludedFromPopulation": "E01MZD155P",
+    "population": 2716,
+    "dotationLPerPersonDay": 169,
+    "dotationStatus": "ESCENARIO_PRELIMINAR; la RM 107-2025-VIVIENDA establece 169 L/hab.d para clima cálido, sujeto a validar formalmente el carácter climático del proyecto.",
+    "dailyDemandM3": 459.004
+  },
+  "reservoir": {
+    "type": "APOYADO_SOBRE_TERRENO_EN_DOS_CELDAS",
+    "terrainElevation": 121.327,
+    "preliminaryInternalFloorElevation": 121.8,
+    "minimumOperatingWaterLevel": 122.3,
+    "maximumOperatingWaterLevel": 124.3,
+    "overflowCrestElevation": 124.3,
+    "highLevelInletClosureElevation": 124.15,
+    "preliminaryWallOrRoofUndersideElevation": 124.6,
+    "minimumWaterDepth": 0.5,
+    "maximumWaterDepth": 2.5,
+    "usefulWaterDepth": 2.0,
+    "usefulVolumeM3": 500,
+    "cellCount": 2,
+    "usefulVolumePerCellM3": 250,
+    "requiredTotalInternalPlanAreaM2": 250,
+    "requiredInternalPlanAreaPerCellM2": 125,
+    "illustrativeInternalCellDimensionsM": [12.5, 10.0],
+    "geometricVolumeAtMaximumM3": 625,
+    "waterRemainingAtMinimumM3": 125
+  },
+  "hydraulicScreening": {
+    "highestGraphNodeTerrainElevation": 110.273,
+    "lowestGraphNodeTerrainElevation": 78.316,
+    "staticHeadAtHighestNodeAtMinimumLevelMca": 12.027,
+    "staticHeadAtHighestNodeAtMaximumLevelMca": 14.027,
+    "staticHeadAtLowestNodeAtMinimumLevelMca": 43.984,
+    "staticHeadAtLowestNodeAtMaximumLevelMca": 45.984,
+    "meterTerrainElevation": 101.526,
+    "declaredPressureAtMeterMca": 30,
+    "terrainReferenceHydraulicGradeAtMeter": 131.526,
+    "terrainReferenceMarginAtReservoirMaximumLevelM": 7.226,
+    "warning": "Las cargas de llenado son referenciales: falta cota del eje de tubería, presión residual, pérdidas, nivel real de agua y trazado de aducción."
+  },
+  "sourceFlowNeeded": {
+    "averageFor24hOperationLps": 5.313,
+    "averageFor12hOperationLps": 10.625,
+    "averageFor6hOperationLps": 21.25
+  },
+  "decision": "ADOPTAR 500 m3 ÚTILES EN DOS CELDAS COMO BASE DE PREDISEÑO, y verificar con EPANET antes de elaborar planos definitivos."
+}

@@ -1,0 +1,44 @@
+{
+  "version": "v4_primera_expediente_condicion_borde_santa_maria_v1",
+  "purpose": "Condición de borde preliminar de la fuente Santa María para el modelo de agua; no reemplaza factibilidad ni pruebas de campo.",
+  "generatedAtUtc": "2026-10-10T20:10:11+00:00",
+  "source": {
+    "gridFile": "terreno_primera_expediente_1m_v1.f32",
+    "gridSha256": "74985D008B3C478A98DDA77AEE4FE7199C2D05333B533D40CEE7DAC331C20270",
+    "surface": "terreno natural de Civil 3D, grilla 1 m, interpolación bilineal",
+    "unitsNote": "Unidades interpretadas provisionalmente como metros; datum vertical pendiente de documento formal."
+  },
+  "meterGeneralSantaMaria": {
+    "coordinate": [
+      308466.605,
+      8622891.887
+    ],
+    "terrainElevation": 101.526,
+    "terrainMethod": "BILINEAL_F32_TIN",
+    "existingPipeDiameterInch": 8.0,
+    "declaredPressureMca": 30.0,
+    "pressureStatus": "DECLARADA_POR_USUARIO; confirmar estática, residual, hora y caudal de ensayo"
+  },
+  "reservoirProject": {
+    "coordinate": [
+      308358.792,
+      8622860.911
+    ],
+    "terrainElevation": 121.327,
+    "terrainMethod": "BILINEAL_F32_TIN",
+    "waterLevelElevation": null,
+    "status": "UBICACION_CONFIRMADA_POR_USUARIO; pendiente nivel de agua, capacidad y tipología"
+  },
+  "geometry": {
+    "deltaX": -107.813,
+    "deltaY": -30.976,
+    "planDistance": 112.175,
+    "terrainRiseReservoirMinusMeter": 19.801,
+    "terrainReferenceMarginMca": 10.199
+  },
+  "engineeringInterpretation": [
+    "El margen de terreno es presión declarada menos desnivel de terreno; no equivale a presión residual garantizada en el reservorio.",
+    "Para confirmar llenado por presión directa se requiere cota del eje de tubería en el medidor, nivel máximo de agua del reservorio, material/diámetro interior, accesorios, caudal de llenado y prueba presión-caudal.",
+    "La distancia en planta se calculó entre las coordenadas confirmadas; la longitud real de tubería dependerá del trazado autorizado."
+  ]
+}

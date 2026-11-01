@@ -1,0 +1,64 @@
+{
+ "congelado": "2026-10-09",
+ "nota": "Reexportacion de las 11 capas de Civil 3D del 2026-10-09 (PTL COMPLETO WGS84 VIS v45.dwg), conciliada con codigos de Odoo y validada. 40 calles, 1,342 lotes.",
+ "archivos": {
+  "agua_import.json": {
+   "sha256_16": "f903e3ceab35b049",
+   "bytes": 9822
+  },
+  "aporte_educacion_import.json": {
+   "sha256_16": "58fb6094aa92cf06",
+   "bytes": 3920
+  },
+  "aporte_otros_import.json": {
+   "sha256_16": "ffc2e83b70faae1f",
+   "bytes": 1764
+  },
+  "aporte_recreacion_import.json": {
+   "sha256_16": "8325e4f305688211",
+   "bytes": 31355
+  },
+  "borrar_en_odoo.csv": {
+   "sha256_16": "189461357666cfe7",
+   "bytes": 1287
+  },
+  "calle_import.json": {
+   "sha256_16": "a0a471fb2f099734",
+   "bytes": 72679
+  },
+  "conciliacion_codigos.csv": {
+   "sha256_16": "ad55431c46513ec3",
+   "bytes": 90926
+  },
+  "jardin_import.json": {
+   "sha256_16": "d4505dd11dfcdbaf",
+   "bytes": 798643
+  },
+  "matriz_import.json": {
+   "sha256_16": "18835453ced19860",
+   "bytes": 1353
+  },
+  "odoo_lotes.json": {
+   "sha256_16": "257e60d8600b958a",
+   "bytes": 52473
+  },
+  "parcels_export.json": {
+   "sha256_16": "88c3d524f25ba689",
+   "bytes": 412466
+  },
+  "propiedad_terceros_import.json": {
+   "sha256_16": "48c6ae89b77879c4",
+   "bytes": 2023
+  },
+  "veredas_import.json": {
+   "sha256_16": "86fad62b3f30f2f7",
+   "bytes": 478028
+  }
+ },
+ "referencias_externas": {
+  "rasante_calles40 (Hd_final_calles40.npy, diseno vertical propio, S-015)": {
+   "ruta": "C:\\Users\\henry\\AppData\\Local\\Civil3DAgent\\exports\\unreal_pucusana\\Hd_final_calles40.npy",
+   "sha256_16": "702c4150e4dc570a"
+  }
+ }
+}

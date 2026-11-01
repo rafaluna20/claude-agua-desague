@@ -1,0 +1,4662 @@
+{
+  "version": "v4_primera_expediente_grafo_vial_v1",
+  "purpose": "Grafo vial preliminar para evaluar alternativas de red; no representa infraestructura existente ni diseño hidráulico.",
+  "generatedAtUtc": "2026-10-10T18:47:47+00:00",
+  "sources": {
+    "roadsFile": "vias_primera_expediente_v1.json",
+    "roadsSha256": "378BE88BE16212B1EBFDA66F5558125376C995B16939122B572A5B6075220F1C",
+    "axesFile": "ejes_principales_primera_expediente_v2.json",
+    "axesSha256": "02F5DB6D0BCE57C7F23C6563E95CD601FE7AE5F21B11D23AE14679744FCD989F"
+  },
+  "method": {
+    "connectorRule": "Solo se conectan ejes de polígonos viales contiguos dentro de polygonTolerance; cada enlace se etiqueta como inferido.",
+    "polygonTolerance": 0.05,
+    "maxAxisGap": 25.0,
+    "unitsNote": "Unidades interpretadas provisionalmente como metros por geometría UTM; validar en la documentación topográfica."
+  },
+  "summary": {
+    "roadAxes": 24,
+    "inferredConnectors": 33,
+    "alreadyConnectedPairs": 0,
+    "deferredConnectors": 0,
+    "nodes": 82,
+    "edges": 82,
+    "components": 3,
+    "componentNodeCounts": [
+      72,
+      7,
+      3
+    ]
+  },
+  "connectors": [
+    {
+      "id": "CX-001",
+      "from": "AVENIDA E",
+      "to": "CALLE10",
+      "polygonDistance": 0.0,
+      "axisGap": 8.861,
+      "fromPoint": [
+        308438.667,
+        8622984.405
+      ],
+      "toPoint": [
+        308430.555,
+        8622980.839
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-002",
+      "from": "AVENIDA E",
+      "to": "CALLE14",
+      "polygonDistance": 0.0,
+      "axisGap": 12.258,
+      "fromPoint": [
+        308443.167,
+        8622981.905
+      ],
+      "toPoint": [
+        308455.208,
+        8622984.201
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-003",
+      "from": "AVENIDA E",
+      "to": "CALLE28",
+      "polygonDistance": 0.0,
+      "axisGap": 19.565,
+      "fromPoint": [
+        308469.167,
+        8622877.905
+      ],
+      "toPoint": [
+        308473.56,
+        8622858.84
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-004",
+      "from": "AVENIDA E",
+      "to": "PASAJE01",
+      "polygonDistance": 0.02,
+      "axisGap": 13.842,
+      "fromPoint": [
+        308452.167,
+        8622945.405
+      ],
+      "toPoint": [
+        308465.629,
+        8622948.626
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-005",
+      "from": "CALLE11",
+      "to": "CALLE25",
+      "polygonDistance": 0.0,
+      "axisGap": 4.631,
+      "fromPoint": [
+        308351.88,
+        8622762.351
+      ],
+      "toPoint": [
+        308354.178,
+        8622758.33
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-006",
+      "from": "CALLE11",
+      "to": "CALLE28",
+      "polygonDistance": 0.0,
+      "axisGap": 16.798,
+      "fromPoint": [
+        308456.38,
+        8622849.351
+      ],
+      "toPoint": [
+        308473.06,
+        8622851.34
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-007",
+      "from": "CALLE11",
+      "to": "CALLE45",
+      "polygonDistance": 0.0,
+      "axisGap": 6.071,
+      "fromPoint": [
+        308340.38,
+        8622758.351
+      ],
+      "toPoint": [
+        308334.312,
+        8622758.528
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-008",
+      "from": "CALLE12",
+      "to": "CALLE15",
+      "polygonDistance": 0.0,
+      "axisGap": 9.95,
+      "fromPoint": [
+        308559.873,
+        8622766.979
+      ],
+      "toPoint": [
+        308559.028,
+        8622776.893
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-009",
+      "from": "CALLE12",
+      "to": "CALLE25",
+      "polygonDistance": 0.0,
+      "axisGap": 7.237,
+      "fromPoint": [
+        308375.022,
+        8622721.128
+      ],
+      "toPoint": [
+        308369.905,
+        8622726.246
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-010",
+      "from": "CALLE12",
+      "to": "CALLE28",
+      "polygonDistance": 0.0,
+      "axisGap": 7.683,
+      "fromPoint": [
+        308512.465,
+        8622755.287
+      ],
+      "toPoint": [
+        308511.06,
+        8622762.84
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-011",
+      "from": "CALLE12",
+      "to": "CALLE44",
+      "polygonDistance": 0.0,
+      "axisGap": 8.689,
+      "fromPoint": [
+        308372.873,
+        8622718.979
+      ],
+      "toPoint": [
+        308367.434,
+        8622712.203
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-012",
+      "from": "CALLE12",
+      "to": "PASAJE03",
+      "polygonDistance": 0.02,
+      "axisGap": 9.738,
+      "fromPoint": [
+        308542.99,
+        8622762.149
+      ],
+      "toPoint": [
+        308541.217,
+        8622771.724
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-013",
+      "from": "CALLE14",
+      "to": "CALLE15",
+      "polygonDistance": 0.0,
+      "axisGap": 14.651,
+      "fromPoint": [
+        308651.469,
+        8622907.996
+      ],
+      "toPoint": [
+        308646.028,
+        8622894.393
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-014",
+      "from": "CALLE14",
+      "to": "CALLE16",
+      "polygonDistance": 0.0,
+      "axisGap": 10.993,
+      "fromPoint": [
+        308621.117,
+        8622928.16
+      ],
+      "toPoint": [
+        308613.089,
+        8622920.65
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-015",
+      "from": "CALLE14",
+      "to": "CALLE32",
+      "polygonDistance": 0.0,
+      "axisGap": 9.17,
+      "fromPoint": [
+        308800.208,
+        8622895.701
+      ],
+      "toPoint": [
+        308809.044,
+        8622893.249
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-016",
+      "from": "CALLE15",
+      "to": "CALLE24",
+      "polygonDistance": 0.0,
+      "axisGap": 13.767,
+      "fromPoint": [
+        308626.028,
+        8622873.893
+      ],
+      "toPoint": [
+        308636.51,
+        8622864.968
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-017",
+      "from": "CALLE15",
+      "to": "CALLE29",
+      "polygonDistance": 0.0,
+      "axisGap": 16.172,
+      "fromPoint": [
+        308604.771,
+        8622837.714
+      ],
+      "toPoint": [
+        308618.866,
+        8622829.786
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-018",
+      "from": "CALLE15",
+      "to": "CALLE30",
+      "polygonDistance": 0.0,
+      "axisGap": 9.552,
+      "fromPoint": [
+        308579.464,
+        8622799.553
+      ],
+      "toPoint": [
+        308585.681,
+        8622792.3
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-019",
+      "from": "CALLE16",
+      "to": "CALLE18",
+      "polygonDistance": 0.0,
+      "axisGap": 7.055,
+      "fromPoint": [
+        308581.589,
+        8622901.15
+      ],
+      "toPoint": [
+        308579.205,
+        8622907.79
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-020",
+      "from": "CALLE16",
+      "to": "CALLE26",
+      "polygonDistance": 0.0,
+      "axisGap": 12.002,
+      "fromPoint": [
+        308517.395,
+        8622875.053
+      ],
+      "toPoint": [
+        308522.762,
+        8622864.318
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-021",
+      "from": "CALLE16",
+      "to": "CALLE27",
+      "polygonDistance": 0.0,
+      "axisGap": 8.478,
+      "fromPoint": [
+        308586.744,
+        8622902.108
+      ],
+      "toPoint": [
+        308590.187,
+        8622894.36
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-022",
+      "from": "CALLE16",
+      "to": "CALLE28",
+      "polygonDistance": 0.0,
+      "axisGap": 14.529,
+      "fromPoint": [
+        308488.089,
+        8622857.15
+      ],
+      "toPoint": [
+        308473.56,
+        8622857.15
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-023",
+      "from": "CALLE18",
+      "to": "PASAJE01",
+      "polygonDistance": 0.02,
+      "axisGap": 7.393,
+      "fromPoint": [
+        308511.705,
+        8622936.79
+      ],
+      "toPoint": [
+        308512.751,
+        8622944.109
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-024",
+      "from": "CALLE24",
+      "to": "CALLE32",
+      "polygonDistance": 0.0,
+      "axisGap": 6.92,
+      "fromPoint": [
+        308815.51,
+        8622854.968
+      ],
+      "toPoint": [
+        308822.075,
+        8622857.156
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-025",
+      "from": "CALLE25",
+      "to": "CALLE44",
+      "polygonDistance": 0.0,
+      "axisGap": 8.574,
+      "fromPoint": [
+        308364.405,
+        8622722.746
+      ],
+      "toPoint": [
+        308361.434,
+        8622714.703
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-026",
+      "from": "CALLE25",
+      "to": "CALLE45",
+      "polygonDistance": 0.0,
+      "axisGap": 13.865,
+      "fromPoint": [
+        308346.405,
+        8622751.746
+      ],
+      "toPoint": [
+        308334.312,
+        8622758.528
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-027",
+      "from": "CALLE26",
+      "to": "CALLE27",
+      "polygonDistance": 0.0,
+      "axisGap": 1.744,
+      "fromPoint": [
+        308548.262,
+        8622824.818
+      ],
+      "toPoint": [
+        308549.495,
+        8622826.052
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-028",
+      "from": "CALLE28",
+      "to": "PASAJE02",
+      "polygonDistance": 0.02,
+      "axisGap": 10.964,
+      "fromPoint": [
+        308488.06,
+        8622799.84
+      ],
+      "toPoint": [
+        308477.323,
+        8622797.621
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-029",
+      "from": "CALLE28",
+      "to": "PASAJE05",
+      "polygonDistance": 0.02,
+      "axisGap": 9.639,
+      "fromPoint": [
+        308494.946,
+        8622776.683
+      ],
+      "toPoint": [
+        308485.801,
+        8622773.635
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-030",
+      "from": "CALLE29",
+      "to": "CALLE32",
+      "polygonDistance": 0.0,
+      "axisGap": 14.729,
+      "fromPoint": [
+        308821.866,
+        8622804.286
+      ],
+      "toPoint": [
+        308835.544,
+        8622809.749
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-031",
+      "from": "CALLE30",
+      "to": "CALLE31",
+      "polygonDistance": 0.0,
+      "axisGap": 8.824,
+      "fromPoint": [
+        308667.282,
+        8622765.079
+      ],
+      "toPoint": [
+        308664.557,
+        8622756.686
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-032",
+      "from": "CALLE30",
+      "to": "CALLE32",
+      "polygonDistance": 0.0,
+      "axisGap": 6.039,
+      "fromPoint": [
+        308851.681,
+        8622760.3
+      ],
+      "toPoint": [
+        308857.544,
+        8622761.749
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    },
+    {
+      "id": "CX-033",
+      "from": "CALLE31",
+      "to": "CALLE46",
+      "polygonDistance": 0.0,
+      "axisGap": 14.582,
+      "fromPoint": [
+        308685.057,
+        8622715.186
+      ],
+      "toPoint": [
+        308677.228,
+        8622702.884
+      ],
+      "status": "INFERIDA_POR_CONTIGUIDAD_VIAL"
+    }
+  ],
+  "deferredConnectors": [],
+  "nodes": [
+    {
+      "id": "NV-0001",
+      "coordinate": [
+        308469.167,
+        8622877.905
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0002",
+      "coordinate": [
+        308452.167,
+        8622945.405
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0003",
+      "coordinate": [
+        308443.167,
+        8622981.905
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0004",
+      "coordinate": [
+        308438.667,
+        8622984.405
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0005",
+      "coordinate": [
+        308420.555,
+        8622979.339
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0006",
+      "coordinate": [
+        308430.555,
+        8622980.839
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0007",
+      "coordinate": [
+        308340.38,
+        8622758.351
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0008",
+      "coordinate": [
+        308351.88,
+        8622762.351
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0009",
+      "coordinate": [
+        308456.38,
+        8622849.351
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0010",
+      "coordinate": [
+        308372.873,
+        8622718.979
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0011",
+      "coordinate": [
+        308375.022,
+        8622721.128
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0012",
+      "coordinate": [
+        308559.873,
+        8622766.979
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0013",
+      "coordinate": [
+        308575.873,
+        8622766.479
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0014",
+      "coordinate": [
+        308800.208,
+        8622896.701
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0015",
+      "coordinate": [
+        308800.208,
+        8622895.701
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0016",
+      "coordinate": [
+        308455.208,
+        8622984.201
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0017",
+      "coordinate": [
+        308556.528,
+        8622776.393
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0018",
+      "coordinate": [
+        308559.028,
+        8622776.893
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0019",
+      "coordinate": [
+        308626.028,
+        8622873.893
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0020",
+      "coordinate": [
+        308646.028,
+        8622894.393
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0021",
+      "coordinate": [
+        308488.089,
+        8622857.15
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0022",
+      "coordinate": [
+        308581.589,
+        8622901.15
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0023",
+      "coordinate": [
+        308613.089,
+        8622920.65
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0024",
+      "coordinate": [
+        308519.705,
+        8622886.79
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0025",
+      "coordinate": [
+        308511.705,
+        8622936.79
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0026",
+      "coordinate": [
+        308579.205,
+        8622907.79
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0027",
+      "coordinate": [
+        308815.51,
+        8622854.968
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0028",
+      "coordinate": [
+        308636.51,
+        8622864.968
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0029",
+      "coordinate": [
+        308369.905,
+        8622726.246
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0030",
+      "coordinate": [
+        308364.405,
+        8622722.746
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0031",
+      "coordinate": [
+        308346.405,
+        8622751.746
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0032",
+      "coordinate": [
+        308354.905,
+        8622758.746
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0033",
+      "coordinate": [
+        308548.262,
+        8622824.818
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0034",
+      "coordinate": [
+        308522.762,
+        8622864.318
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0035",
+      "coordinate": [
+        308549.687,
+        8622825.86
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0036",
+      "coordinate": [
+        308549.495,
+        8622826.052
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0037",
+      "coordinate": [
+        308590.187,
+        8622894.36
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0038",
+      "coordinate": [
+        308511.06,
+        8622762.84
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0039",
+      "coordinate": [
+        308494.946,
+        8622776.683
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0040",
+      "coordinate": [
+        308488.06,
+        8622799.84
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0041",
+      "coordinate": [
+        308473.06,
+        8622851.34
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0042",
+      "coordinate": [
+        308473.56,
+        8622857.15
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0043",
+      "coordinate": [
+        308473.56,
+        8622858.84
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0044",
+      "coordinate": [
+        308821.866,
+        8622804.286
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0045",
+      "coordinate": [
+        308618.866,
+        8622829.786
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0046",
+      "coordinate": [
+        308851.681,
+        8622760.3
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0047",
+      "coordinate": [
+        308667.282,
+        8622765.079
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0048",
+      "coordinate": [
+        308585.681,
+        8622792.3
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0049",
+      "coordinate": [
+        308820.557,
+        8622749.186
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0050",
+      "coordinate": [
+        308685.057,
+        8622715.186
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0051",
+      "coordinate": [
+        308664.557,
+        8622756.686
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0052",
+      "coordinate": [
+        308863.544,
+        8622743.249
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0053",
+      "coordinate": [
+        308857.544,
+        8622761.749
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0054",
+      "coordinate": [
+        308835.544,
+        8622809.749
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0055",
+      "coordinate": [
+        308822.075,
+        8622857.156
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0056",
+      "coordinate": [
+        308809.044,
+        8622893.249
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0057",
+      "coordinate": [
+        308370.434,
+        8622699.203
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0058",
+      "coordinate": [
+        308367.434,
+        8622712.203
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0059",
+      "coordinate": [
+        308361.434,
+        8622714.703
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0060",
+      "coordinate": [
+        308334.312,
+        8622758.528
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0061",
+      "coordinate": [
+        308326.312,
+        8622768.528
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0062",
+      "coordinate": [
+        308657.472,
+        8622700.229
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0063",
+      "coordinate": [
+        308677.228,
+        8622702.884
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0064",
+      "coordinate": [
+        308677.472,
+        8622702.729
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0065",
+      "coordinate": [
+        308516.129,
+        8622943.626
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0066",
+      "coordinate": [
+        308512.751,
+        8622944.109
+      ],
+      "degree": 3
+    },
+    {
+      "id": "NV-0067",
+      "coordinate": [
+        308465.629,
+        8622948.626
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0068",
+      "coordinate": [
+        308453.823,
+        8622786.621
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0069",
+      "coordinate": [
+        308477.323,
+        8622797.621
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0070",
+      "coordinate": [
+        308541.217,
+        8622771.724
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0071",
+      "coordinate": [
+        308535.717,
+        8622801.224
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0072",
+      "coordinate": [
+        308458.301,
+        8622769.135
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0073",
+      "coordinate": [
+        308485.801,
+        8622773.635
+      ],
+      "degree": 2
+    },
+    {
+      "id": "NV-0074",
+      "coordinate": [
+        308354.178,
+        8622758.33
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0075",
+      "coordinate": [
+        308512.465,
+        8622755.287
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0076",
+      "coordinate": [
+        308542.99,
+        8622762.149
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0077",
+      "coordinate": [
+        308651.469,
+        8622907.996
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0078",
+      "coordinate": [
+        308621.117,
+        8622928.16
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0079",
+      "coordinate": [
+        308604.771,
+        8622837.714
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0080",
+      "coordinate": [
+        308579.464,
+        8622799.553
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0081",
+      "coordinate": [
+        308517.395,
+        8622875.053
+      ],
+      "degree": 1
+    },
+    {
+      "id": "NV-0082",
+      "coordinate": [
+        308586.744,
+        8622902.108
+      ],
+      "degree": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "TV-0001",
+      "fromNode": "NV-0001",
+      "toNode": "NV-0002",
+      "length": 70.041,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308469.167,
+          8622877.905
+        ],
+        [
+          308467.167,
+          8622885.905
+        ],
+        [
+          308466.167,
+          8622887.905
+        ],
+        [
+          308463.667,
+          8622899.405
+        ],
+        [
+          308462.667,
+          8622901.405
+        ],
+        [
+          308460.667,
+          8622910.905
+        ],
+        [
+          308459.667,
+          8622912.905
+        ],
+        [
+          308457.167,
+          8622924.405
+        ],
+        [
+          308456.167,
+          8622926.405
+        ],
+        [
+          308454.167,
+          8622934.405
+        ],
+        [
+          308454.167,
+          8622937.905
+        ],
+        [
+          308453.167,
+          8622941.905
+        ],
+        [
+          308452.167,
+          8622943.905
+        ],
+        [
+          308452.167,
+          8622945.405
+        ]
+      ]
+    },
+    {
+      "id": "TV-0002",
+      "fromNode": "NV-0002",
+      "toNode": "NV-0003",
+      "length": 37.964,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308452.167,
+          8622945.405
+        ],
+        [
+          308450.167,
+          8622948.905
+        ],
+        [
+          308449.167,
+          8622954.405
+        ],
+        [
+          308448.167,
+          8622956.405
+        ],
+        [
+          308445.667,
+          8622967.405
+        ],
+        [
+          308444.667,
+          8622969.405
+        ],
+        [
+          308443.167,
+          8622981.905
+        ]
+      ]
+    },
+    {
+      "id": "TV-0003",
+      "fromNode": "NV-0003",
+      "toNode": "NV-0004",
+      "length": 6.561,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "AVENIDA E",
+        "nombre": "avenida E",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308443.167,
+          8622981.905
+        ],
+        [
+          308441.667,
+          8622984.905
+        ],
+        [
+          308439.167,
+          8622984.905
+        ],
+        [
+          308438.667,
+          8622984.405
+        ]
+      ]
+    },
+    {
+      "id": "TV-0004",
+      "fromNode": "NV-0005",
+      "toNode": "NV-0006",
+      "length": 11.331,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE10",
+        "nombre": "calle 10",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308420.555,
+          8622979.339
+        ],
+        [
+          308425.555,
+          8622982.339
+        ],
+        [
+          308428.555,
+          8622982.339
+        ],
+        [
+          308430.555,
+          8622980.839
+        ]
+      ]
+    },
+    {
+      "id": "TV-0005",
+      "fromNode": "NV-0007",
+      "toNode": "NV-0008",
+      "length": 12.419,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308340.38,
+          8622758.351
+        ],
+        [
+          308343.38,
+          8622759.851
+        ],
+        [
+          308346.38,
+          8622760.351
+        ],
+        [
+          308347.38,
+          8622761.351
+        ],
+        [
+          308351.88,
+          8622762.351
+        ]
+      ]
+    },
+    {
+      "id": "TV-0006",
+      "fromNode": "NV-0008",
+      "toNode": "NV-0009",
+      "length": 137.235,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE11",
+        "nombre": "calle 11",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308351.88,
+          8622762.351
+        ],
+        [
+          308357.38,
+          8622765.851
+        ],
+        [
+          308388.38,
+          8622790.851
+        ],
+        [
+          308452.88,
+          8622841.351
+        ],
+        [
+          308454.88,
+          8622843.851
+        ],
+        [
+          308454.88,
+          8622845.351
+        ],
+        [
+          308456.38,
+          8622849.351
+        ]
+      ]
+    },
+    {
+      "id": "TV-0007",
+      "fromNode": "NV-0010",
+      "toNode": "NV-0011",
+      "length": 3.04,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308372.873,
+          8622718.979
+        ],
+        [
+          308375.022,
+          8622721.128
+        ]
+      ]
+    },
+    {
+      "id": "TV-0008",
+      "fromNode": "NV-0011",
+      "toNode": "NV-0012",
+      "length": 192.294,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308375.022,
+          8622721.128
+        ],
+        [
+          308377.873,
+          8622723.979
+        ],
+        [
+          308388.873,
+          8622725.979
+        ],
+        [
+          308404.873,
+          8622729.979
+        ],
+        [
+          308409.373,
+          8622730.479
+        ],
+        [
+          308411.873,
+          8622731.479
+        ],
+        [
+          308413.873,
+          8622731.479
+        ],
+        [
+          308429.873,
+          8622735.479
+        ],
+        [
+          308434.373,
+          8622735.979
+        ],
+        [
+          308436.873,
+          8622736.979
+        ],
+        [
+          308438.873,
+          8622736.979
+        ],
+        [
+          308454.873,
+          8622740.979
+        ],
+        [
+          308459.373,
+          8622741.479
+        ],
+        [
+          308475.373,
+          8622745.479
+        ],
+        [
+          308479.873,
+          8622745.979
+        ],
+        [
+          308486.873,
+          8622747.979
+        ],
+        [
+          308488.873,
+          8622747.979
+        ],
+        [
+          308492.373,
+          8622748.979
+        ],
+        [
+          308497.373,
+          8622752.479
+        ],
+        [
+          308518.873,
+          8622756.479
+        ],
+        [
+          308521.373,
+          8622757.479
+        ],
+        [
+          308523.373,
+          8622757.479
+        ],
+        [
+          308539.373,
+          8622761.479
+        ],
+        [
+          308552.873,
+          8622763.979
+        ],
+        [
+          308555.873,
+          8622765.479
+        ],
+        [
+          308558.873,
+          8622765.979
+        ],
+        [
+          308559.873,
+          8622766.979
+        ]
+      ]
+    },
+    {
+      "id": "TV-0009",
+      "fromNode": "NV-0012",
+      "toNode": "NV-0013",
+      "length": 16.18,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE12",
+        "nombre": "calle 12",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308559.873,
+          8622766.979
+        ],
+        [
+          308565.873,
+          8622766.979
+        ],
+        [
+          308568.873,
+          8622765.979
+        ],
+        [
+          308575.873,
+          8622766.479
+        ]
+      ]
+    },
+    {
+      "id": "TV-0010",
+      "fromNode": "NV-0014",
+      "toNode": "NV-0015",
+      "length": 1.0,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308800.208,
+          8622896.701
+        ],
+        [
+          308800.208,
+          8622895.701
+        ]
+      ]
+    },
+    {
+      "id": "TV-0011",
+      "fromNode": "NV-0015",
+      "toNode": "NV-0016",
+      "length": 384.067,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE14",
+        "nombre": "calle 14",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308800.208,
+          8622895.701
+        ],
+        [
+          308797.208,
+          8622890.701
+        ],
+        [
+          308793.708,
+          8622887.201
+        ],
+        [
+          308786.708,
+          8622886.701
+        ],
+        [
+          308783.708,
+          8622885.701
+        ],
+        [
+          308778.208,
+          8622885.701
+        ],
+        [
+          308777.708,
+          8622885.201
+        ],
+        [
+          308772.708,
+          8622885.201
+        ],
+        [
+          308772.208,
+          8622884.701
+        ],
+        [
+          308768.708,
+          8622884.701
+        ],
+        [
+          308768.208,
+          8622884.201
+        ],
+        [
+          308762.708,
+          8622884.201
+        ],
+        [
+          308762.208,
+          8622883.701
+        ],
+        [
+          308743.208,
+          8622883.701
+        ],
+        [
+          308742.708,
+          8622884.201
+        ],
+        [
+          308737.708,
+          8622884.201
+        ],
+        [
+          308737.208,
+          8622884.701
+        ],
+        [
+          308731.208,
+          8622885.201
+        ],
+        [
+          308730.708,
+          8622885.701
+        ],
+        [
+          308722.208,
+          8622886.701
+        ],
+        [
+          308716.208,
+          8622888.201
+        ],
+        [
+          308713.208,
+          8622888.201
+        ],
+        [
+          308704.208,
+          8622890.701
+        ],
+        [
+          308701.208,
+          8622890.701
+        ],
+        [
+          308687.708,
+          8622895.201
+        ],
+        [
+          308675.708,
+          8622900.201
+        ],
+        [
+          308671.708,
+          8622901.201
+        ],
+        [
+          308663.708,
+          8622905.201
+        ],
+        [
+          308662.208,
+          8622905.201
+        ],
+        [
+          308658.708,
+          8622906.701
+        ],
+        [
+          308656.708,
+          8622906.701
+        ],
+        [
+          308654.208,
+          8622907.701
+        ],
+        [
+          308652.208,
+          8622907.701
+        ],
+        [
+          308649.708,
+          8622908.701
+        ],
+        [
+          308641.208,
+          8622910.201
+        ],
+        [
+          308638.208,
+          8622911.701
+        ],
+        [
+          308633.708,
+          8622914.701
+        ],
+        [
+          308619.208,
+          8622930.201
+        ],
+        [
+          308598.208,
+          8622941.701
+        ],
+        [
+          308558.708,
+          8622964.701
+        ],
+        [
+          308555.208,
+          8622966.201
+        ],
+        [
+          308522.708,
+          8622985.201
+        ],
+        [
+          308517.708,
+          8622987.701
+        ],
+        [
+          308516.708,
+          8622987.701
+        ],
+        [
+          308512.708,
+          8622990.201
+        ],
+        [
+          308504.708,
+          8622992.201
+        ],
+        [
+          308493.708,
+          8622993.201
+        ],
+        [
+          308493.208,
+          8622993.701
+        ],
+        [
+          308474.208,
+          8622994.201
+        ],
+        [
+          308471.708,
+          8622993.201
+        ],
+        [
+          308468.208,
+          8622993.201
+        ],
+        [
+          308464.208,
+          8622991.701
+        ],
+        [
+          308458.708,
+          8622990.701
+        ],
+        [
+          308455.708,
+          8622986.201
+        ],
+        [
+          308455.208,
+          8622984.201
+        ]
+      ]
+    },
+    {
+      "id": "TV-0012",
+      "fromNode": "NV-0017",
+      "toNode": "NV-0018",
+      "length": 2.707,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308556.528,
+          8622776.393
+        ],
+        [
+          308557.028,
+          8622776.893
+        ],
+        [
+          308559.028,
+          8622776.893
+        ]
+      ]
+    },
+    {
+      "id": "TV-0013",
+      "fromNode": "NV-0018",
+      "toNode": "NV-0019",
+      "length": 121.18,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308559.028,
+          8622776.893
+        ],
+        [
+          308561.528,
+          8622778.393
+        ],
+        [
+          308563.028,
+          8622778.393
+        ],
+        [
+          308565.528,
+          8622779.893
+        ],
+        [
+          308567.028,
+          8622779.893
+        ],
+        [
+          308568.028,
+          8622780.893
+        ],
+        [
+          308577.528,
+          8622797.893
+        ],
+        [
+          308581.028,
+          8622800.893
+        ],
+        [
+          308588.528,
+          8622811.393
+        ],
+        [
+          308588.528,
+          8622812.893
+        ],
+        [
+          308589.528,
+          8622814.893
+        ],
+        [
+          308592.028,
+          8622818.393
+        ],
+        [
+          308600.028,
+          8622832.893
+        ],
+        [
+          308604.028,
+          8622836.393
+        ],
+        [
+          308608.528,
+          8622844.393
+        ],
+        [
+          308609.528,
+          8622849.393
+        ],
+        [
+          308612.028,
+          8622852.893
+        ],
+        [
+          308620.528,
+          8622868.393
+        ],
+        [
+          308626.028,
+          8622873.893
+        ]
+      ]
+    },
+    {
+      "id": "TV-0014",
+      "fromNode": "NV-0019",
+      "toNode": "NV-0020",
+      "length": 31.706,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE15",
+        "nombre": "calle 15",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308626.028,
+          8622873.893
+        ],
+        [
+          308628.528,
+          8622878.393
+        ],
+        [
+          308630.028,
+          8622879.893
+        ],
+        [
+          308631.028,
+          8622881.893
+        ],
+        [
+          308631.528,
+          8622885.893
+        ],
+        [
+          308633.028,
+          8622889.393
+        ],
+        [
+          308636.528,
+          8622891.393
+        ],
+        [
+          308638.028,
+          8622891.393
+        ],
+        [
+          308640.528,
+          8622892.893
+        ],
+        [
+          308642.028,
+          8622892.893
+        ],
+        [
+          308644.528,
+          8622894.393
+        ],
+        [
+          308646.028,
+          8622894.393
+        ]
+      ]
+    },
+    {
+      "id": "TV-0015",
+      "fromNode": "NV-0021",
+      "toNode": "NV-0022",
+      "length": 107.159,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE16",
+        "nombre": "calle 16",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308488.089,
+          8622857.15
+        ],
+        [
+          308490.589,
+          8622863.65
+        ],
+        [
+          308492.589,
+          8622865.65
+        ],
+        [
+          308494.589,
+          8622866.15
+        ],
+        [
+          308505.589,
+          8622871.65
+        ],
+        [
+          308509.589,
+          8622872.15
+        ],
+        [
+          308515.589,
+          8622874.15
+        ],
+        [
+          308517.589,
+          8622875.15
+        ],
+        [
+          308520.589,
+          8622878.15
+        ],
+        [
+          308528.589,
+          8622881.65
+        ],
+        [
+          308531.089,
+          8622882.15
+        ],
+        [
+          308538.589,
+          8622885.65
+        ],
+        [
+          308542.589,
+          8622886.65
+        ],
+        [
+          308544.089,
+          8622887.65
+        ],
+        [
+          308546.589,
+          8622888.15
+        ],
+        [
+          308548.089,
+          8622889.15
+        ],
+        [
+          308562.089,
+          8622894.15
+        ],
+        [
+          308565.589,
+          8622897.65
+        ],
+        [
+          308570.089,
+          8622898.15
+        ],
+        [
+          308575.089,
+          8622899.65
+        ],
+        [
+          308577.589,
+          8622899.65
+        ],
+        [
+          308581.589,
+          8622901.15
+        ]
+      ]
+    },
+    {
+      "id": "TV-0016",
+      "fromNode": "NV-0022",
+      "toNode": "NV-0023",
+      "length": 42.984,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE16",
+        "nombre": "calle 16",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308581.589,
+          8622901.15
+        ],
+        [
+          308584.589,
+          8622901.15
+        ],
+        [
+          308589.089,
+          8622903.15
+        ],
+        [
+          308592.589,
+          8622903.65
+        ],
+        [
+          308594.589,
+          8622904.65
+        ],
+        [
+          308596.089,
+          8622904.65
+        ],
+        [
+          308598.089,
+          8622905.65
+        ],
+        [
+          308599.589,
+          8622905.65
+        ],
+        [
+          308611.089,
+          8622909.15
+        ],
+        [
+          308613.089,
+          8622912.65
+        ],
+        [
+          308613.089,
+          8622920.65
+        ]
+      ]
+    },
+    {
+      "id": "TV-0017",
+      "fromNode": "NV-0024",
+      "toNode": "NV-0025",
+      "length": 60.375,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308519.705,
+          8622886.79
+        ],
+        [
+          308515.205,
+          8622888.29
+        ],
+        [
+          308512.705,
+          8622890.79
+        ],
+        [
+          308507.205,
+          8622912.79
+        ],
+        [
+          308504.205,
+          8622922.29
+        ],
+        [
+          308504.205,
+          8622924.79
+        ],
+        [
+          308503.705,
+          8622925.29
+        ],
+        [
+          308504.205,
+          8622932.79
+        ],
+        [
+          308507.705,
+          8622935.79
+        ],
+        [
+          308511.705,
+          8622936.79
+        ]
+      ]
+    },
+    {
+      "id": "TV-0018",
+      "fromNode": "NV-0025",
+      "toNode": "NV-0026",
+      "length": 74.507,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE18",
+        "nombre": "calle 18",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308511.705,
+          8622936.79
+        ],
+        [
+          308516.705,
+          8622935.79
+        ],
+        [
+          308560.205,
+          8622910.79
+        ],
+        [
+          308579.205,
+          8622907.79
+        ]
+      ]
+    },
+    {
+      "id": "TV-0019",
+      "fromNode": "NV-0027",
+      "toNode": "NV-0028",
+      "length": 193.433,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE24",
+        "nombre": "calle 24",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308815.51,
+          8622854.968
+        ],
+        [
+          308815.01,
+          8622848.968
+        ],
+        [
+          308812.01,
+          8622844.968
+        ],
+        [
+          308809.51,
+          8622844.968
+        ],
+        [
+          308807.01,
+          8622843.968
+        ],
+        [
+          308805.01,
+          8622843.968
+        ],
+        [
+          308797.01,
+          8622841.968
+        ],
+        [
+          308794.51,
+          8622841.968
+        ],
+        [
+          308794.01,
+          8622841.468
+        ],
+        [
+          308786.51,
+          8622840.968
+        ],
+        [
+          308786.01,
+          8622840.468
+        ],
+        [
+          308781.01,
+          8622840.468
+        ],
+        [
+          308780.51,
+          8622839.968
+        ],
+        [
+          308776.51,
+          8622839.968
+        ],
+        [
+          308776.01,
+          8622839.468
+        ],
+        [
+          308770.51,
+          8622839.468
+        ],
+        [
+          308770.01,
+          8622838.968
+        ],
+        [
+          308743.01,
+          8622838.968
+        ],
+        [
+          308742.51,
+          8622839.468
+        ],
+        [
+          308738.01,
+          8622839.468
+        ],
+        [
+          308737.51,
+          8622839.968
+        ],
+        [
+          308730.51,
+          8622839.968
+        ],
+        [
+          308730.01,
+          8622840.468
+        ],
+        [
+          308717.01,
+          8622841.468
+        ],
+        [
+          308716.51,
+          8622841.968
+        ],
+        [
+          308706.51,
+          8622843.468
+        ],
+        [
+          308702.01,
+          8622844.968
+        ],
+        [
+          308697.51,
+          8622845.468
+        ],
+        [
+          308689.51,
+          8622847.468
+        ],
+        [
+          308687.51,
+          8622848.468
+        ],
+        [
+          308684.01,
+          8622848.968
+        ],
+        [
+          308682.01,
+          8622849.968
+        ],
+        [
+          308680.51,
+          8622849.968
+        ],
+        [
+          308667.51,
+          8622854.468
+        ],
+        [
+          308653.01,
+          8622860.968
+        ],
+        [
+          308652.01,
+          8622860.968
+        ],
+        [
+          308642.01,
+          8622865.968
+        ],
+        [
+          308636.51,
+          8622864.968
+        ]
+      ]
+    },
+    {
+      "id": "TV-0020",
+      "fromNode": "NV-0029",
+      "toNode": "NV-0030",
+      "length": 6.598,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE25",
+        "nombre": "calle 25",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308369.905,
+          8622726.246
+        ],
+        [
+          308367.405,
+          8622725.246
+        ],
+        [
+          308364.405,
+          8622722.746
+        ]
+      ]
+    },
+    {
+      "id": "TV-0021",
+      "fromNode": "NV-0030",
+      "toNode": "NV-0031",
+      "length": 35.314,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE25",
+        "nombre": "calle 25",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308364.405,
+          8622722.746
+        ],
+        [
+          308363.405,
+          8622723.246
+        ],
+        [
+          308357.905,
+          8622728.246
+        ],
+        [
+          308348.905,
+          8622740.746
+        ],
+        [
+          308346.405,
+          8622749.246
+        ],
+        [
+          308346.405,
+          8622751.746
+        ]
+      ]
+    },
+    {
+      "id": "TV-0022",
+      "fromNode": "NV-0031",
+      "toNode": "NV-0032",
+      "length": 11.102,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE25",
+        "nombre": "calle 25",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308346.405,
+          8622751.746
+        ],
+        [
+          308351.405,
+          8622756.746
+        ],
+        [
+          308354.905,
+          8622758.746
+        ]
+      ]
+    },
+    {
+      "id": "TV-0023",
+      "fromNode": "NV-0033",
+      "toNode": "NV-0034",
+      "length": 55.368,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE26",
+        "nombre": "calle 26",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308548.262,
+          8622824.818
+        ],
+        [
+          308545.762,
+          8622826.318
+        ],
+        [
+          308538.262,
+          8622826.818
+        ],
+        [
+          308536.262,
+          8622827.818
+        ],
+        [
+          308532.262,
+          8622831.318
+        ],
+        [
+          308529.762,
+          8622831.818
+        ],
+        [
+          308528.262,
+          8622832.818
+        ],
+        [
+          308522.762,
+          8622854.818
+        ],
+        [
+          308520.762,
+          8622860.818
+        ],
+        [
+          308522.762,
+          8622864.318
+        ]
+      ]
+    },
+    {
+      "id": "TV-0024",
+      "fromNode": "NV-0035",
+      "toNode": "NV-0036",
+      "length": 0.271,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE27",
+        "nombre": "calle 27",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308549.687,
+          8622825.86
+        ],
+        [
+          308549.495,
+          8622826.052
+        ]
+      ]
+    },
+    {
+      "id": "TV-0025",
+      "fromNode": "NV-0036",
+      "toNode": "NV-0037",
+      "length": 83.482,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE27",
+        "nombre": "calle 27",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308549.495,
+          8622826.052
+        ],
+        [
+          308549.187,
+          8622826.36
+        ],
+        [
+          308549.187,
+          8622830.36
+        ],
+        [
+          308548.187,
+          8622832.86
+        ],
+        [
+          308548.187,
+          8622834.86
+        ],
+        [
+          308572.187,
+          8622876.86
+        ],
+        [
+          308574.687,
+          8622880.36
+        ],
+        [
+          308575.187,
+          8622883.36
+        ],
+        [
+          308588.187,
+          8622893.36
+        ],
+        [
+          308590.187,
+          8622894.36
+        ]
+      ]
+    },
+    {
+      "id": "TV-0026",
+      "fromNode": "NV-0038",
+      "toNode": "NV-0039",
+      "length": 23.731,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308511.06,
+          8622762.84
+        ],
+        [
+          308509.06,
+          8622763.84
+        ],
+        [
+          308504.56,
+          8622764.34
+        ],
+        [
+          308496.56,
+          8622769.34
+        ],
+        [
+          308495.56,
+          8622774.84
+        ],
+        [
+          308494.946,
+          8622776.683
+        ]
+      ]
+    },
+    {
+      "id": "TV-0027",
+      "fromNode": "NV-0039",
+      "toNode": "NV-0040",
+      "length": 24.515,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308494.946,
+          8622776.683
+        ],
+        [
+          308493.56,
+          8622780.84
+        ],
+        [
+          308493.56,
+          8622782.84
+        ],
+        [
+          308492.56,
+          8622784.84
+        ],
+        [
+          308490.56,
+          8622795.84
+        ],
+        [
+          308488.06,
+          8622799.84
+        ]
+      ]
+    },
+    {
+      "id": "TV-0028",
+      "fromNode": "NV-0040",
+      "toNode": "NV-0041",
+      "length": 54.657,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308488.06,
+          8622799.84
+        ],
+        [
+          308487.06,
+          8622809.34
+        ],
+        [
+          308486.06,
+          8622811.34
+        ],
+        [
+          308486.06,
+          8622813.34
+        ],
+        [
+          308485.06,
+          8622815.84
+        ],
+        [
+          308484.06,
+          8622822.34
+        ],
+        [
+          308481.06,
+          8622831.84
+        ],
+        [
+          308481.06,
+          8622833.84
+        ],
+        [
+          308479.56,
+          8622835.84
+        ],
+        [
+          308479.56,
+          8622836.84
+        ],
+        [
+          308476.56,
+          8622842.34
+        ],
+        [
+          308475.06,
+          8622848.84
+        ],
+        [
+          308473.06,
+          8622851.34
+        ]
+      ]
+    },
+    {
+      "id": "TV-0029",
+      "fromNode": "NV-0041",
+      "toNode": "NV-0042",
+      "length": 6.017,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308473.06,
+          8622851.34
+        ],
+        [
+          308473.56,
+          8622851.84
+        ],
+        [
+          308473.56,
+          8622857.15
+        ]
+      ]
+    },
+    {
+      "id": "TV-0030",
+      "fromNode": "NV-0042",
+      "toNode": "NV-0043",
+      "length": 1.69,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE28",
+        "nombre": "calle 28",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308473.56,
+          8622857.15
+        ],
+        [
+          308473.56,
+          8622858.84
+        ]
+      ]
+    },
+    {
+      "id": "TV-0031",
+      "fromNode": "NV-0044",
+      "toNode": "NV-0045",
+      "length": 211.262,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE29",
+        "nombre": "calle 29",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308821.866,
+          8622804.286
+        ],
+        [
+          308813.366,
+          8622802.786
+        ],
+        [
+          308810.866,
+          8622801.786
+        ],
+        [
+          308805.866,
+          8622801.286
+        ],
+        [
+          308805.366,
+          8622800.786
+        ],
+        [
+          308796.366,
+          8622799.786
+        ],
+        [
+          308795.866,
+          8622799.286
+        ],
+        [
+          308786.366,
+          8622798.786
+        ],
+        [
+          308785.866,
+          8622798.286
+        ],
+        [
+          308781.366,
+          8622798.286
+        ],
+        [
+          308780.866,
+          8622797.786
+        ],
+        [
+          308776.366,
+          8622797.786
+        ],
+        [
+          308775.866,
+          8622797.286
+        ],
+        [
+          308769.366,
+          8622797.286
+        ],
+        [
+          308768.866,
+          8622796.786
+        ],
+        [
+          308742.366,
+          8622796.786
+        ],
+        [
+          308741.866,
+          8622797.286
+        ],
+        [
+          308735.366,
+          8622797.286
+        ],
+        [
+          308734.866,
+          8622797.786
+        ],
+        [
+          308725.366,
+          8622798.286
+        ],
+        [
+          308724.866,
+          8622798.786
+        ],
+        [
+          308721.366,
+          8622798.786
+        ],
+        [
+          308720.866,
+          8622799.286
+        ],
+        [
+          308711.866,
+          8622799.786
+        ],
+        [
+          308711.366,
+          8622800.286
+        ],
+        [
+          308705.866,
+          8622800.786
+        ],
+        [
+          308705.366,
+          8622801.286
+        ],
+        [
+          308695.866,
+          8622802.786
+        ],
+        [
+          308693.366,
+          8622803.786
+        ],
+        [
+          308691.366,
+          8622803.786
+        ],
+        [
+          308675.366,
+          8622807.786
+        ],
+        [
+          308669.866,
+          8622809.786
+        ],
+        [
+          308668.366,
+          8622809.786
+        ],
+        [
+          308649.866,
+          8622816.286
+        ],
+        [
+          308647.366,
+          8622817.786
+        ],
+        [
+          308633.366,
+          8622823.286
+        ],
+        [
+          308620.866,
+          8622829.786
+        ],
+        [
+          308618.866,
+          8622829.786
+        ]
+      ]
+    },
+    {
+      "id": "TV-0032",
+      "fromNode": "NV-0046",
+      "toNode": "NV-0047",
+      "length": 189.085,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308851.681,
+          8622760.3
+        ],
+        [
+          308851.181,
+          8622760.8
+        ],
+        [
+          308844.181,
+          8622761.3
+        ],
+        [
+          308837.681,
+          8622762.8
+        ],
+        [
+          308833.681,
+          8622762.8
+        ],
+        [
+          308827.181,
+          8622760.8
+        ],
+        [
+          308821.181,
+          8622759.8
+        ],
+        [
+          308818.181,
+          8622757.8
+        ],
+        [
+          308815.181,
+          8622757.8
+        ],
+        [
+          308814.681,
+          8622757.3
+        ],
+        [
+          308808.181,
+          8622756.8
+        ],
+        [
+          308807.681,
+          8622756.3
+        ],
+        [
+          308793.181,
+          8622755.3
+        ],
+        [
+          308792.681,
+          8622754.8
+        ],
+        [
+          308787.681,
+          8622754.8
+        ],
+        [
+          308787.181,
+          8622754.3
+        ],
+        [
+          308782.681,
+          8622754.3
+        ],
+        [
+          308782.181,
+          8622753.8
+        ],
+        [
+          308772.681,
+          8622753.8
+        ],
+        [
+          308772.181,
+          8622753.3
+        ],
+        [
+          308748.681,
+          8622753.3
+        ],
+        [
+          308748.181,
+          8622753.8
+        ],
+        [
+          308739.181,
+          8622753.8
+        ],
+        [
+          308738.681,
+          8622754.3
+        ],
+        [
+          308728.681,
+          8622754.3
+        ],
+        [
+          308728.181,
+          8622754.8
+        ],
+        [
+          308716.681,
+          8622755.3
+        ],
+        [
+          308716.181,
+          8622755.8
+        ],
+        [
+          308706.181,
+          8622756.8
+        ],
+        [
+          308705.681,
+          8622757.3
+        ],
+        [
+          308694.181,
+          8622758.8
+        ],
+        [
+          308691.181,
+          8622759.8
+        ],
+        [
+          308688.681,
+          8622759.8
+        ],
+        [
+          308669.681,
+          8622764.3
+        ],
+        [
+          308667.282,
+          8622765.079
+        ]
+      ]
+    },
+    {
+      "id": "TV-0033",
+      "fromNode": "NV-0047",
+      "toNode": "NV-0048",
+      "length": 87.354,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE30",
+        "nombre": "calle 30",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308667.282,
+          8622765.079
+        ],
+        [
+          308631.181,
+          8622776.8
+        ],
+        [
+          308618.181,
+          8622782.8
+        ],
+        [
+          308617.181,
+          8622782.8
+        ],
+        [
+          308597.681,
+          8622792.8
+        ],
+        [
+          308594.181,
+          8622792.8
+        ],
+        [
+          308590.681,
+          8622791.8
+        ],
+        [
+          308585.681,
+          8622792.3
+        ]
+      ]
+    },
+    {
+      "id": "TV-0034",
+      "fromNode": "NV-0049",
+      "toNode": "NV-0050",
+      "length": 142.012,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308820.557,
+          8622749.186
+        ],
+        [
+          308815.557,
+          8622745.186
+        ],
+        [
+          308813.057,
+          8622745.186
+        ],
+        [
+          308811.057,
+          8622744.186
+        ],
+        [
+          308805.557,
+          8622743.686
+        ],
+        [
+          308803.057,
+          8622742.686
+        ],
+        [
+          308799.557,
+          8622742.686
+        ],
+        [
+          308797.057,
+          8622741.686
+        ],
+        [
+          308794.057,
+          8622741.686
+        ],
+        [
+          308791.057,
+          8622740.686
+        ],
+        [
+          308787.557,
+          8622740.686
+        ],
+        [
+          308784.557,
+          8622739.686
+        ],
+        [
+          308779.057,
+          8622739.186
+        ],
+        [
+          308777.557,
+          8622737.686
+        ],
+        [
+          308776.057,
+          8622737.186
+        ],
+        [
+          308758.057,
+          8622732.686
+        ],
+        [
+          308756.057,
+          8622731.686
+        ],
+        [
+          308752.557,
+          8622731.186
+        ],
+        [
+          308750.557,
+          8622730.186
+        ],
+        [
+          308732.557,
+          8622725.686
+        ],
+        [
+          308730.557,
+          8622724.686
+        ],
+        [
+          308727.057,
+          8622724.186
+        ],
+        [
+          308725.057,
+          8622723.186
+        ],
+        [
+          308721.557,
+          8622722.686
+        ],
+        [
+          308719.557,
+          8622721.686
+        ],
+        [
+          308716.057,
+          8622721.186
+        ],
+        [
+          308705.057,
+          8622717.686
+        ],
+        [
+          308703.057,
+          8622717.686
+        ],
+        [
+          308700.557,
+          8622716.686
+        ],
+        [
+          308697.557,
+          8622716.686
+        ],
+        [
+          308697.057,
+          8622716.186
+        ],
+        [
+          308685.057,
+          8622715.186
+        ]
+      ]
+    },
+    {
+      "id": "TV-0035",
+      "fromNode": "NV-0050",
+      "toNode": "NV-0051",
+      "length": 47.873,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE31",
+        "nombre": "calle 31",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308685.057,
+          8622715.186
+        ],
+        [
+          308680.557,
+          8622720.686
+        ],
+        [
+          308674.557,
+          8622742.686
+        ],
+        [
+          308674.057,
+          8622747.186
+        ],
+        [
+          308664.557,
+          8622756.686
+        ]
+      ]
+    },
+    {
+      "id": "TV-0036",
+      "fromNode": "NV-0052",
+      "toNode": "NV-0053",
+      "length": 19.449,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE32",
+        "nombre": "calle 32",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308863.544,
+          8622743.249
+        ],
+        [
+          308857.544,
+          8622761.749
+        ]
+      ]
+    },
+    {
+      "id": "TV-0037",
+      "fromNode": "NV-0053",
+      "toNode": "NV-0054",
+      "length": 53.848,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE32",
+        "nombre": "calle 32",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308857.544,
+          8622761.749
+        ],
+        [
+          308857.544,
+          8622763.249
+        ],
+        [
+          308847.544,
+          8622776.749
+        ],
+        [
+          308847.044,
+          8622781.749
+        ],
+        [
+          308844.544,
+          8622787.749
+        ],
+        [
+          308839.544,
+          8622803.749
+        ],
+        [
+          308837.044,
+          8622806.749
+        ],
+        [
+          308835.544,
+          8622809.749
+        ]
+      ]
+    },
+    {
+      "id": "TV-0038",
+      "fromNode": "NV-0054",
+      "toNode": "NV-0055",
+      "length": 49.868,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE32",
+        "nombre": "calle 32",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308835.544,
+          8622809.749
+        ],
+        [
+          308834.544,
+          8622817.749
+        ],
+        [
+          308834.044,
+          8622818.249
+        ],
+        [
+          308834.044,
+          8622821.249
+        ],
+        [
+          308833.044,
+          8622822.749
+        ],
+        [
+          308830.044,
+          8622832.749
+        ],
+        [
+          308829.044,
+          8622834.249
+        ],
+        [
+          308828.544,
+          8622837.249
+        ],
+        [
+          308823.544,
+          8622851.249
+        ],
+        [
+          308823.544,
+          8622852.749
+        ],
+        [
+          308822.075,
+          8622857.156
+        ]
+      ]
+    },
+    {
+      "id": "TV-0039",
+      "fromNode": "NV-0055",
+      "toNode": "NV-0056",
+      "length": 38.752,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE32",
+        "nombre": "calle 32",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308822.075,
+          8622857.156
+        ],
+        [
+          308818.044,
+          8622869.249
+        ],
+        [
+          308815.544,
+          8622875.249
+        ],
+        [
+          308814.044,
+          8622881.249
+        ],
+        [
+          308813.044,
+          8622883.749
+        ],
+        [
+          308811.044,
+          8622886.249
+        ],
+        [
+          308810.044,
+          8622890.249
+        ],
+        [
+          308809.044,
+          8622891.749
+        ],
+        [
+          308809.044,
+          8622893.249
+        ]
+      ]
+    },
+    {
+      "id": "TV-0040",
+      "fromNode": "NV-0057",
+      "toNode": "NV-0058",
+      "length": 13.416,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE44",
+        "nombre": "calle 44",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308370.434,
+          8622699.203
+        ],
+        [
+          308368.434,
+          8622710.203
+        ],
+        [
+          308367.434,
+          8622712.203
+        ]
+      ]
+    },
+    {
+      "id": "TV-0041",
+      "fromNode": "NV-0058",
+      "toNode": "NV-0059",
+      "length": 6.5,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE44",
+        "nombre": "calle 44",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308367.434,
+          8622712.203
+        ],
+        [
+          308361.434,
+          8622714.703
+        ]
+      ]
+    },
+    {
+      "id": "TV-0042",
+      "fromNode": "NV-0060",
+      "toNode": "NV-0061",
+      "length": 12.905,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE45",
+        "nombre": "calle 45",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308334.312,
+          8622758.528
+        ],
+        [
+          308332.812,
+          8622759.528
+        ],
+        [
+          308326.312,
+          8622768.528
+        ]
+      ]
+    },
+    {
+      "id": "TV-0043",
+      "fromNode": "NV-0062",
+      "toNode": "NV-0063",
+      "length": 22.895,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE46",
+        "nombre": "calle 46",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308657.472,
+          8622700.229
+        ],
+        [
+          308657.472,
+          8622701.229
+        ],
+        [
+          308659.972,
+          8622703.229
+        ],
+        [
+          308661.472,
+          8622703.229
+        ],
+        [
+          308670.972,
+          8622706.229
+        ],
+        [
+          308671.972,
+          8622706.229
+        ],
+        [
+          308677.228,
+          8622702.884
+        ]
+      ]
+    },
+    {
+      "id": "TV-0044",
+      "fromNode": "NV-0063",
+      "toNode": "NV-0064",
+      "length": 0.289,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "CALLE46",
+        "nombre": "calle 46",
+        "tipo": "streets"
+      },
+      "coordinates": [
+        [
+          308677.228,
+          8622702.884
+        ],
+        [
+          308677.472,
+          8622702.729
+        ]
+      ]
+    },
+    {
+      "id": "TV-0045",
+      "fromNode": "NV-0065",
+      "toNode": "NV-0066",
+      "length": 3.413,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "PASAJE01",
+        "nombre": "PASAJE01",
+        "tipo": "passages"
+      },
+      "coordinates": [
+        [
+          308516.129,
+          8622943.626
+        ],
+        [
+          308512.751,
+          8622944.109
+        ]
+      ]
+    },
+    {
+      "id": "TV-0046",
+      "fromNode": "NV-0066",
+      "toNode": "NV-0067",
+      "length": 50.947,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "PASAJE01",
+        "nombre": "PASAJE01",
+        "tipo": "passages"
+      },
+      "coordinates": [
+        [
+          308512.751,
+          8622944.109
+        ],
+        [
+          308509.129,
+          8622944.626
+        ],
+        [
+          308504.129,
+          8622946.126
+        ],
+        [
+          308498.629,
+          8622946.126
+        ],
+        [
+          308494.129,
+          8622951.626
+        ],
+        [
+          308486.629,
+          8622953.626
+        ],
+        [
+          308483.129,
+          8622953.626
+        ],
+        [
+          308465.629,
+          8622948.626
+        ]
+      ]
+    },
+    {
+      "id": "TV-0047",
+      "fromNode": "NV-0068",
+      "toNode": "NV-0069",
+      "length": 27.88,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "PASAJE02",
+        "nombre": "PASAJE02",
+        "tipo": "passages"
+      },
+      "coordinates": [
+        [
+          308453.823,
+          8622786.621
+        ],
+        [
+          308456.323,
+          8622790.121
+        ],
+        [
+          308469.823,
+          8622792.621
+        ],
+        [
+          308472.323,
+          8622793.621
+        ],
+        [
+          308474.323,
+          8622793.621
+        ],
+        [
+          308475.823,
+          8622794.621
+        ],
+        [
+          308477.323,
+          8622797.621
+        ]
+      ]
+    },
+    {
+      "id": "TV-0048",
+      "fromNode": "NV-0070",
+      "toNode": "NV-0071",
+      "length": 31.226,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "PASAJE03",
+        "nombre": "PASAJE03",
+        "tipo": "passages"
+      },
+      "coordinates": [
+        [
+          308541.217,
+          8622771.724
+        ],
+        [
+          308534.717,
+          8622794.724
+        ],
+        [
+          308534.217,
+          8622800.224
+        ],
+        [
+          308535.717,
+          8622801.224
+        ]
+      ]
+    },
+    {
+      "id": "TV-0049",
+      "fromNode": "NV-0072",
+      "toNode": "NV-0073",
+      "length": 28.616,
+      "origin": "EJE_VIAL",
+      "source": {
+        "codigo": "PASAJE05",
+        "nombre": "PASAJE05",
+        "tipo": "passages"
+      },
+      "coordinates": [
+        [
+          308458.301,
+          8622769.135
+        ],
+        [
+          308460.801,
+          8622769.135
+        ],
+        [
+          308463.301,
+          8622770.135
+        ],
+        [
+          308472.301,
+          8622771.635
+        ],
+        [
+          308483.801,
+          8622774.635
+        ],
+        [
+          308484.801,
+          8622774.635
+        ],
+        [
+          308485.801,
+          8622773.635
+        ]
+      ]
+    },
+    {
+      "id": "TV-0050",
+      "fromNode": "NV-0004",
+      "toNode": "NV-0006",
+      "length": 8.861,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-001",
+        "from": "AVENIDA E",
+        "to": "CALLE10"
+      },
+      "coordinates": [
+        [
+          308438.667,
+          8622984.405
+        ],
+        [
+          308430.555,
+          8622980.839
+        ]
+      ]
+    },
+    {
+      "id": "TV-0051",
+      "fromNode": "NV-0003",
+      "toNode": "NV-0016",
+      "length": 12.258,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-002",
+        "from": "AVENIDA E",
+        "to": "CALLE14"
+      },
+      "coordinates": [
+        [
+          308443.167,
+          8622981.905
+        ],
+        [
+          308455.208,
+          8622984.201
+        ]
+      ]
+    },
+    {
+      "id": "TV-0052",
+      "fromNode": "NV-0001",
+      "toNode": "NV-0043",
+      "length": 19.565,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-003",
+        "from": "AVENIDA E",
+        "to": "CALLE28"
+      },
+      "coordinates": [
+        [
+          308469.167,
+          8622877.905
+        ],
+        [
+          308473.56,
+          8622858.84
+        ]
+      ]
+    },
+    {
+      "id": "TV-0053",
+      "fromNode": "NV-0002",
+      "toNode": "NV-0067",
+      "length": 13.842,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-004",
+        "from": "AVENIDA E",
+        "to": "PASAJE01"
+      },
+      "coordinates": [
+        [
+          308452.167,
+          8622945.405
+        ],
+        [
+          308465.629,
+          8622948.626
+        ]
+      ]
+    },
+    {
+      "id": "TV-0054",
+      "fromNode": "NV-0008",
+      "toNode": "NV-0074",
+      "length": 4.631,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-005",
+        "from": "CALLE11",
+        "to": "CALLE25"
+      },
+      "coordinates": [
+        [
+          308351.88,
+          8622762.351
+        ],
+        [
+          308354.178,
+          8622758.33
+        ]
+      ]
+    },
+    {
+      "id": "TV-0055",
+      "fromNode": "NV-0009",
+      "toNode": "NV-0041",
+      "length": 16.798,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-006",
+        "from": "CALLE11",
+        "to": "CALLE28"
+      },
+      "coordinates": [
+        [
+          308456.38,
+          8622849.351
+        ],
+        [
+          308473.06,
+          8622851.34
+        ]
+      ]
+    },
+    {
+      "id": "TV-0056",
+      "fromNode": "NV-0007",
+      "toNode": "NV-0060",
+      "length": 6.071,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-007",
+        "from": "CALLE11",
+        "to": "CALLE45"
+      },
+      "coordinates": [
+        [
+          308340.38,
+          8622758.351
+        ],
+        [
+          308334.312,
+          8622758.528
+        ]
+      ]
+    },
+    {
+      "id": "TV-0057",
+      "fromNode": "NV-0012",
+      "toNode": "NV-0018",
+      "length": 9.95,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-008",
+        "from": "CALLE12",
+        "to": "CALLE15"
+      },
+      "coordinates": [
+        [
+          308559.873,
+          8622766.979
+        ],
+        [
+          308559.028,
+          8622776.893
+        ]
+      ]
+    },
+    {
+      "id": "TV-0058",
+      "fromNode": "NV-0011",
+      "toNode": "NV-0029",
+      "length": 7.237,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-009",
+        "from": "CALLE12",
+        "to": "CALLE25"
+      },
+      "coordinates": [
+        [
+          308375.022,
+          8622721.128
+        ],
+        [
+          308369.905,
+          8622726.246
+        ]
+      ]
+    },
+    {
+      "id": "TV-0059",
+      "fromNode": "NV-0075",
+      "toNode": "NV-0038",
+      "length": 7.683,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-010",
+        "from": "CALLE12",
+        "to": "CALLE28"
+      },
+      "coordinates": [
+        [
+          308512.465,
+          8622755.287
+        ],
+        [
+          308511.06,
+          8622762.84
+        ]
+      ]
+    },
+    {
+      "id": "TV-0060",
+      "fromNode": "NV-0010",
+      "toNode": "NV-0058",
+      "length": 8.689,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-011",
+        "from": "CALLE12",
+        "to": "CALLE44"
+      },
+      "coordinates": [
+        [
+          308372.873,
+          8622718.979
+        ],
+        [
+          308367.434,
+          8622712.203
+        ]
+      ]
+    },
+    {
+      "id": "TV-0061",
+      "fromNode": "NV-0076",
+      "toNode": "NV-0070",
+      "length": 9.738,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-012",
+        "from": "CALLE12",
+        "to": "PASAJE03"
+      },
+      "coordinates": [
+        [
+          308542.99,
+          8622762.149
+        ],
+        [
+          308541.217,
+          8622771.724
+        ]
+      ]
+    },
+    {
+      "id": "TV-0062",
+      "fromNode": "NV-0077",
+      "toNode": "NV-0020",
+      "length": 14.651,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-013",
+        "from": "CALLE14",
+        "to": "CALLE15"
+      },
+      "coordinates": [
+        [
+          308651.469,
+          8622907.996
+        ],
+        [
+          308646.028,
+          8622894.393
+        ]
+      ]
+    },
+    {
+      "id": "TV-0063",
+      "fromNode": "NV-0078",
+      "toNode": "NV-0023",
+      "length": 10.993,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-014",
+        "from": "CALLE14",
+        "to": "CALLE16"
+      },
+      "coordinates": [
+        [
+          308621.117,
+          8622928.16
+        ],
+        [
+          308613.089,
+          8622920.65
+        ]
+      ]
+    },
+    {
+      "id": "TV-0064",
+      "fromNode": "NV-0015",
+      "toNode": "NV-0056",
+      "length": 9.17,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-015",
+        "from": "CALLE14",
+        "to": "CALLE32"
+      },
+      "coordinates": [
+        [
+          308800.208,
+          8622895.701
+        ],
+        [
+          308809.044,
+          8622893.249
+        ]
+      ]
+    },
+    {
+      "id": "TV-0065",
+      "fromNode": "NV-0019",
+      "toNode": "NV-0028",
+      "length": 13.767,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-016",
+        "from": "CALLE15",
+        "to": "CALLE24"
+      },
+      "coordinates": [
+        [
+          308626.028,
+          8622873.893
+        ],
+        [
+          308636.51,
+          8622864.968
+        ]
+      ]
+    },
+    {
+      "id": "TV-0066",
+      "fromNode": "NV-0079",
+      "toNode": "NV-0045",
+      "length": 16.172,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-017",
+        "from": "CALLE15",
+        "to": "CALLE29"
+      },
+      "coordinates": [
+        [
+          308604.771,
+          8622837.714
+        ],
+        [
+          308618.866,
+          8622829.786
+        ]
+      ]
+    },
+    {
+      "id": "TV-0067",
+      "fromNode": "NV-0080",
+      "toNode": "NV-0048",
+      "length": 9.552,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-018",
+        "from": "CALLE15",
+        "to": "CALLE30"
+      },
+      "coordinates": [
+        [
+          308579.464,
+          8622799.553
+        ],
+        [
+          308585.681,
+          8622792.3
+        ]
+      ]
+    },
+    {
+      "id": "TV-0068",
+      "fromNode": "NV-0022",
+      "toNode": "NV-0026",
+      "length": 7.055,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-019",
+        "from": "CALLE16",
+        "to": "CALLE18"
+      },
+      "coordinates": [
+        [
+          308581.589,
+          8622901.15
+        ],
+        [
+          308579.205,
+          8622907.79
+        ]
+      ]
+    },
+    {
+      "id": "TV-0069",
+      "fromNode": "NV-0081",
+      "toNode": "NV-0034",
+      "length": 12.002,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-020",
+        "from": "CALLE16",
+        "to": "CALLE26"
+      },
+      "coordinates": [
+        [
+          308517.395,
+          8622875.053
+        ],
+        [
+          308522.762,
+          8622864.318
+        ]
+      ]
+    },
+    {
+      "id": "TV-0070",
+      "fromNode": "NV-0082",
+      "toNode": "NV-0037",
+      "length": 8.478,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-021",
+        "from": "CALLE16",
+        "to": "CALLE27"
+      },
+      "coordinates": [
+        [
+          308586.744,
+          8622902.108
+        ],
+        [
+          308590.187,
+          8622894.36
+        ]
+      ]
+    },
+    {
+      "id": "TV-0071",
+      "fromNode": "NV-0021",
+      "toNode": "NV-0042",
+      "length": 14.529,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-022",
+        "from": "CALLE16",
+        "to": "CALLE28"
+      },
+      "coordinates": [
+        [
+          308488.089,
+          8622857.15
+        ],
+        [
+          308473.56,
+          8622857.15
+        ]
+      ]
+    },
+    {
+      "id": "TV-0072",
+      "fromNode": "NV-0025",
+      "toNode": "NV-0066",
+      "length": 7.393,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-023",
+        "from": "CALLE18",
+        "to": "PASAJE01"
+      },
+      "coordinates": [
+        [
+          308511.705,
+          8622936.79
+        ],
+        [
+          308512.751,
+          8622944.109
+        ]
+      ]
+    },
+    {
+      "id": "TV-0073",
+      "fromNode": "NV-0027",
+      "toNode": "NV-0055",
+      "length": 6.92,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-024",
+        "from": "CALLE24",
+        "to": "CALLE32"
+      },
+      "coordinates": [
+        [
+          308815.51,
+          8622854.968
+        ],
+        [
+          308822.075,
+          8622857.156
+        ]
+      ]
+    },
+    {
+      "id": "TV-0074",
+      "fromNode": "NV-0030",
+      "toNode": "NV-0059",
+      "length": 8.574,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-025",
+        "from": "CALLE25",
+        "to": "CALLE44"
+      },
+      "coordinates": [
+        [
+          308364.405,
+          8622722.746
+        ],
+        [
+          308361.434,
+          8622714.703
+        ]
+      ]
+    },
+    {
+      "id": "TV-0075",
+      "fromNode": "NV-0031",
+      "toNode": "NV-0060",
+      "length": 13.865,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-026",
+        "from": "CALLE25",
+        "to": "CALLE45"
+      },
+      "coordinates": [
+        [
+          308346.405,
+          8622751.746
+        ],
+        [
+          308334.312,
+          8622758.528
+        ]
+      ]
+    },
+    {
+      "id": "TV-0076",
+      "fromNode": "NV-0033",
+      "toNode": "NV-0036",
+      "length": 1.744,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-027",
+        "from": "CALLE26",
+        "to": "CALLE27"
+      },
+      "coordinates": [
+        [
+          308548.262,
+          8622824.818
+        ],
+        [
+          308549.495,
+          8622826.052
+        ]
+      ]
+    },
+    {
+      "id": "TV-0077",
+      "fromNode": "NV-0040",
+      "toNode": "NV-0069",
+      "length": 10.964,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-028",
+        "from": "CALLE28",
+        "to": "PASAJE02"
+      },
+      "coordinates": [
+        [
+          308488.06,
+          8622799.84
+        ],
+        [
+          308477.323,
+          8622797.621
+        ]
+      ]
+    },
+    {
+      "id": "TV-0078",
+      "fromNode": "NV-0039",
+      "toNode": "NV-0073",
+      "length": 9.639,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-029",
+        "from": "CALLE28",
+        "to": "PASAJE05"
+      },
+      "coordinates": [
+        [
+          308494.946,
+          8622776.683
+        ],
+        [
+          308485.801,
+          8622773.635
+        ]
+      ]
+    },
+    {
+      "id": "TV-0079",
+      "fromNode": "NV-0044",
+      "toNode": "NV-0054",
+      "length": 14.729,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-030",
+        "from": "CALLE29",
+        "to": "CALLE32"
+      },
+      "coordinates": [
+        [
+          308821.866,
+          8622804.286
+        ],
+        [
+          308835.544,
+          8622809.749
+        ]
+      ]
+    },
+    {
+      "id": "TV-0080",
+      "fromNode": "NV-0047",
+      "toNode": "NV-0051",
+      "length": 8.824,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-031",
+        "from": "CALLE30",
+        "to": "CALLE31"
+      },
+      "coordinates": [
+        [
+          308667.282,
+          8622765.079
+        ],
+        [
+          308664.557,
+          8622756.686
+        ]
+      ]
+    },
+    {
+      "id": "TV-0081",
+      "fromNode": "NV-0046",
+      "toNode": "NV-0053",
+      "length": 6.039,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-032",
+        "from": "CALLE30",
+        "to": "CALLE32"
+      },
+      "coordinates": [
+        [
+          308851.681,
+          8622760.3
+        ],
+        [
+          308857.544,
+          8622761.749
+        ]
+      ]
+    },
+    {
+      "id": "TV-0082",
+      "fromNode": "NV-0050",
+      "toNode": "NV-0063",
+      "length": 14.582,
+      "origin": "CONEXION_INFERIDA",
+      "source": {
+        "id": "CX-033",
+        "from": "CALLE31",
+        "to": "CALLE46"
+      },
+      "coordinates": [
+        [
+          308685.057,
+          8622715.186
+        ],
+        [
+          308677.228,
+          8622702.884
+        ]
+      ]
+    }
+  ]
+}

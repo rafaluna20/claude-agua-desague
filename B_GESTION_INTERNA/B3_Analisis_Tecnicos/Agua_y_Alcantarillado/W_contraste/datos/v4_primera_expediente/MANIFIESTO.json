@@ -1,0 +1,40 @@
+{
+  "version": "v4_primera_expediente",
+  "fecha": "2026-10-10",
+  "proposito": "Base congelada de lotes para el expediente de agua y desagüe de la Primera Expediente.",
+  "estado": "PRELIMINAR: el datum/zona UTM se confirmará con la topografía; E01MZS002P requiere revisión de borde.",
+  "origen": {
+    "dibujoActivo": "PTL COMPLETO WGS84 VIS v45.dwg",
+    "capaLotes": "00_lotes_terraLima",
+    "capaTextos": "01_LT_TXT",
+    "capaLimite": "00_primera_expediente",
+    "handleLimite": "928E5",
+    "exportacionCivil": "parcels_export_primera_base_v2_2026-10-10.json",
+    "sistemaCoordenadas": "UTM según dibujo Civil 3D; datum y zona por confirmar con topografía."
+  },
+  "reglaSeleccion": "DENTRO si todos los vértices del lote están dentro o sobre el límite y ningún lado lo intersecta. REVISAR_LIMITE si hay intersección o centroide interior con vértices exteriores.",
+  "conteos": {
+    "lotesExportados": 1341,
+    "dentro": 444,
+    "revisarLimite": 1,
+    "fuera": 896,
+    "casoRevision": "E01MZS002P"
+  },
+  "archivos": [
+    {"nombre": "parcels_export_base_civil_2026-10-10.json", "sha256": "AFD7B29E1D6F30078FD18CB360EC58E9C851D7D1CAEDD0AD8F9CA6D44720622F"},
+    {"nombre": "limite_00_primera_expediente.json", "sha256": "8FB3C658EB98811C5C64971149D3D00F030DD72984FB3351287DF642E05B8C9B"},
+    {"nombre": "parcels_primera_expediente.json", "sha256": "FDC5C335FAF6EF2216BCB1AA425A81D6D066748DAA4A4E2811592A8664C1C30A"},
+    {"nombre": "lotes_limite_a_revisar.json", "sha256": "80C21504276627985D92D6E20EB61393EEE20D0CD3225B644BF518F1D523A8E7"},
+    {"nombre": "clasificacion_lotes_primera_expediente.json", "sha256": "1EC915B066051418A02BBF2C88F9A2BF5708E1F16FF234EE0916EE2E4D137D9E"},
+    {"nombre": "resumen_extraccion.json", "sha256": "AD12C37A86C8E32F5DCEE44F902CE935B7EC6867E1D44E37E29D0C8A3B42BFB7"}
+  ],
+  "herramienta": {
+    "ruta": "W_contraste/scripts/filtrar_primera_expediente.py",
+    "sha256": "8D737B4148043B66E0EF16B714EADCB0DEB2BF03345818C473BE2203551BAD35"
+  },
+  "restricciones": [
+    "No editar esta carpeta; una nueva extracción debe crear v5 o una versión posterior.",
+    "No incluir E01MZS002P en cálculos hasta revisar su relación espacial con el límite.",
+    "Esta selección no es as-built ni define por sí sola la etapa contractual o la factibilidad de servicio."
+  ]
+}

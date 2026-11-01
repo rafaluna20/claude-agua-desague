@@ -1,0 +1,4026 @@
+{
+  "purpose": "Cotas preliminares de terreno por centroide de lote; no sustituye cotas de estructuras ni perfiles de eje.",
+  "generatedAtUtc": "2026-10-10T18:30:17+00:00",
+  "source": {
+    "surfaceName": "terreno natural",
+    "gridFile": "terreno_primera_expediente_1m_v1.f32",
+    "gridSha256": "74985D008B3C478A98DDA77AEE4FE7199C2D05333B533D40CEE7DAC331C20270",
+    "orientation": "Filas norte-sur; columnas oeste-este; float32 little-endian; -9999 = fuera de TIN.",
+    "coordinateReference": "WGS84; coordenadas UTM en metros; zona y datum vertical por documentar",
+    "grid": {
+      "minX": 308280.0,
+      "minY": 8622660.0,
+      "maxX": 308876.0,
+      "maxY": 8622999.0,
+      "cellSize": 1.0,
+      "nx": 597,
+      "ny": 340,
+      "unitsNote": "La grilla se generó asumiendo que una unidad del DWG equivale a un metro; confirmar en documentación topográfica."
+    }
+  },
+  "quality": {
+    "totalParcels": 444,
+    "sampled": 444,
+    "withoutElevation": 0,
+    "minimumElevation": 78.959,
+    "maximumElevation": 111.546
+  },
+  "records": [
+    {
+      "codigo": "E01MZD090P",
+      "centroide": [
+        308580.304,
+        8622752.402
+      ],
+      "cota_terreno": 93.759,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD091P",
+      "centroide": [
+        308574.444,
+        8622751.114
+      ],
+      "cota_terreno": 93.632,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD092P",
+      "centroide": [
+        308568.793,
+        8622755.674
+      ],
+      "cota_terreno": 93.493,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD093P",
+      "centroide": [
+        308562.723,
+        8622748.538
+      ],
+      "cota_terreno": 93.971,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD094P",
+      "centroide": [
+        308556.863,
+        8622747.251
+      ],
+      "cota_terreno": 94.401,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD095P",
+      "centroide": [
+        308551.003,
+        8622745.962
+      ],
+      "cota_terreno": 94.862,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD096P",
+      "centroide": [
+        308545.562,
+        8622756.37
+      ],
+      "cota_terreno": 94.702,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD097P",
+      "centroide": [
+        308539.283,
+        8622743.386
+      ],
+      "cota_terreno": 95.729,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD098P",
+      "centroide": [
+        308533.214,
+        8622736.251
+      ],
+      "cota_terreno": 95.966,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD099P",
+      "centroide": [
+        308527.772,
+        8622746.657
+      ],
+      "cota_terreno": 95.989,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD100P",
+      "centroide": [
+        308521.703,
+        8622739.522
+      ],
+      "cota_terreno": 97.17,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD101P",
+      "centroide": [
+        308515.633,
+        8622732.386
+      ],
+      "cota_terreno": 100.503,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD102P",
+      "centroide": [
+        308498.262,
+        8622734.37
+      ],
+      "cota_terreno": 99.853,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD103P",
+      "centroide": [
+        308492.611,
+        8622738.929
+      ],
+      "cota_terreno": 99.321,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD104P",
+      "centroide": [
+        308486.333,
+        8622725.946
+      ],
+      "cota_terreno": 100.828,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD105P",
+      "centroide": [
+        308480.891,
+        8622736.353
+      ],
+      "cota_terreno": 99.971,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD106P",
+      "centroide": [
+        308474.613,
+        8622723.371
+      ],
+      "cota_terreno": 102.927,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD107P",
+      "centroide": [
+        308469.171,
+        8622733.777
+      ],
+      "cota_terreno": 102.031,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD108P",
+      "centroide": [
+        308463.102,
+        8622726.642
+      ],
+      "cota_terreno": 103.695,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD109P",
+      "centroide": [
+        308457.241,
+        8622725.353
+      ],
+      "cota_terreno": 103.111,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD110P",
+      "centroide": [
+        308451.59,
+        8622729.913
+      ],
+      "cota_terreno": 101.965,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD111P",
+      "centroide": [
+        308445.312,
+        8622716.929
+      ],
+      "cota_terreno": 103.961,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD112P",
+      "centroide": [
+        308439.661,
+        8622721.489
+      ],
+      "cota_terreno": 103.071,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD113P",
+      "centroide": [
+        308433.592,
+        8622714.354
+      ],
+      "cota_terreno": 103.619,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD114P",
+      "centroide": [
+        308427.941,
+        8622718.913
+      ],
+      "cota_terreno": 103.277,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD115P",
+      "centroide": [
+        308422.29,
+        8622723.473
+      ],
+      "cota_terreno": 103.192,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD116P",
+      "centroide": [
+        308416.43,
+        8622722.185
+      ],
+      "cota_terreno": 103.806,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD117P",
+      "centroide": [
+        308410.361,
+        8622715.049
+      ],
+      "cota_terreno": 104.752,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD118P",
+      "centroide": [
+        308404.5,
+        8622713.761
+      ],
+      "cota_terreno": 105.078,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD119P",
+      "centroide": [
+        308398.431,
+        8622706.625
+      ],
+      "cota_terreno": 105.97,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD120P",
+      "centroide": [
+        308392.362,
+        8622699.49
+      ],
+      "cota_terreno": 107.848,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD121P",
+      "centroide": [
+        308387.129,
+        8622715.745
+      ],
+      "cota_terreno": 105.584,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD122P",
+      "centroide": [
+        308381.269,
+        8622714.456
+      ],
+      "cota_terreno": 106.025,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD123P",
+      "centroide": [
+        308375.2,
+        8622707.321
+      ],
+      "cota_terreno": 107.219,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD1241",
+      "centroide": [
+        308359.643,
+        8622697.095
+      ],
+      "cota_terreno": 109.039,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD1242",
+      "centroide": [
+        308354.281,
+        8622702.496
+      ],
+      "cota_terreno": 108.947,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD1243",
+      "centroide": [
+        308349.609,
+        8622708.991
+      ],
+      "cota_terreno": 107.994,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD125P",
+      "centroide": [
+        308344.938,
+        8622715.486
+      ],
+      "cota_terreno": 108.47,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD126P",
+      "centroide": [
+        308340.423,
+        8622726.366
+      ],
+      "cota_terreno": 108.909,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD127P",
+      "centroide": [
+        308335.752,
+        8622732.86
+      ],
+      "cota_terreno": 109.388,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD128P",
+      "centroide": [
+        308331.08,
+        8622739.354
+      ],
+      "cota_terreno": 110.025,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD1291",
+      "centroide": [
+        308321.58,
+        8622747.957
+      ],
+      "cota_terreno": 110.992,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD1292",
+      "centroide": [
+        308316.627,
+        8622766.082
+      ],
+      "cota_terreno": 111.546,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD1293",
+      "centroide": [
+        308326.408,
+        8622745.849
+      ],
+      "cota_terreno": 110.54,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD130P",
+      "centroide": [
+        308335.283,
+        8622767.786
+      ],
+      "cota_terreno": 108.716,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD131P",
+      "centroide": [
+        308339.99,
+        8622771.507
+      ],
+      "cota_terreno": 107.747,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD132P",
+      "centroide": [
+        308344.697,
+        8622775.226
+      ],
+      "cota_terreno": 107.215,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD133P",
+      "centroide": [
+        308349.614,
+        8622784.795
+      ],
+      "cota_terreno": 106.657,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD134P",
+      "centroide": [
+        308354.112,
+        8622782.668
+      ],
+      "cota_terreno": 106.079,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD135P",
+      "centroide": [
+        308359.028,
+        8622792.236
+      ],
+      "cota_terreno": 105.777,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD136P",
+      "centroide": [
+        308363.526,
+        8622790.109
+      ],
+      "cota_terreno": 105.232,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD137P",
+      "centroide": [
+        308368.233,
+        8622793.828
+      ],
+      "cota_terreno": 104.787,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD138P",
+      "centroide": [
+        308372.94,
+        8622797.55
+      ],
+      "cota_terreno": 104.199,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD139P",
+      "centroide": [
+        308377.648,
+        8622801.271
+      ],
+      "cota_terreno": 103.445,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD140P",
+      "centroide": [
+        308382.146,
+        8622799.143
+      ],
+      "cota_terreno": 102.862,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD141P",
+      "centroide": [
+        308386.852,
+        8622802.865
+      ],
+      "cota_terreno": 102.117,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD142P",
+      "centroide": [
+        308391.56,
+        8622806.584
+      ],
+      "cota_terreno": 101.997,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD143P",
+      "centroide": [
+        308396.476,
+        8622816.151
+      ],
+      "cota_terreno": 101.242,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD144P",
+      "centroide": [
+        308401.393,
+        8622825.721
+      ],
+      "cota_terreno": 100.859,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD145P",
+      "centroide": [
+        308406.1,
+        8622829.441
+      ],
+      "cota_terreno": 100.048,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD146P",
+      "centroide": [
+        308410.389,
+        8622821.466
+      ],
+      "cota_terreno": 99.945,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD147P",
+      "centroide": [
+        308415.514,
+        8622836.883
+      ],
+      "cota_terreno": 99.742,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD148P",
+      "centroide": [
+        308420.012,
+        8622834.756
+      ],
+      "cota_terreno": 99.366,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD149P",
+      "centroide": [
+        308424.719,
+        8622838.474
+      ],
+      "cota_terreno": 99.022,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD150P",
+      "centroide": [
+        308429.217,
+        8622836.348
+      ],
+      "cota_terreno": 98.523,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD151P",
+      "centroide": [
+        308434.134,
+        8622845.917
+      ],
+      "cota_terreno": 97.984,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD152P",
+      "centroide": [
+        308439.05,
+        8622855.485
+      ],
+      "cota_terreno": 97.904,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD153P",
+      "centroide": [
+        308443.548,
+        8622853.359
+      ],
+      "cota_terreno": 97.191,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD154P",
+      "centroide": [
+        308447.837,
+        8622845.383
+      ],
+      "cota_terreno": 96.767,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZD155P",
+      "centroide": [
+        308454.62,
+        8622868.931
+      ],
+      "cota_terreno": 98.614,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP001P",
+      "centroide": [
+        308606.242,
+        8622919.944
+      ],
+      "cota_terreno": 87.232,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP002P",
+      "centroide": [
+        308598.341,
+        8622920.722
+      ],
+      "cota_terreno": 87.54,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP003P",
+      "centroide": [
+        308591.235,
+        8622920.016
+      ],
+      "cota_terreno": 87.82,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP004P",
+      "centroide": [
+        308585.392,
+        8622930.165
+      ],
+      "cota_terreno": 87.762,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP005P",
+      "centroide": [
+        308578.832,
+        8622920.264
+      ],
+      "cota_terreno": 88.254,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP006P",
+      "centroide": [
+        308572.989,
+        8622930.413
+      ],
+      "cota_terreno": 88.377,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP007P",
+      "centroide": [
+        308567.146,
+        8622940.562
+      ],
+      "cota_terreno": 88.431,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP008P",
+      "centroide": [
+        308560.825,
+        8622937.345
+      ],
+      "cota_terreno": 88.985,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP009P",
+      "centroide": [
+        308554.983,
+        8622947.493
+      ],
+      "cota_terreno": 89.166,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP010P",
+      "centroide": [
+        308549.14,
+        8622957.643
+      ],
+      "cota_terreno": 89.244,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP011P",
+      "centroide": [
+        308543.058,
+        8622961.108
+      ],
+      "cota_terreno": 89.536,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP012P",
+      "centroide": [
+        308536.498,
+        8622951.207
+      ],
+      "cota_terreno": 90.015,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP013P",
+      "centroide": [
+        308530.894,
+        8622968.039
+      ],
+      "cota_terreno": 90.105,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP014P",
+      "centroide": [
+        308524.334,
+        8622958.139
+      ],
+      "cota_terreno": 90.526,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP015P",
+      "centroide": [
+        308518.252,
+        8622961.604
+      ],
+      "cota_terreno": 90.894,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP016P",
+      "centroide": [
+        308512.649,
+        8622978.437
+      ],
+      "cota_terreno": 91.308,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP017P",
+      "centroide": [
+        308506.15,
+        8622972.363
+      ],
+      "cota_terreno": 91.679,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP018P",
+      "centroide": [
+        308498.869,
+        8622981.975
+      ],
+      "cota_terreno": 92.026,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP019P",
+      "centroide": [
+        308489.023,
+        8622981.491
+      ],
+      "cota_terreno": 92.909,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP020P",
+      "centroide": [
+        308479.709,
+        8622973.461
+      ],
+      "cota_terreno": 93.789,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP021P",
+      "centroide": [
+        308471.496,
+        8622975.875
+      ],
+      "cota_terreno": 93.848,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP022P",
+      "centroide": [
+        308463.388,
+        8622975.241
+      ],
+      "cota_terreno": 93.966,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP023P",
+      "centroide": [
+        308456.132,
+        8622980.942
+      ],
+      "cota_terreno": 94.207,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP024P",
+      "centroide": [
+        308459.695,
+        8622967.875
+      ],
+      "cota_terreno": 94.344,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP025P",
+      "centroide": [
+        308469.343,
+        8622952.92
+      ],
+      "cota_terreno": 94.804,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP026P",
+      "centroide": [
+        308470.441,
+        8622934.461
+      ],
+      "cota_terreno": 97.81,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP027P",
+      "centroide": [
+        308472.261,
+        8622935.978
+      ],
+      "cota_terreno": 97.862,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP028P",
+      "centroide": [
+        308473.559,
+        8622922.874
+      ],
+      "cota_terreno": 98.417,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP029P",
+      "centroide": [
+        308474.856,
+        8622909.771
+      ],
+      "cota_terreno": 98.758,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP030P",
+      "centroide": [
+        308476.677,
+        8622911.286
+      ],
+      "cota_terreno": 98.503,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP031P",
+      "centroide": [
+        308478.497,
+        8622912.802
+      ],
+      "cota_terreno": 98.296,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP032P",
+      "centroide": [
+        308479.533,
+        8622892.388
+      ],
+      "cota_terreno": 99.912,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP033P",
+      "centroide": [
+        308481.354,
+        8622893.905
+      ],
+      "cota_terreno": 99.324,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP034P",
+      "centroide": [
+        308482.913,
+        8622888.11
+      ],
+      "cota_terreno": 98.726,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP035P",
+      "centroide": [
+        308484.472,
+        8622882.316
+      ],
+      "cota_terreno": 96.749,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP036P",
+      "centroide": [
+        308486.074,
+        8622871.021
+      ],
+      "cota_terreno": 94.047,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP037P",
+      "centroide": [
+        308500.514,
+        8622874.506
+      ],
+      "cota_terreno": 93.376,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP038P",
+      "centroide": [
+        308499.923,
+        8622886.475
+      ],
+      "cota_terreno": 93.79,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP039P",
+      "centroide": [
+        308498.363,
+        8622892.267
+      ],
+      "cota_terreno": 94.928,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP040P",
+      "centroide": [
+        308496.804,
+        8622898.062
+      ],
+      "cota_terreno": 95.227,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP041P",
+      "centroide": [
+        308495.245,
+        8622903.855
+      ],
+      "cota_terreno": 94.65,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP042P",
+      "centroide": [
+        308493.948,
+        8622916.959
+      ],
+      "cota_terreno": 95.501,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP043P",
+      "centroide": [
+        308491.866,
+        8622908.133
+      ],
+      "cota_terreno": 95.417,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP044P",
+      "centroide": [
+        308490.568,
+        8622921.237
+      ],
+      "cota_terreno": 97.397,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP045P",
+      "centroide": [
+        308489.009,
+        8622927.03
+      ],
+      "cota_terreno": 98.008,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP046P",
+      "centroide": [
+        308487.45,
+        8622932.825
+      ],
+      "cota_terreno": 98.011,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP047P",
+      "centroide": [
+        308485.63,
+        8622931.309
+      ],
+      "cota_terreno": 98.014,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP048P",
+      "centroide": [
+        308484.188,
+        8622946.642
+      ],
+      "cota_terreno": 96.57,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP049P",
+      "centroide": [
+        308466.984,
+        8622958.148
+      ],
+      "cota_terreno": 94.271,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP050P",
+      "centroide": [
+        308474.646,
+        8622964.338
+      ],
+      "cota_terreno": 93.971,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP051P",
+      "centroide": [
+        308481.983,
+        8622964.539
+      ],
+      "cota_terreno": 94.037,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP052P",
+      "centroide": [
+        308491.06,
+        8622963.838
+      ],
+      "cota_terreno": 94.016,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP053P",
+      "centroide": [
+        308498.901,
+        8622962.186
+      ],
+      "cota_terreno": 92.916,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP054P",
+      "centroide": [
+        308504.744,
+        8622952.037
+      ],
+      "cota_terreno": 92.581,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP055P",
+      "centroide": [
+        308511.065,
+        8622955.254
+      ],
+      "cota_terreno": 91.601,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP056P",
+      "centroide": [
+        308517.147,
+        8622951.789
+      ],
+      "cota_terreno": 91.283,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP057P",
+      "centroide": [
+        308522.99,
+        8622941.64
+      ],
+      "cota_terreno": 91.114,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP058P",
+      "centroide": [
+        308529.311,
+        8622944.858
+      ],
+      "cota_terreno": 90.696,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP059P",
+      "centroide": [
+        308535.393,
+        8622941.392
+      ],
+      "cota_terreno": 90.446,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP060P",
+      "centroide": [
+        308541.474,
+        8622937.926
+      ],
+      "cota_terreno": 90.253,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP061P",
+      "centroide": [
+        308547.795,
+        8622941.143
+      ],
+      "cota_terreno": 89.889,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP062P",
+      "centroide": [
+        308553.399,
+        8622924.312
+      ],
+      "cota_terreno": 89.879,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP063P",
+      "centroide": [
+        308559.959,
+        8622934.212
+      ],
+      "cota_terreno": 89.132,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP064P",
+      "centroide": [
+        308565.802,
+        8622924.063
+      ],
+      "cota_terreno": 89.052,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP065P",
+      "centroide": [
+        308572.123,
+        8622927.281
+      ],
+      "cota_terreno": 88.535,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP066P",
+      "centroide": [
+        308577.966,
+        8622917.132
+      ],
+      "cota_terreno": 88.319,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP067P",
+      "centroide": [
+        308586.702,
+        8622907.097
+      ],
+      "cota_terreno": 88.309,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP068P",
+      "centroide": [
+        308550.398,
+        8622911.526
+      ],
+      "cota_terreno": 89.95,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP069P",
+      "centroide": [
+        308538.739,
+        8622895.969
+      ],
+      "cota_terreno": 90.622,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZP070P",
+      "centroide": [
+        308526.114,
+        8622893.901
+      ],
+      "cota_terreno": 91.316,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ001P",
+      "centroide": [
+        308493.566,
+        8622862.233
+      ],
+      "cota_terreno": 93.842,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ002P",
+      "centroide": [
+        308494.253,
+        8622837.685
+      ],
+      "cota_terreno": 94.332,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ003P",
+      "centroide": [
+        308496.335,
+        8622846.51
+      ],
+      "cota_terreno": 93.932,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ004P",
+      "centroide": [
+        308497.894,
+        8622840.716
+      ],
+      "cota_terreno": 94.016,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ005P",
+      "centroide": [
+        308498.93,
+        8622820.303
+      ],
+      "cota_terreno": 94.312,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ006P",
+      "centroide": [
+        308501.012,
+        8622829.128
+      ],
+      "cota_terreno": 94.067,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ007P",
+      "centroide": [
+        308502.31,
+        8622816.025
+      ],
+      "cota_terreno": 94.081,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ008P",
+      "centroide": [
+        308503.869,
+        8622810.231
+      ],
+      "cota_terreno": 94.087,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ009P",
+      "centroide": [
+        308505.428,
+        8622804.437
+      ],
+      "cota_terreno": 94.065,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ010P",
+      "centroide": [
+        308507.249,
+        8622805.953
+      ],
+      "cota_terreno": 93.888,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ011P",
+      "centroide": [
+        308508.285,
+        8622785.54
+      ],
+      "cota_terreno": 94.796,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ012P",
+      "centroide": [
+        308509.582,
+        8622772.437
+      ],
+      "cota_terreno": 95.438,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ013P",
+      "centroide": [
+        308511.964,
+        8622785.162
+      ],
+      "cota_terreno": 94.574,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ014P",
+      "centroide": [
+        308511.994,
+        8622774.368
+      ],
+      "cota_terreno": 95.154,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ015P",
+      "centroide": [
+        308520.267,
+        8622770.242
+      ],
+      "cota_terreno": 94.907,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ016P",
+      "centroide": [
+        308527.104,
+        8622771.745
+      ],
+      "cota_terreno": 94.268,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ017P",
+      "centroide": [
+        308534.13,
+        8622771.71
+      ],
+      "cota_terreno": 93.914,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ018P",
+      "centroide": [
+        308547.27,
+        8622766.585
+      ],
+      "cota_terreno": 94.035,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ019P",
+      "centroide": [
+        308552.614,
+        8622784.789
+      ],
+      "cota_terreno": 92.474,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ020P",
+      "centroide": [
+        308556.505,
+        8622796.425
+      ],
+      "cota_terreno": 91.662,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ021P",
+      "centroide": [
+        308558.902,
+        8622802.606
+      ],
+      "cota_terreno": 91.358,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ022P",
+      "centroide": [
+        308561.354,
+        8622792.203
+      ],
+      "cota_terreno": 91.744,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ023P",
+      "centroide": [
+        308564.644,
+        8622805.189
+      ],
+      "cota_terreno": 91.002,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ024P",
+      "centroide": [
+        308567.654,
+        8622810.381
+      ],
+      "cota_terreno": 90.705,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ025P",
+      "centroide": [
+        308570.664,
+        8622815.57
+      ],
+      "cota_terreno": 90.504,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ026P",
+      "centroide": [
+        308573.395,
+        8622812.964
+      ],
+      "cota_terreno": 90.36,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ027P",
+      "centroide": [
+        308576.963,
+        8622833.748
+      ],
+      "cota_terreno": 90.148,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ028P",
+      "centroide": [
+        308580.252,
+        8622846.736
+      ],
+      "cota_terreno": 89.744,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ029P",
+      "centroide": [
+        308582.704,
+        8622836.332
+      ],
+      "cota_terreno": 89.895,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ030P",
+      "centroide": [
+        308585.714,
+        8622841.523
+      ],
+      "cota_terreno": 89.56,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ031P",
+      "centroide": [
+        308588.724,
+        8622846.713
+      ],
+      "cota_terreno": 89.232,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ032P",
+      "centroide": [
+        308591.734,
+        8622851.903
+      ],
+      "cota_terreno": 88.93,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ033P",
+      "centroide": [
+        308594.744,
+        8622857.094
+      ],
+      "cota_terreno": 88.648,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ034P",
+      "centroide": [
+        308597.475,
+        8622854.487
+      ],
+      "cota_terreno": 88.524,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ035P",
+      "centroide": [
+        308600.764,
+        8622867.474
+      ],
+      "cota_terreno": 88.17,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ036P",
+      "centroide": [
+        308603.774,
+        8622872.665
+      ],
+      "cota_terreno": 88.0,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ037P",
+      "centroide": [
+        308606.784,
+        8622877.855
+      ],
+      "cota_terreno": 87.804,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ038P",
+      "centroide": [
+        308609.794,
+        8622883.045
+      ],
+      "cota_terreno": 87.606,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ039P",
+      "centroide": [
+        308613.398,
+        8622895.011
+      ],
+      "cota_terreno": 87.269,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ040P",
+      "centroide": [
+        308597.082,
+        8622895.273
+      ],
+      "cota_terreno": 88.02,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ041P",
+      "centroide": [
+        308593.808,
+        8622885.379
+      ],
+      "cota_terreno": 88.284,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ042P",
+      "centroide": [
+        308591.077,
+        8622887.986
+      ],
+      "cota_terreno": 88.394,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ043P",
+      "centroide": [
+        308587.788,
+        8622874.999
+      ],
+      "cota_terreno": 88.818,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ044P",
+      "centroide": [
+        308585.057,
+        8622877.606
+      ],
+      "cota_terreno": 88.861,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ045P",
+      "centroide": [
+        308581.489,
+        8622856.822
+      ],
+      "cota_terreno": 89.389,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ046P",
+      "centroide": [
+        308578.758,
+        8622859.428
+      ],
+      "cota_terreno": 89.519,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ047P",
+      "centroide": [
+        308575.748,
+        8622854.238
+      ],
+      "cota_terreno": 89.77,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ048P",
+      "centroide": [
+        308572.459,
+        8622841.25
+      ],
+      "cota_terreno": 90.242,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ049P",
+      "centroide": [
+        308569.728,
+        8622843.857
+      ],
+      "cota_terreno": 90.326,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ050P",
+      "centroide": [
+        308566.997,
+        8622846.463
+      ],
+      "cota_terreno": 90.391,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ051P",
+      "centroide": [
+        308563.987,
+        8622841.273
+      ],
+      "cota_terreno": 90.656,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ052P",
+      "centroide": [
+        308560.698,
+        8622828.286
+      ],
+      "cota_terreno": 91.003,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ053P",
+      "centroide": [
+        308557.409,
+        8622815.298
+      ],
+      "cota_terreno": 91.113,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ054P",
+      "centroide": [
+        308554.678,
+        8622817.906
+      ],
+      "cota_terreno": 91.263,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ055P",
+      "centroide": [
+        308551.11,
+        8622797.121
+      ],
+      "cota_terreno": 91.9,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ056P",
+      "centroide": [
+        308548.1,
+        8622791.93
+      ],
+      "cota_terreno": 91.994,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ057P",
+      "centroide": [
+        308545.927,
+        8622810.132
+      ],
+      "cota_terreno": 91.777,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ058P",
+      "centroide": [
+        308540.657,
+        8622791.296
+      ],
+      "cota_terreno": 91.995,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ059P",
+      "centroide": [
+        308545.647,
+        8622796.61
+      ],
+      "cota_terreno": 91.986,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ060P",
+      "centroide": [
+        308527.721,
+        8622795.31
+      ],
+      "cota_terreno": 92.376,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ061P",
+      "centroide": [
+        308525.032,
+        8622776.594
+      ],
+      "cota_terreno": 94.036,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ062P",
+      "centroide": [
+        308523.735,
+        8622789.698
+      ],
+      "cota_terreno": 93.213,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ063P",
+      "centroide": [
+        308522.699,
+        8622810.111
+      ],
+      "cota_terreno": 92.713,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ064P",
+      "centroide": [
+        308520.617,
+        8622801.286
+      ],
+      "cota_terreno": 92.833,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ065P",
+      "centroide": [
+        308519.319,
+        8622814.39
+      ],
+      "cota_terreno": 92.98,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ066P",
+      "centroide": [
+        308517.499,
+        8622812.874
+      ],
+      "cota_terreno": 93.115,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ067P",
+      "centroide": [
+        308516.463,
+        8622833.287
+      ],
+      "cota_terreno": 93.129,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ068P",
+      "centroide": [
+        308514.904,
+        8622839.081
+      ],
+      "cota_terreno": 93.128,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ069P",
+      "centroide": [
+        308512.822,
+        8622830.255
+      ],
+      "cota_terreno": 93.357,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ070P",
+      "centroide": [
+        308511.263,
+        8622836.049
+      ],
+      "cota_terreno": 93.396,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ071P",
+      "centroide": [
+        308510.227,
+        8622856.462
+      ],
+      "cota_terreno": 92.932,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ072P",
+      "centroide": [
+        308507.959,
+        8622859.728
+      ],
+      "cota_terreno": 92.988,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ073P",
+      "centroide": [
+        308530.718,
+        8622864.984
+      ],
+      "cota_terreno": 91.758,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ074P",
+      "centroide": [
+        308541.348,
+        8622870.391
+      ],
+      "cota_terreno": 91.094,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ075P",
+      "centroide": [
+        308552.874,
+        8622884.484
+      ],
+      "cota_terreno": 90.162,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZQ076P",
+      "centroide": [
+        308563.057,
+        8622880.671
+      ],
+      "cota_terreno": 89.837,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR001P",
+      "centroide": [
+        308457.37,
+        8622778.572
+      ],
+      "cota_terreno": 98.144,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR002P",
+      "centroide": [
+        308463.376,
+        8622783.956
+      ],
+      "cota_terreno": 97.708,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR003P",
+      "centroide": [
+        308468.958,
+        8622777.446
+      ],
+      "cota_terreno": 97.481,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR004P",
+      "centroide": [
+        308474.825,
+        8622778.942
+      ],
+      "cota_terreno": 97.104,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR005P",
+      "centroide": [
+        308480.629,
+        8622773.583
+      ],
+      "cota_terreno": 97.01,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR006P",
+      "centroide": [
+        308485.23,
+        8622766.256
+      ],
+      "cota_terreno": 97.124,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR007P",
+      "centroide": [
+        308478.911,
+        8622750.008
+      ],
+      "cota_terreno": 98.961,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR008P",
+      "centroide": [
+        308473.469,
+        8622760.402
+      ],
+      "cota_terreno": 97.999,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR009P",
+      "centroide": [
+        308467.609,
+        8622759.113
+      ],
+      "cota_terreno": 97.999,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR010P",
+      "centroide": [
+        308461.749,
+        8622757.823
+      ],
+      "cota_terreno": 98.215,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR011P",
+      "centroide": [
+        308455.68,
+        8622750.692
+      ],
+      "cota_terreno": 99.362,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR012P",
+      "centroide": [
+        308449.819,
+        8622749.402
+      ],
+      "cota_terreno": 99.831,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR013P",
+      "centroide": [
+        308444.169,
+        8622753.961
+      ],
+      "cota_terreno": 99.775,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR014P",
+      "centroide": [
+        308438.534,
+        8622758.972
+      ],
+      "cota_terreno": 99.902,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR015P",
+      "centroide": [
+        308432.464,
+        8622751.837
+      ],
+      "cota_terreno": 100.555,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR016P",
+      "centroide": [
+        308426.797,
+        8622755.945
+      ],
+      "cota_terreno": 100.923,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR017P",
+      "centroide": [
+        308420.728,
+        8622748.809
+      ],
+      "cota_terreno": 101.57,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR018P",
+      "centroide": [
+        308415.077,
+        8622753.369
+      ],
+      "cota_terreno": 101.941,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR019P",
+      "centroide": [
+        308408.799,
+        8622740.386
+      ],
+      "cota_terreno": 102.944,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR020P",
+      "centroide": [
+        308403.357,
+        8622750.793
+      ],
+      "cota_terreno": 102.976,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR021P",
+      "centroide": [
+        308397.079,
+        8622737.81
+      ],
+      "cota_terreno": 103.977,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR022P",
+      "centroide": [
+        308391.653,
+        8622744.364
+      ],
+      "cota_terreno": 103.985,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR023P",
+      "centroide": [
+        308385.893,
+        8622739.86
+      ],
+      "cota_terreno": 104.398,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR0241",
+      "centroide": [
+        308380.063,
+        8622733.562
+      ],
+      "cota_terreno": 105.251,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR0242",
+      "centroide": [
+        308374.768,
+        8622742.256
+      ],
+      "cota_terreno": 105.478,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR0251",
+      "centroide": [
+        308369.948,
+        8622759.033
+      ],
+      "cota_terreno": 105.926,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR0252",
+      "centroide": [
+        308364.761,
+        8622751.551
+      ],
+      "cota_terreno": 106.361,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR026P",
+      "centroide": [
+        308374.906,
+        8622761.459
+      ],
+      "cota_terreno": 105.356,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR027P",
+      "centroide": [
+        308380.144,
+        8622776.39
+      ],
+      "cota_terreno": 103.997,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR028P",
+      "centroide": [
+        308384.224,
+        8622762.567
+      ],
+      "cota_terreno": 104.33,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR029P",
+      "centroide": [
+        308389.349,
+        8622777.983
+      ],
+      "cota_terreno": 103.242,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR030P",
+      "centroide": [
+        308393.847,
+        8622775.856
+      ],
+      "cota_terreno": 102.943,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR031P",
+      "centroide": [
+        308398.554,
+        8622779.576
+      ],
+      "cota_terreno": 102.417,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR032P",
+      "centroide": [
+        308402.944,
+        8622777.081
+      ],
+      "cota_terreno": 102.181,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR033P",
+      "centroide": [
+        308407.872,
+        8622786.974
+      ],
+      "cota_terreno": 101.46,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR034P",
+      "centroide": [
+        308412.676,
+        8622790.738
+      ],
+      "cota_terreno": 100.995,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR035P",
+      "centroide": [
+        308417.383,
+        8622794.459
+      ],
+      "cota_terreno": 100.535,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR036P",
+      "centroide": [
+        308422.09,
+        8622798.179
+      ],
+      "cota_terreno": 100.074,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR037P",
+      "centroide": [
+        308426.797,
+        8622801.899
+      ],
+      "cota_terreno": 99.65,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR038P",
+      "centroide": [
+        308431.923,
+        8622817.315
+      ],
+      "cota_terreno": 98.825,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR039P",
+      "centroide": [
+        308436.212,
+        8622809.341
+      ],
+      "cota_terreno": 98.771,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR040P",
+      "centroide": [
+        308440.919,
+        8622813.062
+      ],
+      "cota_terreno": 98.336,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR041P",
+      "centroide": [
+        308445.626,
+        8622816.782
+      ],
+      "cota_terreno": 97.965,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR042P",
+      "centroide": [
+        308450.124,
+        8622814.654
+      ],
+      "cota_terreno": 97.705,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR043P",
+      "centroide": [
+        308455.25,
+        8622830.071
+      ],
+      "cota_terreno": 96.984,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR044P",
+      "centroide": [
+        308459.329,
+        8622816.248
+      ],
+      "cota_terreno": 97.081,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR045P",
+      "centroide": [
+        308465.273,
+        8622828.824
+      ],
+      "cota_terreno": 96.391,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR046P",
+      "centroide": [
+        308474.534,
+        8622819.271
+      ],
+      "cota_terreno": 96.033,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR047P",
+      "centroide": [
+        308468.472,
+        8622816.233
+      ],
+      "cota_terreno": 96.499,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR048P",
+      "centroide": [
+        308462.545,
+        8622802.849
+      ],
+      "cota_terreno": 97.221,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR049P",
+      "centroide": [
+        308457.604,
+        8622816.885
+      ],
+      "cota_terreno": 97.175,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZR050P",
+      "centroide": [
+        308451.44,
+        8622804.568
+      ],
+      "cota_terreno": 97.917,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZS001P",
+      "centroide": [
+        308431.167,
+        8622973.194
+      ],
+      "cota_terreno": 95.749,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZS091P",
+      "centroide": [
+        308431.238,
+        8622964.0
+      ],
+      "cota_terreno": 95.951,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZS092P",
+      "centroide": [
+        308432.763,
+        8622956.311
+      ],
+      "cota_terreno": 96.232,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZS093P",
+      "centroide": [
+        308434.579,
+        8622958.308
+      ],
+      "cota_terreno": 95.985,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZS094P",
+      "centroide": [
+        308435.279,
+        8622929.117
+      ],
+      "cota_terreno": 100.398,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZS095P",
+      "centroide": [
+        308437.374,
+        8622938.911
+      ],
+      "cota_terreno": 98.214,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZS096P",
+      "centroide": [
+        308439.468,
+        8622948.706
+      ],
+      "cota_terreno": 96.571,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZS097P",
+      "centroide": [
+        308440.447,
+        8622927.312
+      ],
+      "cota_terreno": 100.454,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E01MZS098P",
+      "centroide": [
+        308442.542,
+        8622937.106
+      ],
+      "cota_terreno": 98.036,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD049P",
+      "centroide": [
+        308840.031,
+        8622743.194
+      ],
+      "cota_terreno": 78.959,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD052P",
+      "centroide": [
+        308804.955,
+        8622729.623
+      ],
+      "cota_terreno": 79.858,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD053P",
+      "centroide": [
+        308798.204,
+        8622727.773
+      ],
+      "cota_terreno": 79.997,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD054P",
+      "centroide": [
+        308791.453,
+        8622725.923
+      ],
+      "cota_terreno": 80.0,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD055P",
+      "centroide": [
+        308784.701,
+        8622724.073
+      ],
+      "cota_terreno": 80.322,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD056P",
+      "centroide": [
+        308777.95,
+        8622722.224
+      ],
+      "cota_terreno": 80.824,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD057P",
+      "centroide": [
+        308771.199,
+        8622720.375
+      ],
+      "cota_terreno": 81.398,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD058P",
+      "centroide": [
+        308764.448,
+        8622718.525
+      ],
+      "cota_terreno": 81.964,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD059P",
+      "centroide": [
+        308757.696,
+        8622716.676
+      ],
+      "cota_terreno": 82.101,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD060P",
+      "centroide": [
+        308750.945,
+        8622714.826
+      ],
+      "cota_terreno": 82.157,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD061P",
+      "centroide": [
+        308744.194,
+        8622712.976
+      ],
+      "cota_terreno": 82.746,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD062P",
+      "centroide": [
+        308737.443,
+        8622711.127
+      ],
+      "cota_terreno": 83.632,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD063P",
+      "centroide": [
+        308730.692,
+        8622709.277
+      ],
+      "cota_terreno": 84.003,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD064P",
+      "centroide": [
+        308723.94,
+        8622707.428
+      ],
+      "cota_terreno": 84.286,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD065P",
+      "centroide": [
+        308717.189,
+        8622705.578
+      ],
+      "cota_terreno": 84.875,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD066P",
+      "centroide": [
+        308710.438,
+        8622703.728
+      ],
+      "cota_terreno": 85.634,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD067P",
+      "centroide": [
+        308703.687,
+        8622701.879
+      ],
+      "cota_terreno": 86.523,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD068P",
+      "centroide": [
+        308696.935,
+        8622700.03
+      ],
+      "cota_terreno": 86.958,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD069P",
+      "centroide": [
+        308690.184,
+        8622698.18
+      ],
+      "cota_terreno": 87.268,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD070P",
+      "centroide": [
+        308683.672,
+        8622703.014
+      ],
+      "cota_terreno": 87.271,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD071P",
+      "centroide": [
+        308676.442,
+        8622687.798
+      ],
+      "cota_terreno": 88.622,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD072P",
+      "centroide": [
+        308669.93,
+        8622692.631
+      ],
+      "cota_terreno": 88.814,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD073P",
+      "centroide": [
+        308661.383,
+        8622690.53
+      ],
+      "cota_terreno": 90.117,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD074P",
+      "centroide": [
+        308663.69,
+        8622719.847
+      ],
+      "cota_terreno": 87.133,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZD075P",
+      "centroide": [
+        308661.725,
+        8622720.462
+      ],
+      "cota_terreno": 87.299,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH001P",
+      "centroide": [
+        308830.05,
+        8622783.739
+      ],
+      "cota_terreno": 79.123,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH002P",
+      "centroide": [
+        308821.828,
+        8622787.213
+      ],
+      "cota_terreno": 79.347,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH003P",
+      "centroide": [
+        308814.263,
+        8622793.866
+      ],
+      "cota_terreno": 79.549,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH004P",
+      "centroide": [
+        308805.941,
+        8622780.619
+      ],
+      "cota_terreno": 79.761,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH005P",
+      "centroide": [
+        308798.099,
+        8622781.936
+      ],
+      "cota_terreno": 79.97,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH006P",
+      "centroide": [
+        308790.464,
+        8622790.068
+      ],
+      "cota_terreno": 80.164,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH007P",
+      "centroide": [
+        308782.219,
+        8622782.045
+      ],
+      "cota_terreno": 80.501,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH008P",
+      "centroide": [
+        308774.291,
+        8622783.562
+      ],
+      "cota_terreno": 80.779,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH009P",
+      "centroide": [
+        308766.286,
+        8622783.541
+      ],
+      "cota_terreno": 81.05,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH010P",
+      "centroide": [
+        308758.227,
+        8622782.373
+      ],
+      "cota_terreno": 81.339,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH011P",
+      "centroide": [
+        308750.196,
+        8622782.288
+      ],
+      "cota_terreno": 81.632,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH012P",
+      "centroide": [
+        308742.101,
+        8622780.514
+      ],
+      "cota_terreno": 81.937,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH013P",
+      "centroide": [
+        308734.275,
+        8622786.175
+      ],
+      "cota_terreno": 82.121,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH014P",
+      "centroide": [
+        308726.103,
+        8622781.98
+      ],
+      "cota_terreno": 82.499,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH015P",
+      "centroide": [
+        308718.249,
+        8622786.336
+      ],
+      "cota_terreno": 82.931,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH016P",
+      "centroide": [
+        308710.309,
+        8622787.753
+      ],
+      "cota_terreno": 83.344,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH017P",
+      "centroide": [
+        308702.289,
+        8622786.29
+      ],
+      "cota_terreno": 83.733,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH018P",
+      "centroide": [
+        308694.311,
+        8622785.171
+      ],
+      "cota_terreno": 84.078,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH019P",
+      "centroide": [
+        308686.775,
+        8622795.408
+      ],
+      "cota_terreno": 84.514,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH020P",
+      "centroide": [
+        308678.747,
+        8622790.827
+      ],
+      "cota_terreno": 84.928,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH021P",
+      "centroide": [
+        308671.362,
+        8622802.928
+      ],
+      "cota_terreno": 85.328,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH022P",
+      "centroide": [
+        308663.468,
+        8622799.378
+      ],
+      "cota_terreno": 85.74,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH023P",
+      "centroide": [
+        308655.82,
+        8622801.131
+      ],
+      "cota_terreno": 86.013,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH024P",
+      "centroide": [
+        308647.762,
+        8622789.714
+      ],
+      "cota_terreno": 86.274,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH025P",
+      "centroide": [
+        308641.168,
+        8622817.353
+      ],
+      "cota_terreno": 86.762,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH026P",
+      "centroide": [
+        308633.276,
+        8622806.43
+      ],
+      "cota_terreno": 87.117,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH027P",
+      "centroide": [
+        308625.891,
+        8622807.352
+      ],
+      "cota_terreno": 87.497,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH028P",
+      "centroide": [
+        308618.224,
+        8622819.43
+      ],
+      "cota_terreno": 88.008,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH029P",
+      "centroide": [
+        308609.287,
+        8622814.812
+      ],
+      "cota_terreno": 88.454,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH030P",
+      "centroide": [
+        308602.5,
+        8622809.928
+      ],
+      "cota_terreno": 88.745,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH031P",
+      "centroide": [
+        308611.409,
+        8622804.188
+      ],
+      "cota_terreno": 88.163,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH032P",
+      "centroide": [
+        308619.618,
+        8622794.534
+      ],
+      "cota_terreno": 87.655,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH033P",
+      "centroide": [
+        308627.396,
+        8622794.156
+      ],
+      "cota_terreno": 87.281,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH034P",
+      "centroide": [
+        308634.997,
+        8622786.464
+      ],
+      "cota_terreno": 86.848,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH035P",
+      "centroide": [
+        308643.07,
+        8622789.803
+      ],
+      "cota_terreno": 86.496,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH036P",
+      "centroide": [
+        308650.945,
+        8622785.62
+      ],
+      "cota_terreno": 86.072,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH037P",
+      "centroide": [
+        308658.876,
+        8622781.229
+      ],
+      "cota_terreno": 85.796,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH038P",
+      "centroide": [
+        308666.972,
+        8622779.782
+      ],
+      "cota_terreno": 85.367,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH039P",
+      "centroide": [
+        308675.218,
+        8622781.015
+      ],
+      "cota_terreno": 84.962,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH040P",
+      "centroide": [
+        308683.372,
+        8622778.413
+      ],
+      "cota_terreno": 84.518,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH041P",
+      "centroide": [
+        308691.473,
+        8622773.108
+      ],
+      "cota_terreno": 84.12,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH042P",
+      "centroide": [
+        308699.69,
+        8622770.056
+      ],
+      "cota_terreno": 83.764,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH043P",
+      "centroide": [
+        308708.085,
+        8622771.117
+      ],
+      "cota_terreno": 83.377,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH044P",
+      "centroide": [
+        308716.239,
+        8622764.734
+      ],
+      "cota_terreno": 83.102,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH045P",
+      "centroide": [
+        308724.726,
+        8622767.135
+      ],
+      "cota_terreno": 82.674,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH046P",
+      "centroide": [
+        308733.143,
+        8622767.206
+      ],
+      "cota_terreno": 82.313,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH047P",
+      "centroide": [
+        308741.795,
+        8622773.615
+      ],
+      "cota_terreno": 81.982,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH048P",
+      "centroide": [
+        308750.138,
+        8622771.353
+      ],
+      "cota_terreno": 81.682,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH049P",
+      "centroide": [
+        308758.353,
+        8622765.667
+      ],
+      "cota_terreno": 81.355,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH050P",
+      "centroide": [
+        308766.674,
+        8622763.161
+      ],
+      "cota_terreno": 81.029,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH051P",
+      "centroide": [
+        308775.295,
+        8622769.469
+      ],
+      "cota_terreno": 80.71,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH052P",
+      "centroide": [
+        308783.884,
+        8622775.502
+      ],
+      "cota_terreno": 80.427,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH053P",
+      "centroide": [
+        308791.779,
+        8622762.904
+      ],
+      "cota_terreno": 80.006,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH054P",
+      "centroide": [
+        308800.348,
+        8622770.021
+      ],
+      "cota_terreno": 79.873,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH055P",
+      "centroide": [
+        308808.765,
+        8622773.975
+      ],
+      "cota_terreno": 79.668,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH056P",
+      "centroide": [
+        308817.043,
+        8622775.306
+      ],
+      "cota_terreno": 79.459,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH057P",
+      "centroide": [
+        308825.108,
+        8622772.84
+      ],
+      "cota_terreno": 79.237,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZH058P",
+      "centroide": [
+        308834.318,
+        8622782.197
+      ],
+      "cota_terreno": 79.011,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI001P",
+      "centroide": [
+        308818.682,
+        8622837.316
+      ],
+      "cota_terreno": 79.993,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI002P",
+      "centroide": [
+        308810.651,
+        8622832.441
+      ],
+      "cota_terreno": 79.995,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI003P",
+      "centroide": [
+        308802.535,
+        8622832.019
+      ],
+      "cota_terreno": 79.997,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI004P",
+      "centroide": [
+        308794.13,
+        8622825.049
+      ],
+      "cota_terreno": 80.002,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI005P",
+      "centroide": [
+        308786.292,
+        8622835.229
+      ],
+      "cota_terreno": 80.163,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI006P",
+      "centroide": [
+        308777.819,
+        8622828.777
+      ],
+      "cota_terreno": 80.516,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI007P",
+      "centroide": [
+        308769.527,
+        8622828.217
+      ],
+      "cota_terreno": 80.851,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI008P",
+      "centroide": [
+        308761.019,
+        8622822.286
+      ],
+      "cota_terreno": 81.189,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI009P",
+      "centroide": [
+        308752.707,
+        8622822.247
+      ],
+      "cota_terreno": 81.517,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI010P",
+      "centroide": [
+        308744.399,
+        8622822.469
+      ],
+      "cota_terreno": 81.854,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI011P",
+      "centroide": [
+        308711.558,
+        8622831.59
+      ],
+      "cota_terreno": 83.321,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI012P",
+      "centroide": [
+        308703.185,
+        8622827.478
+      ],
+      "cota_terreno": 83.71,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI013P",
+      "centroide": [
+        308695.267,
+        8622834.883
+      ],
+      "cota_terreno": 84.032,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI014P",
+      "centroide": [
+        308687.206,
+        8622836.91
+      ],
+      "cota_terreno": 84.449,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI015P",
+      "centroide": [
+        308679.416,
+        8622844.824
+      ],
+      "cota_terreno": 84.807,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI016P",
+      "centroide": [
+        308671.096,
+        8622836.094
+      ],
+      "cota_terreno": 85.303,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI017P",
+      "centroide": [
+        308663.262,
+        8622838.872
+      ],
+      "cota_terreno": 85.69,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI018P",
+      "centroide": [
+        308655.837,
+        8622850.781
+      ],
+      "cota_terreno": 85.94,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI019P",
+      "centroide": [
+        308648.126,
+        8622852.135
+      ],
+      "cota_terreno": 86.304,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI020P",
+      "centroide": [
+        308640.346,
+        8622848.839
+      ],
+      "cota_terreno": 86.742,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI021P",
+      "centroide": [
+        308631.512,
+        8622855.967
+      ],
+      "cota_terreno": 87.105,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI022P",
+      "centroide": [
+        308624.331,
+        8622839.212
+      ],
+      "cota_terreno": 87.64,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI023P",
+      "centroide": [
+        308633.92,
+        8622838.337
+      ],
+      "cota_terreno": 87.129,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI024P",
+      "centroide": [
+        308641.694,
+        8622829.311
+      ],
+      "cota_terreno": 86.671,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI025P",
+      "centroide": [
+        308649.902,
+        8622829.531
+      ],
+      "cota_terreno": 86.256,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI026P",
+      "centroide": [
+        308658.063,
+        8622825.805
+      ],
+      "cota_terreno": 85.898,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI027P",
+      "centroide": [
+        308666.532,
+        8622828.197
+      ],
+      "cota_terreno": 85.492,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI028P",
+      "centroide": [
+        308674.706,
+        8622820.196
+      ],
+      "cota_terreno": 85.035,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI029P",
+      "centroide": [
+        308682.77,
+        8622807.127
+      ],
+      "cota_terreno": 84.7,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI030P",
+      "centroide": [
+        308691.86,
+        8622820.968
+      ],
+      "cota_terreno": 84.177,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI031P",
+      "centroide": [
+        308700.249,
+        8622813.765
+      ],
+      "cota_terreno": 83.847,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI032P",
+      "centroide": [
+        308709.074,
+        8622817.488
+      ],
+      "cota_terreno": 83.415,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI033P",
+      "centroide": [
+        308743.798,
+        8622808.472
+      ],
+      "cota_terreno": 81.903,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI034P",
+      "centroide": [
+        308752.959,
+        8622818.893
+      ],
+      "cota_terreno": 81.511,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI035P",
+      "centroide": [
+        308761.36,
+        8622808.279
+      ],
+      "cota_terreno": 81.189,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI036P",
+      "centroide": [
+        308770.328,
+        8622813.924
+      ],
+      "cota_terreno": 80.824,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI037P",
+      "centroide": [
+        308778.9,
+        8622809.189
+      ],
+      "cota_terreno": 80.485,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI038P",
+      "centroide": [
+        308787.831,
+        8622815.384
+      ],
+      "cota_terreno": 80.133,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI039P",
+      "centroide": [
+        308796.157,
+        8622805.87
+      ],
+      "cota_terreno": 79.993,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI040P",
+      "centroide": [
+        308804.825,
+        8622807.286
+      ],
+      "cota_terreno": 79.823,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI041P",
+      "centroide": [
+        308813.604,
+        8622813.371
+      ],
+      "cota_terreno": 79.666,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZI042P",
+      "centroide": [
+        308822.193,
+        8622816.673
+      ],
+      "cota_terreno": 79.616,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ001P",
+      "centroide": [
+        308805.775,
+        8622871.96
+      ],
+      "cota_terreno": 80.0,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ002P",
+      "centroide": [
+        308797.462,
+        8622871.164
+      ],
+      "cota_terreno": 80.192,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ003P",
+      "centroide": [
+        308789.413,
+        8622873.528
+      ],
+      "cota_terreno": 80.468,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ004P",
+      "centroide": [
+        308781.497,
+        8622866.466
+      ],
+      "cota_terreno": 80.603,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ005P",
+      "centroide": [
+        308773.765,
+        8622865.7
+      ],
+      "cota_terreno": 80.817,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ006P",
+      "centroide": [
+        308766.012,
+        8622865.203
+      ],
+      "cota_terreno": 81.09,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ007P",
+      "centroide": [
+        308758.461,
+        8622871.0
+      ],
+      "cota_terreno": 81.394,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ008P",
+      "centroide": [
+        308750.476,
+        8622865.021
+      ],
+      "cota_terreno": 81.682,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ009P",
+      "centroide": [
+        308742.929,
+        8622871.361
+      ],
+      "cota_terreno": 81.971,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ010P",
+      "centroide": [
+        308735.397,
+        8622877.971
+      ],
+      "cota_terreno": 82.256,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ011P",
+      "centroide": [
+        308727.244,
+        8622866.78
+      ],
+      "cota_terreno": 82.604,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ012P",
+      "centroide": [
+        308719.772,
+        8622873.929
+      ],
+      "cota_terreno": 82.902,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ013P",
+      "centroide": [
+        308711.914,
+        8622869.32
+      ],
+      "cota_terreno": 83.226,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ014P",
+      "centroide": [
+        308704.538,
+        8622876.982
+      ],
+      "cota_terreno": 83.496,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ015P",
+      "centroide": [
+        308696.579,
+        8622866.858
+      ],
+      "cota_terreno": 83.876,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ016P",
+      "centroide": [
+        308689.555,
+        8622881.09
+      ],
+      "cota_terreno": 83.999,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ017P",
+      "centroide": [
+        308682.179,
+        8622883.533
+      ],
+      "cota_terreno": 84.275,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ018P",
+      "centroide": [
+        308674.678,
+        8622880.209
+      ],
+      "cota_terreno": 84.702,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ019P",
+      "centroide": [
+        308667.491,
+        8622883.16
+      ],
+      "cota_terreno": 85.024,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ020P",
+      "centroide": [
+        308660.412,
+        8622886.362
+      ],
+      "cota_terreno": 85.334,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ021P",
+      "centroide": [
+        308652.169,
+        8622890.637
+      ],
+      "cota_terreno": 85.649,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ022P",
+      "centroide": [
+        308645.889,
+        8622883.264
+      ],
+      "cota_terreno": 86.029,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ023P",
+      "centroide": [
+        308654.281,
+        8622880.712
+      ],
+      "cota_terreno": 85.734,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ024P",
+      "centroide": [
+        308661.837,
+        8622877.294
+      ],
+      "cota_terreno": 85.38,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ025P",
+      "centroide": [
+        308669.306,
+        8622868.501
+      ],
+      "cota_terreno": 85.152,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ026P",
+      "centroide": [
+        308676.88,
+        8622859.977
+      ],
+      "cota_terreno": 84.832,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ027P",
+      "centroide": [
+        308685.156,
+        8622868.655
+      ],
+      "cota_terreno": 84.39,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ028P",
+      "centroide": [
+        308692.508,
+        8622849.393
+      ],
+      "cota_terreno": 84.092,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ029P",
+      "centroide": [
+        308701.149,
+        8622864.271
+      ],
+      "cota_terreno": 83.707,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ030P",
+      "centroide": [
+        308709.251,
+        8622862.519
+      ],
+      "cota_terreno": 83.369,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ031P",
+      "centroide": [
+        308717.207,
+        8622855.369
+      ],
+      "cota_terreno": 83.009,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ032P",
+      "centroide": [
+        308725.21,
+        8622848.525
+      ],
+      "cota_terreno": 82.659,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ033P",
+      "centroide": [
+        308733.452,
+        8622847.61
+      ],
+      "cota_terreno": 82.232,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ034P",
+      "centroide": [
+        308741.923,
+        8622852.627
+      ],
+      "cota_terreno": 81.889,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ035P",
+      "centroide": [
+        308750.209,
+        8622852.29
+      ],
+      "cota_terreno": 81.585,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ036P",
+      "centroide": [
+        308758.502,
+        8622852.242
+      ],
+      "cota_terreno": 81.283,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ037P",
+      "centroide": [
+        308766.791,
+        8622852.484
+      ],
+      "cota_terreno": 80.983,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ038P",
+      "centroide": [
+        308774.865,
+        8622847.372
+      ],
+      "cota_terreno": 80.662,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ039P",
+      "centroide": [
+        308783.319,
+        8622853.833
+      ],
+      "cota_terreno": 80.395,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ040P",
+      "centroide": [
+        308791.74,
+        8622860.584
+      ],
+      "cota_terreno": 80.205,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ041P",
+      "centroide": [
+        308800.086,
+        8622851.197
+      ],
+      "cota_terreno": 79.999,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "codigo": "E03MZJ042P",
+      "centroide": [
+        308809.445,
+        8622858.621
+      ],
+      "cota_terreno": 79.997,
+      "metodo": "BILINEAL_F32_TIN"
+    }
+  ]
+}

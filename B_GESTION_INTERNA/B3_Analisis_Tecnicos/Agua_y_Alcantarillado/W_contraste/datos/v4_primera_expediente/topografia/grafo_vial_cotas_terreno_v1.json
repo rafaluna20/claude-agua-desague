@@ -1,0 +1,2074 @@
+{
+  "version": "v4_primera_expediente_grafo_topografico_v1",
+  "purpose": "Caracterización de cotas y pendientes de terreno natural sobre el grafo vial preliminar; no constituye perfil hidráulico ni define sentido de flujo.",
+  "generatedAtUtc": "2026-10-10T18:55:11+00:00",
+  "sources": {
+    "graphFile": "grafo_vial_primera_expediente_v3.json",
+    "graphSha256": "C61C38453D9D62BAA270F7C997CE9F0B308D4055A50E9615E57F54712956890D",
+    "gridFile": "terreno_primera_expediente_1m_v1.f32",
+    "gridSha256": "74985D008B3C478A98DDA77AEE4FE7199C2D05333B533D40CEE7DAC331C20270"
+  },
+  "method": {
+    "surface": "terreno natural de Civil 3D exportada a grilla de 1 m",
+    "sampling": "interpolación bilineal en nodos del grafo",
+    "flatSlopeThreshold": 0.002,
+    "unitsNote": "Coordenadas y distancias interpretadas provisionalmente como metros; datum vertical y documentación topográfica continúan pendientes."
+  },
+  "summary": {
+    "nodes": 82,
+    "nodesWithoutElevation": 0,
+    "edges": 91,
+    "edgesWithoutSlope": 0,
+    "terrainSlopeMinimum": -0.187038,
+    "terrainSlopeMaximum": 0.171378,
+    "terrainNearlyFlat": 3
+  },
+  "nodes": [
+    {
+      "id": "NV-0001",
+      "coordinate": [
+        308469.167,
+        8622877.905
+      ],
+      "degree": 2,
+      "cotaTerreno": 98.654,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0002",
+      "coordinate": [
+        308452.167,
+        8622945.405
+      ],
+      "degree": 3,
+      "cotaTerreno": 96.01,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0003",
+      "coordinate": [
+        308443.167,
+        8622981.905
+      ],
+      "degree": 3,
+      "cotaTerreno": 94.98,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0004",
+      "coordinate": [
+        308438.667,
+        8622984.405
+      ],
+      "degree": 2,
+      "cotaTerreno": 95.243,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0005",
+      "coordinate": [
+        308420.555,
+        8622979.339
+      ],
+      "degree": 1,
+      "cotaTerreno": 96.352,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0006",
+      "coordinate": [
+        308430.555,
+        8622980.839
+      ],
+      "degree": 2,
+      "cotaTerreno": 95.728,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0007",
+      "coordinate": [
+        308340.38,
+        8622758.351
+      ],
+      "degree": 2,
+      "cotaTerreno": 108.474,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0008",
+      "coordinate": [
+        308351.88,
+        8622762.351
+      ],
+      "degree": 3,
+      "cotaTerreno": 107.442,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0009",
+      "coordinate": [
+        308456.38,
+        8622849.351
+      ],
+      "degree": 2,
+      "cotaTerreno": 96.018,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0010",
+      "coordinate": [
+        308372.873,
+        8622718.979
+      ],
+      "degree": 2,
+      "cotaTerreno": 106.114,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0011",
+      "coordinate": [
+        308375.023,
+        8622721.128
+      ],
+      "degree": 3,
+      "cotaTerreno": 105.985,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0012",
+      "coordinate": [
+        308512.465,
+        8622755.287
+      ],
+      "degree": 3,
+      "cotaTerreno": 97.029,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0013",
+      "coordinate": [
+        308542.99,
+        8622762.149
+      ],
+      "degree": 3,
+      "cotaTerreno": 94.565,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0014",
+      "coordinate": [
+        308559.873,
+        8622766.979
+      ],
+      "degree": 3,
+      "cotaTerreno": 93.443,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0015",
+      "coordinate": [
+        308575.873,
+        8622766.479
+      ],
+      "degree": 1,
+      "cotaTerreno": 92.524,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0016",
+      "coordinate": [
+        308800.208,
+        8622896.701
+      ],
+      "degree": 1,
+      "cotaTerreno": 80.202,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0017",
+      "coordinate": [
+        308800.208,
+        8622895.701
+      ],
+      "degree": 3,
+      "cotaTerreno": 80.197,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0018",
+      "coordinate": [
+        308651.469,
+        8622907.996
+      ],
+      "degree": 3,
+      "cotaTerreno": 85.509,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0019",
+      "coordinate": [
+        308621.117,
+        8622928.16
+      ],
+      "degree": 3,
+      "cotaTerreno": 86.447,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0020",
+      "coordinate": [
+        308455.208,
+        8622984.201
+      ],
+      "degree": 2,
+      "cotaTerreno": 94.248,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0021",
+      "coordinate": [
+        308556.528,
+        8622776.393
+      ],
+      "degree": 1,
+      "cotaTerreno": 93.124,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0022",
+      "coordinate": [
+        308559.028,
+        8622776.893
+      ],
+      "degree": 3,
+      "cotaTerreno": 92.996,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0023",
+      "coordinate": [
+        308579.464,
+        8622799.553
+      ],
+      "degree": 3,
+      "cotaTerreno": 90.378,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0024",
+      "coordinate": [
+        308604.771,
+        8622837.714
+      ],
+      "degree": 3,
+      "cotaTerreno": 88.65,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0025",
+      "coordinate": [
+        308626.028,
+        8622873.893
+      ],
+      "degree": 3,
+      "cotaTerreno": 87.012,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0026",
+      "coordinate": [
+        308646.028,
+        8622894.393
+      ],
+      "degree": 2,
+      "cotaTerreno": 85.858,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0027",
+      "coordinate": [
+        308488.089,
+        8622857.15
+      ],
+      "degree": 2,
+      "cotaTerreno": 94.102,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0028",
+      "coordinate": [
+        308517.395,
+        8622875.053
+      ],
+      "degree": 3,
+      "cotaTerreno": 92.216,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0029",
+      "coordinate": [
+        308581.589,
+        8622901.15
+      ],
+      "degree": 3,
+      "cotaTerreno": 88.642,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0030",
+      "coordinate": [
+        308586.744,
+        8622902.108
+      ],
+      "degree": 3,
+      "cotaTerreno": 88.397,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0031",
+      "coordinate": [
+        308613.089,
+        8622920.65
+      ],
+      "degree": 2,
+      "cotaTerreno": 86.924,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0032",
+      "coordinate": [
+        308519.705,
+        8622886.79
+      ],
+      "degree": 1,
+      "cotaTerreno": 91.805,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0033",
+      "coordinate": [
+        308511.705,
+        8622936.79
+      ],
+      "degree": 3,
+      "cotaTerreno": 91.824,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0034",
+      "coordinate": [
+        308579.205,
+        8622907.79
+      ],
+      "degree": 2,
+      "cotaTerreno": 88.577,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0035",
+      "coordinate": [
+        308815.51,
+        8622854.968
+      ],
+      "degree": 2,
+      "cotaTerreno": 79.995,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0036",
+      "coordinate": [
+        308636.51,
+        8622864.968
+      ],
+      "degree": 2,
+      "cotaTerreno": 86.645,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0037",
+      "coordinate": [
+        308369.905,
+        8622726.246
+      ],
+      "degree": 2,
+      "cotaTerreno": 106.004,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0038",
+      "coordinate": [
+        308364.405,
+        8622722.746
+      ],
+      "degree": 3,
+      "cotaTerreno": 106.068,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0039",
+      "coordinate": [
+        308346.405,
+        8622751.746
+      ],
+      "degree": 3,
+      "cotaTerreno": 108.036,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0040",
+      "coordinate": [
+        308354.178,
+        8622758.33
+      ],
+      "degree": 3,
+      "cotaTerreno": 107.419,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0041",
+      "coordinate": [
+        308354.905,
+        8622758.746
+      ],
+      "degree": 1,
+      "cotaTerreno": 107.344,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0042",
+      "coordinate": [
+        308548.262,
+        8622824.818
+      ],
+      "degree": 2,
+      "cotaTerreno": 91.618,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0043",
+      "coordinate": [
+        308522.762,
+        8622864.318
+      ],
+      "degree": 2,
+      "cotaTerreno": 92.062,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0044",
+      "coordinate": [
+        308549.687,
+        8622825.86
+      ],
+      "degree": 1,
+      "cotaTerreno": 91.558,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0045",
+      "coordinate": [
+        308549.496,
+        8622826.052
+      ],
+      "degree": 3,
+      "cotaTerreno": 91.568,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0046",
+      "coordinate": [
+        308590.187,
+        8622894.36
+      ],
+      "degree": 2,
+      "cotaTerreno": 88.36,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0047",
+      "coordinate": [
+        308511.06,
+        8622762.84
+      ],
+      "degree": 2,
+      "cotaTerreno": 96.084,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0048",
+      "coordinate": [
+        308494.946,
+        8622776.683
+      ],
+      "degree": 3,
+      "cotaTerreno": 95.997,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0049",
+      "coordinate": [
+        308488.06,
+        8622799.84
+      ],
+      "degree": 3,
+      "cotaTerreno": 95.828,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0050",
+      "coordinate": [
+        308473.06,
+        8622851.34
+      ],
+      "degree": 3,
+      "cotaTerreno": 95.164,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0051",
+      "coordinate": [
+        308473.56,
+        8622857.15
+      ],
+      "degree": 3,
+      "cotaTerreno": 95.251,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0052",
+      "coordinate": [
+        308473.56,
+        8622858.84
+      ],
+      "degree": 2,
+      "cotaTerreno": 95.301,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0053",
+      "coordinate": [
+        308821.866,
+        8622804.286
+      ],
+      "degree": 2,
+      "cotaTerreno": 79.396,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0054",
+      "coordinate": [
+        308618.866,
+        8622829.786
+      ],
+      "degree": 2,
+      "cotaTerreno": 87.919,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0055",
+      "coordinate": [
+        308851.681,
+        8622760.3
+      ],
+      "degree": 2,
+      "cotaTerreno": 78.556,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0056",
+      "coordinate": [
+        308667.282,
+        8622765.079
+      ],
+      "degree": 3,
+      "cotaTerreno": 85.255,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0057",
+      "coordinate": [
+        308585.681,
+        8622792.3
+      ],
+      "degree": 2,
+      "cotaTerreno": 89.938,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0058",
+      "coordinate": [
+        308820.557,
+        8622749.186
+      ],
+      "degree": 1,
+      "cotaTerreno": 79.347,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0059",
+      "coordinate": [
+        308685.057,
+        8622715.186
+      ],
+      "degree": 3,
+      "cotaTerreno": 86.372,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0060",
+      "coordinate": [
+        308664.557,
+        8622756.686
+      ],
+      "degree": 2,
+      "cotaTerreno": 85.406,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0061",
+      "coordinate": [
+        308863.544,
+        8622743.249
+      ],
+      "degree": 1,
+      "cotaTerreno": 78.316,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0062",
+      "coordinate": [
+        308857.544,
+        8622761.749
+      ],
+      "degree": 3,
+      "cotaTerreno": 78.412,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0063",
+      "coordinate": [
+        308835.544,
+        8622809.749
+      ],
+      "degree": 3,
+      "cotaTerreno": 79.278,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0064",
+      "coordinate": [
+        308822.075,
+        8622857.156
+      ],
+      "degree": 3,
+      "cotaTerreno": 79.994,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0065",
+      "coordinate": [
+        308809.044,
+        8622893.249
+      ],
+      "degree": 2,
+      "cotaTerreno": 80.0,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0066",
+      "coordinate": [
+        308370.434,
+        8622699.203
+      ],
+      "degree": 1,
+      "cotaTerreno": 108.068,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0067",
+      "coordinate": [
+        308367.434,
+        8622712.203
+      ],
+      "degree": 3,
+      "cotaTerreno": 107.085,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0068",
+      "coordinate": [
+        308361.434,
+        8622714.703
+      ],
+      "degree": 2,
+      "cotaTerreno": 107.179,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0069",
+      "coordinate": [
+        308334.312,
+        8622758.528
+      ],
+      "degree": 3,
+      "cotaTerreno": 109.609,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0070",
+      "coordinate": [
+        308326.312,
+        8622768.528
+      ],
+      "degree": 1,
+      "cotaTerreno": 110.273,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0071",
+      "coordinate": [
+        308657.472,
+        8622700.229
+      ],
+      "degree": 1,
+      "cotaTerreno": 89.11,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0072",
+      "coordinate": [
+        308677.228,
+        8622702.884
+      ],
+      "degree": 3,
+      "cotaTerreno": 87.502,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0073",
+      "coordinate": [
+        308677.472,
+        8622702.729
+      ],
+      "degree": 1,
+      "cotaTerreno": 87.5,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0074",
+      "coordinate": [
+        308516.129,
+        8622943.626
+      ],
+      "degree": 1,
+      "cotaTerreno": 91.511,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0075",
+      "coordinate": [
+        308512.751,
+        8622944.109
+      ],
+      "degree": 3,
+      "cotaTerreno": 91.758,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0076",
+      "coordinate": [
+        308465.629,
+        8622948.626
+      ],
+      "degree": 2,
+      "cotaTerreno": 95.265,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0077",
+      "coordinate": [
+        308453.823,
+        8622786.621
+      ],
+      "degree": 1,
+      "cotaTerreno": 98.06,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0078",
+      "coordinate": [
+        308477.323,
+        8622797.621
+      ],
+      "degree": 2,
+      "cotaTerreno": 96.571,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0079",
+      "coordinate": [
+        308541.217,
+        8622771.724
+      ],
+      "degree": 2,
+      "cotaTerreno": 93.94,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0080",
+      "coordinate": [
+        308535.717,
+        8622801.224
+      ],
+      "degree": 1,
+      "cotaTerreno": 91.993,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0081",
+      "coordinate": [
+        308458.301,
+        8622769.135
+      ],
+      "degree": 1,
+      "cotaTerreno": 98.243,
+      "metodo": "BILINEAL_F32_TIN"
+    },
+    {
+      "id": "NV-0082",
+      "coordinate": [
+        308485.801,
+        8622773.635
+      ],
+      "degree": 2,
+      "cotaTerreno": 96.76,
+      "metodo": "BILINEAL_F32_TIN"
+    }
+  ],
+  "edges": [
+    {
+      "id": "TV-0001",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0001",
+      "nodoHasta": "NV-0002",
+      "longitud": 70.041,
+      "cotaTerrenoDesde": 98.654,
+      "cotaTerrenoHasta": 96.01,
+      "pendienteTerrenoDesdeAHasta": 0.037748,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "AVENIDA E"
+    },
+    {
+      "id": "TV-0002",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0002",
+      "nodoHasta": "NV-0003",
+      "longitud": 37.964,
+      "cotaTerrenoDesde": 96.01,
+      "cotaTerrenoHasta": 94.98,
+      "pendienteTerrenoDesdeAHasta": 0.027136,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "AVENIDA E"
+    },
+    {
+      "id": "TV-0003",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0003",
+      "nodoHasta": "NV-0004",
+      "longitud": 6.561,
+      "cotaTerrenoDesde": 94.98,
+      "cotaTerrenoHasta": 95.243,
+      "pendienteTerrenoDesdeAHasta": -0.040082,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "AVENIDA E"
+    },
+    {
+      "id": "TV-0004",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0005",
+      "nodoHasta": "NV-0006",
+      "longitud": 11.331,
+      "cotaTerrenoDesde": 96.352,
+      "cotaTerrenoHasta": 95.728,
+      "pendienteTerrenoDesdeAHasta": 0.055069,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE10"
+    },
+    {
+      "id": "TV-0005",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0007",
+      "nodoHasta": "NV-0008",
+      "longitud": 12.419,
+      "cotaTerrenoDesde": 108.474,
+      "cotaTerrenoHasta": 107.442,
+      "pendienteTerrenoDesdeAHasta": 0.08306,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE11"
+    },
+    {
+      "id": "TV-0006",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0008",
+      "nodoHasta": "NV-0009",
+      "longitud": 137.235,
+      "cotaTerrenoDesde": 107.442,
+      "cotaTerrenoHasta": 96.018,
+      "pendienteTerrenoDesdeAHasta": 0.083249,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE11"
+    },
+    {
+      "id": "TV-0007",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0010",
+      "nodoHasta": "NV-0011",
+      "longitud": 3.04,
+      "cotaTerrenoDesde": 106.114,
+      "cotaTerrenoHasta": 105.985,
+      "pendienteTerrenoDesdeAHasta": 0.042194,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE12"
+    },
+    {
+      "id": "TV-0008",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0011",
+      "nodoHasta": "NV-0012",
+      "longitud": 143.052,
+      "cotaTerrenoDesde": 105.985,
+      "cotaTerrenoHasta": 97.029,
+      "pendienteTerrenoDesdeAHasta": 0.062612,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE12"
+    },
+    {
+      "id": "TV-0009",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0012",
+      "nodoHasta": "NV-0013",
+      "longitud": 31.381,
+      "cotaTerrenoDesde": 97.029,
+      "cotaTerrenoHasta": 94.565,
+      "pendienteTerrenoDesdeAHasta": 0.078508,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE12"
+    },
+    {
+      "id": "TV-0010",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0013",
+      "nodoHasta": "NV-0014",
+      "longitud": 17.861,
+      "cotaTerrenoDesde": 94.565,
+      "cotaTerrenoHasta": 93.443,
+      "pendienteTerrenoDesdeAHasta": 0.062829,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE12"
+    },
+    {
+      "id": "TV-0011",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0014",
+      "nodoHasta": "NV-0015",
+      "longitud": 16.18,
+      "cotaTerrenoDesde": 93.443,
+      "cotaTerrenoHasta": 92.524,
+      "pendienteTerrenoDesdeAHasta": 0.05681,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE12"
+    },
+    {
+      "id": "TV-0012",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0016",
+      "nodoHasta": "NV-0017",
+      "longitud": 1.0,
+      "cotaTerrenoDesde": 80.202,
+      "cotaTerrenoHasta": 80.197,
+      "pendienteTerrenoDesdeAHasta": 0.004912,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE14"
+    },
+    {
+      "id": "TV-0013",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0017",
+      "nodoHasta": "NV-0018",
+      "longitud": 158.609,
+      "cotaTerrenoDesde": 80.197,
+      "cotaTerrenoHasta": 85.509,
+      "pendienteTerrenoDesdeAHasta": -0.033491,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE14"
+    },
+    {
+      "id": "TV-0014",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0018",
+      "nodoHasta": "NV-0019",
+      "longitud": 37.721,
+      "cotaTerrenoDesde": 85.509,
+      "cotaTerrenoHasta": 86.447,
+      "pendienteTerrenoDesdeAHasta": -0.024888,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE14"
+    },
+    {
+      "id": "TV-0015",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0019",
+      "nodoHasta": "NV-0020",
+      "longitud": 187.737,
+      "cotaTerrenoDesde": 86.447,
+      "cotaTerrenoHasta": 94.248,
+      "pendienteTerrenoDesdeAHasta": -0.041551,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE14"
+    },
+    {
+      "id": "TV-0016",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0021",
+      "nodoHasta": "NV-0022",
+      "longitud": 2.707,
+      "cotaTerrenoDesde": 93.124,
+      "cotaTerrenoHasta": 92.996,
+      "pendienteTerrenoDesdeAHasta": 0.047441,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE15"
+    },
+    {
+      "id": "TV-0017",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0022",
+      "nodoHasta": "NV-0023",
+      "longitud": 32.27,
+      "cotaTerrenoDesde": 92.996,
+      "cotaTerrenoHasta": 90.378,
+      "pendienteTerrenoDesdeAHasta": 0.081116,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE15"
+    },
+    {
+      "id": "TV-0018",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0023",
+      "nodoHasta": "NV-0024",
+      "longitud": 46.392,
+      "cotaTerrenoDesde": 90.378,
+      "cotaTerrenoHasta": 88.65,
+      "pendienteTerrenoDesdeAHasta": 0.037256,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE15"
+    },
+    {
+      "id": "TV-0019",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0024",
+      "nodoHasta": "NV-0025",
+      "longitud": 42.519,
+      "cotaTerrenoDesde": 88.65,
+      "cotaTerrenoHasta": 87.012,
+      "pendienteTerrenoDesdeAHasta": 0.038512,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE15"
+    },
+    {
+      "id": "TV-0020",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0025",
+      "nodoHasta": "NV-0026",
+      "longitud": 31.706,
+      "cotaTerrenoDesde": 87.012,
+      "cotaTerrenoHasta": 85.858,
+      "pendienteTerrenoDesdeAHasta": 0.036407,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE15"
+    },
+    {
+      "id": "TV-0021",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0027",
+      "nodoHasta": "NV-0028",
+      "longitud": 36.527,
+      "cotaTerrenoDesde": 94.102,
+      "cotaTerrenoHasta": 92.216,
+      "pendienteTerrenoDesdeAHasta": 0.051643,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE16"
+    },
+    {
+      "id": "TV-0022",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0028",
+      "nodoHasta": "NV-0029",
+      "longitud": 70.632,
+      "cotaTerrenoDesde": 92.216,
+      "cotaTerrenoHasta": 88.642,
+      "pendienteTerrenoDesdeAHasta": 0.050601,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE16"
+    },
+    {
+      "id": "TV-0023",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0029",
+      "nodoHasta": "NV-0030",
+      "longitud": 5.358,
+      "cotaTerrenoDesde": 88.642,
+      "cotaTerrenoHasta": 88.397,
+      "pendienteTerrenoDesdeAHasta": 0.045634,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE16"
+    },
+    {
+      "id": "TV-0024",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0030",
+      "nodoHasta": "NV-0031",
+      "longitud": 37.626,
+      "cotaTerrenoDesde": 88.397,
+      "cotaTerrenoHasta": 86.924,
+      "pendienteTerrenoDesdeAHasta": 0.039154,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE16"
+    },
+    {
+      "id": "TV-0025",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0032",
+      "nodoHasta": "NV-0033",
+      "longitud": 60.375,
+      "cotaTerrenoDesde": 91.805,
+      "cotaTerrenoHasta": 91.824,
+      "pendienteTerrenoDesdeAHasta": -0.000319,
+      "clasificacion": "TERRENO_CASI_PLANO",
+      "via": "CALLE18"
+    },
+    {
+      "id": "TV-0026",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0033",
+      "nodoHasta": "NV-0034",
+      "longitud": 74.507,
+      "cotaTerrenoDesde": 91.824,
+      "cotaTerrenoHasta": 88.577,
+      "pendienteTerrenoDesdeAHasta": 0.043589,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE18"
+    },
+    {
+      "id": "TV-0027",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0035",
+      "nodoHasta": "NV-0036",
+      "longitud": 193.433,
+      "cotaTerrenoDesde": 79.995,
+      "cotaTerrenoHasta": 86.645,
+      "pendienteTerrenoDesdeAHasta": -0.034381,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE24"
+    },
+    {
+      "id": "TV-0028",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0037",
+      "nodoHasta": "NV-0038",
+      "longitud": 6.598,
+      "cotaTerrenoDesde": 106.004,
+      "cotaTerrenoHasta": 106.068,
+      "pendienteTerrenoDesdeAHasta": -0.009679,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE25"
+    },
+    {
+      "id": "TV-0029",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0038",
+      "nodoHasta": "NV-0039",
+      "longitud": 35.314,
+      "cotaTerrenoDesde": 106.068,
+      "cotaTerrenoHasta": 108.036,
+      "pendienteTerrenoDesdeAHasta": -0.05575,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE25"
+    },
+    {
+      "id": "TV-0030",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0039",
+      "nodoHasta": "NV-0040",
+      "longitud": 10.264,
+      "cotaTerrenoDesde": 108.036,
+      "cotaTerrenoHasta": 107.419,
+      "pendienteTerrenoDesdeAHasta": 0.060137,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE25"
+    },
+    {
+      "id": "TV-0031",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0040",
+      "nodoHasta": "NV-0041",
+      "longitud": 0.838,
+      "cotaTerrenoDesde": 107.419,
+      "cotaTerrenoHasta": 107.344,
+      "pendienteTerrenoDesdeAHasta": 0.08987,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE25"
+    },
+    {
+      "id": "TV-0032",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0042",
+      "nodoHasta": "NV-0043",
+      "longitud": 55.368,
+      "cotaTerrenoDesde": 91.618,
+      "cotaTerrenoHasta": 92.062,
+      "pendienteTerrenoDesdeAHasta": -0.008027,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE26"
+    },
+    {
+      "id": "TV-0033",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0044",
+      "nodoHasta": "NV-0045",
+      "longitud": 0.271,
+      "cotaTerrenoDesde": 91.558,
+      "cotaTerrenoHasta": 91.568,
+      "pendienteTerrenoDesdeAHasta": -0.035749,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE27"
+    },
+    {
+      "id": "TV-0034",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0045",
+      "nodoHasta": "NV-0046",
+      "longitud": 83.482,
+      "cotaTerrenoDesde": 91.568,
+      "cotaTerrenoHasta": 88.36,
+      "pendienteTerrenoDesdeAHasta": 0.038425,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE27"
+    },
+    {
+      "id": "TV-0035",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0047",
+      "nodoHasta": "NV-0048",
+      "longitud": 23.731,
+      "cotaTerrenoDesde": 96.084,
+      "cotaTerrenoHasta": 95.997,
+      "pendienteTerrenoDesdeAHasta": 0.003678,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE28"
+    },
+    {
+      "id": "TV-0036",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0048",
+      "nodoHasta": "NV-0049",
+      "longitud": 24.515,
+      "cotaTerrenoDesde": 95.997,
+      "cotaTerrenoHasta": 95.828,
+      "pendienteTerrenoDesdeAHasta": 0.006894,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE28"
+    },
+    {
+      "id": "TV-0037",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0049",
+      "nodoHasta": "NV-0050",
+      "longitud": 54.657,
+      "cotaTerrenoDesde": 95.828,
+      "cotaTerrenoHasta": 95.164,
+      "pendienteTerrenoDesdeAHasta": 0.012139,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE28"
+    },
+    {
+      "id": "TV-0038",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0050",
+      "nodoHasta": "NV-0051",
+      "longitud": 6.017,
+      "cotaTerrenoDesde": 95.164,
+      "cotaTerrenoHasta": 95.251,
+      "pendienteTerrenoDesdeAHasta": -0.01452,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE28"
+    },
+    {
+      "id": "TV-0039",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0051",
+      "nodoHasta": "NV-0052",
+      "longitud": 1.69,
+      "cotaTerrenoDesde": 95.251,
+      "cotaTerrenoHasta": 95.301,
+      "pendienteTerrenoDesdeAHasta": -0.029173,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE28"
+    },
+    {
+      "id": "TV-0040",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0053",
+      "nodoHasta": "NV-0054",
+      "longitud": 211.262,
+      "cotaTerrenoDesde": 79.396,
+      "cotaTerrenoHasta": 87.919,
+      "pendienteTerrenoDesdeAHasta": -0.040343,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE29"
+    },
+    {
+      "id": "TV-0041",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0055",
+      "nodoHasta": "NV-0056",
+      "longitud": 189.085,
+      "cotaTerrenoDesde": 78.556,
+      "cotaTerrenoHasta": 85.255,
+      "pendienteTerrenoDesdeAHasta": -0.035429,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE30"
+    },
+    {
+      "id": "TV-0042",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0056",
+      "nodoHasta": "NV-0057",
+      "longitud": 87.354,
+      "cotaTerrenoDesde": 85.255,
+      "cotaTerrenoHasta": 89.938,
+      "pendienteTerrenoDesdeAHasta": -0.053612,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE30"
+    },
+    {
+      "id": "TV-0043",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0058",
+      "nodoHasta": "NV-0059",
+      "longitud": 142.012,
+      "cotaTerrenoDesde": 79.347,
+      "cotaTerrenoHasta": 86.372,
+      "pendienteTerrenoDesdeAHasta": -0.049467,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE31"
+    },
+    {
+      "id": "TV-0044",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0059",
+      "nodoHasta": "NV-0060",
+      "longitud": 47.873,
+      "cotaTerrenoDesde": 86.372,
+      "cotaTerrenoHasta": 85.406,
+      "pendienteTerrenoDesdeAHasta": 0.020178,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE31"
+    },
+    {
+      "id": "TV-0045",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0061",
+      "nodoHasta": "NV-0062",
+      "longitud": 19.449,
+      "cotaTerrenoDesde": 78.316,
+      "cotaTerrenoHasta": 78.412,
+      "pendienteTerrenoDesdeAHasta": -0.004958,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE32"
+    },
+    {
+      "id": "TV-0046",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0062",
+      "nodoHasta": "NV-0063",
+      "longitud": 53.848,
+      "cotaTerrenoDesde": 78.412,
+      "cotaTerrenoHasta": 79.278,
+      "pendienteTerrenoDesdeAHasta": -0.016072,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE32"
+    },
+    {
+      "id": "TV-0047",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0063",
+      "nodoHasta": "NV-0064",
+      "longitud": 49.868,
+      "cotaTerrenoDesde": 79.278,
+      "cotaTerrenoHasta": 79.994,
+      "pendienteTerrenoDesdeAHasta": -0.01436,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE32"
+    },
+    {
+      "id": "TV-0048",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0064",
+      "nodoHasta": "NV-0065",
+      "longitud": 38.752,
+      "cotaTerrenoDesde": 79.994,
+      "cotaTerrenoHasta": 80.0,
+      "pendienteTerrenoDesdeAHasta": -0.000153,
+      "clasificacion": "TERRENO_CASI_PLANO",
+      "via": "CALLE32"
+    },
+    {
+      "id": "TV-0049",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0066",
+      "nodoHasta": "NV-0067",
+      "longitud": 13.416,
+      "cotaTerrenoDesde": 108.068,
+      "cotaTerrenoHasta": 107.085,
+      "pendienteTerrenoDesdeAHasta": 0.073228,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE44"
+    },
+    {
+      "id": "TV-0050",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0067",
+      "nodoHasta": "NV-0068",
+      "longitud": 6.5,
+      "cotaTerrenoDesde": 107.085,
+      "cotaTerrenoHasta": 107.179,
+      "pendienteTerrenoDesdeAHasta": -0.014476,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE44"
+    },
+    {
+      "id": "TV-0051",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0069",
+      "nodoHasta": "NV-0070",
+      "longitud": 12.905,
+      "cotaTerrenoDesde": 109.609,
+      "cotaTerrenoHasta": 110.273,
+      "pendienteTerrenoDesdeAHasta": -0.051388,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "CALLE45"
+    },
+    {
+      "id": "TV-0052",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0071",
+      "nodoHasta": "NV-0072",
+      "longitud": 22.895,
+      "cotaTerrenoDesde": 89.11,
+      "cotaTerrenoHasta": 87.502,
+      "pendienteTerrenoDesdeAHasta": 0.070259,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE46"
+    },
+    {
+      "id": "TV-0053",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0072",
+      "nodoHasta": "NV-0073",
+      "longitud": 0.289,
+      "cotaTerrenoDesde": 87.502,
+      "cotaTerrenoHasta": 87.5,
+      "pendienteTerrenoDesdeAHasta": 0.007863,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "CALLE46"
+    },
+    {
+      "id": "TV-0054",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0074",
+      "nodoHasta": "NV-0075",
+      "longitud": 3.413,
+      "cotaTerrenoDesde": 91.511,
+      "cotaTerrenoHasta": 91.758,
+      "pendienteTerrenoDesdeAHasta": -0.072396,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "PASAJE01"
+    },
+    {
+      "id": "TV-0055",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0075",
+      "nodoHasta": "NV-0076",
+      "longitud": 50.947,
+      "cotaTerrenoDesde": 91.758,
+      "cotaTerrenoHasta": 95.265,
+      "pendienteTerrenoDesdeAHasta": -0.068831,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "via": "PASAJE01"
+    },
+    {
+      "id": "TV-0056",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0077",
+      "nodoHasta": "NV-0078",
+      "longitud": 27.88,
+      "cotaTerrenoDesde": 98.06,
+      "cotaTerrenoHasta": 96.571,
+      "pendienteTerrenoDesdeAHasta": 0.053383,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "PASAJE02"
+    },
+    {
+      "id": "TV-0057",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0079",
+      "nodoHasta": "NV-0080",
+      "longitud": 31.226,
+      "cotaTerrenoDesde": 93.94,
+      "cotaTerrenoHasta": 91.993,
+      "pendienteTerrenoDesdeAHasta": 0.062352,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "PASAJE03"
+    },
+    {
+      "id": "TV-0058",
+      "origen": "EJE_VIAL",
+      "nodoDesde": "NV-0081",
+      "nodoHasta": "NV-0082",
+      "longitud": 28.616,
+      "cotaTerrenoDesde": 98.243,
+      "cotaTerrenoHasta": 96.76,
+      "pendienteTerrenoDesdeAHasta": 0.051822,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "via": "PASAJE05"
+    },
+    {
+      "id": "TV-0059",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0004",
+      "nodoHasta": "NV-0006",
+      "longitud": 8.861,
+      "cotaTerrenoDesde": 95.243,
+      "cotaTerrenoHasta": 95.728,
+      "pendienteTerrenoDesdeAHasta": -0.054818,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "conexionVial": "CX-001",
+      "viasConectadas": [
+        "AVENIDA E",
+        "CALLE10"
+      ]
+    },
+    {
+      "id": "TV-0060",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0003",
+      "nodoHasta": "NV-0020",
+      "longitud": 12.258,
+      "cotaTerrenoDesde": 94.98,
+      "cotaTerrenoHasta": 94.248,
+      "pendienteTerrenoDesdeAHasta": 0.059681,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-002",
+      "viasConectadas": [
+        "AVENIDA E",
+        "CALLE14"
+      ]
+    },
+    {
+      "id": "TV-0061",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0001",
+      "nodoHasta": "NV-0052",
+      "longitud": 19.565,
+      "cotaTerrenoDesde": 98.654,
+      "cotaTerrenoHasta": 95.301,
+      "pendienteTerrenoDesdeAHasta": 0.171378,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-003",
+      "viasConectadas": [
+        "AVENIDA E",
+        "CALLE28"
+      ]
+    },
+    {
+      "id": "TV-0062",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0002",
+      "nodoHasta": "NV-0076",
+      "longitud": 13.842,
+      "cotaTerrenoDesde": 96.01,
+      "cotaTerrenoHasta": 95.265,
+      "pendienteTerrenoDesdeAHasta": 0.053835,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-004",
+      "viasConectadas": [
+        "AVENIDA E",
+        "PASAJE01"
+      ]
+    },
+    {
+      "id": "TV-0063",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0008",
+      "nodoHasta": "NV-0040",
+      "longitud": 4.631,
+      "cotaTerrenoDesde": 107.442,
+      "cotaTerrenoHasta": 107.419,
+      "pendienteTerrenoDesdeAHasta": 0.00501,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-005",
+      "viasConectadas": [
+        "CALLE11",
+        "CALLE25"
+      ]
+    },
+    {
+      "id": "TV-0064",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0009",
+      "nodoHasta": "NV-0050",
+      "longitud": 16.798,
+      "cotaTerrenoDesde": 96.018,
+      "cotaTerrenoHasta": 95.164,
+      "pendienteTerrenoDesdeAHasta": 0.05082,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-006",
+      "viasConectadas": [
+        "CALLE11",
+        "CALLE28"
+      ]
+    },
+    {
+      "id": "TV-0065",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0007",
+      "nodoHasta": "NV-0069",
+      "longitud": 6.071,
+      "cotaTerrenoDesde": 108.474,
+      "cotaTerrenoHasta": 109.609,
+      "pendienteTerrenoDesdeAHasta": -0.187038,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "conexionVial": "CX-007",
+      "viasConectadas": [
+        "CALLE11",
+        "CALLE45"
+      ]
+    },
+    {
+      "id": "TV-0066",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0014",
+      "nodoHasta": "NV-0022",
+      "longitud": 9.95,
+      "cotaTerrenoDesde": 93.443,
+      "cotaTerrenoHasta": 92.996,
+      "pendienteTerrenoDesdeAHasta": 0.044947,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-008",
+      "viasConectadas": [
+        "CALLE12",
+        "CALLE15"
+      ]
+    },
+    {
+      "id": "TV-0067",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0011",
+      "nodoHasta": "NV-0037",
+      "longitud": 7.237,
+      "cotaTerrenoDesde": 105.985,
+      "cotaTerrenoHasta": 106.004,
+      "pendienteTerrenoDesdeAHasta": -0.002532,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "conexionVial": "CX-009",
+      "viasConectadas": [
+        "CALLE12",
+        "CALLE25"
+      ]
+    },
+    {
+      "id": "TV-0068",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0012",
+      "nodoHasta": "NV-0047",
+      "longitud": 7.683,
+      "cotaTerrenoDesde": 97.029,
+      "cotaTerrenoHasta": 96.084,
+      "pendienteTerrenoDesdeAHasta": 0.122988,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-010",
+      "viasConectadas": [
+        "CALLE12",
+        "CALLE28"
+      ]
+    },
+    {
+      "id": "TV-0069",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0010",
+      "nodoHasta": "NV-0067",
+      "longitud": 8.689,
+      "cotaTerrenoDesde": 106.114,
+      "cotaTerrenoHasta": 107.085,
+      "pendienteTerrenoDesdeAHasta": -0.11181,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "conexionVial": "CX-011",
+      "viasConectadas": [
+        "CALLE12",
+        "CALLE44"
+      ]
+    },
+    {
+      "id": "TV-0070",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0013",
+      "nodoHasta": "NV-0079",
+      "longitud": 9.738,
+      "cotaTerrenoDesde": 94.565,
+      "cotaTerrenoHasta": 93.94,
+      "pendienteTerrenoDesdeAHasta": 0.064212,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-012",
+      "viasConectadas": [
+        "CALLE12",
+        "PASAJE03"
+      ]
+    },
+    {
+      "id": "TV-0071",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0018",
+      "nodoHasta": "NV-0026",
+      "longitud": 14.651,
+      "cotaTerrenoDesde": 85.509,
+      "cotaTerrenoHasta": 85.858,
+      "pendienteTerrenoDesdeAHasta": -0.023834,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "conexionVial": "CX-013",
+      "viasConectadas": [
+        "CALLE14",
+        "CALLE15"
+      ]
+    },
+    {
+      "id": "TV-0072",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0019",
+      "nodoHasta": "NV-0031",
+      "longitud": 10.993,
+      "cotaTerrenoDesde": 86.447,
+      "cotaTerrenoHasta": 86.924,
+      "pendienteTerrenoDesdeAHasta": -0.043355,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "conexionVial": "CX-014",
+      "viasConectadas": [
+        "CALLE14",
+        "CALLE16"
+      ]
+    },
+    {
+      "id": "TV-0073",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0017",
+      "nodoHasta": "NV-0065",
+      "longitud": 9.17,
+      "cotaTerrenoDesde": 80.197,
+      "cotaTerrenoHasta": 80.0,
+      "pendienteTerrenoDesdeAHasta": 0.021483,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-015",
+      "viasConectadas": [
+        "CALLE14",
+        "CALLE32"
+      ]
+    },
+    {
+      "id": "TV-0074",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0025",
+      "nodoHasta": "NV-0036",
+      "longitud": 13.767,
+      "cotaTerrenoDesde": 87.012,
+      "cotaTerrenoHasta": 86.645,
+      "pendienteTerrenoDesdeAHasta": 0.026639,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-016",
+      "viasConectadas": [
+        "CALLE15",
+        "CALLE24"
+      ]
+    },
+    {
+      "id": "TV-0075",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0024",
+      "nodoHasta": "NV-0054",
+      "longitud": 16.172,
+      "cotaTerrenoDesde": 88.65,
+      "cotaTerrenoHasta": 87.919,
+      "pendienteTerrenoDesdeAHasta": 0.045153,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-017",
+      "viasConectadas": [
+        "CALLE15",
+        "CALLE29"
+      ]
+    },
+    {
+      "id": "TV-0076",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0023",
+      "nodoHasta": "NV-0057",
+      "longitud": 9.552,
+      "cotaTerrenoDesde": 90.378,
+      "cotaTerrenoHasta": 89.938,
+      "pendienteTerrenoDesdeAHasta": 0.04606,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-018",
+      "viasConectadas": [
+        "CALLE15",
+        "CALLE30"
+      ]
+    },
+    {
+      "id": "TV-0077",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0029",
+      "nodoHasta": "NV-0034",
+      "longitud": 7.055,
+      "cotaTerrenoDesde": 88.642,
+      "cotaTerrenoHasta": 88.577,
+      "pendienteTerrenoDesdeAHasta": 0.009232,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-019",
+      "viasConectadas": [
+        "CALLE16",
+        "CALLE18"
+      ]
+    },
+    {
+      "id": "TV-0078",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0028",
+      "nodoHasta": "NV-0043",
+      "longitud": 12.002,
+      "cotaTerrenoDesde": 92.216,
+      "cotaTerrenoHasta": 92.062,
+      "pendienteTerrenoDesdeAHasta": 0.012819,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-020",
+      "viasConectadas": [
+        "CALLE16",
+        "CALLE26"
+      ]
+    },
+    {
+      "id": "TV-0079",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0030",
+      "nodoHasta": "NV-0046",
+      "longitud": 8.478,
+      "cotaTerrenoDesde": 88.397,
+      "cotaTerrenoHasta": 88.36,
+      "pendienteTerrenoDesdeAHasta": 0.004366,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-021",
+      "viasConectadas": [
+        "CALLE16",
+        "CALLE27"
+      ]
+    },
+    {
+      "id": "TV-0080",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0027",
+      "nodoHasta": "NV-0051",
+      "longitud": 14.529,
+      "cotaTerrenoDesde": 94.102,
+      "cotaTerrenoHasta": 95.251,
+      "pendienteTerrenoDesdeAHasta": -0.079096,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "conexionVial": "CX-022",
+      "viasConectadas": [
+        "CALLE16",
+        "CALLE28"
+      ]
+    },
+    {
+      "id": "TV-0081",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0033",
+      "nodoHasta": "NV-0075",
+      "longitud": 7.393,
+      "cotaTerrenoDesde": 91.824,
+      "cotaTerrenoHasta": 91.758,
+      "pendienteTerrenoDesdeAHasta": 0.008983,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-023",
+      "viasConectadas": [
+        "CALLE18",
+        "PASAJE01"
+      ]
+    },
+    {
+      "id": "TV-0082",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0035",
+      "nodoHasta": "NV-0064",
+      "longitud": 6.92,
+      "cotaTerrenoDesde": 79.995,
+      "cotaTerrenoHasta": 79.994,
+      "pendienteTerrenoDesdeAHasta": 0.000172,
+      "clasificacion": "TERRENO_CASI_PLANO",
+      "conexionVial": "CX-024",
+      "viasConectadas": [
+        "CALLE24",
+        "CALLE32"
+      ]
+    },
+    {
+      "id": "TV-0083",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0038",
+      "nodoHasta": "NV-0068",
+      "longitud": 8.574,
+      "cotaTerrenoDesde": 106.068,
+      "cotaTerrenoHasta": 107.179,
+      "pendienteTerrenoDesdeAHasta": -0.129659,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "conexionVial": "CX-025",
+      "viasConectadas": [
+        "CALLE25",
+        "CALLE44"
+      ]
+    },
+    {
+      "id": "TV-0084",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0039",
+      "nodoHasta": "NV-0069",
+      "longitud": 13.865,
+      "cotaTerrenoDesde": 108.036,
+      "cotaTerrenoHasta": 109.609,
+      "pendienteTerrenoDesdeAHasta": -0.11345,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "conexionVial": "CX-026",
+      "viasConectadas": [
+        "CALLE25",
+        "CALLE45"
+      ]
+    },
+    {
+      "id": "TV-0085",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0042",
+      "nodoHasta": "NV-0045",
+      "longitud": 1.744,
+      "cotaTerrenoDesde": 91.618,
+      "cotaTerrenoHasta": 91.568,
+      "pendienteTerrenoDesdeAHasta": 0.028377,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-027",
+      "viasConectadas": [
+        "CALLE26",
+        "CALLE27"
+      ]
+    },
+    {
+      "id": "TV-0086",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0049",
+      "nodoHasta": "NV-0078",
+      "longitud": 10.964,
+      "cotaTerrenoDesde": 95.828,
+      "cotaTerrenoHasta": 96.571,
+      "pendienteTerrenoDesdeAHasta": -0.067855,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "conexionVial": "CX-028",
+      "viasConectadas": [
+        "CALLE28",
+        "PASAJE02"
+      ]
+    },
+    {
+      "id": "TV-0087",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0048",
+      "nodoHasta": "NV-0082",
+      "longitud": 9.639,
+      "cotaTerrenoDesde": 95.997,
+      "cotaTerrenoHasta": 96.76,
+      "pendienteTerrenoDesdeAHasta": -0.079165,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "conexionVial": "CX-029",
+      "viasConectadas": [
+        "CALLE28",
+        "PASAJE05"
+      ]
+    },
+    {
+      "id": "TV-0088",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0053",
+      "nodoHasta": "NV-0063",
+      "longitud": 14.729,
+      "cotaTerrenoDesde": 79.396,
+      "cotaTerrenoHasta": 79.278,
+      "pendienteTerrenoDesdeAHasta": 0.008063,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-030",
+      "viasConectadas": [
+        "CALLE29",
+        "CALLE32"
+      ]
+    },
+    {
+      "id": "TV-0089",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0056",
+      "nodoHasta": "NV-0060",
+      "longitud": 8.824,
+      "cotaTerrenoDesde": 85.255,
+      "cotaTerrenoHasta": 85.406,
+      "pendienteTerrenoDesdeAHasta": -0.017109,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "conexionVial": "CX-031",
+      "viasConectadas": [
+        "CALLE30",
+        "CALLE31"
+      ]
+    },
+    {
+      "id": "TV-0090",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0055",
+      "nodoHasta": "NV-0062",
+      "longitud": 6.039,
+      "cotaTerrenoDesde": 78.556,
+      "cotaTerrenoHasta": 78.412,
+      "pendienteTerrenoDesdeAHasta": 0.02379,
+      "clasificacion": "TERRENO_DESCIENDE_DE_DESDE_A_HASTA",
+      "conexionVial": "CX-032",
+      "viasConectadas": [
+        "CALLE30",
+        "CALLE32"
+      ]
+    },
+    {
+      "id": "TV-0091",
+      "origen": "CONEXION_INFERIDA",
+      "nodoDesde": "NV-0059",
+      "nodoHasta": "NV-0072",
+      "longitud": 14.582,
+      "cotaTerrenoDesde": 86.372,
+      "cotaTerrenoHasta": 87.502,
+      "pendienteTerrenoDesdeAHasta": -0.077497,
+      "clasificacion": "TERRENO_DESCIENDE_DE_HASTA_A_DESDE",
+      "conexionVial": "CX-033",
+      "viasConectadas": [
+        "CALLE31",
+        "CALLE46"
+      ]
+    }
+  ]
+}

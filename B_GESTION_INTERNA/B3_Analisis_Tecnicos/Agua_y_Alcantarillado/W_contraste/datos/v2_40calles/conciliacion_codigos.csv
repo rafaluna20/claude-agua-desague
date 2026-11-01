@@ -1,0 +1,982 @@
+﻿Archivo,Evento,Codigo final / Odoo,Codigo posicional,Area nueva (m2),Area Odoo (m2),IoU,Nota
+agua_import.json,IGUAL,AGUA01,AGUA01,201.02,201.01,1.000,
+agua_import.json,IGUAL,AGUA02,AGUA02,201.01,201.02,1.000,
+aporte_educacion_import.json,IGUAL,APORTEEDU01,APORTEEDU01,5080.12,5080.12,1.000,
+aporte_educacion_import.json,IGUAL,APORTEEDU02,APORTEEDU02,3782.59,3782.58,1.000,
+aporte_educacion_import.json,IGUAL,APORTEEDU03,APORTEEDU03,2799.63,2799.63,1.000,
+aporte_otros_import.json,IGUAL,APORTEOTR01,APORTEOTR01,16403.27,16403.27,1.000,
+aporte_recreacion_import.json,IGUAL,APORTEREC01,APORTEREC01,1519.87,1519.86,1.000,
+aporte_recreacion_import.json,IGUAL,APORTEREC02,APORTEREC02,1685.50,1685.50,1.000,
+aporte_recreacion_import.json,IGUAL,APORTEREC03,APORTEREC03,3108.62,3108.62,1.000,
+aporte_recreacion_import.json,IGUAL,APORTEREC04,APORTEREC04,2521.39,2521.39,1.000,
+aporte_recreacion_import.json,IGUAL,APORTEREC05,APORTEREC05,2026.97,2026.97,1.000,
+aporte_recreacion_import.json,IGUAL,APORTEREC06,APORTEREC06,699.17,699.17,1.000,
+aporte_recreacion_import.json,IGUAL,APORTEREC07,APORTEREC07,329.92,329.92,1.000,
+aporte_recreacion_import.json,IGUAL,APORTEREC08,APORTEREC08,1746.10,1746.10,1.000,
+aporte_recreacion_import.json,IGUAL,APORTEREC09,APORTEREC09,164.50,164.50,1.000,
+aporte_recreacion_import.json,IGUAL,APORTEREC10,APORTEREC10,1303.49,1303.49,1.000,
+aporte_recreacion_import.json,IGUAL,APORTEREC11,APORTEREC11,676.12,676.12,1.000,
+aporte_recreacion_import.json,IGUAL,APORTEREC12,APORTEREC12,992.71,992.71,1.000,
+calle_import.json,CORREGIDO,CALLE13,CALLE01,4644.90,4644.90,1.000,por posicion era CALLE01
+calle_import.json,IGUAL,CALLE02,CALLE02,1750.05,1750.05,1.000,
+calle_import.json,IGUAL,CALLE03,CALLE03,1378.46,1378.46,1.000,
+calle_import.json,IGUAL,CALLE04,CALLE04,3927.02,3927.02,1.000,
+calle_import.json,IGUAL,CALLE05,CALLE05,970.17,970.17,1.000,
+calle_import.json,IGUAL,CALLE06,CALLE06,517.19,517.19,1.000,
+calle_import.json,EDITADO,AVENIDA E,CALLE07,7006.30,9294.04,0.754,la forma cambio; por posicion era CALLE07
+calle_import.json,IGUAL,CALLE08,CALLE08,3631.58,3631.58,1.000,
+calle_import.json,IGUAL,CALLE09,CALLE09,713.83,713.83,1.000,
+calle_import.json,IGUAL,CALLE10,CALLE10,3608.99,3608.99,1.000,
+calle_import.json,IGUAL,CALLE11,CALLE11,1404.23,1404.23,1.000,
+calle_import.json,CORREGIDO,CALLE14,CALLE12,10122.10,10112.44,0.999,por posicion era CALLE12
+calle_import.json,CORREGIDO,CALLE15,CALLE13,2706.41,2706.41,1.000,por posicion era CALLE13
+calle_import.json,CORREGIDO,CALLE16,CALLE14,2232.27,2232.27,1.000,por posicion era CALLE14
+calle_import.json,CORREGIDO,CALLE18,CALLE15,1561.56,1561.56,1.000,por posicion era CALLE15
+calle_import.json,CORREGIDO,CALLE19,CALLE16,3857.54,3857.54,1.000,por posicion era CALLE16
+calle_import.json,CORREGIDO,CALLE20,CALLE17,3798.30,3798.30,1.000,por posicion era CALLE17
+calle_import.json,CORREGIDO,CALLE21,CALLE18,1349.52,1349.52,1.000,por posicion era CALLE18
+calle_import.json,CORREGIDO,CALLE22,CALLE19,1191.91,1191.91,1.000,por posicion era CALLE19
+calle_import.json,CORREGIDO,CALLE24,CALLE20,2258.01,2219.66,0.983,por posicion era CALLE20
+calle_import.json,CORREGIDO,CALLE25,CALLE21,712.07,712.07,1.000,por posicion era CALLE21
+calle_import.json,CORREGIDO,CALLE12,CALLE22,2656.76,2656.76,1.000,por posicion era CALLE22
+calle_import.json,CORREGIDO,CALLE26,CALLE23,596.51,596.51,1.000,por posicion era CALLE23
+calle_import.json,CORREGIDO,CALLE27,CALLE24,984.88,984.88,1.000,por posicion era CALLE24
+calle_import.json,NUEVO,CALLE28,CALLE25,2287.61,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,NUEVO,CALLE29,CALLE26,2643.40,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,NUEVO,CALLE30,CALLE27,4027.37,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,NUEVO,CALLE31,CALLE28,2702.84,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,NUEVO,CALLE32,CALLE29,7504.95,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,NUEVO,CALLE33,CALLE30,342.00,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,NUEVO,CALLE34,CALLE31,11814.92,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,NUEVO,CALLE35,CALLE32,303.83,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,NUEVO,CALLE36,CALLE33,6968.48,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,NUEVO,CALLE37,CALLE34,7814.68,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,NUEVO,CALLE38,CALLE35,2113.85,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,NUEVO,CALLE39,CALLE36,1928.92,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,NUEVO,CALLE40,CALLE37,1930.07,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,NUEVO,CALLE41,CALLE38,1568.93,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,NUEVO,CALLE42,CALLE39,1870.44,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,NUEVO,CALLE43,CALLE40,1581.67,0.00,0.000,poligono sin pareja en Odoo
+calle_import.json,RETIRADO,CALLE23,,0.00,10003.73,0.000,borrar en Odoo despues del import
+calle_import.json,FUERA_ESQUEMA,LINEA5,,0.00,15214.55,0.000,proyecto 'P03154725': no se toca
+calle_import.json,REVISAR,CALLE28,,0.00,0.00,1.000,traslape 100 % con AVENIDA E: posible fusion/division
+jardin_import.json,IGUAL,JARDIN001,JARDIN001,4695.13,4695.12,1.000,
+jardin_import.json,IGUAL,JARDIN002,JARDIN002,312.63,312.63,1.000,
+jardin_import.json,IGUAL,JARDIN003,JARDIN003,349.93,349.94,1.000,
+jardin_import.json,IGUAL,JARDIN004,JARDIN004,151.36,151.36,1.000,
+jardin_import.json,IGUAL,JARDIN005,JARDIN005,408.46,408.46,1.000,
+jardin_import.json,IGUAL,JARDIN006,JARDIN006,408.45,408.45,1.000,
+jardin_import.json,IGUAL,JARDIN007,JARDIN007,408.46,408.46,1.000,
+jardin_import.json,IGUAL,JARDIN008,JARDIN008,14.40,14.40,1.000,
+jardin_import.json,IGUAL,JARDIN009,JARDIN009,14.40,14.40,1.000,
+jardin_import.json,IGUAL,JARDIN010,JARDIN010,19.20,19.20,1.000,
+jardin_import.json,IGUAL,JARDIN011,JARDIN011,19.24,19.24,1.000,
+jardin_import.json,IGUAL,JARDIN012,JARDIN012,37.27,37.27,1.000,
+jardin_import.json,IGUAL,JARDIN013,JARDIN013,7.04,7.04,1.000,
+jardin_import.json,IGUAL,JARDIN014,JARDIN014,44.29,44.29,1.000,
+jardin_import.json,IGUAL,JARDIN015,JARDIN015,44.24,44.24,1.000,
+jardin_import.json,IGUAL,JARDIN016,JARDIN016,44.29,44.29,1.000,
+jardin_import.json,IGUAL,JARDIN017,JARDIN017,44.24,44.24,1.000,
+jardin_import.json,IGUAL,JARDIN018,JARDIN018,28.83,28.83,1.000,
+jardin_import.json,IGUAL,JARDIN019,JARDIN019,162.38,162.38,1.000,
+jardin_import.json,IGUAL,JARDIN020,JARDIN020,92.86,92.86,1.000,
+jardin_import.json,IGUAL,JARDIN021,JARDIN021,93.56,93.56,1.000,
+jardin_import.json,IGUAL,JARDIN022,JARDIN022,14.40,14.40,1.000,
+jardin_import.json,IGUAL,JARDIN023,JARDIN023,14.40,14.40,1.000,
+jardin_import.json,IGUAL,JARDIN024,JARDIN024,14.40,14.40,1.000,
+jardin_import.json,IGUAL,JARDIN025,JARDIN025,14.40,14.40,1.000,
+jardin_import.json,IGUAL,JARDIN026,JARDIN026,14.40,14.40,1.000,
+jardin_import.json,IGUAL,JARDIN027,JARDIN027,14.40,14.40,1.000,
+jardin_import.json,IGUAL,JARDIN028,JARDIN028,5.00,5.00,1.000,
+jardin_import.json,IGUAL,JARDIN029,JARDIN029,5.00,5.00,1.000,
+jardin_import.json,IGUAL,JARDIN030,JARDIN030,5.00,5.00,1.000,
+jardin_import.json,IGUAL,JARDIN031,JARDIN031,5.00,5.00,1.000,
+jardin_import.json,IGUAL,JARDIN032,JARDIN032,5.00,5.00,1.000,
+jardin_import.json,IGUAL,JARDIN033,JARDIN033,5.00,5.00,1.000,
+jardin_import.json,IGUAL,JARDIN034,JARDIN034,5.00,5.00,1.000,
+jardin_import.json,IGUAL,JARDIN035,JARDIN035,5.00,5.00,1.000,
+jardin_import.json,IGUAL,JARDIN036,JARDIN036,9.60,9.60,1.000,
+jardin_import.json,IGUAL,JARDIN037,JARDIN037,9.60,9.60,1.000,
+jardin_import.json,IGUAL,JARDIN038,JARDIN038,24.43,24.43,1.000,
+jardin_import.json,IGUAL,JARDIN039,JARDIN039,24.43,24.43,1.000,
+jardin_import.json,IGUAL,JARDIN040,JARDIN040,460.83,460.82,1.000,
+jardin_import.json,IGUAL,JARDIN041,JARDIN041,408.45,408.46,1.000,
+jardin_import.json,IGUAL,JARDIN042,JARDIN042,3.06,3.06,1.000,
+jardin_import.json,IGUAL,JARDIN043,JARDIN043,2.24,2.24,1.000,
+jardin_import.json,IGUAL,JARDIN044,JARDIN044,258.12,258.11,1.000,
+jardin_import.json,CORREGIDO,JARDIN046,JARDIN045,14.40,14.40,1.000,por posicion era JARDIN045
+jardin_import.json,CORREGIDO,JARDIN047,JARDIN046,14.40,14.40,1.000,por posicion era JARDIN046
+jardin_import.json,CORREGIDO,JARDIN048,JARDIN047,5.34,5.34,1.000,por posicion era JARDIN047
+jardin_import.json,CORREGIDO,JARDIN049,JARDIN048,3.50,3.50,1.000,por posicion era JARDIN048
+jardin_import.json,CORREGIDO,JARDIN050,JARDIN049,3.50,3.50,1.000,por posicion era JARDIN049
+jardin_import.json,CORREGIDO,JARDIN051,JARDIN050,3.50,3.50,1.000,por posicion era JARDIN050
+jardin_import.json,CORREGIDO,JARDIN052,JARDIN051,3.50,3.50,1.000,por posicion era JARDIN051
+jardin_import.json,CORREGIDO,JARDIN053,JARDIN052,3.50,3.50,1.000,por posicion era JARDIN052
+jardin_import.json,CORREGIDO,JARDIN054,JARDIN053,3.50,3.50,1.000,por posicion era JARDIN053
+jardin_import.json,CORREGIDO,JARDIN055,JARDIN054,3.50,3.50,1.000,por posicion era JARDIN054
+jardin_import.json,CORREGIDO,JARDIN056,JARDIN055,3.50,3.50,1.000,por posicion era JARDIN055
+jardin_import.json,CORREGIDO,JARDIN057,JARDIN056,3.50,3.50,1.000,por posicion era JARDIN056
+jardin_import.json,CORREGIDO,JARDIN058,JARDIN057,3.50,3.50,1.000,por posicion era JARDIN057
+jardin_import.json,CORREGIDO,JARDIN059,JARDIN058,14.40,14.40,1.000,por posicion era JARDIN058
+jardin_import.json,CORREGIDO,JARDIN060,JARDIN059,14.40,14.40,1.000,por posicion era JARDIN059
+jardin_import.json,CORREGIDO,JARDIN061,JARDIN060,14.74,14.74,1.000,por posicion era JARDIN060
+jardin_import.json,CORREGIDO,JARDIN062,JARDIN061,14.74,14.74,1.000,por posicion era JARDIN061
+jardin_import.json,CORREGIDO,JARDIN063,JARDIN062,14.74,14.74,1.000,por posicion era JARDIN062
+jardin_import.json,CORREGIDO,JARDIN064,JARDIN063,14.74,14.74,1.000,por posicion era JARDIN063
+jardin_import.json,CORREGIDO,JARDIN065,JARDIN064,14.74,14.74,1.000,por posicion era JARDIN064
+jardin_import.json,CORREGIDO,JARDIN066,JARDIN065,14.74,14.74,1.000,por posicion era JARDIN065
+jardin_import.json,CORREGIDO,JARDIN067,JARDIN066,17.90,17.90,1.000,por posicion era JARDIN066
+jardin_import.json,CORREGIDO,JARDIN068,JARDIN067,4.81,4.81,1.000,por posicion era JARDIN067
+jardin_import.json,CORREGIDO,JARDIN069,JARDIN068,5.34,5.34,1.000,por posicion era JARDIN068
+jardin_import.json,CORREGIDO,JARDIN070,JARDIN069,3.50,3.50,1.000,por posicion era JARDIN069
+jardin_import.json,CORREGIDO,JARDIN071,JARDIN070,3.50,3.50,1.000,por posicion era JARDIN070
+jardin_import.json,CORREGIDO,JARDIN072,JARDIN071,3.50,3.50,1.000,por posicion era JARDIN071
+jardin_import.json,CORREGIDO,JARDIN073,JARDIN072,3.50,3.50,1.000,por posicion era JARDIN072
+jardin_import.json,CORREGIDO,JARDIN074,JARDIN073,3.50,3.50,1.000,por posicion era JARDIN073
+jardin_import.json,CORREGIDO,JARDIN075,JARDIN074,3.50,3.50,1.000,por posicion era JARDIN074
+jardin_import.json,CORREGIDO,JARDIN076,JARDIN075,3.50,3.50,1.000,por posicion era JARDIN075
+jardin_import.json,CORREGIDO,JARDIN077,JARDIN076,3.50,3.50,1.000,por posicion era JARDIN076
+jardin_import.json,CORREGIDO,JARDIN078,JARDIN077,3.50,3.50,1.000,por posicion era JARDIN077
+jardin_import.json,CORREGIDO,JARDIN079,JARDIN078,3.50,3.50,1.000,por posicion era JARDIN078
+jardin_import.json,CORREGIDO,JARDIN080,JARDIN079,26.54,26.54,1.000,por posicion era JARDIN079
+jardin_import.json,CORREGIDO,JARDIN081,JARDIN080,44.29,44.29,1.000,por posicion era JARDIN080
+jardin_import.json,CORREGIDO,JARDIN082,JARDIN081,44.24,44.24,1.000,por posicion era JARDIN081
+jardin_import.json,CORREGIDO,JARDIN083,JARDIN082,44.29,44.29,1.000,por posicion era JARDIN082
+jardin_import.json,CORREGIDO,JARDIN084,JARDIN083,44.24,44.24,1.000,por posicion era JARDIN083
+jardin_import.json,CORREGIDO,JARDIN085,JARDIN084,44.24,44.25,1.000,por posicion era JARDIN084
+jardin_import.json,CORREGIDO,JARDIN086,JARDIN085,44.24,44.24,1.000,por posicion era JARDIN085
+jardin_import.json,CORREGIDO,JARDIN087,JARDIN086,44.29,44.29,1.000,por posicion era JARDIN086
+jardin_import.json,CORREGIDO,JARDIN088,JARDIN087,37.27,37.27,1.000,por posicion era JARDIN087
+jardin_import.json,CORREGIDO,JARDIN089,JARDIN088,7.04,7.04,1.000,por posicion era JARDIN088
+jardin_import.json,CORREGIDO,JARDIN090,JARDIN089,19.20,19.20,1.000,por posicion era JARDIN089
+jardin_import.json,CORREGIDO,JARDIN091,JARDIN090,19.20,19.20,1.000,por posicion era JARDIN090
+jardin_import.json,CORREGIDO,JARDIN092,JARDIN091,19.20,19.20,1.000,por posicion era JARDIN091
+jardin_import.json,CORREGIDO,JARDIN093,JARDIN092,19.20,19.20,1.000,por posicion era JARDIN092
+jardin_import.json,CORREGIDO,JARDIN094,JARDIN093,5.34,5.34,1.000,por posicion era JARDIN093
+jardin_import.json,CORREGIDO,JARDIN095,JARDIN094,3.50,3.50,1.000,por posicion era JARDIN094
+jardin_import.json,CORREGIDO,JARDIN096,JARDIN095,3.50,3.50,1.000,por posicion era JARDIN095
+jardin_import.json,CORREGIDO,JARDIN097,JARDIN096,3.50,3.50,1.000,por posicion era JARDIN096
+jardin_import.json,CORREGIDO,JARDIN098,JARDIN097,3.50,3.50,1.000,por posicion era JARDIN097
+jardin_import.json,CORREGIDO,JARDIN099,JARDIN098,3.50,3.50,1.000,por posicion era JARDIN098
+jardin_import.json,CORREGIDO,JARDIN100,JARDIN099,3.50,3.50,1.000,por posicion era JARDIN099
+jardin_import.json,CORREGIDO,JARDIN101,JARDIN100,3.50,3.50,1.000,por posicion era JARDIN100
+jardin_import.json,CORREGIDO,JARDIN102,JARDIN101,3.50,3.50,1.000,por posicion era JARDIN101
+jardin_import.json,CORREGIDO,JARDIN103,JARDIN102,4.06,4.06,1.000,por posicion era JARDIN102
+jardin_import.json,CORREGIDO,JARDIN104,JARDIN103,4.06,4.06,1.000,por posicion era JARDIN103
+jardin_import.json,CORREGIDO,JARDIN105,JARDIN104,3.50,3.50,1.000,por posicion era JARDIN104
+jardin_import.json,CORREGIDO,JARDIN106,JARDIN105,3.50,3.50,1.000,por posicion era JARDIN105
+jardin_import.json,CORREGIDO,JARDIN107,JARDIN106,3.50,3.50,1.000,por posicion era JARDIN106
+jardin_import.json,CORREGIDO,JARDIN108,JARDIN107,3.50,3.50,1.000,por posicion era JARDIN107
+jardin_import.json,CORREGIDO,JARDIN109,JARDIN108,3.50,3.50,1.000,por posicion era JARDIN108
+jardin_import.json,CORREGIDO,JARDIN110,JARDIN109,3.50,3.50,1.000,por posicion era JARDIN109
+jardin_import.json,CORREGIDO,JARDIN111,JARDIN110,3.50,3.50,1.000,por posicion era JARDIN110
+jardin_import.json,CORREGIDO,JARDIN112,JARDIN111,3.50,3.50,1.000,por posicion era JARDIN111
+jardin_import.json,CORREGIDO,JARDIN113,JARDIN112,3.98,3.98,1.000,por posicion era JARDIN112
+jardin_import.json,CORREGIDO,JARDIN114,JARDIN113,3.98,3.98,1.000,por posicion era JARDIN113
+jardin_import.json,CORREGIDO,JARDIN365,JARDIN114,59.57,59.57,1.000,por posicion era JARDIN114
+jardin_import.json,CORREGIDO,JARDIN116,JARDIN115,103.63,103.63,1.000,por posicion era JARDIN115
+jardin_import.json,CORREGIDO,JARDIN117,JARDIN116,14.40,14.40,1.000,por posicion era JARDIN116
+jardin_import.json,CORREGIDO,JARDIN118,JARDIN117,10.27,10.27,1.000,por posicion era JARDIN117
+jardin_import.json,CORREGIDO,JARDIN120,JARDIN119,14.40,14.40,1.000,por posicion era JARDIN119
+jardin_import.json,CORREGIDO,JARDIN121,JARDIN120,14.40,14.40,1.000,por posicion era JARDIN120
+jardin_import.json,CORREGIDO,JARDIN122,JARDIN121,14.40,14.40,1.000,por posicion era JARDIN121
+jardin_import.json,CORREGIDO,JARDIN123,JARDIN122,14.40,14.40,1.000,por posicion era JARDIN122
+jardin_import.json,CORREGIDO,JARDIN124,JARDIN123,142.80,142.80,1.000,por posicion era JARDIN123
+jardin_import.json,CORREGIDO,JARDIN125,JARDIN124,5.25,5.25,1.000,por posicion era JARDIN124
+jardin_import.json,CORREGIDO,JARDIN129,JARDIN127,12.52,12.52,1.000,por posicion era JARDIN127
+jardin_import.json,CORREGIDO,JARDIN130,JARDIN128,21.49,21.49,1.000,por posicion era JARDIN128
+jardin_import.json,CORREGIDO,JARDIN131,JARDIN129,3.72,3.72,1.000,por posicion era JARDIN129
+jardin_import.json,CORREGIDO,JARDIN132,JARDIN130,54.57,54.57,1.000,por posicion era JARDIN130
+jardin_import.json,CORREGIDO,JARDIN133,JARDIN131,19.20,19.20,1.000,por posicion era JARDIN131
+jardin_import.json,CORREGIDO,JARDIN134,JARDIN132,19.20,19.20,1.000,por posicion era JARDIN132
+jardin_import.json,CORREGIDO,JARDIN135,JARDIN133,19.20,19.20,1.000,por posicion era JARDIN133
+jardin_import.json,CORREGIDO,JARDIN136,JARDIN134,19.20,19.20,1.000,por posicion era JARDIN134
+jardin_import.json,CORREGIDO,JARDIN137,JARDIN135,112.48,112.48,1.000,por posicion era JARDIN135
+jardin_import.json,CORREGIDO,JARDIN138,JARDIN136,112.54,112.54,1.000,por posicion era JARDIN136
+jardin_import.json,CORREGIDO,JARDIN139,JARDIN137,175.50,175.50,1.000,por posicion era JARDIN137
+jardin_import.json,CORREGIDO,JARDIN140,JARDIN138,116.95,116.95,1.000,por posicion era JARDIN138
+jardin_import.json,CORREGIDO,JARDIN141,JARDIN139,204.85,204.85,1.000,por posicion era JARDIN139
+jardin_import.json,CORREGIDO,JARDIN142,JARDIN140,146.96,146.96,1.000,por posicion era JARDIN140
+jardin_import.json,CORREGIDO,JARDIN143,JARDIN141,37.35,37.35,1.000,por posicion era JARDIN141
+jardin_import.json,CORREGIDO,JARDIN144,JARDIN142,14.40,14.40,1.000,por posicion era JARDIN142
+jardin_import.json,CORREGIDO,JARDIN145,JARDIN143,13.22,13.22,1.000,por posicion era JARDIN143
+jardin_import.json,CORREGIDO,JARDIN146,JARDIN144,14.40,14.40,1.000,por posicion era JARDIN144
+jardin_import.json,CORREGIDO,JARDIN147,JARDIN145,4.80,4.80,1.000,por posicion era JARDIN145
+jardin_import.json,CORREGIDO,JARDIN148,JARDIN146,3.68,3.68,1.000,por posicion era JARDIN146
+jardin_import.json,CORREGIDO,JARDIN149,JARDIN147,4.97,4.97,1.000,por posicion era JARDIN147
+jardin_import.json,CORREGIDO,JARDIN150,JARDIN148,3.82,3.82,1.000,por posicion era JARDIN148
+jardin_import.json,CORREGIDO,JARDIN151,JARDIN149,5.00,5.00,1.000,por posicion era JARDIN149
+jardin_import.json,CORREGIDO,JARDIN152,JARDIN150,3.84,3.84,1.000,por posicion era JARDIN150
+jardin_import.json,CORREGIDO,JARDIN153,JARDIN151,4.73,4.73,1.000,por posicion era JARDIN151
+jardin_import.json,CORREGIDO,JARDIN154,JARDIN152,3.52,3.52,1.000,por posicion era JARDIN152
+jardin_import.json,CORREGIDO,JARDIN155,JARDIN153,5.00,5.00,1.000,por posicion era JARDIN153
+jardin_import.json,CORREGIDO,JARDIN156,JARDIN154,3.84,3.84,1.000,por posicion era JARDIN154
+jardin_import.json,CORREGIDO,JARDIN157,JARDIN155,123.13,123.13,1.000,por posicion era JARDIN155
+jardin_import.json,CORREGIDO,JARDIN158,JARDIN156,57.37,57.37,1.000,por posicion era JARDIN156
+jardin_import.json,CORREGIDO,JARDIN159,JARDIN157,59.15,59.15,1.000,por posicion era JARDIN157
+jardin_import.json,CORREGIDO,JARDIN160,JARDIN158,20.26,20.26,1.000,por posicion era JARDIN158
+jardin_import.json,CORREGIDO,JARDIN161,JARDIN159,2.14,2.14,1.000,por posicion era JARDIN159
+jardin_import.json,CORREGIDO,JARDIN162,JARDIN160,2.14,2.14,1.000,por posicion era JARDIN160
+jardin_import.json,CORREGIDO,JARDIN164,JARDIN161,2.14,2.14,1.000,por posicion era JARDIN161
+jardin_import.json,CORREGIDO,JARDIN165,JARDIN162,2.14,2.14,1.000,por posicion era JARDIN162
+jardin_import.json,CORREGIDO,JARDIN167,JARDIN163,2.14,2.14,1.000,por posicion era JARDIN163
+jardin_import.json,CORREGIDO,JARDIN168,JARDIN164,2.14,2.14,1.000,por posicion era JARDIN164
+jardin_import.json,CORREGIDO,JARDIN170,JARDIN165,2.14,2.14,1.000,por posicion era JARDIN165
+jardin_import.json,CORREGIDO,JARDIN171,JARDIN166,2.14,2.14,1.000,por posicion era JARDIN166
+jardin_import.json,CORREGIDO,JARDIN173,JARDIN167,2.14,2.14,1.000,por posicion era JARDIN167
+jardin_import.json,CORREGIDO,JARDIN174,JARDIN168,2.14,2.14,1.000,por posicion era JARDIN168
+jardin_import.json,CORREGIDO,JARDIN176,JARDIN169,2.14,2.14,1.000,por posicion era JARDIN169
+jardin_import.json,CORREGIDO,JARDIN177,JARDIN170,2.14,2.14,1.000,por posicion era JARDIN170
+jardin_import.json,CORREGIDO,JARDIN179,JARDIN171,2.14,2.14,1.000,por posicion era JARDIN171
+jardin_import.json,CORREGIDO,JARDIN180,JARDIN172,2.14,2.14,1.000,por posicion era JARDIN172
+jardin_import.json,CORREGIDO,JARDIN182,JARDIN173,2.14,2.14,1.000,por posicion era JARDIN173
+jardin_import.json,CORREGIDO,JARDIN183,JARDIN174,2.14,2.14,1.000,por posicion era JARDIN174
+jardin_import.json,CORREGIDO,JARDIN185,JARDIN175,2.14,2.14,1.000,por posicion era JARDIN175
+jardin_import.json,CORREGIDO,JARDIN186,JARDIN176,2.14,2.14,1.000,por posicion era JARDIN176
+jardin_import.json,CORREGIDO,JARDIN187,JARDIN177,2.70,2.70,1.000,por posicion era JARDIN177
+jardin_import.json,CORREGIDO,JARDIN188,JARDIN178,2.71,2.71,1.000,por posicion era JARDIN178
+jardin_import.json,CORREGIDO,JARDIN803,JARDIN179,91.22,91.22,1.000,por posicion era JARDIN179
+jardin_import.json,CORREGIDO,JARDIN191,JARDIN180,14.40,14.40,1.000,por posicion era JARDIN180
+jardin_import.json,CORREGIDO,JARDIN192,JARDIN181,14.40,14.40,1.000,por posicion era JARDIN181
+jardin_import.json,CORREGIDO,JARDIN193,JARDIN182,0.27,0.27,1.000,por posicion era JARDIN182
+jardin_import.json,CORREGIDO,JARDIN194,JARDIN183,2.64,2.64,1.000,por posicion era JARDIN183
+jardin_import.json,CORREGIDO,JARDIN195,JARDIN184,2.64,2.64,1.000,por posicion era JARDIN184
+jardin_import.json,CORREGIDO,JARDIN197,JARDIN185,18.80,18.80,1.000,por posicion era JARDIN185
+jardin_import.json,CORREGIDO,JARDIN198,JARDIN186,0.04,0.04,1.000,por posicion era JARDIN186
+jardin_import.json,CORREGIDO,JARDIN199,JARDIN187,1.03,1.03,1.000,por posicion era JARDIN187
+jardin_import.json,CORREGIDO,JARDIN200,JARDIN188,0.14,0.14,1.000,por posicion era JARDIN188
+jardin_import.json,CORREGIDO,JARDIN201,JARDIN189,101.26,101.26,1.000,por posicion era JARDIN189
+jardin_import.json,CORREGIDO,JARDIN202,JARDIN190,101.26,101.26,1.000,por posicion era JARDIN190
+jardin_import.json,CORREGIDO,JARDIN203,JARDIN191,5.33,5.33,1.000,por posicion era JARDIN191
+jardin_import.json,CORREGIDO,JARDIN208,JARDIN192,23.83,23.83,1.000,por posicion era JARDIN192
+jardin_import.json,CORREGIDO,JARDIN209,JARDIN193,47.51,10.49,1.000,por posicion era JARDIN193
+jardin_import.json,CORREGIDO,JARDIN210,JARDIN194,40.28,24.30,1.000,por posicion era JARDIN194
+jardin_import.json,CORREGIDO,JARDIN211,JARDIN195,128.55,128.55,1.000,por posicion era JARDIN195
+jardin_import.json,CORREGIDO,JARDIN212,JARDIN196,141.96,141.96,1.000,por posicion era JARDIN196
+jardin_import.json,CORREGIDO,JARDIN213,JARDIN197,18.90,18.90,1.000,por posicion era JARDIN197
+jardin_import.json,CORREGIDO,JARDIN214,JARDIN198,820.91,820.91,1.000,por posicion era JARDIN198
+jardin_import.json,CORREGIDO,JARDIN215,JARDIN199,598.39,598.39,1.000,por posicion era JARDIN199
+jardin_import.json,CORREGIDO,JARDIN216,JARDIN200,283.06,283.06,1.000,por posicion era JARDIN200
+jardin_import.json,CORREGIDO,JARDIN217,JARDIN201,10.23,10.23,1.000,por posicion era JARDIN201
+jardin_import.json,CORREGIDO,JARDIN218,JARDIN202,134.10,134.10,1.000,por posicion era JARDIN202
+jardin_import.json,CORREGIDO,JARDIN219,JARDIN203,4.48,4.48,1.000,por posicion era JARDIN203
+jardin_import.json,CORREGIDO,JARDIN220,JARDIN204,179.91,179.91,1.000,por posicion era JARDIN204
+jardin_import.json,CORREGIDO,JARDIN221,JARDIN205,63.40,63.40,1.000,por posicion era JARDIN205
+jardin_import.json,CORREGIDO,JARDIN222,JARDIN206,84.37,84.37,1.000,por posicion era JARDIN206
+jardin_import.json,CORREGIDO,JARDIN223,JARDIN207,1048.57,1048.57,1.000,por posicion era JARDIN207
+jardin_import.json,CORREGIDO,JARDIN224,JARDIN208,45.42,45.42,1.000,por posicion era JARDIN208
+jardin_import.json,CORREGIDO,JARDIN225,JARDIN209,10.30,10.30,1.000,por posicion era JARDIN209
+jardin_import.json,CORREGIDO,JARDIN226,JARDIN210,70.30,70.30,1.000,por posicion era JARDIN210
+jardin_import.json,CORREGIDO,JARDIN227,JARDIN211,0.61,0.61,1.000,por posicion era JARDIN211
+jardin_import.json,CORREGIDO,JARDIN228,JARDIN212,3.47,3.47,1.000,por posicion era JARDIN212
+jardin_import.json,CORREGIDO,JARDIN229,JARDIN213,4.81,1.03,1.000,por posicion era JARDIN213
+jardin_import.json,CORREGIDO,JARDIN230,JARDIN214,1.40,1.40,1.000,por posicion era JARDIN214
+jardin_import.json,CORREGIDO,JARDIN231,JARDIN215,1.40,1.40,1.000,por posicion era JARDIN215
+jardin_import.json,CORREGIDO,JARDIN232,JARDIN216,1.40,1.40,1.000,por posicion era JARDIN216
+jardin_import.json,CORREGIDO,JARDIN233,JARDIN217,1.40,1.40,1.000,por posicion era JARDIN217
+jardin_import.json,CORREGIDO,JARDIN234,JARDIN218,1.40,1.40,1.000,por posicion era JARDIN218
+jardin_import.json,CORREGIDO,JARDIN235,JARDIN219,1.40,1.40,1.000,por posicion era JARDIN219
+jardin_import.json,CORREGIDO,JARDIN236,JARDIN220,1.40,1.40,1.000,por posicion era JARDIN220
+jardin_import.json,CORREGIDO,JARDIN237,JARDIN221,1.40,1.40,1.000,por posicion era JARDIN221
+jardin_import.json,CORREGIDO,JARDIN238,JARDIN222,1.40,1.40,1.000,por posicion era JARDIN222
+jardin_import.json,CORREGIDO,JARDIN239,JARDIN223,1.40,1.40,1.000,por posicion era JARDIN223
+jardin_import.json,CORREGIDO,JARDIN240,JARDIN224,1.40,1.40,1.000,por posicion era JARDIN224
+jardin_import.json,CORREGIDO,JARDIN241,JARDIN225,1.40,1.40,1.000,por posicion era JARDIN225
+jardin_import.json,CORREGIDO,JARDIN242,JARDIN226,1.40,1.40,1.000,por posicion era JARDIN226
+jardin_import.json,CORREGIDO,JARDIN243,JARDIN227,1.40,1.40,1.000,por posicion era JARDIN227
+jardin_import.json,CORREGIDO,JARDIN244,JARDIN228,1.40,1.40,1.000,por posicion era JARDIN228
+jardin_import.json,CORREGIDO,JARDIN245,JARDIN229,1.40,1.40,1.000,por posicion era JARDIN229
+jardin_import.json,CORREGIDO,JARDIN246,JARDIN230,18.45,18.45,1.000,por posicion era JARDIN230
+jardin_import.json,CORREGIDO,JARDIN247,JARDIN231,13.45,13.45,1.000,por posicion era JARDIN231
+jardin_import.json,CORREGIDO,JARDIN248,JARDIN232,12.99,12.99,1.000,por posicion era JARDIN232
+jardin_import.json,CORREGIDO,JARDIN249,JARDIN233,2037.94,2037.94,1.000,por posicion era JARDIN233
+jardin_import.json,CORREGIDO,JARDIN250,JARDIN234,449.31,449.31,1.000,por posicion era JARDIN234
+jardin_import.json,CORREGIDO,JARDIN251,JARDIN235,627.71,627.71,1.000,por posicion era JARDIN235
+jardin_import.json,CORREGIDO,JARDIN252,JARDIN236,314.27,314.27,1.000,por posicion era JARDIN236
+jardin_import.json,CORREGIDO,JARDIN253,JARDIN237,192.84,192.83,1.000,por posicion era JARDIN237
+jardin_import.json,CORREGIDO,JARDIN254,JARDIN238,87.27,87.27,1.000,por posicion era JARDIN238
+jardin_import.json,CORREGIDO,JARDIN255,JARDIN239,70.61,70.61,1.000,por posicion era JARDIN239
+jardin_import.json,CORREGIDO,JARDIN256,JARDIN240,131.14,131.14,1.000,por posicion era JARDIN240
+jardin_import.json,CORREGIDO,JARDIN257,JARDIN241,131.23,131.23,1.000,por posicion era JARDIN241
+jardin_import.json,CORREGIDO,JARDIN258,JARDIN242,131.23,131.23,1.000,por posicion era JARDIN242
+jardin_import.json,CORREGIDO,JARDIN259,JARDIN243,131.23,131.23,1.000,por posicion era JARDIN243
+jardin_import.json,CORREGIDO,JARDIN260,JARDIN244,131.92,131.92,1.000,por posicion era JARDIN244
+jardin_import.json,CORREGIDO,JARDIN261,JARDIN245,131.92,131.92,1.000,por posicion era JARDIN245
+jardin_import.json,CORREGIDO,JARDIN262,JARDIN246,131.92,131.92,1.000,por posicion era JARDIN246
+jardin_import.json,CORREGIDO,JARDIN263,JARDIN247,537.40,537.40,1.000,por posicion era JARDIN247
+jardin_import.json,CORREGIDO,JARDIN264,JARDIN248,244.11,244.11,1.000,por posicion era JARDIN248
+jardin_import.json,CORREGIDO,JARDIN265,JARDIN249,5.91,5.91,1.000,por posicion era JARDIN249
+jardin_import.json,CORREGIDO,JARDIN266,JARDIN250,14.02,14.02,1.000,por posicion era JARDIN250
+jardin_import.json,CORREGIDO,JARDIN268,JARDIN251,35.92,35.92,1.000,por posicion era JARDIN251
+jardin_import.json,CORREGIDO,JARDIN269,JARDIN252,39.86,39.86,1.000,por posicion era JARDIN252
+jardin_import.json,CORREGIDO,JARDIN270,JARDIN253,39.86,39.86,1.000,por posicion era JARDIN253
+jardin_import.json,CORREGIDO,JARDIN271,JARDIN254,39.86,39.86,1.000,por posicion era JARDIN254
+jardin_import.json,CORREGIDO,JARDIN272,JARDIN255,39.86,39.86,1.000,por posicion era JARDIN255
+jardin_import.json,CORREGIDO,JARDIN273,JARDIN256,39.86,39.86,1.000,por posicion era JARDIN256
+jardin_import.json,CORREGIDO,JARDIN274,JARDIN257,39.86,39.86,1.000,por posicion era JARDIN257
+jardin_import.json,CORREGIDO,JARDIN275,JARDIN258,39.86,39.86,1.000,por posicion era JARDIN258
+jardin_import.json,CORREGIDO,JARDIN276,JARDIN259,39.86,39.86,1.000,por posicion era JARDIN259
+jardin_import.json,CORREGIDO,JARDIN277,JARDIN260,39.86,39.86,1.000,por posicion era JARDIN260
+jardin_import.json,CORREGIDO,JARDIN278,JARDIN261,39.86,39.86,1.000,por posicion era JARDIN261
+jardin_import.json,CORREGIDO,JARDIN279,JARDIN262,39.86,39.86,1.000,por posicion era JARDIN262
+jardin_import.json,CORREGIDO,JARDIN280,JARDIN263,14.38,14.38,1.000,por posicion era JARDIN263
+jardin_import.json,CORREGIDO,JARDIN281,JARDIN264,24.43,24.43,1.000,por posicion era JARDIN264
+jardin_import.json,CORREGIDO,JARDIN282,JARDIN265,14.38,14.38,1.000,por posicion era JARDIN265
+jardin_import.json,CORREGIDO,JARDIN283,JARDIN266,14.38,14.38,1.000,por posicion era JARDIN266
+jardin_import.json,CORREGIDO,JARDIN284,JARDIN267,14.38,14.38,1.000,por posicion era JARDIN267
+jardin_import.json,CORREGIDO,JARDIN285,JARDIN268,14.38,14.38,1.000,por posicion era JARDIN268
+jardin_import.json,CORREGIDO,JARDIN286,JARDIN269,14.38,14.38,1.000,por posicion era JARDIN269
+jardin_import.json,CORREGIDO,JARDIN287,JARDIN270,14.38,14.38,1.000,por posicion era JARDIN270
+jardin_import.json,CORREGIDO,JARDIN288,JARDIN271,26.64,26.64,1.000,por posicion era JARDIN271
+jardin_import.json,CORREGIDO,JARDIN289,JARDIN272,26.64,26.64,1.000,por posicion era JARDIN272
+jardin_import.json,CORREGIDO,JARDIN290,JARDIN273,25.86,25.86,1.000,por posicion era JARDIN273
+jardin_import.json,CORREGIDO,JARDIN291,JARDIN274,39.86,39.86,1.000,por posicion era JARDIN274
+jardin_import.json,CORREGIDO,JARDIN292,JARDIN275,39.86,39.86,1.000,por posicion era JARDIN275
+jardin_import.json,CORREGIDO,JARDIN293,JARDIN276,39.86,39.86,1.000,por posicion era JARDIN276
+jardin_import.json,CORREGIDO,JARDIN294,JARDIN277,39.86,39.86,1.000,por posicion era JARDIN277
+jardin_import.json,CORREGIDO,JARDIN295,JARDIN278,39.86,39.86,1.000,por posicion era JARDIN278
+jardin_import.json,CORREGIDO,JARDIN296,JARDIN279,13.93,13.93,1.000,por posicion era JARDIN279
+jardin_import.json,CORREGIDO,JARDIN297,JARDIN280,21.73,21.73,1.000,por posicion era JARDIN280
+jardin_import.json,CORREGIDO,JARDIN298,JARDIN281,7.20,7.20,1.000,por posicion era JARDIN281
+jardin_import.json,CORREGIDO,JARDIN299,JARDIN282,7.20,7.20,1.000,por posicion era JARDIN282
+jardin_import.json,CORREGIDO,JARDIN300,JARDIN283,7.20,7.20,1.000,por posicion era JARDIN283
+jardin_import.json,CORREGIDO,JARDIN301,JARDIN284,7.20,7.20,1.000,por posicion era JARDIN284
+jardin_import.json,CORREGIDO,JARDIN302,JARDIN285,7.20,7.20,1.000,por posicion era JARDIN285
+jardin_import.json,CORREGIDO,JARDIN303,JARDIN286,7.20,7.20,1.000,por posicion era JARDIN286
+jardin_import.json,CORREGIDO,JARDIN304,JARDIN287,7.20,7.20,1.000,por posicion era JARDIN287
+jardin_import.json,CORREGIDO,JARDIN305,JARDIN288,7.20,7.20,1.000,por posicion era JARDIN288
+jardin_import.json,CORREGIDO,JARDIN306,JARDIN289,7.20,7.20,1.000,por posicion era JARDIN289
+jardin_import.json,CORREGIDO,JARDIN307,JARDIN290,7.20,7.20,1.000,por posicion era JARDIN290
+jardin_import.json,CORREGIDO,JARDIN308,JARDIN291,7.20,7.20,1.000,por posicion era JARDIN291
+jardin_import.json,CORREGIDO,JARDIN309,JARDIN292,7.20,7.20,1.000,por posicion era JARDIN292
+jardin_import.json,CORREGIDO,JARDIN310,JARDIN293,7.20,7.20,1.000,por posicion era JARDIN293
+jardin_import.json,CORREGIDO,JARDIN311,JARDIN294,7.20,7.20,1.000,por posicion era JARDIN294
+jardin_import.json,CORREGIDO,JARDIN312,JARDIN295,7.20,7.20,1.000,por posicion era JARDIN295
+jardin_import.json,CORREGIDO,JARDIN313,JARDIN296,7.20,7.20,1.000,por posicion era JARDIN296
+jardin_import.json,CORREGIDO,JARDIN314,JARDIN297,7.20,7.20,1.000,por posicion era JARDIN297
+jardin_import.json,CORREGIDO,JARDIN315,JARDIN298,7.20,7.20,1.000,por posicion era JARDIN298
+jardin_import.json,CORREGIDO,JARDIN316,JARDIN299,7.20,7.20,1.000,por posicion era JARDIN299
+jardin_import.json,CORREGIDO,JARDIN317,JARDIN300,7.20,7.20,1.000,por posicion era JARDIN300
+jardin_import.json,CORREGIDO,JARDIN318,JARDIN301,7.13,7.12,1.000,por posicion era JARDIN301
+jardin_import.json,CORREGIDO,JARDIN319,JARDIN302,10.56,10.56,1.000,por posicion era JARDIN302
+jardin_import.json,CORREGIDO,JARDIN320,JARDIN303,47.70,47.70,1.000,por posicion era JARDIN303
+jardin_import.json,CORREGIDO,JARDIN321,JARDIN304,12.21,12.21,1.000,por posicion era JARDIN304
+jardin_import.json,CORREGIDO,JARDIN322,JARDIN305,65.23,65.23,1.000,por posicion era JARDIN305
+jardin_import.json,CORREGIDO,JARDIN323,JARDIN306,88.42,88.42,1.000,por posicion era JARDIN306
+jardin_import.json,CORREGIDO,JARDIN804,JARDIN307,1.86,1.86,1.000,por posicion era JARDIN307
+jardin_import.json,CORREGIDO,JARDIN325,JARDIN308,1.87,1.87,1.000,por posicion era JARDIN308
+jardin_import.json,CORREGIDO,JARDIN326,JARDIN309,1.85,1.85,1.000,por posicion era JARDIN309
+jardin_import.json,CORREGIDO,JARDIN805,JARDIN310,2.16,2.16,1.000,por posicion era JARDIN310
+jardin_import.json,CORREGIDO,JARDIN806,JARDIN311,2.00,2.00,1.000,por posicion era JARDIN311
+jardin_import.json,CORREGIDO,JARDIN807,JARDIN312,1.93,1.93,1.000,por posicion era JARDIN312
+jardin_import.json,CORREGIDO,JARDIN330,JARDIN313,1.94,1.94,1.000,por posicion era JARDIN313
+jardin_import.json,CORREGIDO,JARDIN331,JARDIN314,2.00,2.00,1.000,por posicion era JARDIN314
+jardin_import.json,CORREGIDO,JARDIN332,JARDIN315,1.22,1.22,1.000,por posicion era JARDIN315
+jardin_import.json,CORREGIDO,JARDIN333,JARDIN316,1.22,1.22,1.000,por posicion era JARDIN316
+jardin_import.json,CORREGIDO,JARDIN334,JARDIN317,1.22,1.22,1.000,por posicion era JARDIN317
+jardin_import.json,CORREGIDO,JARDIN335,JARDIN318,1425.70,1425.70,1.000,por posicion era JARDIN318
+jardin_import.json,CORREGIDO,JARDIN336,JARDIN319,19.20,19.20,1.000,por posicion era JARDIN319
+jardin_import.json,CORREGIDO,JARDIN337,JARDIN320,19.20,19.20,1.000,por posicion era JARDIN320
+jardin_import.json,CORREGIDO,JARDIN338,JARDIN321,16.63,16.63,1.000,por posicion era JARDIN321
+jardin_import.json,CORREGIDO,JARDIN339,JARDIN322,24.43,24.43,1.000,por posicion era JARDIN322
+jardin_import.json,CORREGIDO,JARDIN340,JARDIN323,24.43,24.43,1.000,por posicion era JARDIN323
+jardin_import.json,CORREGIDO,JARDIN341,JARDIN324,24.69,24.69,1.000,por posicion era JARDIN324
+jardin_import.json,CORREGIDO,JARDIN342,JARDIN325,14.40,14.40,1.000,por posicion era JARDIN325
+jardin_import.json,CORREGIDO,JARDIN343,JARDIN326,14.40,14.40,1.000,por posicion era JARDIN326
+jardin_import.json,CORREGIDO,JARDIN344,JARDIN327,14.40,14.40,1.000,por posicion era JARDIN327
+jardin_import.json,CORREGIDO,JARDIN345,JARDIN328,14.40,14.40,1.000,por posicion era JARDIN328
+jardin_import.json,CORREGIDO,JARDIN346,JARDIN329,14.40,14.40,1.000,por posicion era JARDIN329
+jardin_import.json,CORREGIDO,JARDIN347,JARDIN330,14.40,14.40,1.000,por posicion era JARDIN330
+jardin_import.json,CORREGIDO,JARDIN348,JARDIN331,22.08,22.08,1.000,por posicion era JARDIN331
+jardin_import.json,CORREGIDO,JARDIN349,JARDIN332,0.65,0.65,1.000,por posicion era JARDIN332
+jardin_import.json,CORREGIDO,JARDIN350,JARDIN333,0.65,0.65,1.000,por posicion era JARDIN333
+jardin_import.json,CORREGIDO,JARDIN351,JARDIN334,0.65,0.65,1.000,por posicion era JARDIN334
+jardin_import.json,CORREGIDO,JARDIN352,JARDIN335,0.65,0.65,1.000,por posicion era JARDIN335
+jardin_import.json,CORREGIDO,JARDIN353,JARDIN336,0.65,0.65,1.000,por posicion era JARDIN336
+jardin_import.json,CORREGIDO,JARDIN354,JARDIN337,0.65,0.65,1.000,por posicion era JARDIN337
+jardin_import.json,CORREGIDO,JARDIN355,JARDIN338,37.35,37.35,1.000,por posicion era JARDIN338
+jardin_import.json,CORREGIDO,JARDIN356,JARDIN339,5.41,5.41,1.000,por posicion era JARDIN339
+jardin_import.json,CORREGIDO,JARDIN357,JARDIN340,0.18,0.18,1.000,por posicion era JARDIN340
+jardin_import.json,CORREGIDO,JARDIN358,JARDIN341,0.16,0.16,1.000,por posicion era JARDIN341
+jardin_import.json,CORREGIDO,JARDIN359,JARDIN342,14.40,14.40,1.000,por posicion era JARDIN342
+jardin_import.json,CORREGIDO,JARDIN360,JARDIN343,14.40,14.40,1.000,por posicion era JARDIN343
+jardin_import.json,CORREGIDO,JARDIN361,JARDIN344,112.48,112.48,1.000,por posicion era JARDIN344
+jardin_import.json,CORREGIDO,JARDIN362,JARDIN345,112.53,112.53,1.000,por posicion era JARDIN345
+jardin_import.json,CORREGIDO,JARDIN363,JARDIN346,33.87,33.87,1.000,por posicion era JARDIN346
+jardin_import.json,CORREGIDO,JARDIN364,JARDIN347,6.03,6.03,1.000,por posicion era JARDIN347
+jardin_import.json,CORREGIDO,JARDIN366,JARDIN348,66.27,66.27,1.000,por posicion era JARDIN348
+jardin_import.json,CORREGIDO,JARDIN367,JARDIN349,14.40,14.40,1.000,por posicion era JARDIN349
+jardin_import.json,CORREGIDO,JARDIN368,JARDIN350,14.40,14.40,1.000,por posicion era JARDIN350
+jardin_import.json,CORREGIDO,JARDIN369,JARDIN351,14.40,14.40,1.000,por posicion era JARDIN351
+jardin_import.json,CORREGIDO,JARDIN370,JARDIN352,14.40,14.40,1.000,por posicion era JARDIN352
+jardin_import.json,CORREGIDO,JARDIN372,JARDIN353,14.40,14.40,1.000,por posicion era JARDIN353
+jardin_import.json,CORREGIDO,JARDIN373,JARDIN354,14.40,14.40,1.000,por posicion era JARDIN354
+jardin_import.json,CORREGIDO,JARDIN375,JARDIN355,14.40,14.40,1.000,por posicion era JARDIN355
+jardin_import.json,CORREGIDO,JARDIN376,JARDIN356,14.40,14.40,1.000,por posicion era JARDIN356
+jardin_import.json,CORREGIDO,JARDIN377,JARDIN357,14.40,14.40,1.000,por posicion era JARDIN357
+jardin_import.json,CORREGIDO,JARDIN378,JARDIN358,14.40,14.40,1.000,por posicion era JARDIN358
+jardin_import.json,CORREGIDO,JARDIN379,JARDIN359,14.40,14.40,1.000,por posicion era JARDIN359
+jardin_import.json,CORREGIDO,JARDIN380,JARDIN360,14.40,14.40,1.000,por posicion era JARDIN360
+jardin_import.json,CORREGIDO,JARDIN381,JARDIN361,13.50,13.50,1.000,por posicion era JARDIN361
+jardin_import.json,CORREGIDO,JARDIN382,JARDIN362,13.82,13.82,1.000,por posicion era JARDIN362
+jardin_import.json,CORREGIDO,JARDIN383,JARDIN363,24.64,24.64,1.000,por posicion era JARDIN363
+jardin_import.json,CORREGIDO,JARDIN384,JARDIN364,5.91,5.92,1.000,por posicion era JARDIN364
+jardin_import.json,CORREGIDO,JARDIN385,JARDIN365,13.09,13.08,1.000,por posicion era JARDIN365
+jardin_import.json,CORREGIDO,JARDIN386,JARDIN366,14.40,14.40,1.000,por posicion era JARDIN366
+jardin_import.json,CORREGIDO,JARDIN387,JARDIN367,14.40,14.40,1.000,por posicion era JARDIN367
+jardin_import.json,CORREGIDO,JARDIN388,JARDIN368,24.66,24.66,1.000,por posicion era JARDIN368
+jardin_import.json,CORREGIDO,JARDIN389,JARDIN369,23.51,23.50,1.000,por posicion era JARDIN369
+jardin_import.json,CORREGIDO,JARDIN390,JARDIN370,14.40,14.40,1.000,por posicion era JARDIN370
+jardin_import.json,CORREGIDO,JARDIN391,JARDIN371,24.43,24.43,1.000,por posicion era JARDIN371
+jardin_import.json,CORREGIDO,JARDIN392,JARDIN372,24.43,24.43,1.000,por posicion era JARDIN372
+jardin_import.json,CORREGIDO,JARDIN393,JARDIN373,13.47,13.47,1.000,por posicion era JARDIN373
+jardin_import.json,CORREGIDO,JARDIN394,JARDIN374,13.47,13.47,1.000,por posicion era JARDIN374
+jardin_import.json,CORREGIDO,JARDIN395,JARDIN375,18.56,18.56,1.000,por posicion era JARDIN375
+jardin_import.json,CORREGIDO,JARDIN396,JARDIN376,14.40,14.40,1.000,por posicion era JARDIN376
+jardin_import.json,CORREGIDO,JARDIN398,JARDIN377,14.40,14.40,1.000,por posicion era JARDIN377
+jardin_import.json,CORREGIDO,JARDIN399,JARDIN378,14.40,14.40,1.000,por posicion era JARDIN378
+jardin_import.json,CORREGIDO,JARDIN400,JARDIN379,19.20,19.20,1.000,por posicion era JARDIN379
+jardin_import.json,CORREGIDO,JARDIN401,JARDIN380,5.91,5.91,1.000,por posicion era JARDIN380
+jardin_import.json,CORREGIDO,JARDIN404,JARDIN381,14.40,14.40,1.000,por posicion era JARDIN381
+jardin_import.json,CORREGIDO,JARDIN405,JARDIN382,14.40,14.40,1.000,por posicion era JARDIN382
+jardin_import.json,CORREGIDO,JARDIN406,JARDIN383,14.40,14.40,1.000,por posicion era JARDIN383
+jardin_import.json,CORREGIDO,JARDIN407,JARDIN384,14.40,14.40,1.000,por posicion era JARDIN384
+jardin_import.json,CORREGIDO,JARDIN408,JARDIN385,14.40,14.40,1.000,por posicion era JARDIN385
+jardin_import.json,CORREGIDO,JARDIN409,JARDIN386,14.40,14.40,1.000,por posicion era JARDIN386
+jardin_import.json,CORREGIDO,JARDIN410,JARDIN387,14.40,14.40,1.000,por posicion era JARDIN387
+jardin_import.json,CORREGIDO,JARDIN411,JARDIN388,14.40,14.40,1.000,por posicion era JARDIN388
+jardin_import.json,CORREGIDO,JARDIN412,JARDIN389,14.40,14.40,1.000,por posicion era JARDIN389
+jardin_import.json,CORREGIDO,JARDIN413,JARDIN390,14.40,14.40,1.000,por posicion era JARDIN390
+jardin_import.json,CORREGIDO,JARDIN414,JARDIN391,14.40,14.40,1.000,por posicion era JARDIN391
+jardin_import.json,CORREGIDO,JARDIN415,JARDIN392,14.40,14.40,1.000,por posicion era JARDIN392
+jardin_import.json,CORREGIDO,JARDIN416,JARDIN393,14.40,14.40,1.000,por posicion era JARDIN393
+jardin_import.json,CORREGIDO,JARDIN417,JARDIN394,14.40,14.40,1.000,por posicion era JARDIN394
+jardin_import.json,CORREGIDO,JARDIN418,JARDIN395,14.40,14.40,1.000,por posicion era JARDIN395
+jardin_import.json,CORREGIDO,JARDIN419,JARDIN396,14.40,14.40,1.000,por posicion era JARDIN396
+jardin_import.json,CORREGIDO,JARDIN420,JARDIN397,19.20,19.20,1.000,por posicion era JARDIN397
+jardin_import.json,CORREGIDO,JARDIN421,JARDIN398,24.07,24.07,1.000,por posicion era JARDIN398
+jardin_import.json,CORREGIDO,JARDIN422,JARDIN399,24.24,24.24,1.000,por posicion era JARDIN399
+jardin_import.json,CORREGIDO,JARDIN423,JARDIN400,14.40,14.40,1.000,por posicion era JARDIN400
+jardin_import.json,CORREGIDO,JARDIN424,JARDIN401,24.43,24.43,1.000,por posicion era JARDIN401
+jardin_import.json,CORREGIDO,JARDIN425,JARDIN402,24.43,24.43,1.000,por posicion era JARDIN402
+jardin_import.json,CORREGIDO,JARDIN426,JARDIN403,26.54,26.54,1.000,por posicion era JARDIN403
+jardin_import.json,CORREGIDO,JARDIN427,JARDIN404,44.29,44.29,1.000,por posicion era JARDIN404
+jardin_import.json,CORREGIDO,JARDIN428,JARDIN405,44.24,44.24,1.000,por posicion era JARDIN405
+jardin_import.json,CORREGIDO,JARDIN429,JARDIN406,44.29,44.29,1.000,por posicion era JARDIN406
+jardin_import.json,CORREGIDO,JARDIN430,JARDIN407,44.24,44.24,1.000,por posicion era JARDIN407
+jardin_import.json,CORREGIDO,JARDIN431,JARDIN408,44.24,44.24,1.000,por posicion era JARDIN408
+jardin_import.json,CORREGIDO,JARDIN432,JARDIN409,44.24,44.24,1.000,por posicion era JARDIN409
+jardin_import.json,CORREGIDO,JARDIN433,JARDIN410,44.29,44.29,1.000,por posicion era JARDIN410
+jardin_import.json,CORREGIDO,JARDIN434,JARDIN411,37.27,37.27,1.000,por posicion era JARDIN411
+jardin_import.json,CORREGIDO,JARDIN435,JARDIN412,7.04,7.03,1.000,por posicion era JARDIN412
+jardin_import.json,CORREGIDO,JARDIN436,JARDIN413,13.54,13.54,1.000,por posicion era JARDIN413
+jardin_import.json,CORREGIDO,JARDIN437,JARDIN414,13.54,13.54,1.000,por posicion era JARDIN414
+jardin_import.json,CORREGIDO,JARDIN438,JARDIN415,18.56,18.56,1.000,por posicion era JARDIN415
+jardin_import.json,CORREGIDO,JARDIN439,JARDIN416,19.20,19.20,1.000,por posicion era JARDIN416
+jardin_import.json,CORREGIDO,JARDIN440,JARDIN417,19.20,19.20,1.000,por posicion era JARDIN417
+jardin_import.json,CORREGIDO,JARDIN441,JARDIN418,19.20,19.20,1.000,por posicion era JARDIN418
+jardin_import.json,CORREGIDO,JARDIN442,JARDIN419,5.91,5.91,1.000,por posicion era JARDIN419
+jardin_import.json,CORREGIDO,JARDIN449,JARDIN420,14.40,14.40,1.000,por posicion era JARDIN420
+jardin_import.json,CORREGIDO,JARDIN450,JARDIN421,14.40,14.40,1.000,por posicion era JARDIN421
+jardin_import.json,CORREGIDO,JARDIN451,JARDIN422,14.40,14.40,1.000,por posicion era JARDIN422
+jardin_import.json,CORREGIDO,JARDIN452,JARDIN423,14.40,14.40,1.000,por posicion era JARDIN423
+jardin_import.json,CORREGIDO,JARDIN453,JARDIN424,14.40,14.40,1.000,por posicion era JARDIN424
+jardin_import.json,CORREGIDO,JARDIN454,JARDIN425,14.40,14.40,1.000,por posicion era JARDIN425
+jardin_import.json,CORREGIDO,JARDIN455,JARDIN426,14.40,14.40,1.000,por posicion era JARDIN426
+jardin_import.json,CORREGIDO,JARDIN456,JARDIN427,14.40,14.40,1.000,por posicion era JARDIN427
+jardin_import.json,CORREGIDO,JARDIN457,JARDIN428,14.40,14.40,1.000,por posicion era JARDIN428
+jardin_import.json,CORREGIDO,JARDIN458,JARDIN429,14.40,14.40,1.000,por posicion era JARDIN429
+jardin_import.json,CORREGIDO,JARDIN459,JARDIN430,14.40,14.40,1.000,por posicion era JARDIN430
+jardin_import.json,CORREGIDO,JARDIN460,JARDIN431,14.40,14.40,1.000,por posicion era JARDIN431
+jardin_import.json,CORREGIDO,JARDIN462,JARDIN432,14.40,14.40,1.000,por posicion era JARDIN432
+jardin_import.json,CORREGIDO,JARDIN463,JARDIN433,22.74,22.74,1.000,por posicion era JARDIN433
+jardin_import.json,CORREGIDO,JARDIN465,JARDIN434,14.40,14.40,1.000,por posicion era JARDIN434
+jardin_import.json,CORREGIDO,JARDIN466,JARDIN435,14.40,14.40,1.000,por posicion era JARDIN435
+jardin_import.json,CORREGIDO,JARDIN467,JARDIN436,57.44,57.44,1.000,por posicion era JARDIN436
+jardin_import.json,CORREGIDO,JARDIN468,JARDIN437,60.89,60.89,1.000,por posicion era JARDIN437
+jardin_import.json,CORREGIDO,JARDIN469,JARDIN438,24.08,24.08,1.000,por posicion era JARDIN438
+jardin_import.json,CORREGIDO,JARDIN470,JARDIN439,3.10,3.10,1.000,por posicion era JARDIN439
+jardin_import.json,CORREGIDO,JARDIN471,JARDIN440,24.08,24.08,1.000,por posicion era JARDIN440
+jardin_import.json,CORREGIDO,JARDIN472,JARDIN441,14.40,14.40,1.000,por posicion era JARDIN441
+jardin_import.json,CORREGIDO,JARDIN473,JARDIN442,22.94,22.94,1.000,por posicion era JARDIN442
+jardin_import.json,CORREGIDO,JARDIN474,JARDIN443,24.35,24.35,1.000,por posicion era JARDIN443
+jardin_import.json,CORREGIDO,JARDIN475,JARDIN444,13.47,13.47,1.000,por posicion era JARDIN444
+jardin_import.json,CORREGIDO,JARDIN476,JARDIN445,13.47,13.47,1.000,por posicion era JARDIN445
+jardin_import.json,CORREGIDO,JARDIN477,JARDIN446,18.56,18.56,1.000,por posicion era JARDIN446
+jardin_import.json,CORREGIDO,JARDIN478,JARDIN447,5.91,5.91,1.000,por posicion era JARDIN447
+jardin_import.json,CORREGIDO,JARDIN479,JARDIN448,19.20,19.20,1.000,por posicion era JARDIN448
+jardin_import.json,CORREGIDO,JARDIN480,JARDIN449,19.20,19.20,1.000,por posicion era JARDIN449
+jardin_import.json,CORREGIDO,JARDIN481,JARDIN450,14.40,14.40,1.000,por posicion era JARDIN450
+jardin_import.json,CORREGIDO,JARDIN482,JARDIN451,14.40,14.40,1.000,por posicion era JARDIN451
+jardin_import.json,CORREGIDO,JARDIN483,JARDIN452,14.40,14.40,1.000,por posicion era JARDIN452
+jardin_import.json,CORREGIDO,JARDIN484,JARDIN453,14.40,14.40,1.000,por posicion era JARDIN453
+jardin_import.json,CORREGIDO,JARDIN485,JARDIN454,14.40,14.40,1.000,por posicion era JARDIN454
+jardin_import.json,CORREGIDO,JARDIN486,JARDIN455,14.40,14.40,1.000,por posicion era JARDIN455
+jardin_import.json,CORREGIDO,JARDIN487,JARDIN456,14.40,14.40,1.000,por posicion era JARDIN456
+jardin_import.json,CORREGIDO,JARDIN488,JARDIN457,14.40,14.40,1.000,por posicion era JARDIN457
+jardin_import.json,CORREGIDO,JARDIN489,JARDIN458,14.40,14.40,1.000,por posicion era JARDIN458
+jardin_import.json,CORREGIDO,JARDIN490,JARDIN459,14.49,14.49,1.000,por posicion era JARDIN459
+jardin_import.json,CORREGIDO,JARDIN491,JARDIN460,12.60,12.60,1.000,por posicion era JARDIN460
+jardin_import.json,CORREGIDO,JARDIN492,JARDIN461,14.40,14.40,1.000,por posicion era JARDIN461
+jardin_import.json,CORREGIDO,JARDIN493,JARDIN462,14.40,14.40,1.000,por posicion era JARDIN462
+jardin_import.json,CORREGIDO,JARDIN494,JARDIN463,14.40,14.40,1.000,por posicion era JARDIN463
+jardin_import.json,CORREGIDO,JARDIN496,JARDIN464,14.40,14.40,1.000,por posicion era JARDIN464
+jardin_import.json,CORREGIDO,JARDIN497,JARDIN465,14.40,14.40,1.000,por posicion era JARDIN465
+jardin_import.json,CORREGIDO,JARDIN498,JARDIN466,14.40,14.40,1.000,por posicion era JARDIN466
+jardin_import.json,CORREGIDO,JARDIN499,JARDIN467,14.40,14.40,1.000,por posicion era JARDIN467
+jardin_import.json,CORREGIDO,JARDIN500,JARDIN468,14.40,14.40,1.000,por posicion era JARDIN468
+jardin_import.json,CORREGIDO,JARDIN501,JARDIN469,14.40,14.40,1.000,por posicion era JARDIN469
+jardin_import.json,CORREGIDO,JARDIN502,JARDIN470,14.40,14.40,1.000,por posicion era JARDIN470
+jardin_import.json,CORREGIDO,JARDIN503,JARDIN471,14.40,14.40,1.000,por posicion era JARDIN471
+jardin_import.json,CORREGIDO,JARDIN504,JARDIN472,14.40,14.40,1.000,por posicion era JARDIN472
+jardin_import.json,CORREGIDO,JARDIN505,JARDIN473,14.40,14.40,1.000,por posicion era JARDIN473
+jardin_import.json,CORREGIDO,JARDIN506,JARDIN474,14.40,14.40,1.000,por posicion era JARDIN474
+jardin_import.json,CORREGIDO,JARDIN508,JARDIN475,14.40,14.40,1.000,por posicion era JARDIN475
+jardin_import.json,CORREGIDO,JARDIN509,JARDIN476,14.40,14.40,1.000,por posicion era JARDIN476
+jardin_import.json,CORREGIDO,JARDIN510,JARDIN477,78.55,78.55,1.000,por posicion era JARDIN477
+jardin_import.json,CORREGIDO,JARDIN511,JARDIN478,14.40,14.40,1.000,por posicion era JARDIN478
+jardin_import.json,CORREGIDO,JARDIN512,JARDIN479,14.40,14.40,1.000,por posicion era JARDIN479
+jardin_import.json,CORREGIDO,JARDIN514,JARDIN481,12.60,12.60,1.000,por posicion era JARDIN481
+jardin_import.json,CORREGIDO,JARDIN515,JARDIN482,0.27,0.28,1.000,por posicion era JARDIN482
+jardin_import.json,CORREGIDO,JARDIN516,JARDIN483,14.40,14.40,1.000,por posicion era JARDIN483
+jardin_import.json,CORREGIDO,JARDIN517,JARDIN484,0.28,0.28,1.000,por posicion era JARDIN484
+jardin_import.json,CORREGIDO,JARDIN518,JARDIN485,23.67,23.67,1.000,por posicion era JARDIN485
+jardin_import.json,CORREGIDO,JARDIN519,JARDIN486,23.67,23.67,1.000,por posicion era JARDIN486
+jardin_import.json,CORREGIDO,JARDIN520,JARDIN487,19.20,19.20,1.000,por posicion era JARDIN487
+jardin_import.json,CORREGIDO,JARDIN521,JARDIN488,19.20,19.20,1.000,por posicion era JARDIN488
+jardin_import.json,CORREGIDO,JARDIN522,JARDIN489,19.20,19.20,1.000,por posicion era JARDIN489
+jardin_import.json,CORREGIDO,JARDIN523,JARDIN490,8.68,8.68,1.000,por posicion era JARDIN490
+jardin_import.json,CORREGIDO,JARDIN524,JARDIN491,8.68,8.68,1.000,por posicion era JARDIN491
+jardin_import.json,CORREGIDO,JARDIN525,JARDIN492,13.70,13.70,1.000,por posicion era JARDIN492
+jardin_import.json,CORREGIDO,JARDIN526,JARDIN493,13.67,13.67,1.000,por posicion era JARDIN493
+jardin_import.json,CORREGIDO,JARDIN527,JARDIN494,6.44,6.44,1.000,por posicion era JARDIN494
+jardin_import.json,CORREGIDO,JARDIN528,JARDIN495,22.74,22.74,1.000,por posicion era JARDIN495
+jardin_import.json,CORREGIDO,JARDIN529,JARDIN496,14.40,14.40,1.000,por posicion era JARDIN496
+jardin_import.json,CORREGIDO,JARDIN531,JARDIN497,14.40,14.40,1.000,por posicion era JARDIN497
+jardin_import.json,CORREGIDO,JARDIN532,JARDIN498,14.40,14.40,1.000,por posicion era JARDIN498
+jardin_import.json,CORREGIDO,JARDIN533,JARDIN499,14.40,14.40,1.000,por posicion era JARDIN499
+jardin_import.json,CORREGIDO,JARDIN551,JARDIN500,14.40,14.40,1.000,por posicion era JARDIN500
+jardin_import.json,CORREGIDO,JARDIN552,JARDIN501,28.06,28.06,1.000,por posicion era JARDIN501
+jardin_import.json,CORREGIDO,JARDIN553,JARDIN502,7.04,7.04,1.000,por posicion era JARDIN502
+jardin_import.json,CORREGIDO,JARDIN555,JARDIN503,5.91,5.91,1.000,por posicion era JARDIN503
+jardin_import.json,CORREGIDO,JARDIN556,JARDIN504,14.40,14.40,1.000,por posicion era JARDIN504
+jardin_import.json,CORREGIDO,JARDIN557,JARDIN505,10.82,10.82,1.000,por posicion era JARDIN505
+jardin_import.json,CORREGIDO,JARDIN558,JARDIN506,4.88,4.88,1.000,por posicion era JARDIN506
+jardin_import.json,CORREGIDO,JARDIN559,JARDIN507,14.40,14.40,1.000,por posicion era JARDIN507
+jardin_import.json,CORREGIDO,JARDIN562,JARDIN508,14.40,14.40,1.000,por posicion era JARDIN508
+jardin_import.json,CORREGIDO,JARDIN565,JARDIN509,19.20,19.20,1.000,por posicion era JARDIN509
+jardin_import.json,CORREGIDO,JARDIN566,JARDIN510,14.40,14.40,1.000,por posicion era JARDIN510
+jardin_import.json,CORREGIDO,JARDIN567,JARDIN511,3.09,3.10,1.000,por posicion era JARDIN511
+jardin_import.json,CORREGIDO,JARDIN568,JARDIN512,3.10,3.10,1.000,por posicion era JARDIN512
+jardin_import.json,CORREGIDO,JARDIN569,JARDIN513,38.31,38.31,1.000,por posicion era JARDIN513
+jardin_import.json,CORREGIDO,JARDIN570,JARDIN514,12.91,12.91,1.000,por posicion era JARDIN514
+jardin_import.json,CORREGIDO,JARDIN571,JARDIN515,3.10,3.10,1.000,por posicion era JARDIN515
+jardin_import.json,CORREGIDO,JARDIN572,JARDIN516,3.10,3.10,1.000,por posicion era JARDIN516
+jardin_import.json,CORREGIDO,JARDIN573,JARDIN517,0.28,0.28,1.000,por posicion era JARDIN517
+jardin_import.json,CORREGIDO,JARDIN574,JARDIN518,14.94,14.94,1.000,por posicion era JARDIN518
+jardin_import.json,CORREGIDO,JARDIN575,JARDIN519,11.48,11.48,1.000,por posicion era JARDIN519
+jardin_import.json,CORREGIDO,JARDIN576,JARDIN520,4.60,4.60,1.000,por posicion era JARDIN520
+jardin_import.json,CORREGIDO,JARDIN577,JARDIN521,4.67,4.67,1.000,por posicion era JARDIN521
+jardin_import.json,CORREGIDO,JARDIN578,JARDIN522,4.75,4.74,1.000,por posicion era JARDIN522
+jardin_import.json,CORREGIDO,JARDIN579,JARDIN523,2.92,2.91,1.000,por posicion era JARDIN523
+jardin_import.json,CORREGIDO,JARDIN580,JARDIN524,33.53,33.53,1.000,por posicion era JARDIN524
+jardin_import.json,CORREGIDO,JARDIN581,JARDIN525,54.69,54.69,1.000,por posicion era JARDIN525
+jardin_import.json,CORREGIDO,JARDIN582,JARDIN526,33.59,33.59,1.000,por posicion era JARDIN526
+jardin_import.json,CORREGIDO,JARDIN583,JARDIN527,100.21,100.21,1.000,por posicion era JARDIN527
+jardin_import.json,CORREGIDO,JARDIN584,JARDIN528,96.29,96.29,1.000,por posicion era JARDIN528
+jardin_import.json,CORREGIDO,JARDIN585,JARDIN529,9.62,9.62,1.000,por posicion era JARDIN529
+jardin_import.json,CORREGIDO,JARDIN586,JARDIN530,6.09,6.09,1.000,por posicion era JARDIN530
+jardin_import.json,CORREGIDO,JARDIN587,JARDIN531,59.78,59.78,1.000,por posicion era JARDIN531
+jardin_import.json,CORREGIDO,JARDIN588,JARDIN532,70.50,70.50,1.000,por posicion era JARDIN532
+jardin_import.json,CORREGIDO,JARDIN589,JARDIN533,32.14,32.14,1.000,por posicion era JARDIN533
+jardin_import.json,CORREGIDO,JARDIN590,JARDIN534,78.11,78.11,1.000,por posicion era JARDIN534
+jardin_import.json,CORREGIDO,JARDIN591,JARDIN535,12.52,12.52,1.000,por posicion era JARDIN535
+jardin_import.json,CORREGIDO,JARDIN592,JARDIN536,4.97,4.97,1.000,por posicion era JARDIN536
+jardin_import.json,CORREGIDO,JARDIN593,JARDIN537,4.87,4.87,1.000,por posicion era JARDIN537
+jardin_import.json,CORREGIDO,JARDIN594,JARDIN538,4.90,4.91,1.000,por posicion era JARDIN538
+jardin_import.json,CORREGIDO,JARDIN595,JARDIN539,4.94,4.94,1.000,por posicion era JARDIN539
+jardin_import.json,CORREGIDO,JARDIN596,JARDIN540,16.68,16.68,1.000,por posicion era JARDIN540
+jardin_import.json,CORREGIDO,JARDIN597,JARDIN541,28.97,28.96,1.000,por posicion era JARDIN541
+jardin_import.json,CORREGIDO,JARDIN598,JARDIN542,31.30,31.30,1.000,por posicion era JARDIN542
+jardin_import.json,CORREGIDO,JARDIN599,JARDIN543,34.73,34.73,1.000,por posicion era JARDIN543
+jardin_import.json,CORREGIDO,JARDIN600,JARDIN544,263.95,263.95,1.000,por posicion era JARDIN544
+jardin_import.json,CORREGIDO,JARDIN602,JARDIN545,75.67,75.67,1.000,por posicion era JARDIN545
+jardin_import.json,CORREGIDO,JARDIN603,JARDIN546,1.22,1.22,1.000,por posicion era JARDIN546
+jardin_import.json,CORREGIDO,JARDIN604,JARDIN547,1.22,1.22,1.000,por posicion era JARDIN547
+jardin_import.json,CORREGIDO,JARDIN605,JARDIN548,81.84,81.84,1.000,por posicion era JARDIN548
+jardin_import.json,CORREGIDO,JARDIN606,JARDIN549,1.22,1.22,1.000,por posicion era JARDIN549
+jardin_import.json,CORREGIDO,JARDIN607,JARDIN550,1.22,1.22,1.000,por posicion era JARDIN550
+jardin_import.json,CORREGIDO,JARDIN608,JARDIN551,75.66,75.66,1.000,por posicion era JARDIN551
+jardin_import.json,CORREGIDO,JARDIN609,JARDIN552,1.22,1.22,1.000,por posicion era JARDIN552
+jardin_import.json,CORREGIDO,JARDIN610,JARDIN553,1.22,1.22,1.000,por posicion era JARDIN553
+jardin_import.json,CORREGIDO,JARDIN611,JARDIN554,228.91,228.91,1.000,por posicion era JARDIN554
+jardin_import.json,CORREGIDO,JARDIN612,JARDIN555,1.22,1.22,1.000,por posicion era JARDIN555
+jardin_import.json,CORREGIDO,JARDIN613,JARDIN556,1.22,1.22,1.000,por posicion era JARDIN556
+jardin_import.json,CORREGIDO,JARDIN614,JARDIN557,1.22,1.22,1.000,por posicion era JARDIN557
+jardin_import.json,CORREGIDO,JARDIN615,JARDIN558,1.22,1.22,1.000,por posicion era JARDIN558
+jardin_import.json,CORREGIDO,JARDIN616,JARDIN559,7.20,7.20,1.000,por posicion era JARDIN559
+jardin_import.json,CORREGIDO,JARDIN617,JARDIN560,1.22,1.22,1.000,por posicion era JARDIN560
+jardin_import.json,CORREGIDO,JARDIN619,JARDIN561,183.80,183.80,1.000,por posicion era JARDIN561
+jardin_import.json,CORREGIDO,JARDIN620,JARDIN562,41.37,41.37,1.000,por posicion era JARDIN562
+jardin_import.json,CORREGIDO,JARDIN621,JARDIN563,41.10,41.10,1.000,por posicion era JARDIN563
+jardin_import.json,CORREGIDO,JARDIN622,JARDIN564,28.64,28.64,1.000,por posicion era JARDIN564
+jardin_import.json,CORREGIDO,JARDIN623,JARDIN565,36.03,36.03,1.000,por posicion era JARDIN565
+jardin_import.json,CORREGIDO,JARDIN624,JARDIN566,37.86,37.86,1.000,por posicion era JARDIN566
+jardin_import.json,CORREGIDO,JARDIN625,JARDIN567,36.53,36.53,1.000,por posicion era JARDIN567
+jardin_import.json,CORREGIDO,JARDIN626,JARDIN568,11.56,11.56,1.000,por posicion era JARDIN568
+jardin_import.json,CORREGIDO,JARDIN627,JARDIN569,226.20,226.20,1.000,por posicion era JARDIN569
+jardin_import.json,CORREGIDO,JARDIN628,JARDIN570,62.43,62.43,1.000,por posicion era JARDIN570
+jardin_import.json,CORREGIDO,JARDIN629,JARDIN571,1.22,1.22,1.000,por posicion era JARDIN571
+jardin_import.json,CORREGIDO,JARDIN630,JARDIN572,70.14,70.14,1.000,por posicion era JARDIN572
+jardin_import.json,CORREGIDO,JARDIN631,JARDIN573,1.22,1.22,1.000,por posicion era JARDIN573
+jardin_import.json,CORREGIDO,JARDIN632,JARDIN574,1.22,1.22,1.000,por posicion era JARDIN574
+jardin_import.json,CORREGIDO,JARDIN633,JARDIN575,1.22,1.22,1.000,por posicion era JARDIN575
+jardin_import.json,CORREGIDO,JARDIN634,JARDIN576,75.97,75.97,1.000,por posicion era JARDIN576
+jardin_import.json,CORREGIDO,JARDIN635,JARDIN577,1.22,1.22,1.000,por posicion era JARDIN577
+jardin_import.json,CORREGIDO,JARDIN636,JARDIN578,1.22,1.22,1.000,por posicion era JARDIN578
+jardin_import.json,CORREGIDO,JARDIN637,JARDIN579,1.22,1.22,1.000,por posicion era JARDIN579
+jardin_import.json,CORREGIDO,JARDIN638,JARDIN580,7.20,7.20,1.000,por posicion era JARDIN580
+jardin_import.json,CORREGIDO,JARDIN639,JARDIN581,1.22,1.22,1.000,por posicion era JARDIN581
+jardin_import.json,CORREGIDO,JARDIN641,JARDIN582,7.18,7.18,1.000,por posicion era JARDIN582
+jardin_import.json,CORREGIDO,JARDIN642,JARDIN583,5.68,5.68,1.000,por posicion era JARDIN583
+jardin_import.json,CORREGIDO,JARDIN647,JARDIN584,2.94,2.94,1.000,por posicion era JARDIN584
+jardin_import.json,CORREGIDO,JARDIN648,JARDIN585,8.45,8.45,1.000,por posicion era JARDIN585
+jardin_import.json,CORREGIDO,JARDIN649,JARDIN586,0.03,0.03,1.000,por posicion era JARDIN586
+jardin_import.json,CORREGIDO,JARDIN650,JARDIN587,2.87,2.87,1.000,por posicion era JARDIN587
+jardin_import.json,CORREGIDO,JARDIN651,JARDIN588,2.55,2.55,1.000,por posicion era JARDIN588
+jardin_import.json,CORREGIDO,JARDIN652,JARDIN589,5.33,5.33,1.000,por posicion era JARDIN589
+jardin_import.json,CORREGIDO,JARDIN653,JARDIN590,13.10,13.09,1.000,por posicion era JARDIN590
+jardin_import.json,CORREGIDO,JARDIN654,JARDIN591,0.02,0.02,1.000,por posicion era JARDIN591
+jardin_import.json,CORREGIDO,JARDIN655,JARDIN592,12.60,12.60,1.000,por posicion era JARDIN592
+jardin_import.json,CORREGIDO,JARDIN656,JARDIN593,8.56,8.56,1.000,por posicion era JARDIN593
+jardin_import.json,CORREGIDO,JARDIN657,JARDIN594,0.02,0.02,1.000,por posicion era JARDIN594
+jardin_import.json,CORREGIDO,JARDIN659,JARDIN596,13.30,13.30,1.000,por posicion era JARDIN596
+jardin_import.json,CORREGIDO,JARDIN660,JARDIN597,4.18,4.18,1.000,por posicion era JARDIN597
+jardin_import.json,CORREGIDO,JARDIN661,JARDIN598,10.15,10.15,1.000,por posicion era JARDIN598
+jardin_import.json,CORREGIDO,JARDIN662,JARDIN599,3.21,3.21,1.000,por posicion era JARDIN599
+jardin_import.json,CORREGIDO,JARDIN663,JARDIN600,1.48,1.48,1.000,por posicion era JARDIN600
+jardin_import.json,CORREGIDO,JARDIN664,JARDIN601,1.86,1.86,1.000,por posicion era JARDIN601
+jardin_import.json,CORREGIDO,JARDIN665,JARDIN602,2.33,2.33,1.000,por posicion era JARDIN602
+jardin_import.json,CORREGIDO,JARDIN666,JARDIN603,6.47,6.47,1.000,por posicion era JARDIN603
+jardin_import.json,CORREGIDO,JARDIN667,JARDIN604,4.14,4.14,1.000,por posicion era JARDIN604
+jardin_import.json,CORREGIDO,JARDIN668,JARDIN605,2.03,2.03,1.000,por posicion era JARDIN605
+jardin_import.json,CORREGIDO,JARDIN669,JARDIN606,0.81,0.81,1.000,por posicion era JARDIN606
+jardin_import.json,CORREGIDO,JARDIN670,JARDIN607,6.42,6.42,1.000,por posicion era JARDIN607
+jardin_import.json,CORREGIDO,JARDIN671,JARDIN608,1.54,1.54,1.000,por posicion era JARDIN608
+jardin_import.json,CORREGIDO,JARDIN672,JARDIN609,5.55,5.55,1.000,por posicion era JARDIN609
+jardin_import.json,CORREGIDO,JARDIN673,JARDIN610,9.63,9.63,1.000,por posicion era JARDIN610
+jardin_import.json,CORREGIDO,JARDIN674,JARDIN611,7.85,7.85,1.000,por posicion era JARDIN611
+jardin_import.json,CORREGIDO,JARDIN675,JARDIN612,20.65,20.65,1.000,por posicion era JARDIN612
+jardin_import.json,CORREGIDO,JARDIN676,JARDIN613,5.86,5.86,1.000,por posicion era JARDIN613
+jardin_import.json,CORREGIDO,JARDIN677,JARDIN614,26.10,26.09,1.000,por posicion era JARDIN614
+jardin_import.json,CORREGIDO,JARDIN678,JARDIN615,45.76,45.76,1.000,por posicion era JARDIN615
+jardin_import.json,CORREGIDO,JARDIN679,JARDIN616,42.31,42.31,1.000,por posicion era JARDIN616
+jardin_import.json,CORREGIDO,JARDIN680,JARDIN617,42.10,42.10,1.000,por posicion era JARDIN617
+jardin_import.json,CORREGIDO,JARDIN681,JARDIN618,42.96,42.96,1.000,por posicion era JARDIN618
+jardin_import.json,CORREGIDO,JARDIN682,JARDIN619,45.58,45.58,1.000,por posicion era JARDIN619
+jardin_import.json,CORREGIDO,JARDIN683,JARDIN620,20.50,20.50,1.000,por posicion era JARDIN620
+jardin_import.json,CORREGIDO,JARDIN684,JARDIN621,19.07,19.07,1.000,por posicion era JARDIN621
+jardin_import.json,CORREGIDO,JARDIN685,JARDIN622,23.82,23.82,1.000,por posicion era JARDIN622
+jardin_import.json,CORREGIDO,JARDIN686,JARDIN623,27.93,27.93,1.000,por posicion era JARDIN623
+jardin_import.json,CORREGIDO,JARDIN687,JARDIN624,32.68,32.68,1.000,por posicion era JARDIN624
+jardin_import.json,CORREGIDO,JARDIN688,JARDIN625,50.19,50.18,1.000,por posicion era JARDIN625
+jardin_import.json,CORREGIDO,JARDIN689,JARDIN626,44.59,44.59,1.000,por posicion era JARDIN626
+jardin_import.json,CORREGIDO,JARDIN690,JARDIN627,10.95,10.95,1.000,por posicion era JARDIN627
+jardin_import.json,CORREGIDO,JARDIN691,JARDIN628,4.88,4.88,1.000,por posicion era JARDIN628
+jardin_import.json,CORREGIDO,JARDIN692,JARDIN629,44.59,44.59,1.000,por posicion era JARDIN629
+jardin_import.json,CORREGIDO,JARDIN693,JARDIN630,4.88,4.88,1.000,por posicion era JARDIN630
+jardin_import.json,CORREGIDO,JARDIN694,JARDIN631,10.95,10.95,1.000,por posicion era JARDIN631
+jardin_import.json,CORREGIDO,JARDIN695,JARDIN632,50.19,50.19,1.000,por posicion era JARDIN632
+jardin_import.json,CORREGIDO,JARDIN696,JARDIN633,20.56,20.56,1.000,por posicion era JARDIN633
+jardin_import.json,CORREGIDO,JARDIN697,JARDIN634,24.20,24.19,1.000,por posicion era JARDIN634
+jardin_import.json,CORREGIDO,JARDIN698,JARDIN635,17.47,17.47,1.000,por posicion era JARDIN635
+jardin_import.json,CORREGIDO,JARDIN699,JARDIN636,23.34,23.34,1.000,por posicion era JARDIN636
+jardin_import.json,CORREGIDO,JARDIN701,JARDIN637,34.98,34.98,1.000,por posicion era JARDIN637
+jardin_import.json,CORREGIDO,JARDIN702,JARDIN638,76.28,76.28,1.000,por posicion era JARDIN638
+jardin_import.json,CORREGIDO,JARDIN703,JARDIN639,207.27,207.26,1.000,por posicion era JARDIN639
+jardin_import.json,CORREGIDO,JARDIN714,JARDIN650,0.07,0.07,1.000,por posicion era JARDIN650
+jardin_import.json,CORREGIDO,JARDIN719,JARDIN655,1.50,1.50,1.000,por posicion era JARDIN655
+jardin_import.json,CORREGIDO,JARDIN721,JARDIN657,4.48,4.48,1.000,por posicion era JARDIN657
+jardin_import.json,CORREGIDO,JARDIN722,JARDIN658,65.41,65.41,1.000,por posicion era JARDIN658
+jardin_import.json,CORREGIDO,JARDIN723,JARDIN659,523.66,523.66,1.000,por posicion era JARDIN659
+jardin_import.json,CORREGIDO,JARDIN724,JARDIN660,64.76,64.76,1.000,por posicion era JARDIN660
+jardin_import.json,CORREGIDO,JARDIN725,JARDIN661,220.51,220.51,1.000,por posicion era JARDIN661
+jardin_import.json,CORREGIDO,JARDIN732,JARDIN668,0.15,0.15,1.000,por posicion era JARDIN668
+jardin_import.json,CORREGIDO,JARDIN733,JARDIN669,0.20,0.20,1.000,por posicion era JARDIN669
+jardin_import.json,CORREGIDO,JARDIN734,JARDIN670,23.42,23.42,1.000,por posicion era JARDIN670
+jardin_import.json,CORREGIDO,JARDIN735,JARDIN671,51.64,51.64,1.000,por posicion era JARDIN671
+jardin_import.json,CORREGIDO,JARDIN736,JARDIN672,5.72,5.72,1.000,por posicion era JARDIN672
+jardin_import.json,CORREGIDO,JARDIN737,JARDIN673,96.71,96.71,1.000,por posicion era JARDIN673
+jardin_import.json,CORREGIDO,JARDIN738,JARDIN674,111.73,111.72,1.000,por posicion era JARDIN674
+jardin_import.json,CORREGIDO,JARDIN739,JARDIN675,16.68,16.69,1.000,por posicion era JARDIN675
+jardin_import.json,CORREGIDO,JARDIN740,JARDIN676,12.04,12.04,1.000,por posicion era JARDIN676
+jardin_import.json,CORREGIDO,JARDIN741,JARDIN677,14.99,14.99,1.000,por posicion era JARDIN677
+jardin_import.json,CORREGIDO,JARDIN742,JARDIN678,209.61,209.61,1.000,por posicion era JARDIN678
+jardin_import.json,CORREGIDO,JARDIN743,JARDIN679,256.64,256.64,1.000,por posicion era JARDIN679
+jardin_import.json,CORREGIDO,JARDIN744,JARDIN680,11.07,11.07,1.000,por posicion era JARDIN680
+jardin_import.json,CORREGIDO,JARDIN745,JARDIN681,5.29,5.29,1.000,por posicion era JARDIN681
+jardin_import.json,CORREGIDO,JARDIN747,JARDIN683,1.08,1.08,1.000,por posicion era JARDIN683
+jardin_import.json,CORREGIDO,JARDIN748,JARDIN684,114.89,114.89,1.000,por posicion era JARDIN684
+jardin_import.json,CORREGIDO,JARDIN749,JARDIN685,886.05,886.06,1.000,por posicion era JARDIN685
+jardin_import.json,CORREGIDO,JARDIN750,JARDIN686,114.12,114.12,1.000,por posicion era JARDIN686
+jardin_import.json,CORREGIDO,JARDIN751,JARDIN687,14.38,14.38,1.000,por posicion era JARDIN687
+jardin_import.json,CORREGIDO,JARDIN752,JARDIN688,37.64,37.64,1.000,por posicion era JARDIN688
+jardin_import.json,CORREGIDO,JARDIN753,JARDIN689,123.75,123.75,1.000,por posicion era JARDIN689
+jardin_import.json,CORREGIDO,JARDIN754,JARDIN690,14.38,14.38,1.000,por posicion era JARDIN690
+jardin_import.json,CORREGIDO,JARDIN755,JARDIN691,14.38,14.38,1.000,por posicion era JARDIN691
+jardin_import.json,CORREGIDO,JARDIN756,JARDIN692,14.38,14.38,1.000,por posicion era JARDIN692
+jardin_import.json,CORREGIDO,JARDIN757,JARDIN693,14.38,14.38,1.000,por posicion era JARDIN693
+jardin_import.json,CORREGIDO,JARDIN758,JARDIN694,14.38,14.38,1.000,por posicion era JARDIN694
+jardin_import.json,CORREGIDO,JARDIN759,JARDIN695,14.40,14.40,1.000,por posicion era JARDIN695
+jardin_import.json,CORREGIDO,JARDIN760,JARDIN696,14.40,14.40,1.000,por posicion era JARDIN696
+jardin_import.json,CORREGIDO,JARDIN761,JARDIN697,14.40,14.40,1.000,por posicion era JARDIN697
+jardin_import.json,CORREGIDO,JARDIN762,JARDIN698,14.40,14.40,1.000,por posicion era JARDIN698
+jardin_import.json,CORREGIDO,JARDIN763,JARDIN699,14.40,14.40,1.000,por posicion era JARDIN699
+jardin_import.json,CORREGIDO,JARDIN764,JARDIN700,2.64,2.64,1.000,por posicion era JARDIN700
+jardin_import.json,CORREGIDO,JARDIN765,JARDIN701,2.64,2.64,1.000,por posicion era JARDIN701
+jardin_import.json,CORREGIDO,JARDIN766,JARDIN702,2.64,2.64,1.000,por posicion era JARDIN702
+jardin_import.json,CORREGIDO,JARDIN767,JARDIN703,2.64,2.64,1.000,por posicion era JARDIN703
+jardin_import.json,CORREGIDO,JARDIN768,JARDIN704,2.64,2.64,1.000,por posicion era JARDIN704
+jardin_import.json,CORREGIDO,JARDIN769,JARDIN705,2.64,2.64,1.000,por posicion era JARDIN705
+jardin_import.json,CORREGIDO,JARDIN770,JARDIN706,2.64,2.64,1.000,por posicion era JARDIN706
+jardin_import.json,CORREGIDO,JARDIN771,JARDIN707,2.64,2.64,1.000,por posicion era JARDIN707
+jardin_import.json,CORREGIDO,JARDIN772,JARDIN708,2.64,2.64,1.000,por posicion era JARDIN708
+jardin_import.json,CORREGIDO,JARDIN773,JARDIN709,2.64,2.64,1.000,por posicion era JARDIN709
+jardin_import.json,CORREGIDO,JARDIN774,JARDIN710,2.64,2.64,1.000,por posicion era JARDIN710
+jardin_import.json,CORREGIDO,JARDIN775,JARDIN711,2.64,2.64,1.000,por posicion era JARDIN711
+jardin_import.json,CORREGIDO,JARDIN776,JARDIN712,14.40,14.40,1.000,por posicion era JARDIN712
+jardin_import.json,CORREGIDO,JARDIN777,JARDIN713,14.40,14.40,1.000,por posicion era JARDIN713
+jardin_import.json,CORREGIDO,JARDIN778,JARDIN714,14.40,14.40,1.000,por posicion era JARDIN714
+jardin_import.json,CORREGIDO,JARDIN779,JARDIN715,14.40,14.40,1.000,por posicion era JARDIN715
+jardin_import.json,CORREGIDO,JARDIN780,JARDIN716,112.28,112.28,1.000,por posicion era JARDIN716
+jardin_import.json,CORREGIDO,JARDIN781,JARDIN717,4.48,4.48,1.000,por posicion era JARDIN717
+jardin_import.json,CORREGIDO,JARDIN782,JARDIN718,228.35,228.35,1.000,por posicion era JARDIN718
+jardin_import.json,CORREGIDO,JARDIN783,JARDIN719,15.66,15.66,1.000,por posicion era JARDIN719
+jardin_import.json,CORREGIDO,JARDIN784,JARDIN720,238.46,238.46,1.000,por posicion era JARDIN720
+jardin_import.json,CORREGIDO,JARDIN785,JARDIN721,238.46,238.46,1.000,por posicion era JARDIN721
+jardin_import.json,CORREGIDO,JARDIN786,JARDIN722,22.77,22.77,1.000,por posicion era JARDIN722
+jardin_import.json,CORREGIDO,JARDIN787,JARDIN723,22.74,22.74,1.000,por posicion era JARDIN723
+jardin_import.json,CORREGIDO,JARDIN788,JARDIN724,38.16,38.16,1.000,por posicion era JARDIN724
+jardin_import.json,CORREGIDO,JARDIN789,JARDIN725,38.16,38.16,1.000,por posicion era JARDIN725
+jardin_import.json,CORREGIDO,JARDIN790,JARDIN726,33.42,33.42,1.000,por posicion era JARDIN726
+jardin_import.json,CORREGIDO,JARDIN791,JARDIN727,35.92,35.92,1.000,por posicion era JARDIN727
+jardin_import.json,CORREGIDO,JARDIN792,JARDIN728,35.92,35.92,1.000,por posicion era JARDIN728
+jardin_import.json,CORREGIDO,JARDIN793,JARDIN729,5.05,5.05,1.000,por posicion era JARDIN729
+jardin_import.json,CORREGIDO,JARDIN794,JARDIN730,804.93,804.93,1.000,por posicion era JARDIN730
+jardin_import.json,CORREGIDO,JARDIN795,JARDIN731,725.29,725.29,1.000,por posicion era JARDIN731
+jardin_import.json,CORREGIDO,JARDIN796,JARDIN732,56.24,56.24,1.000,por posicion era JARDIN732
+jardin_import.json,CORREGIDO,JARDIN797,JARDIN733,114.80,114.80,1.000,por posicion era JARDIN733
+jardin_import.json,CORREGIDO,JARDIN798,JARDIN734,335.17,335.17,1.000,por posicion era JARDIN734
+jardin_import.json,CORREGIDO,JARDIN800,JARDIN735,10.66,10.66,1.000,por posicion era JARDIN735
+jardin_import.json,CORREGIDO,JARDIN801,JARDIN736,10.66,10.66,1.000,por posicion era JARDIN736
+jardin_import.json,CORREGIDO,JARDIN808,JARDIN737,42.90,42.90,1.000,por posicion era JARDIN737
+jardin_import.json,RETIRADO,JARDIN190,,0.00,2.56,0.000,borrar en Odoo despues del import
+jardin_import.json,RETIRADO,JARDIN267,,0.00,49.38,0.000,borrar en Odoo despues del import
+jardin_import.json,RETIRADO,JARDIN324,,0.00,1.86,0.000,borrar en Odoo despues del import
+jardin_import.json,RETIRADO,JARDIN327,,0.00,2.17,0.000,borrar en Odoo despues del import
+jardin_import.json,RETIRADO,JARDIN328,,0.00,2.00,0.000,borrar en Odoo despues del import
+jardin_import.json,RETIRADO,JARDIN329,,0.00,1.93,0.000,borrar en Odoo despues del import
+jardin_import.json,RETIRADO,JARDIN618,,0.00,29.73,0.000,borrar en Odoo despues del import
+jardin_import.json,RETIRADO,JARDIN802,,0.00,36.80,0.000,borrar en Odoo despues del import
+jardin_import.json,REVISAR,JARDIN203,,5.33,5.33,1.000,poligono DUPLICADO en el dibujo (identico a JARDIN652)
+matriz_import.json,IGUAL,MATRIZ01,MATRIZ01,358951.27,358951.27,1.000,
+matriz_import.json,IGUAL,MATRIZ02,MATRIZ02,369934.77,369934.77,1.000,
+propiedad_terceros_import.json,IGUAL,TERCEROS01,TERCEROS01,23353.71,23353.71,1.000,
+propiedad_terceros_import.json,IGUAL,TERCEROS02,TERCEROS02,9887.14,9887.14,1.000,
+veredas_import.json,CORREGIDO,VEREDA008,VEREDA001,39.46,39.46,1.000,por posicion era VEREDA001
+veredas_import.json,CORREGIDO,VEREDA009,VEREDA002,21.78,6.57,1.000,por posicion era VEREDA002
+veredas_import.json,CORREGIDO,VEREDA010,VEREDA003,20.01,12.19,1.000,por posicion era VEREDA003
+veredas_import.json,CORREGIDO,VEREDA011,VEREDA004,2177.13,2177.12,1.000,por posicion era VEREDA004
+veredas_import.json,CORREGIDO,VEREDA012,VEREDA005,20.13,9.88,1.000,por posicion era VEREDA005
+veredas_import.json,CORREGIDO,VEREDA013,VEREDA006,1409.10,1409.10,1.000,por posicion era VEREDA006
+veredas_import.json,CORREGIDO,VEREDA014,VEREDA007,850.09,850.09,1.000,por posicion era VEREDA007
+veredas_import.json,CORREGIDO,VEREDA015,VEREDA008,460.84,460.84,1.000,por posicion era VEREDA008
+veredas_import.json,CORREGIDO,VEREDA017,VEREDA009,718.63,718.63,1.000,por posicion era VEREDA009
+veredas_import.json,CORREGIDO,VEREDA018,VEREDA010,616.26,616.26,1.000,por posicion era VEREDA010
+veredas_import.json,CORREGIDO,VEREDA019,VEREDA011,13.06,13.06,1.000,por posicion era VEREDA011
+veredas_import.json,CORREGIDO,VEREDA020,VEREDA012,24.69,24.69,1.000,por posicion era VEREDA012
+veredas_import.json,CORREGIDO,VEREDA021,VEREDA013,14.42,14.42,1.000,por posicion era VEREDA013
+veredas_import.json,CORREGIDO,VEREDA022,VEREDA014,14.42,14.42,1.000,por posicion era VEREDA014
+veredas_import.json,CORREGIDO,VEREDA023,VEREDA015,14.42,14.42,1.000,por posicion era VEREDA015
+veredas_import.json,CORREGIDO,VEREDA024,VEREDA016,2.79,2.79,1.000,por posicion era VEREDA016
+veredas_import.json,CORREGIDO,VEREDA025,VEREDA017,16.17,16.17,1.000,por posicion era VEREDA017
+veredas_import.json,CORREGIDO,VEREDA026,VEREDA018,1.93,1.93,1.000,por posicion era VEREDA018
+veredas_import.json,CORREGIDO,VEREDA027,VEREDA019,3.34,3.34,1.000,por posicion era VEREDA019
+veredas_import.json,CORREGIDO,VEREDA028,VEREDA020,148.55,148.54,1.000,por posicion era VEREDA020
+veredas_import.json,CORREGIDO,VEREDA029,VEREDA021,12.00,12.00,1.000,por posicion era VEREDA021
+veredas_import.json,CORREGIDO,VEREDA030,VEREDA022,12.00,12.00,1.000,por posicion era VEREDA022
+veredas_import.json,CORREGIDO,VEREDA031,VEREDA023,12.00,12.00,1.000,por posicion era VEREDA023
+veredas_import.json,CORREGIDO,VEREDA032,VEREDA024,12.00,12.00,1.000,por posicion era VEREDA024
+veredas_import.json,CORREGIDO,VEREDA033,VEREDA025,12.00,12.00,1.000,por posicion era VEREDA025
+veredas_import.json,CORREGIDO,VEREDA034,VEREDA026,12.00,12.00,1.000,por posicion era VEREDA026
+veredas_import.json,CORREGIDO,VEREDA035,VEREDA027,12.00,12.00,1.000,por posicion era VEREDA027
+veredas_import.json,CORREGIDO,VEREDA036,VEREDA028,12.00,12.00,1.000,por posicion era VEREDA028
+veredas_import.json,CORREGIDO,VEREDA037,VEREDA029,12.00,12.00,1.000,por posicion era VEREDA029
+veredas_import.json,CORREGIDO,VEREDA038,VEREDA030,12.00,12.00,1.000,por posicion era VEREDA030
+veredas_import.json,CORREGIDO,VEREDA039,VEREDA031,12.00,12.00,1.000,por posicion era VEREDA031
+veredas_import.json,CORREGIDO,VEREDA040,VEREDA032,12.00,12.00,1.000,por posicion era VEREDA032
+veredas_import.json,CORREGIDO,VEREDA041,VEREDA033,12.00,12.00,1.000,por posicion era VEREDA033
+veredas_import.json,CORREGIDO,VEREDA042,VEREDA034,12.00,12.00,1.000,por posicion era VEREDA034
+veredas_import.json,CORREGIDO,VEREDA043,VEREDA035,12.00,12.00,1.000,por posicion era VEREDA035
+veredas_import.json,CORREGIDO,VEREDA044,VEREDA036,12.00,12.00,1.000,por posicion era VEREDA036
+veredas_import.json,CORREGIDO,VEREDA045,VEREDA037,12.00,12.00,1.000,por posicion era VEREDA037
+veredas_import.json,CORREGIDO,VEREDA046,VEREDA038,7.44,7.44,1.000,por posicion era VEREDA038
+veredas_import.json,CORREGIDO,VEREDA047,VEREDA039,12.00,12.00,1.000,por posicion era VEREDA039
+veredas_import.json,CORREGIDO,VEREDA048,VEREDA040,12.00,12.00,1.000,por posicion era VEREDA040
+veredas_import.json,CORREGIDO,VEREDA049,VEREDA041,12.65,12.65,1.000,por posicion era VEREDA041
+veredas_import.json,CORREGIDO,VEREDA050,VEREDA042,14.56,14.56,1.000,por posicion era VEREDA042
+veredas_import.json,CORREGIDO,VEREDA051,VEREDA043,25.77,25.77,1.000,por posicion era VEREDA043
+veredas_import.json,CORREGIDO,VEREDA052,VEREDA044,7.85,7.86,1.000,por posicion era VEREDA044
+veredas_import.json,CORREGIDO,VEREDA053,VEREDA045,339.87,339.87,1.000,por posicion era VEREDA045
+veredas_import.json,CORREGIDO,VEREDA054,VEREDA046,21.10,21.10,1.000,por posicion era VEREDA046
+veredas_import.json,CORREGIDO,VEREDA055,VEREDA047,145.19,145.19,1.000,por posicion era VEREDA047
+veredas_import.json,CORREGIDO,VEREDA056,VEREDA048,50.18,50.18,1.000,por posicion era VEREDA048
+veredas_import.json,CORREGIDO,VEREDA057,VEREDA049,0.08,0.08,1.000,por posicion era VEREDA049
+veredas_import.json,CORREGIDO,VEREDA058,VEREDA050,0.06,0.06,1.000,por posicion era VEREDA050
+veredas_import.json,CORREGIDO,VEREDA059,VEREDA051,2.87,2.87,1.000,por posicion era VEREDA051
+veredas_import.json,CORREGIDO,VEREDA060,VEREDA052,10.13,10.13,1.000,por posicion era VEREDA052
+veredas_import.json,CORREGIDO,VEREDA062,VEREDA053,26.81,26.81,1.000,por posicion era VEREDA053
+veredas_import.json,CORREGIDO,VEREDA063,VEREDA054,353.81,353.81,1.000,por posicion era VEREDA054
+veredas_import.json,CORREGIDO,VEREDA064,VEREDA055,442.08,442.08,1.000,por posicion era VEREDA055
+veredas_import.json,CORREGIDO,VEREDA065,VEREDA056,501.97,501.97,1.000,por posicion era VEREDA056
+veredas_import.json,CORREGIDO,VEREDA066,VEREDA057,441.22,441.21,1.000,por posicion era VEREDA057
+veredas_import.json,CORREGIDO,VEREDA067,VEREDA058,454.00,454.00,1.000,por posicion era VEREDA058
+veredas_import.json,CORREGIDO,VEREDA068,VEREDA059,251.33,251.33,1.000,por posicion era VEREDA059
+veredas_import.json,CORREGIDO,VEREDA069,VEREDA060,80.14,80.14,1.000,por posicion era VEREDA060
+veredas_import.json,CORREGIDO,VEREDA070,VEREDA061,41.46,41.46,1.000,por posicion era VEREDA061
+veredas_import.json,CORREGIDO,VEREDA071,VEREDA062,80.14,80.14,1.000,por posicion era VEREDA062
+veredas_import.json,CORREGIDO,VEREDA072,VEREDA063,85.54,85.54,1.000,por posicion era VEREDA063
+veredas_import.json,CORREGIDO,VEREDA073,VEREDA064,14.42,14.42,1.000,por posicion era VEREDA064
+veredas_import.json,CORREGIDO,VEREDA074,VEREDA065,92.25,92.24,1.000,por posicion era VEREDA065
+veredas_import.json,CORREGIDO,VEREDA075,VEREDA066,429.69,429.69,1.000,por posicion era VEREDA066
+veredas_import.json,CORREGIDO,VEREDA076,VEREDA067,195.66,195.66,1.000,por posicion era VEREDA067
+veredas_import.json,CORREGIDO,VEREDA077,VEREDA068,138.25,138.25,1.000,por posicion era VEREDA068
+veredas_import.json,CORREGIDO,VEREDA078,VEREDA069,138.01,138.01,1.000,por posicion era VEREDA069
+veredas_import.json,CORREGIDO,VEREDA079,VEREDA070,41.72,41.72,1.000,por posicion era VEREDA070
+veredas_import.json,CORREGIDO,VEREDA080,VEREDA071,52.39,52.39,1.000,por posicion era VEREDA071
+veredas_import.json,CORREGIDO,VEREDA081,VEREDA072,24.19,24.19,1.000,por posicion era VEREDA072
+veredas_import.json,CORREGIDO,VEREDA082,VEREDA073,40.72,40.72,1.000,por posicion era VEREDA073
+veredas_import.json,CORREGIDO,VEREDA083,VEREDA074,0.76,0.76,1.000,por posicion era VEREDA074
+veredas_import.json,CORREGIDO,VEREDA084,VEREDA075,85.05,85.05,1.000,por posicion era VEREDA075
+veredas_import.json,CORREGIDO,VEREDA085,VEREDA076,20.35,20.35,1.000,por posicion era VEREDA076
+veredas_import.json,CORREGIDO,VEREDA086,VEREDA077,1.89,1.89,1.000,por posicion era VEREDA077
+veredas_import.json,CORREGIDO,VEREDA087,VEREDA078,75.64,75.64,1.000,por posicion era VEREDA078
+veredas_import.json,CORREGIDO,VEREDA088,VEREDA079,2.23,2.23,1.000,por posicion era VEREDA079
+veredas_import.json,CORREGIDO,VEREDA089,VEREDA080,2.18,2.18,1.000,por posicion era VEREDA080
+veredas_import.json,CORREGIDO,VEREDA090,VEREDA081,2.99,2.99,1.000,por posicion era VEREDA081
+veredas_import.json,CORREGIDO,VEREDA091,VEREDA082,2.99,2.99,1.000,por posicion era VEREDA082
+veredas_import.json,CORREGIDO,VEREDA092,VEREDA083,2.99,2.99,1.000,por posicion era VEREDA083
+veredas_import.json,CORREGIDO,VEREDA093,VEREDA084,2.99,2.99,1.000,por posicion era VEREDA084
+veredas_import.json,CORREGIDO,VEREDA094,VEREDA085,2.99,2.99,1.000,por posicion era VEREDA085
+veredas_import.json,CORREGIDO,VEREDA095,VEREDA086,2.99,2.99,1.000,por posicion era VEREDA086
+veredas_import.json,CORREGIDO,VEREDA096,VEREDA087,2.99,2.99,1.000,por posicion era VEREDA087
+veredas_import.json,CORREGIDO,VEREDA097,VEREDA088,2.99,2.99,1.000,por posicion era VEREDA088
+veredas_import.json,CORREGIDO,VEREDA098,VEREDA089,2.99,2.99,1.000,por posicion era VEREDA089
+veredas_import.json,CORREGIDO,VEREDA099,VEREDA090,2.99,2.99,1.000,por posicion era VEREDA090
+veredas_import.json,CORREGIDO,VEREDA100,VEREDA091,2.99,2.99,1.000,por posicion era VEREDA091
+veredas_import.json,CORREGIDO,VEREDA101,VEREDA092,2.99,2.99,1.000,por posicion era VEREDA092
+veredas_import.json,CORREGIDO,VEREDA102,VEREDA093,2.99,2.99,1.000,por posicion era VEREDA093
+veredas_import.json,CORREGIDO,VEREDA103,VEREDA094,2.99,2.99,1.000,por posicion era VEREDA094
+veredas_import.json,CORREGIDO,VEREDA104,VEREDA095,2.99,2.99,1.000,por posicion era VEREDA095
+veredas_import.json,CORREGIDO,VEREDA105,VEREDA096,2.99,2.99,1.000,por posicion era VEREDA096
+veredas_import.json,CORREGIDO,VEREDA106,VEREDA097,2.99,2.99,1.000,por posicion era VEREDA097
+veredas_import.json,CORREGIDO,VEREDA107,VEREDA098,2.99,2.99,1.000,por posicion era VEREDA098
+veredas_import.json,CORREGIDO,VEREDA108,VEREDA099,2.99,2.99,1.000,por posicion era VEREDA099
+veredas_import.json,CORREGIDO,VEREDA109,VEREDA100,2.99,2.99,1.000,por posicion era VEREDA100
+veredas_import.json,CORREGIDO,VEREDA111,VEREDA101,2.23,2.23,1.000,por posicion era VEREDA101
+veredas_import.json,CORREGIDO,VEREDA112,VEREDA102,2.31,2.31,1.000,por posicion era VEREDA102
+veredas_import.json,CORREGIDO,VEREDA113,VEREDA103,108.72,108.72,1.000,por posicion era VEREDA103
+veredas_import.json,CORREGIDO,VEREDA114,VEREDA104,14.40,14.40,1.000,por posicion era VEREDA104
+veredas_import.json,CORREGIDO,VEREDA115,VEREDA105,14.40,14.40,1.000,por posicion era VEREDA105
+veredas_import.json,CORREGIDO,VEREDA116,VEREDA106,14.40,14.40,1.000,por posicion era VEREDA106
+veredas_import.json,CORREGIDO,VEREDA117,VEREDA107,14.40,14.40,1.000,por posicion era VEREDA107
+veredas_import.json,CORREGIDO,VEREDA118,VEREDA108,14.40,14.40,1.000,por posicion era VEREDA108
+veredas_import.json,CORREGIDO,VEREDA119,VEREDA109,14.40,14.40,1.000,por posicion era VEREDA109
+veredas_import.json,CORREGIDO,VEREDA120,VEREDA110,14.40,14.40,1.000,por posicion era VEREDA110
+veredas_import.json,CORREGIDO,VEREDA121,VEREDA111,14.40,14.40,1.000,por posicion era VEREDA111
+veredas_import.json,CORREGIDO,VEREDA122,VEREDA112,14.40,14.40,1.000,por posicion era VEREDA112
+veredas_import.json,CORREGIDO,VEREDA123,VEREDA113,14.40,14.40,1.000,por posicion era VEREDA113
+veredas_import.json,CORREGIDO,VEREDA124,VEREDA114,14.40,14.40,1.000,por posicion era VEREDA114
+veredas_import.json,CORREGIDO,VEREDA125,VEREDA115,14.40,14.40,1.000,por posicion era VEREDA115
+veredas_import.json,CORREGIDO,VEREDA126,VEREDA116,14.40,14.40,1.000,por posicion era VEREDA116
+veredas_import.json,CORREGIDO,VEREDA127,VEREDA117,21.75,21.75,1.000,por posicion era VEREDA117
+veredas_import.json,CORREGIDO,VEREDA128,VEREDA118,76.76,76.76,1.000,por posicion era VEREDA118
+veredas_import.json,CORREGIDO,VEREDA129,VEREDA119,339.87,339.87,1.000,por posicion era VEREDA119
+veredas_import.json,CORREGIDO,VEREDA130,VEREDA120,27.10,27.10,1.000,por posicion era VEREDA120
+veredas_import.json,CORREGIDO,VEREDA131,VEREDA121,107.38,107.38,1.000,por posicion era VEREDA121
+veredas_import.json,CORREGIDO,VEREDA132,VEREDA122,3.91,3.91,1.000,por posicion era VEREDA122
+veredas_import.json,CORREGIDO,VEREDA133,VEREDA123,9.56,9.56,1.000,por posicion era VEREDA123
+veredas_import.json,CORREGIDO,VEREDA134,VEREDA124,107.38,107.38,1.000,por posicion era VEREDA124
+veredas_import.json,CORREGIDO,VEREDA135,VEREDA125,10.44,10.45,1.000,por posicion era VEREDA125
+veredas_import.json,CORREGIDO,VEREDA136,VEREDA126,52.54,52.54,1.000,por posicion era VEREDA126
+veredas_import.json,CORREGIDO,VEREDA137,VEREDA127,3.90,3.90,1.000,por posicion era VEREDA127
+veredas_import.json,CORREGIDO,VEREDA138,VEREDA128,2.98,2.98,1.000,por posicion era VEREDA128
+veredas_import.json,CORREGIDO,VEREDA139,VEREDA129,341.53,341.53,1.000,por posicion era VEREDA129
+veredas_import.json,CORREGIDO,VEREDA140,VEREDA130,3.49,3.49,1.000,por posicion era VEREDA130
+veredas_import.json,CORREGIDO,VEREDA141,VEREDA131,3.91,3.91,1.000,por posicion era VEREDA131
+veredas_import.json,CORREGIDO,VEREDA142,VEREDA132,48.91,48.91,1.000,por posicion era VEREDA132
+veredas_import.json,CORREGIDO,VEREDA143,VEREDA133,5.14,5.14,1.000,por posicion era VEREDA133
+veredas_import.json,CORREGIDO,VEREDA144,VEREDA134,14.42,14.42,1.000,por posicion era VEREDA134
+veredas_import.json,CORREGIDO,VEREDA145,VEREDA135,14.42,14.42,1.000,por posicion era VEREDA135
+veredas_import.json,CORREGIDO,VEREDA146,VEREDA136,14.42,14.42,1.000,por posicion era VEREDA136
+veredas_import.json,CORREGIDO,VEREDA147,VEREDA137,14.42,14.42,1.000,por posicion era VEREDA137
+veredas_import.json,CORREGIDO,VEREDA148,VEREDA138,92.25,92.24,1.000,por posicion era VEREDA138
+veredas_import.json,CORREGIDO,VEREDA149,VEREDA139,14.40,14.40,1.000,por posicion era VEREDA139
+veredas_import.json,CORREGIDO,VEREDA150,VEREDA140,14.40,14.40,1.000,por posicion era VEREDA140
+veredas_import.json,CORREGIDO,VEREDA151,VEREDA141,21.43,21.43,1.000,por posicion era VEREDA141
+veredas_import.json,CORREGIDO,VEREDA152,VEREDA142,14.40,14.40,1.000,por posicion era VEREDA142
+veredas_import.json,CORREGIDO,VEREDA153,VEREDA143,14.40,14.40,1.000,por posicion era VEREDA143
+veredas_import.json,CORREGIDO,VEREDA154,VEREDA144,14.40,14.40,1.000,por posicion era VEREDA144
+veredas_import.json,CORREGIDO,VEREDA155,VEREDA145,14.40,14.40,1.000,por posicion era VEREDA145
+veredas_import.json,CORREGIDO,VEREDA156,VEREDA146,14.40,14.40,1.000,por posicion era VEREDA146
+veredas_import.json,CORREGIDO,VEREDA157,VEREDA147,14.40,14.40,1.000,por posicion era VEREDA147
+veredas_import.json,CORREGIDO,VEREDA158,VEREDA148,14.40,14.40,1.000,por posicion era VEREDA148
+veredas_import.json,CORREGIDO,VEREDA159,VEREDA149,14.40,14.40,1.000,por posicion era VEREDA149
+veredas_import.json,CORREGIDO,VEREDA160,VEREDA150,14.40,14.40,1.000,por posicion era VEREDA150
+veredas_import.json,CORREGIDO,VEREDA161,VEREDA151,21.51,21.51,1.000,por posicion era VEREDA151
+veredas_import.json,CORREGIDO,VEREDA162,VEREDA152,14.40,14.40,1.000,por posicion era VEREDA152
+veredas_import.json,CORREGIDO,VEREDA163,VEREDA153,6.60,6.60,1.000,por posicion era VEREDA153
+veredas_import.json,CORREGIDO,VEREDA164,VEREDA154,4.52,4.52,1.000,por posicion era VEREDA154
+veredas_import.json,CORREGIDO,VEREDA165,VEREDA155,4.52,4.52,1.000,por posicion era VEREDA155
+veredas_import.json,CORREGIDO,VEREDA166,VEREDA156,4.52,4.52,1.000,por posicion era VEREDA156
+veredas_import.json,CORREGIDO,VEREDA167,VEREDA157,4.52,4.52,1.000,por posicion era VEREDA157
+veredas_import.json,CORREGIDO,VEREDA168,VEREDA158,4.52,4.52,1.000,por posicion era VEREDA158
+veredas_import.json,CORREGIDO,VEREDA169,VEREDA159,4.52,4.52,1.000,por posicion era VEREDA159
+veredas_import.json,CORREGIDO,VEREDA170,VEREDA160,4.52,4.52,1.000,por posicion era VEREDA160
+veredas_import.json,CORREGIDO,VEREDA171,VEREDA161,4.52,4.52,1.000,por posicion era VEREDA161
+veredas_import.json,CORREGIDO,VEREDA172,VEREDA162,4.52,4.52,1.000,por posicion era VEREDA162
+veredas_import.json,CORREGIDO,VEREDA173,VEREDA163,4.52,4.52,1.000,por posicion era VEREDA163
+veredas_import.json,CORREGIDO,VEREDA174,VEREDA164,4.52,4.52,1.000,por posicion era VEREDA164
+veredas_import.json,CORREGIDO,VEREDA175,VEREDA165,4.52,4.52,1.000,por posicion era VEREDA165
+veredas_import.json,CORREGIDO,VEREDA176,VEREDA166,3.64,3.64,1.000,por posicion era VEREDA166
+veredas_import.json,CORREGIDO,VEREDA177,VEREDA167,3.68,3.68,1.000,por posicion era VEREDA167
+veredas_import.json,CORREGIDO,VEREDA178,VEREDA168,14.36,14.36,1.000,por posicion era VEREDA168
+veredas_import.json,CORREGIDO,VEREDA179,VEREDA169,14.36,14.36,1.000,por posicion era VEREDA169
+veredas_import.json,CORREGIDO,VEREDA180,VEREDA170,14.36,14.36,1.000,por posicion era VEREDA170
+veredas_import.json,CORREGIDO,VEREDA181,VEREDA171,14.36,14.36,1.000,por posicion era VEREDA171
+veredas_import.json,CORREGIDO,VEREDA182,VEREDA172,14.36,14.36,1.000,por posicion era VEREDA172
+veredas_import.json,CORREGIDO,VEREDA183,VEREDA173,14.36,14.36,1.000,por posicion era VEREDA173
+veredas_import.json,CORREGIDO,VEREDA184,VEREDA174,14.36,14.36,1.000,por posicion era VEREDA174
+veredas_import.json,CORREGIDO,VEREDA185,VEREDA175,52.30,52.30,1.000,por posicion era VEREDA175
+veredas_import.json,CORREGIDO,VEREDA186,VEREDA176,58.95,58.95,1.000,por posicion era VEREDA176
+veredas_import.json,CORREGIDO,VEREDA187,VEREDA177,56.64,56.64,1.000,por posicion era VEREDA177
+veredas_import.json,CORREGIDO,VEREDA188,VEREDA178,190.93,190.93,1.000,por posicion era VEREDA178
+veredas_import.json,CORREGIDO,VEREDA189,VEREDA179,57.37,57.37,1.000,por posicion era VEREDA179
+veredas_import.json,CORREGIDO,VEREDA190,VEREDA180,5.75,5.75,1.000,por posicion era VEREDA180
+veredas_import.json,CORREGIDO,VEREDA191,VEREDA181,3.18,3.18,1.000,por posicion era VEREDA181
+veredas_import.json,CORREGIDO,VEREDA192,VEREDA182,3.18,3.18,1.000,por posicion era VEREDA182
+veredas_import.json,CORREGIDO,VEREDA193,VEREDA183,3.18,3.18,1.000,por posicion era VEREDA183
+veredas_import.json,CORREGIDO,VEREDA199,VEREDA184,3.18,3.18,1.000,por posicion era VEREDA184
+veredas_import.json,CORREGIDO,VEREDA200,VEREDA185,3.18,3.18,1.000,por posicion era VEREDA185
+veredas_import.json,CORREGIDO,VEREDA201,VEREDA186,3.18,3.18,1.000,por posicion era VEREDA186
+veredas_import.json,CORREGIDO,VEREDA202,VEREDA187,5.10,5.10,1.000,por posicion era VEREDA187
+veredas_import.json,CORREGIDO,VEREDA198,VEREDA188,103.32,103.32,1.000,por posicion era VEREDA188
+veredas_import.json,CORREGIDO,VEREDA061,VEREDA189,1746.10,1746.10,1.000,por posicion era VEREDA189
+veredas_import.json,RETIRADO,VEREDA194,,0.00,3.18,0.000,borrar en Odoo despues del import
+veredas_import.json,RETIRADO,VEREDA195,,0.00,3.18,0.000,borrar en Odoo despues del import
+veredas_import.json,RETIRADO,VEREDA196,,0.00,3.18,0.000,borrar en Odoo despues del import
+veredas_import.json,RETIRADO,VEREDA197,,0.00,5.10,0.000,borrar en Odoo despues del import
+veredas_import.json,FUERA_ESQUEMA,LINEA1,,0.00,9454.26,0.000,proyecto 'P03154725': no se toca
+veredas_import.json,FUERA_ESQUEMA,LINEA2,,0.00,78818.01,0.000,proyecto 'P03154725': no se toca
+veredas_import.json,FUERA_ESQUEMA,LINEA3,,0.00,70812.68,0.000,proyecto 'P03154725': no se toca
+veredas_import.json,FUERA_ESQUEMA,LINEA4,,0.00,47289.44,0.000,proyecto 'P03154725': no se toca
