@@ -15,3 +15,9 @@ Thumbs.db
 
 # Borradores y extracciones temporales, no documentos oficiales
 _archivo_temporal/
+
+# Corridas de prueba desechables y bloqueos de AutoCAD/Civil 3D
+**/resultados/v3_agua/_pruebas/
+**/resultados/v3_agua/prueba_dn110/
+*.dwl
+*.dwl2
