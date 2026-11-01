@@ -42,10 +42,23 @@ def escribir(path, ctx):
     L.append("\n**Validacion contra EPANET oficial** (diferencia maxima solver propio vs EPANET): " +
              "; ".join("%s: presion %.3f m, caudal %.4f L/s" % (g, v["dif_max_presion_m"], v["dif_max_caudal_Ls"]) for g, v in val.items()) + ".\n")
     L.append("\n## 5. Escenarios adicionales\n")
-    L.append("### 5.1 Volumen de reservorio (sin contra incendio)\n")
-    L.append(_t([(v["red"], v["vol_diario_m3"], v["regulacion_m3"], v["reserva_m3"], v["total_sin_incendio_m3"]) for v in esc["volumen"]],
-                ["Red", "Volumen diario (m3)", "Regulacion (m3)", "Reserva (m3)", "Total (m3)"]))
-    L.append("\nContra incendio: %d m3 si la poblacion total llega a %d hab (poblacion base: %d hab)." % (P("demanda.incendio_volumen_m3"), P("demanda.incendio_umbral_hab"), base["pob"]))
+    L.append("### 5.1 Capacidad de los reservorios\n")
+    vols = esc["volumen"]
+    L.append(_t([(v["red"], v["pob"], v["vol_diario_m3"], v["regulacion_m3"], v["reserva_m3"], v["incendio_m3"], v["total_m3"]) for v in vols] +
+                [("Suma", sum(v["pob"] for v in vols), sum(v["vol_diario_m3"] for v in vols), sum(v["regulacion_m3"] for v in vols), sum(v["reserva_m3"] for v in vols),
+                  round(sum(v["incendio_m3"] for v in vols), 1), sum(v["total_m3"] for v in vols))],
+                ["Red", "Poblacion (hab)", "Volumen diario (m3)", "Regulacion (m3)", "Reserva (m3)", "Contra incendio (m3)", "Total (m3)"]))
+    if P("demanda.incendio_incluir"):
+        modo = P("demanda.incendio_reparto")
+        donde = {"proporcional_poblacion": "%d m3 en total, repartidos entre los reservorios en proporcion a la poblacion que atiende cada uno (%s)" % (
+                     P("demanda.incendio_volumen_m3"), " / ".join("%s %.1f %%" % (v["red"], v["pct_pob"]) for v in vols)),
+                 "por_reservorio": "%d m3 en cada reservorio" % P("demanda.incendio_volumen_m3"),
+                 "unico_R2": "un solo volumen de %d m3 en R2" % P("demanda.incendio_volumen_m3")}[modo]
+        L.append("\nContra incendio INCLUIDO: %s. La norma exige demanda de incendio desde %d hab y la poblacion base es %d hab; el volumen (CTPS 7.2.4) se incluye por decision del usuario (2026-11-01)." % (donde, P("demanda.incendio_umbral_hab"), base["pob"]))
+        if not P("demanda.incendio_hidrantes_ubicar"):
+            L.append("\n**Hidrantes: NO ubicados** por decision del usuario (2026-11-01), hasta confirmar si van en el diseno; por eso no se verifica el caudal de incendio en la red.")
+    else:
+        L.append("\nContra incendio NO incluido (la norma lo exige desde %d hab; poblacion base: %d hab)." % (P("demanda.incendio_umbral_hab"), base["pob"]))
     L.append("\n### 5.2 Simulacion de 24 h (EPANET, reservorio a nivel minimo fijo)\n")
     L.append(_t([(e["red"], e["p_min_global"], "%d:00" % e["hora_p_min"], e["p_max_global"], "%d:00" % e["hora_p_max"]) for e in esc["24h"]],
                 ["Red", "Presion minima (mca)", "Hora", "Presion maxima (mca)", "Hora"]))
@@ -69,6 +82,19 @@ def escribir(path, ctx):
         L.append(_t([(c["carga_fuente_m"], c["altura_dinamica_m"], "si" if c["requiere_bomba"] else "gravedad", c["potencia_kW"]) for c in b["casos"]],
                     ["Carga de la fuente (m)", "Altura dinamica (m)", "Bomba", "Potencia (kW)"]))
     L.append("\n" + esc["bomba"][0]["nota"] + "\n")
+    if esc.get("incendio"):
+        inc0 = esc["incendio"][0]
+        L.append("\n### 5.5 Verificacion hidraulica con incendio (gasto coincidente: Qmd + %.0f L/s en un hidrante)\n" % inc0["caudal_incendio_ls"])
+        L.append(_t([(e["red"], e["qmh_ls"], e["qmd_mas_incendio_ls"], e["gobierna"], e["hidrantes_probados"], e["hidrantes_con_presion_residual_ok"],
+                      e["presion_min_en_hidrante"], e["velocidad_max_ms"], e["casos_con_velocidad_sobre_norma"]) for e in esc["incendio"]],
+                    ["Red", "Qmh (L/s)", "Qmd + incendio (L/s)", "Gobierna", "Nodos probados como hidrante",
+                     "Con presion residual >= %.0f mca" % inc0["presion_residual_exigida"], "Peor presion en hidrante (mca)", "Velocidad max (m/s)",
+                     "Casos con v > %.0f m/s" % inc0["velocidad_max_norma_ms"]]))
+        for e in esc["incendio"]:
+            L.append("\nPeores hidrantes en %s:\n" % e["red"])
+            L.append(_t([(h["nodo"], h["x"], h["y"], h["presion_residual"], h["presion_min_resto"], h["v_max"]) for h in e["peores_hidrantes"][:5]],
+                        ["Nodo", "X", "Y", "Presion residual (mca)", "Presion minima del resto (mca)", "Velocidad max (m/s)"]))
+        L.append("\n" + inc0["nota"] + "\n")
     L.append("\n## 6. Puntos a revisar (capa EPANET_REVISAR)\n")
     cont = collections.Counter((i["tipo"], "critico" if i["gravedad"] == 1 else "aviso") for i in rev)
     L.append(_t([(t, g, n) for (t, g), n in sorted(cont.items())], ["Tipo", "Gravedad", "Cantidad"]))
@@ -81,7 +107,8 @@ def escribir(path, ctx):
     for a in ctx["archivos"]:
         L.append("- `%s`" % a)
     L.append("\n## 9. Limitaciones\n")
-    for t in ["Regimen permanente con Hazen-Williams; diametros interiores supuestos (0.9 DN) y material/clase sin definir.",
+    for t in ["Hidrantes contra incendio no ubicados ni dimensionados (decision del usuario, pendiente de confirmar si van en el diseno).",
+              "Regimen permanente con Hazen-Williams; diametros interiores supuestos (0.9 DN) y material/clase sin definir.",
               "Los niveles de los reservorios son supuestos hasta definir su altura real.",
               "La carga de la fuente (Santa Maria) no esta verificada y no hay factibilidad escrita.",
               "La rotura de tramos no considera valvulas de aislamiento (no estan dibujadas): se corta solo el tramo de calculo.",

@@ -70,7 +70,9 @@ def escenario(lotes, P, dot=None, k2=None, regla_area=False, cobertura=None, com
     qmh = k2 * qp
     reg = P("demanda.regulacion_fraccion") * vol
     res7 = P("demanda.reserva_fraccion_qmd") * qmd * 86.4
-    inc = P("demanda.incendio_volumen_m3") if pob >= P("demanda.incendio_umbral_hab") else 0
+    n_res = len(P("reservorios.grupos")) if P("demanda.incendio_reparto") == "por_reservorio" else 1
+    exigido = pob >= P("demanda.incendio_umbral_hab")
+    inc = P("demanda.incendio_volumen_m3") * n_res if (P("demanda.incendio_incluir") or exigido) else 0
     return dict(dot=dot, k2=k2, pob=pob, vol_comercial=vol_com, vol_total=vol, qp=qp, qmd=qmd, qmh=qmh,
                 regulacion=reg, reserva=res7, incendio=inc, v_reservorio=reg + res7 + inc)
 

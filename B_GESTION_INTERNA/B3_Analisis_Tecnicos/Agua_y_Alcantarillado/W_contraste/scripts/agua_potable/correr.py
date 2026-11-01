@@ -103,15 +103,20 @@ def main(argv=None):
         R = modelo.modelar_red(g, P, pls, red[rk], tuple(red[rk]["c"]), sel, terr, k2, out)
         inp = modelo.escribir_salidas_red(R, P, out, "(DN minimo %s mm)" % P("hidraulica.dn_minimo_mm"))
         val[g] = modelo.validar_con_epanet(R, inp, exe)
+        R["pob"] = sum(l["pob"] for k, l in enumerate(lotes) if cual[k] == gi)
         Rs[g] = R
         resumenes[g] = R["resumen"]
         print("%s: %d lotes, Pmin %.1f mca, estatica max %.1f mca, DN %s | EPANET dif %.3f m" % (
             g, R["resumen"]["lotes"], R["resumen"]["presion_min_pico"], R["resumen"]["estatica_max"], R["resumen"]["DN"], val[g]["dif_max_presion_m"]))
 
+    for R in Rs.values():
+        R["pob_total"] = sum(x["pob"] for x in Rs.values())
+
     # 6. escenarios
     esc = dict(volumen=[modelo.volumen_reservorio(R, P) for R in Rs.values()],
                **{"24h": [modelo.escenario_24h(R, P, out, exe) for R in Rs.values()]},
                bomba=[modelo.escenario_bomba(R, P, medidor) for R in Rs.values()],
+               incendio=[modelo.escenario_incendio(R, P) for R in Rs.values()] if (P("demanda.incendio_incluir") and P("demanda.incendio_verificar_hidraulica")) else [],
                rotura=[] if a.sin_rotura else [modelo.escenario_rotura(R, P) for R in Rs.values()])
     if a.sin_rotura:
         esc["rotura"] = [dict(red=g, tramos_evaluados=0, tramos_que_dejan_sin_agua=0, peor_corte=[], peor_presion_sin_corte=[], todos=[]) for g in Rs]

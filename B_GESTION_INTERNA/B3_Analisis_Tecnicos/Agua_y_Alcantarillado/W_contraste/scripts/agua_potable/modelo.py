@@ -365,7 +365,51 @@ def volumen_reservorio(R, P):
     reg = P("demanda.regulacion_fraccion") * vol
     qmd_m3d = P("demanda.k1") * vol
     res = P("demanda.reserva_fraccion_qmd") * qmd_m3d
-    return dict(red=R["g"], vol_diario_m3=round(vol), regulacion_m3=round(reg), reserva_m3=round(res), total_sin_incendio_m3=round(reg + res))
+    inc = 0.0
+    if P("demanda.incendio_incluir"):
+        V = P("demanda.incendio_volumen_m3")
+        modo = P("demanda.incendio_reparto")
+        if modo == "proporcional_poblacion":
+            inc = V * R["pob"] / R["pob_total"]
+        elif modo == "por_reservorio":
+            inc = V
+        else:  # unico_R2
+            inc = V if R["g"] == "R2" else 0.0
+    return dict(red=R["g"], vol_diario_m3=round(vol), regulacion_m3=round(reg), reserva_m3=round(res), total_sin_incendio_m3=round(reg + res),
+                incendio_m3=round(inc, 1), total_m3=round(reg + res + inc), pob=R["pob"], pct_pob=round(100.0 * R["pob"] / R["pob_total"], 1))
+
+
+def escenario_incendio(R, P):
+    """Gasto coincidente (CTPS-PR-02 8.2.3): Qmd + caudal de incendio en un hidrante. Se prueba cada nodo como hidrante
+    con los diametros de la hora punta (no se redimensiona). Compara ademas con la hora punta para saber cual gobierna."""
+    ed, nn, nres, D, C, zn = R["ed"], R["nn"], R["nres"], R["D"], R["C"], R["zn"]
+    qinc = P("demanda.incendio_caudal_ls") / 1000.0
+    qmd = P("demanda.k1") * R["qp"]  # m3/s por nodo
+    pres_min = P("demanda.incendio_presion_residual_mca")
+    vmax_n = P("demanda.incendio_velocidad_max_ms")
+    area = np.pi * D ** 2 / 4
+    candidatos = [i for i in range(nn) if R["mask"][i] and i != nres]
+    filas = []
+    for i in candidatos:
+        q = qmd.copy()
+        q[i] += qinc
+        H, Q, _ = resolver(q, ed, nn, D, {nres: R["nmin"]}, C)
+        p = H - zn
+        v = np.abs(Q) / area
+        filas.append((i, float(p[i]), float(p[R["dem"]].min()), float(v.max())))
+    ok = [f for f in filas if f[1] >= pres_min]
+    peor = sorted(filas, key=lambda f: f[1])[:8]
+    qmh_ls = float(R["q"].sum() * 1000)
+    qmd_ls = float(qmd.sum() * 1000)
+    return dict(red=R["g"], qmh_ls=round(qmh_ls, 2), qmd_ls=round(qmd_ls, 2), qmd_mas_incendio_ls=round(qmd_ls + qinc * 1000, 2),
+                gobierna="incendio" if qmd_ls + qinc * 1000 > qmh_ls else "hora punta", caudal_incendio_ls=qinc * 1000,
+                hidrantes_probados=len(filas), hidrantes_con_presion_residual_ok=len(ok), presion_residual_exigida=pres_min,
+                presion_min_en_hidrante=round(min(f[1] for f in filas), 1), presion_min_resto_red=round(min(f[2] for f in filas), 1),
+                velocidad_max_ms=round(max(f[3] for f in filas), 2), velocidad_max_norma_ms=vmax_n,
+                casos_con_velocidad_sobre_norma=sum(1 for f in filas if f[3] > vmax_n),
+                peores_hidrantes=[dict(nodo="N%d" % f[0], x=round(float(R["nodos"][f[0]][0])), y=round(float(R["nodos"][f[0]][1])),
+                                       presion_residual=round(f[1], 1), presion_min_resto=round(f[2], 1), v_max=round(f[3], 2)) for f in peor],
+                nota="Cada nodo se prueba como hidrante con los diametros de hora punta (sin redimensionar). Aun no hay hidrantes ubicados en el diseno.")
 
 
 def presion_por_lote(R):

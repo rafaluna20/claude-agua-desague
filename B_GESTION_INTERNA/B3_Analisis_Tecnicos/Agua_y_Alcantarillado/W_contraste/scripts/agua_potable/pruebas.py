@@ -9,6 +9,8 @@ import correr, importar_red
 from comun import Parametros, BASE
 
 RESULTADOS = []
+# Agrupacion del diseno de 2026-10-31 (sector2 con R2) que usan las pruebas contra la red v1 transcrita a mano
+GRUPOS_V1 = 'reservorios.grupos={"R1": ["sector1"], "R2": ["matriz", "sector2", "sector3", "sector4", "sector5", "sector6"]}'
 
 
 def prueba(nombre):
@@ -51,7 +53,7 @@ V1 = {}
 
 @prueba("Con DN minimo 110 se reproducen las cifras de v1 (14.4 / 18.6 mca, estatica 39.7 / 41.7)")
 def _():
-    out = correr_silencioso(["--corrida", "_pruebas", "--set", "hidraulica.dn_minimo_mm=110", "--sin-rotura"])
+    out = correr_silencioso(["--corrida", "_pruebas", "--set", "hidraulica.dn_minimo_mm=110", GRUPOS_V1, "--sin-rotura"])
     V1["res"] = json.load(open(os.path.join(out, "resultados_modelo.json"), encoding="utf-8"))
     V1["out"] = out
     ref = json.load(open(os.path.join(BASE, "resultados", "v2_red_agua_usuario", "resultados_modelo_K2_2.5_V1.2_G8.0.json"), encoding="utf-8"))
@@ -72,7 +74,7 @@ def _():
 # ---- 3. piso DN90, 24 h, escenarios
 @prueba("Con los parametros por defecto ninguna tuberia baja de DN90 y se cumple la velocidad maxima de diseno")
 def _():
-    out = correr_silencioso(["--corrida", "_pruebas", "--sin-rotura"])
+    out = correr_silencioso(["--corrida", "_pruebas", "--set", GRUPOS_V1, "--sin-rotura"])
     V1["base"] = out
     for g in ("R1", "R2"):
         for linea in open(os.path.join(out, "tuberias_%s.csv" % g), encoding="utf-8").read().splitlines()[1:]:
@@ -93,11 +95,22 @@ def _():
 @prueba("Escenario de rotura: en una red en arbol el corte en la salida deja sin agua toda la red")
 def _():
     from modelo import escenario_rotura  # noqa
-    out = correr_silencioso(["--corrida", "_pruebas"])
+    out = correr_silencioso(["--corrida", "_pruebas", "--set", GRUPOS_V1])
     esc = json.load(open(os.path.join(out, "escenarios.json"), encoding="utf-8"))
     for e in esc["rotura"]:
         assert e["tramos_evaluados"] > 0
         assert max(f["pct_demanda_perdida"] for f in e["peor_corte"]) > 99.0
+
+
+@prueba("Los 100 m3 de incendio se reparten entre R1 y R2 en proporcion a la poblacion (suma 100) y sin hidrantes no se corre la prueba de gasto coincidente")
+def _():
+    esc = json.load(open(os.path.join(V1["base"], "escenarios.json"), encoding="utf-8"))
+    vols = esc["volumen"]
+    assert abs(sum(v["incendio_m3"] for v in vols) - 100.0) < 0.15, vols
+    for v in vols:
+        assert abs(v["incendio_m3"] - v["pct_pob"]) < 0.15, v
+        assert abs(v["total_m3"] - (v["regulacion_m3"] + v["reserva_m3"] + v["incendio_m3"])) <= 1, v
+    assert esc["incendio"] == []
 
 
 # ---- 4. importador
@@ -126,7 +139,7 @@ def _():
     r = importar_red.importar(tmp, P)
     assert r["ok"], r["errores"]
     for k in red:
-        if k == "_fuente":
+        if k == "_fuente" or k not in P("reservorios.capas_dibujo"):
             continue
         assert r["red"][k] == red[k] or k.startswith("reservorio") and r["red"][k]["c"] == red[k]["c"], k
 

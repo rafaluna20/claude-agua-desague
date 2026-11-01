@@ -31,7 +31,14 @@
     "regulacion_fraccion": {"valor": 0.25, "unidad": "fraccion del volumen diario", "fuente": "CTPS-PR-02 7.2.2-7.2.5 (N-034); OS.030 4.2 (N-077): minimo 25 % con 24 h de suministro", "estado": "VERIFICADO"},
     "reserva_fraccion_qmd": {"valor": 0.07, "unidad": "fraccion del consumo maximo diario", "fuente": "CTPS-PR-02 7.2.x (N-034): 7 % del consumo maximo diario", "estado": "VERIFICADO", "nota": "Aplicabilidad y esquema de fuente pendientes segun libro de normas (C-011)"},
     "incendio_umbral_hab": {"valor": 10000, "unidad": "hab", "fuente": "CTPS-PR-02 4.4.1; OS.100 1.6 (N-076)", "estado": "VERIFICADO"},
-    "incendio_volumen_m3": {"valor": 100, "unidad": "m3", "fuente": "CTPS-PR-02 7.2.x residencial (N-034)", "estado": "VERIFICADO"}
+    "incendio_volumen_m3": {"valor": 100, "unidad": "m3", "fuente": "CTPS-PR-02 7.2.x residencial (N-034)", "estado": "VERIFICADO"},
+    "incendio_incluir": {"valor": true, "unidad": "si/no", "fuente": "Usuario 2026-11-01: incluir el contra incendio aunque la poblacion (9,486 hab) sea menor a 10,000 y la norma no lo exija (N-076)", "estado": "CONFIRMADO"},
+    "incendio_reparto": {"valor": "proporcional_poblacion", "unidad": "proporcional_poblacion | por_reservorio | unico_R2", "fuente": "Usuario 2026-11-01: los 100 m3 se consideran repartidos entre ambos reservorios en proporcion a la poblacion que atiende cada uno (CTPS-PR-02 7.2.4 pide 100 m3 en vivienda, sin excepcion por poblacion)", "estado": "CONFIRMADO"},
+    "incendio_hidrantes_ubicar": {"valor": false, "unidad": "si/no", "fuente": "Usuario 2026-11-01: no se ubican hidrantes hasta confirmar si van o no en el diseno (CTPS 8.6.1 y OS.050 4.11 no condicionan por poblacion pero tampoco lo exigen expresamente bajo 10,000 hab; el CTPS 8.6.4 pide hidrantes de purga en puntos bajos)", "estado": "CONFIRMADO"},
+    "incendio_verificar_hidraulica": {"valor": false, "unidad": "si/no", "fuente": "Sin hidrantes ubicados no se corre la prueba de gasto coincidente (Qmd + 15 L/s); el codigo queda disponible (poner true)", "estado": "CONFIRMADO"},
+    "incendio_caudal_ls": {"valor": 15.0, "unidad": "L/s", "fuente": "CTPS-PR-02 4.4.1-4.4.2; OS.100 1.6 (N-076): 15 L/s en vivienda (30 L/s comercial o industrial)", "estado": "VERIFICADO"},
+    "incendio_presion_residual_mca": {"valor": 10.0, "unidad": "m.c.a.", "fuente": "Se asume igual a la dinamica minima de la red (N-025); la residual en hidrante no esta en el libro de normas", "estado": "SUPUESTO"},
+    "incendio_velocidad_max_ms": {"valor": 3.0, "unidad": "m/s", "fuente": "CTPS-PR-02 8.1.5 (N-027): hasta 3 m/s en lo posible; hasta 5 m/s en casos justificados", "estado": "VERIFICADO"}
   },
 
   "hidraulica": {
@@ -54,7 +61,7 @@
   },
 
   "reservorios": {
-    "grupos": {"valor": {"R1": ["sector1"], "R2": ["matriz", "sector2", "sector3", "sector4", "sector5", "sector6"]}, "unidad": "red -> capas", "fuente": "Usuario 2026-10-31: R1 alimenta sector1; R2 alimenta matriz y sectores 2 a 6 (sector 2 confirmado con R2)", "estado": "CONFIRMADO"},
+    "grupos": {"valor": {"R1": ["sector1", "sector2"], "R2": ["matriz", "sector3", "sector4", "sector5", "sector6"]}, "unidad": "red -> capas", "fuente": "Usuario 2026-11-01 (nueva distribucion): R1 alimenta sector1 y sector2; R2 alimenta matriz y sectores 3 a 6. Verificado por conectividad geometrica del export: R1 toca sector1 y sector2; R2 toca matriz y sectores 3 a 6 (antes, 2026-10-31, sector2 iba con R2)", "estado": "CONFIRMADO"},
     "niveles_calculo_m": {"valor": {"R1": [132.7, 134.7], "R2": [118.2, 120.2]}, "unidad": "[nivel minimo, nivel maximo] msnm", "fuente": "R1: terreno 130.2 + 2.5/4.5 m; R2: terreno 116.2 + 2/4 m. Alturas reales aun por definir", "estado": "SUPUESTO"},
     "capas_dibujo": {"valor": {"reservorio1": "agua_reservorio1", "reservorio2": "agua_reservorio2", "matriz": "agua_matriz principal", "sector1": "agua_sector1", "sector2": "agua_sector2", "sector3": "agua_sector3", "sector4": "agua_sector4", "sector5": "agua_sector5", "sector6": "agua_sector6"}, "unidad": "clave -> capa del DWG", "fuente": "sectores de agua.dwg (usuario, 2026-10-31)", "estado": "CONFIRMADO"},
     "dwg_esperado_contiene": {"valor": "sectores de agua", "unidad": "texto", "fuente": "Nombre del DWG con el diseno de la red", "estado": "CONFIRMADO"}
