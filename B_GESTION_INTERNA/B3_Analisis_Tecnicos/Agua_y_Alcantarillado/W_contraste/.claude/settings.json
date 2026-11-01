@@ -1,0 +1,47 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(git push:*)",
+      "Bash(git -c * push*)",
+      "Bash(claude mcp get:*)",
+      "Bash(curl *rel-odoo*)",
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Read(~/Downloads/credenciales de sunat.txt)",
+      "Edit(./datos/v1_25calles/**)",
+      "Edit(./datos/v2_40calles/**)",
+      "Edit(./datos/v3_48calles/**)",
+      "Edit(./datos/v4_primera_expediente/**)"
+    ],
+    "ask": [
+      "mcp__odoo-agent__odoo_escribir",
+      "mcp__civil3d__civil3d_apply_dimstyle",
+      "mcp__civil3d__civil3d_batch_draw_dimensions",
+      "mcp__civil3d__civil3d_batch_edit_texts",
+      "mcp__civil3d__civil3d_clear_layer",
+      "mcp__civil3d__civil3d_clone_texts",
+      "mcp__civil3d__civil3d_create_block",
+      "mcp__civil3d__civil3d_create_hatch_boundaries",
+      "mcp__civil3d__civil3d_create_layer",
+      "mcp__civil3d__civil3d_delete_curved_polylines",
+      "mcp__civil3d__civil3d_delete_handles",
+      "mcp__civil3d__civil3d_delete_hatches",
+      "mcp__civil3d__civil3d_draw_arc",
+      "mcp__civil3d__civil3d_draw_circle",
+      "mcp__civil3d__civil3d_draw_dimension",
+      "mcp__civil3d__civil3d_draw_hatch",
+      "mcp__civil3d__civil3d_draw_line",
+      "mcp__civil3d__civil3d_draw_polyline",
+      "mcp__civil3d__civil3d_draw_text",
+      "mcp__civil3d__civil3d_fill_missing_dimension_texts",
+      "mcp__civil3d__civil3d_insert_block",
+      "mcp__civil3d__civil3d_move_handles_to_layer",
+      "mcp__civil3d__civil3d_move_to_layer",
+      "mcp__civil3d__civil3d_set_parcel_text",
+      "mcp__civil3d__civil3d_set_text_content",
+      "mcp__civil3d__civil3d_straighten_polylines"
+    ]
+  }
+}
