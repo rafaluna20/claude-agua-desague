@@ -1,0 +1,34 @@
+{
+ "congelado": "2026-10-09",
+ "nota": "Prediseno de desague v0.4: 48 calles + 5 pasajes peatonales inferidos. 1,338 de 1,341 lotes conectados (E04MZZ001/002/003 excluidos por decision del usuario; 4 lotes frente al parque Q con ramal de 16-21 m).",
+ "archivos": {
+  "Pucusana_desague_prediseno.dxf": {
+   "sha256_16": "146b2757450474b6",
+   "bytes": 718226
+  },
+  "Pucusana_desague_prediseno.xlsx": {
+   "sha256_16": "3d2140107eee2af1",
+   "bytes": 37108
+  },
+  "buzones_tapas.json": {
+   "sha256_16": "f67a444aa42c377c",
+   "bytes": 16146
+  },
+  "desague_resultado.json": {
+   "sha256_16": "b7a15a7181a8c902",
+   "bytes": 280350
+  },
+  "perfil_colector_principal.png": {
+   "sha256_16": "e79c37ea3e7aaaf9",
+   "bytes": 87347
+  },
+  "plano_desague.png": {
+   "sha256_16": "5bda131f9bd78d0c",
+   "bytes": 432884
+  },
+  "ptar_resumen.json": {
+   "sha256_16": "1a7c14f511e1c1ba",
+   "bytes": 706
+  }
+ }
+}

@@ -1,0 +1,4502 @@
+{
+ "volumen": [
+  {
+   "red": "R1",
+   "vol_diario_m3": 520,
+   "regulacion_m3": 130,
+   "reserva_m3": 47,
+   "total_sin_incendio_m3": 177,
+   "incendio_m3": 100,
+   "total_m3": 277
+  },
+  {
+   "red": "R2",
+   "vol_diario_m3": 1144,
+   "regulacion_m3": 286,
+   "reserva_m3": 104,
+   "total_sin_incendio_m3": 390,
+   "incendio_m3": 100,
+   "total_m3": 490
+  }
+ ],
+ "24h": [
+  {
+   "red": "R1",
+   "inp": "C:\\Users\\henry\\OneDrive\\Escritorio\\exp.-terraLima_v2\\B_GESTION_INTERNA\\B3_Analisis_Tecnicos\\Agua_y_Alcantarillado\\W_contraste\\resultados\\v3_agua\\c05_2026-11-01\\epanet\\red_R1_24h.inp",
+   "patron": [
+    0.049,
+    0.049,
+    0.049,
+    0.049,
+    0.144,
+    0.722,
+    1.647,
+    2.455,
+    2.109,
+    1.3,
+    1.069,
+    0.953,
+    1.184,
+    1.3,
+    0.953,
+    0.722,
+    0.838,
+    1.069,
+    1.762,
+    2.224,
+    1.762,
+    0.953,
+    0.491,
+    0.144
+   ],
+   "horas": [
+    {
+     "hora": 0,
+     "multiplicador": 0.05,
+     "p_min": 15.8,
+     "p_max": 45.8
+    },
+    {
+     "hora": 1,
+     "multiplicador": 0.05,
+     "p_min": 15.8,
+     "p_max": 45.8
+    },
+    {
+     "hora": 2,
+     "multiplicador": 0.05,
+     "p_min": 15.8,
+     "p_max": 45.8
+    },
+    {
+     "hora": 3,
+     "multiplicador": 0.05,
+     "p_min": 15.8,
+     "p_max": 45.8
+    },
+    {
+     "hora": 4,
+     "multiplicador": 0.14,
+     "p_min": 15.8,
+     "p_max": 45.8
+    },
+    {
+     "hora": 5,
+     "multiplicador": 0.72,
+     "p_min": 15.6,
+     "p_max": 45.6
+    },
+    {
+     "hora": 6,
+     "multiplicador": 1.65,
+     "p_min": 14.8,
+     "p_max": 45.1
+    },
+    {
+     "hora": 7,
+     "multiplicador": 2.46,
+     "p_min": 13.8,
+     "p_max": 44.5
+    },
+    {
+     "hora": 8,
+     "multiplicador": 2.11,
+     "p_min": 14.3,
+     "p_max": 44.8
+    },
+    {
+     "hora": 9,
+     "multiplicador": 1.3,
+     "p_min": 15.2,
+     "p_max": 45.4
+    },
+    {
+     "hora": 10,
+     "multiplicador": 1.07,
+     "p_min": 15.4,
+     "p_max": 45.5
+    },
+    {
+     "hora": 11,
+     "multiplicador": 0.95,
+     "p_min": 15.4,
+     "p_max": 45.5
+    },
+    {
+     "hora": 12,
+     "multiplicador": 1.18,
+     "p_min": 15.3,
+     "p_max": 45.4
+    },
+    {
+     "hora": 13,
+     "multiplicador": 1.3,
+     "p_min": 15.2,
+     "p_max": 45.4
+    },
+    {
+     "hora": 14,
+     "multiplicador": 0.95,
+     "p_min": 15.4,
+     "p_max": 45.5
+    },
+    {
+     "hora": 15,
+     "multiplicador": 0.72,
+     "p_min": 15.6,
+     "p_max": 45.6
+    },
+    {
+     "hora": 16,
+     "multiplicador": 0.84,
+     "p_min": 15.5,
+     "p_max": 45.6
+    },
+    {
+     "hora": 17,
+     "multiplicador": 1.07,
+     "p_min": 15.4,
+     "p_max": 45.5
+    },
+    {
+     "hora": 18,
+     "multiplicador": 1.76,
+     "p_min": 14.7,
+     "p_max": 45.1
+    },
+    {
+     "hora": 19,
+     "multiplicador": 2.22,
+     "p_min": 14.1,
+     "p_max": 44.7
+    },
+    {
+     "hora": 20,
+     "multiplicador": 1.76,
+     "p_min": 14.7,
+     "p_max": 45.1
+    },
+    {
+     "hora": 21,
+     "multiplicador": 0.95,
+     "p_min": 15.4,
+     "p_max": 45.5
+    },
+    {
+     "hora": 22,
+     "multiplicador": 0.49,
+     "p_min": 15.7,
+     "p_max": 45.7
+    },
+    {
+     "hora": 23,
+     "multiplicador": 0.14,
+     "p_min": 15.8,
+     "p_max": 45.8
+    },
+    {
+     "hora": 24,
+     "multiplicador": 0.05,
+     "p_min": 15.8,
+     "p_max": 45.8
+    }
+   ],
+   "p_min_global": 13.8,
+   "hora_p_min": 7,
+   "p_max_global": 45.8,
+   "hora_p_max": 0,
+   "nota": "El reservorio se mantiene a su nivel minimo (no se simula el vaciado/llenado del tanque). Patron SUPUESTO."
+  },
+  {
+   "red": "R2",
+   "inp": "C:\\Users\\henry\\OneDrive\\Escritorio\\exp.-terraLima_v2\\B_GESTION_INTERNA\\B3_Analisis_Tecnicos\\Agua_y_Alcantarillado\\W_contraste\\resultados\\v3_agua\\c05_2026-11-01\\epanet\\red_R2_24h.inp",
+   "patron": [
+    0.049,
+    0.049,
+    0.049,
+    0.049,
+    0.144,
+    0.722,
+    1.647,
+    2.455,
+    2.109,
+    1.3,
+    1.069,
+    0.953,
+    1.184,
+    1.3,
+    0.953,
+    0.722,
+    0.838,
+    1.069,
+    1.762,
+    2.224,
+    1.762,
+    0.953,
+    0.491,
+    0.144
+   ],
+   "horas": [
+    {
+     "hora": 0,
+     "multiplicador": 0.05,
+     "p_min": 20.3,
+     "p_max": 39.7
+    },
+    {
+     "hora": 1,
+     "multiplicador": 0.05,
+     "p_min": 20.3,
+     "p_max": 39.7
+    },
+    {
+     "hora": 2,
+     "multiplicador": 0.05,
+     "p_min": 20.3,
+     "p_max": 39.7
+    },
+    {
+     "hora": 3,
+     "multiplicador": 0.05,
+     "p_min": 20.3,
+     "p_max": 39.7
+    },
+    {
+     "hora": 4,
+     "multiplicador": 0.14,
+     "p_min": 20.3,
+     "p_max": 39.7
+    },
+    {
+     "hora": 5,
+     "multiplicador": 0.72,
+     "p_min": 20.2,
+     "p_max": 39.4
+    },
+    {
+     "hora": 6,
+     "multiplicador": 1.65,
+     "p_min": 20.1,
+     "p_max": 38.6
+    },
+    {
+     "hora": 7,
+     "multiplicador": 2.46,
+     "p_min": 18.7,
+     "p_max": 37.4
+    },
+    {
+     "hora": 8,
+     "multiplicador": 2.11,
+     "p_min": 19.4,
+     "p_max": 37.9
+    },
+    {
+     "hora": 9,
+     "multiplicador": 1.3,
+     "p_min": 20.2,
+     "p_max": 39.0
+    },
+    {
+     "hora": 10,
+     "multiplicador": 1.07,
+     "p_min": 20.2,
+     "p_max": 39.2
+    },
+    {
+     "hora": 11,
+     "multiplicador": 0.95,
+     "p_min": 20.2,
+     "p_max": 39.2
+    },
+    {
+     "hora": 12,
+     "multiplicador": 1.18,
+     "p_min": 20.2,
+     "p_max": 39.1
+    },
+    {
+     "hora": 13,
+     "multiplicador": 1.3,
+     "p_min": 20.2,
+     "p_max": 39.0
+    },
+    {
+     "hora": 14,
+     "multiplicador": 0.95,
+     "p_min": 20.2,
+     "p_max": 39.2
+    },
+    {
+     "hora": 15,
+     "multiplicador": 0.72,
+     "p_min": 20.2,
+     "p_max": 39.4
+    },
+    {
+     "hora": 16,
+     "multiplicador": 0.84,
+     "p_min": 20.2,
+     "p_max": 39.3
+    },
+    {
+     "hora": 17,
+     "multiplicador": 1.07,
+     "p_min": 20.2,
+     "p_max": 39.2
+    },
+    {
+     "hora": 18,
+     "multiplicador": 1.76,
+     "p_min": 19.9,
+     "p_max": 38.4
+    },
+    {
+     "hora": 19,
+     "multiplicador": 2.22,
+     "p_min": 19.2,
+     "p_max": 37.8
+    },
+    {
+     "hora": 20,
+     "multiplicador": 1.76,
+     "p_min": 19.9,
+     "p_max": 38.4
+    },
+    {
+     "hora": 21,
+     "multiplicador": 0.95,
+     "p_min": 20.2,
+     "p_max": 39.2
+    },
+    {
+     "hora": 22,
+     "multiplicador": 0.49,
+     "p_min": 20.3,
+     "p_max": 39.6
+    },
+    {
+     "hora": 23,
+     "multiplicador": 0.14,
+     "p_min": 20.3,
+     "p_max": 39.7
+    },
+    {
+     "hora": 24,
+     "multiplicador": 0.05,
+     "p_min": 20.3,
+     "p_max": 39.7
+    }
+   ],
+   "p_min_global": 18.7,
+   "hora_p_min": 7,
+   "p_max_global": 39.7,
+   "hora_p_max": 0,
+   "nota": "El reservorio se mantiene a su nivel minimo (no se simula el vaciado/llenado del tanque). Patron SUPUESTO."
+  }
+ ],
+ "bomba": [
+  {
+   "red": "R1",
+   "distancia_recta_m": 175.6,
+   "longitud_aduccion_m": 201.9,
+   "qmd_Ls": 7.83,
+   "caudal_llenado_Ls": 15.65,
+   "horas_bombeo": 12,
+   "DN_aduccion": 160,
+   "v_ms": 0.96,
+   "perdida_hf_m": 1.43,
+   "nivel_max_reservorio": 134.7,
+   "casos": [
+    {
+     "carga_fuente_m": 131.5,
+     "altura_dinamica_m": 4.6,
+     "requiere_bomba": true,
+     "potencia_kW": 1.2
+    },
+    {
+     "carga_fuente_m": 121.5,
+     "altura_dinamica_m": 14.6,
+     "requiere_bomba": true,
+     "potencia_kW": 3.7
+    },
+    {
+     "carga_fuente_m": 111.5,
+     "altura_dinamica_m": 24.6,
+     "requiere_bomba": true,
+     "potencia_kW": 6.3
+    }
+   ],
+   "nota": "Aduccion en linea recta x factor; el trazado real no esta dibujado. La carga de la fuente es NO VERIFICADA."
+  },
+  {
+   "red": "R2",
+   "distancia_recta_m": 79.4,
+   "longitud_aduccion_m": 91.3,
+   "qmd_Ls": 17.22,
+   "caudal_llenado_Ls": 34.44,
+   "horas_bombeo": 12,
+   "DN_aduccion": 250,
+   "v_ms": 0.86,
+   "perdida_hf_m": 0.31,
+   "nivel_max_reservorio": 120.2,
+   "casos": [
+    {
+     "carga_fuente_m": 131.5,
+     "altura_dinamica_m": -11.0,
+     "requiere_bomba": false,
+     "potencia_kW": 0.0
+    },
+    {
+     "carga_fuente_m": 121.5,
+     "altura_dinamica_m": -1.0,
+     "requiere_bomba": false,
+     "potencia_kW": 0.0
+    },
+    {
+     "carga_fuente_m": 111.5,
+     "altura_dinamica_m": 9.0,
+     "requiere_bomba": true,
+     "potencia_kW": 5.1
+    }
+   ],
+   "nota": "Aduccion en linea recta x factor; el trazado real no esta dibujado. La carga de la fuente es NO VERIFICADA."
+  }
+ ],
+ "incendio": [
+  {
+   "red": "R1",
+   "qmh_ls": 15.05,
+   "qmd_ls": 7.83,
+   "qmd_mas_incendio_ls": 22.83,
+   "gobierna": "incendio",
+   "caudal_incendio_ls": 15.0,
+   "hidrantes_probados": 103,
+   "hidrantes_con_presion_residual_ok": 92,
+   "presion_residual_exigida": 10.0,
+   "presion_min_en_hidrante": -1.0,
+   "presion_min_resto_red": -1.0,
+   "velocidad_max_ms": 2.96,
+   "velocidad_max_norma_ms": 3.0,
+   "casos_con_velocidad_sobre_norma": 0,
+   "peores_hidrantes": [
+    {
+     "nodo": "N26",
+     "x": 308165,
+     "y": 8623035,
+     "presion_residual": -1.0,
+     "presion_min_resto": -1.0,
+     "v_max": 2.92
+    },
+    {
+     "nodo": "N27",
+     "x": 308211,
+     "y": 8623138,
+     "presion_residual": 3.8,
+     "presion_min_resto": 3.1,
+     "v_max": 2.93
+    },
+    {
+     "nodo": "N21",
+     "x": 308177,
+     "y": 8623060,
+     "presion_residual": 3.8,
+     "presion_min_resto": 1.8,
+     "v_max": 2.38
+    },
+    {
+     "nodo": "N89",
+     "x": 308186,
+     "y": 8623079,
+     "presion_residual": 4.3,
+     "presion_min_resto": 2.2,
+     "v_max": 2.38
+    },
+    {
+     "nodo": "N90",
+     "x": 308194,
+     "y": 8623098,
+     "presion_residual": 5.2,
+     "presion_min_resto": 2.7,
+     "v_max": 2.38
+    },
+    {
+     "nodo": "N88",
+     "x": 308199,
+     "y": 8623048,
+     "presion_residual": 5.5,
+     "presion_min_resto": 2.6,
+     "v_max": 2.38
+    },
+    {
+     "nodo": "N70",
+     "x": 308332,
+     "y": 8622849,
+     "presion_residual": 5.7,
+     "presion_min_resto": 14.9,
+     "v_max": 1.4
+    },
+    {
+     "nodo": "N22",
+     "x": 308203,
+     "y": 8623116,
+     "presion_residual": 6.3,
+     "presion_min_resto": 3.1,
+     "v_max": 2.38
+    }
+   ],
+   "nota": "Cada nodo se prueba como hidrante con los diametros de hora punta (sin redimensionar). Aun no hay hidrantes ubicados en el diseno."
+  },
+  {
+   "red": "R2",
+   "qmh_ls": 33.12,
+   "qmd_ls": 17.22,
+   "qmd_mas_incendio_ls": 32.22,
+   "gobierna": "hora punta",
+   "caudal_incendio_ls": 15.0,
+   "hidrantes_probados": 268,
+   "hidrantes_con_presion_residual_ok": 229,
+   "presion_residual_exigida": 10.0,
+   "presion_min_en_hidrante": -4.5,
+   "presion_min_resto_red": -4.5,
+   "velocidad_max_ms": 3.25,
+   "velocidad_max_norma_ms": 3.0,
+   "casos_con_velocidad_sobre_norma": 68,
+   "peores_hidrantes": [
+    {
+     "nodo": "N59",
+     "x": 308613,
+     "y": 8622832,
+     "presion_residual": -4.5,
+     "presion_min_resto": -4.5,
+     "v_max": 3.25
+    },
+    {
+     "nodo": "N64",
+     "x": 308594,
+     "y": 8622793,
+     "presion_residual": -3.8,
+     "presion_min_resto": -3.8,
+     "v_max": 3.25
+    },
+    {
+     "nodo": "N39",
+     "x": 308437,
+     "y": 8622998,
+     "presion_residual": -3.1,
+     "presion_min_resto": -3.1,
+     "v_max": 3.1
+    },
+    {
+     "nodo": "N200",
+     "x": 308636,
+     "y": 8622824,
+     "presion_residual": -0.9,
+     "presion_min_resto": -2.1,
+     "v_max": 3.25
+    },
+    {
+     "nodo": "N208",
+     "x": 308620,
+     "y": 8622782,
+     "presion_residual": 0.5,
+     "presion_min_resto": -1.0,
+     "v_max": 3.25
+    },
+    {
+     "nodo": "N173",
+     "x": 308461,
+     "y": 8623002,
+     "presion_residual": 0.6,
+     "presion_min_resto": -0.7,
+     "v_max": 3.1
+    },
+    {
+     "nodo": "N15",
+     "x": 309141,
+     "y": 8622977,
+     "presion_residual": 1.0,
+     "presion_min_resto": 5.5,
+     "v_max": 2.93
+    },
+    {
+     "nodo": "N32",
+     "x": 308431,
+     "y": 8623178,
+     "presion_residual": 1.7,
+     "presion_min_resto": 1.7,
+     "v_max": 2.98
+    }
+   ],
+   "nota": "Cada nodo se prueba como hidrante con los diametros de hora punta (sin redimensionar). Aun no hay hidrantes ubicados en el diseno."
+  }
+ ],
+ "rotura": [
+  {
+   "red": "R1",
+   "tramos_evaluados": 111,
+   "tramos_que_dejan_sin_agua": 12,
+   "distribucion_cortes": {
+    "mas_50_pct": 6,
+    "entre_10_y_50_pct": 1,
+    "menos_10_pct": 5
+   },
+   "peor_corte": [
+    {
+     "tramo": 59,
+     "x": 308319.3132833333,
+     "y": 8622844.536333334,
+     "demanda_perdida_Ls": 15.05,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 461,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 60,
+     "x": 308345.49405,
+     "y": 8622853.566599999,
+     "demanda_perdida_Ls": 15.05,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 461,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 61,
+     "x": 308371.67481666664,
+     "y": 8622862.596866667,
+     "demanda_perdida_Ls": 15.05,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 461,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 62,
+     "x": 308397.85558333335,
+     "y": 8622871.627133332,
+     "demanda_perdida_Ls": 15.05,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 461,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 63,
+     "x": 308424.03635,
+     "y": 8622880.6574,
+     "demanda_perdida_Ls": 15.05,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 461,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 64,
+     "x": 308450.21711666667,
+     "y": 8622889.687666666,
+     "demanda_perdida_Ls": 15.05,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 461,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 102,
+     "x": 308437.28835000005,
+     "y": 8622984.796,
+     "demanda_perdida_Ls": 6.4,
+     "pct_demanda_perdida": 42.5,
+     "lotes_sin_servicio": 192,
+     "presion_min_restante": 23.1
+    },
+    {
+     "tramo": 95,
+     "x": 308411.81036666664,
+     "y": 8623031.718683332,
+     "demanda_perdida_Ls": 0.5,
+     "pct_demanda_perdida": 3.3,
+     "lotes_sin_servicio": 17,
+     "presion_min_restante": 13.9
+    },
+    {
+     "tramo": 94,
+     "x": 308390.5661,
+     "y": 8623025.98045,
+     "demanda_perdida_Ls": 0.29,
+     "pct_demanda_perdida": 1.9,
+     "lotes_sin_servicio": 10,
+     "presion_min_restante": 13.8
+    },
+    {
+     "tramo": 101,
+     "x": 308207.0262,
+     "y": 8623127.383299999,
+     "demanda_perdida_Ls": 0.15,
+     "pct_demanda_perdida": 1.0,
+     "lotes_sin_servicio": 5,
+     "presion_min_restante": 13.8
+    }
+   ],
+   "peor_presion_sin_corte": [
+    {
+     "tramo": 21,
+     "x": 308449.2465164628,
+     "y": 8622955.46539804,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 7.6
+    },
+    {
+     "tramo": 22,
+     "x": 308444.9967721543,
+     "y": 8622973.981199346,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 7.7
+    },
+    {
+     "tramo": 72,
+     "x": 308420.62710000004,
+     "y": 8622983.988525,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 10.1
+    },
+    {
+     "tramo": 73,
+     "x": 308398.4717,
+     "y": 8622979.259775,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 10.4
+    },
+    {
+     "tramo": 74,
+     "x": 308376.31629999995,
+     "y": 8622974.531025,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 10.8
+    },
+    {
+     "tramo": 75,
+     "x": 308354.1609,
+     "y": 8622969.802274998,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 11.1
+    },
+    {
+     "tramo": 110,
+     "x": 308429.386725,
+     "y": 8622998.411625002,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 11.3
+    },
+    {
+     "tramo": 19,
+     "x": 308460.32347215427,
+     "y": 8622907.203974348,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 11.4
+    },
+    {
+     "tramo": 109,
+     "x": 308424.750575,
+     "y": 8623022.529075,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 11.4
+    },
+    {
+     "tramo": 20,
+     "x": 308454.3554164628,
+     "y": 8622933.206323039,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 11.5
+    }
+   ],
+   "todos": [
+    {
+     "tramo": 0,
+     "x": 308461.5503583334,
+     "y": 8622847.961683333,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 1,
+     "x": 308439.368075,
+     "y": 8622830.617449999,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 2,
+     "x": 308417.1857916667,
+     "y": 8622813.273216667,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 3,
+     "x": 308395.00350833335,
+     "y": 8622795.928983333,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 4,
+     "x": 308372.82122499996,
+     "y": 8622778.58475,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 5,
+     "x": 308350.6389416667,
+     "y": 8622761.240516666,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 6,
+     "x": 308345.680925,
+     "y": 8622744.604674999,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 7,
+     "x": 308357.947175,
+     "y": 8622728.677225001,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 8,
+     "x": 308377.9684,
+     "y": 8622723.70327,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 9,
+     "x": 308405.7446,
+     "y": 8622729.682810001,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 10,
+     "x": 308433.5208,
+     "y": 8622735.662349999,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 11,
+     "x": 308461.297,
+     "y": 8622741.64189,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 12,
+     "x": 308489.0732,
+     "y": 8622747.621429998,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 13,
+     "x": 308499.171325,
+     "y": 8622763.864025,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 14,
+     "x": 308491.591375,
+     "y": 8622790.369675,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 15,
+     "x": 308484.01142500003,
+     "y": 8622816.875324998,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 16,
+     "x": 308476.431475,
+     "y": 8622843.380975,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 17,
+     "x": 308470.308,
+     "y": 8622866.02605,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.3
+    },
+    {
+     "tramo": 18,
+     "x": 308465.641,
+     "y": 8622884.81055,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.2
+    },
+    {
+     "tramo": 19,
+     "x": 308460.32347215427,
+     "y": 8622907.203974348,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 11.4
+    },
+    {
+     "tramo": 20,
+     "x": 308454.3554164628,
+     "y": 8622933.206323039,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 11.5
+    },
+    {
+     "tramo": 21,
+     "x": 308449.2465164628,
+     "y": 8622955.46539804,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 7.6
+    },
+    {
+     "tramo": 22,
+     "x": 308444.9967721543,
+     "y": 8622973.981199346,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 7.7
+    },
+    {
+     "tramo": 23,
+     "x": 308504.1694166667,
+     "y": 8622934.528533334,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 24,
+     "x": 308509.85825000005,
+     "y": 8622910.0954,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 25,
+     "x": 308515.54708333337,
+     "y": 8622885.662266666,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 26,
+     "x": 308632.2385,
+     "y": 8622924.205512501,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.6
+    },
+    {
+     "tramo": 27,
+     "x": 308612.18830000004,
+     "y": 8622934.685537502,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.6
+    },
+    {
+     "tramo": 28,
+     "x": 308592.1381,
+     "y": 8622945.1655625,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 29,
+     "x": 308572.08790000004,
+     "y": 8622955.6455875,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 30,
+     "x": 308550.84795,
+     "y": 8622966.189083334,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 31,
+     "x": 308528.41825,
+     "y": 8622976.796050001,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 32,
+     "x": 308505.98855,
+     "y": 8622987.403016666,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 33,
+     "x": 308481.79825,
+     "y": 8622990.33965,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 34,
+     "x": 308455.84735000005,
+     "y": 8622985.60595,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 35,
+     "x": 308484.079,
+     "y": 8622860.836775,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 36,
+     "x": 308506.954,
+     "y": 8622869.242725,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 37,
+     "x": 308529.0063205982,
+     "y": 8622877.346372634,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 38,
+     "x": 308550.2359617945,
+     "y": 8622885.147717904,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 39,
+     "x": 308571.46560299076,
+     "y": 8622892.949063173,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 40,
+     "x": 308592.11095299077,
+     "y": 8622900.535696507,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.6
+    },
+    {
+     "tramo": 41,
+     "x": 308612.17201179446,
+     "y": 8622907.907617904,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 42,
+     "x": 308632.23307059816,
+     "y": 8622915.279539302,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 43,
+     "x": 308636.2207416667,
+     "y": 8622906.671758335,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 44,
+     "x": 308624.135025,
+     "y": 8622882.084275,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 45,
+     "x": 308612.0493083333,
+     "y": 8622857.496791668,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 46,
+     "x": 308599.96359166666,
+     "y": 8622832.909308333,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 47,
+     "x": 308587.877875,
+     "y": 8622808.321825001,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 48,
+     "x": 308575.79215833335,
+     "y": 8622783.734341666,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 49,
+     "x": 308558.6179666667,
+     "y": 8622767.969033334,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 50,
+     "x": 308536.35530000005,
+     "y": 8622761.025899999,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 51,
+     "x": 308514.09263333335,
+     "y": 8622754.082766667,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 52,
+     "x": 308460.70621646283,
+     "y": 8622948.290348038,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 53,
+     "x": 308479.37587215425,
+     "y": 8622952.456049345,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 54,
+     "x": 308495.01785,
+     "y": 8622950.642,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 55,
+     "x": 308511.41942794865,
+     "y": 8622940.508179476,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 56,
+     "x": 308531.6082838458,
+     "y": 8622928.03433843,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 57,
+     "x": 308551.7971397431,
+     "y": 8622915.56049738,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 58,
+     "x": 308571.9859956403,
+     "y": 8622903.086656332,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 59,
+     "x": 308319.3132833333,
+     "y": 8622844.536333334,
+     "demanda_perdida_Ls": 15.05,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 461,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 60,
+     "x": 308345.49405,
+     "y": 8622853.566599999,
+     "demanda_perdida_Ls": 15.05,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 461,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 61,
+     "x": 308371.67481666664,
+     "y": 8622862.596866667,
+     "demanda_perdida_Ls": 15.05,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 461,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 62,
+     "x": 308397.85558333335,
+     "y": 8622871.627133332,
+     "demanda_perdida_Ls": 15.05,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 461,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 63,
+     "x": 308424.03635,
+     "y": 8622880.6574,
+     "demanda_perdida_Ls": 15.05,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 461,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 64,
+     "x": 308450.21711666667,
+     "y": 8622889.687666666,
+     "demanda_perdida_Ls": 15.05,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 461,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 65,
+     "x": 308520.9436666667,
+     "y": 8622863.647983331,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 66,
+     "x": 308526.048,
+     "y": 8622844.05255,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 67,
+     "x": 308531.15233333333,
+     "y": 8622824.457116667,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 68,
+     "x": 308539.7514904486,
+     "y": 8622824.933191976,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 69,
+     "x": 308551.8454713458,
+     "y": 8622845.480775926,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 70,
+     "x": 308563.93945224304,
+     "y": 8622866.028359879,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 71,
+     "x": 308576.0334331403,
+     "y": 8622886.575943831,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 72,
+     "x": 308420.62710000004,
+     "y": 8622983.988525,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 10.1
+    },
+    {
+     "tramo": 73,
+     "x": 308398.4717,
+     "y": 8622979.259775,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 10.4
+    },
+    {
+     "tramo": 74,
+     "x": 308376.31629999995,
+     "y": 8622974.531025,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 10.8
+    },
+    {
+     "tramo": 75,
+     "x": 308354.1609,
+     "y": 8622969.802274998,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 11.1
+    },
+    {
+     "tramo": 76,
+     "x": 308328.729625,
+     "y": 8622963.250699999,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.6
+    },
+    {
+     "tramo": 77,
+     "x": 308300.022475,
+     "y": 8622954.8763,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.6
+    },
+    {
+     "tramo": 78,
+     "x": 308281.9052833333,
+     "y": 8622960.886266666,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 79,
+     "x": 308274.37805,
+     "y": 8622981.2806,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 80,
+     "x": 308266.8508166667,
+     "y": 8623001.674933333,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 81,
+     "x": 308252.3879125,
+     "y": 8623017.85855,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 12.5
+    },
+    {
+     "tramo": 82,
+     "x": 308230.9893375,
+     "y": 8623029.831449999,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 12.7
+    },
+    {
+     "tramo": 83,
+     "x": 308209.5907625,
+     "y": 8623041.80435,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.0
+    },
+    {
+     "tramo": 84,
+     "x": 308188.1921875,
+     "y": 8623053.77725,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.2
+    },
+    {
+     "tramo": 85,
+     "x": 308181.70883333334,
+     "y": 8623069.203899998,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 14.0
+    },
+    {
+     "tramo": 86,
+     "x": 308190.1407,
+     "y": 8623088.0843,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.9
+    },
+    {
+     "tramo": 87,
+     "x": 308198.5725666667,
+     "y": 8623106.964699998,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.9
+    },
+    {
+     "tramo": 88,
+     "x": 308213.73994,
+     "y": 8623110.74207,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.8
+    },
+    {
+     "tramo": 89,
+     "x": 308235.64282000007,
+     "y": 8623099.41641,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.7
+    },
+    {
+     "tramo": 90,
+     "x": 308257.5457,
+     "y": 8623088.09075,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.6
+    },
+    {
+     "tramo": 91,
+     "x": 308279.44857999997,
+     "y": 8623076.76509,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.4
+    },
+    {
+     "tramo": 92,
+     "x": 308301.35146000003,
+     "y": 8623065.439429998,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.3
+    },
+    {
+     "tramo": 93,
+     "x": 308369.32183333335,
+     "y": 8623020.242216665,
+     "demanda_perdida_Ls": 0.12,
+     "pct_demanda_perdida": 0.8,
+     "lotes_sin_servicio": 4,
+     "presion_min_restante": 13.8
+    },
+    {
+     "tramo": 94,
+     "x": 308390.5661,
+     "y": 8623025.98045,
+     "demanda_perdida_Ls": 0.29,
+     "pct_demanda_perdida": 1.9,
+     "lotes_sin_servicio": 10,
+     "presion_min_restante": 13.8
+    },
+    {
+     "tramo": 95,
+     "x": 308411.81036666664,
+     "y": 8623031.718683332,
+     "demanda_perdida_Ls": 0.5,
+     "pct_demanda_perdida": 3.3,
+     "lotes_sin_servicio": 17,
+     "presion_min_restante": 13.9
+    },
+    {
+     "tramo": 96,
+     "x": 308273.0867,
+     "y": 8623006.317824999,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.6
+    },
+    {
+     "tramo": 97,
+     "x": 308293.0857,
+     "y": 8622995.209275,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.6
+    },
+    {
+     "tramo": 98,
+     "x": 308313.0847,
+     "y": 8622984.100724999,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.6
+    },
+    {
+     "tramo": 99,
+     "x": 308333.08369999996,
+     "y": 8622972.992175,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.6
+    },
+    {
+     "tramo": 100,
+     "x": 308171.05925000005,
+     "y": 8623047.26375,
+     "demanda_perdida_Ls": 0.09,
+     "pct_demanda_perdida": 0.6,
+     "lotes_sin_servicio": 3,
+     "presion_min_restante": 15.9
+    },
+    {
+     "tramo": 101,
+     "x": 308207.0262,
+     "y": 8623127.383299999,
+     "demanda_perdida_Ls": 0.15,
+     "pct_demanda_perdida": 1.0,
+     "lotes_sin_servicio": 5,
+     "presion_min_restante": 13.8
+    },
+    {
+     "tramo": 102,
+     "x": 308437.28835000005,
+     "y": 8622984.796,
+     "demanda_perdida_Ls": 6.4,
+     "pct_demanda_perdida": 42.5,
+     "lotes_sin_servicio": 192,
+     "presion_min_restante": 23.1
+    },
+    {
+     "tramo": 103,
+     "x": 308327.00745000003,
+     "y": 8623058.0746,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 12.9
+    },
+    {
+     "tramo": 104,
+     "x": 308352.50673333334,
+     "y": 8623061.179866668,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 12.7
+    },
+    {
+     "tramo": 105,
+     "x": 308374.0962,
+     "y": 8623070.7944,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 12.5
+    },
+    {
+     "tramo": 106,
+     "x": 308395.68566666666,
+     "y": 8623080.408933334,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 12.4
+    },
+    {
+     "tramo": 107,
+     "x": 308410.46842499997,
+     "y": 8623072.559099998,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 12.0
+    },
+    {
+     "tramo": 108,
+     "x": 308418.444475,
+     "y": 8623047.2449,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 11.9
+    },
+    {
+     "tramo": 109,
+     "x": 308424.750575,
+     "y": 8623022.529075,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 11.4
+    },
+    {
+     "tramo": 110,
+     "x": 308429.386725,
+     "y": 8622998.411625002,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 11.3
+    }
+   ]
+  },
+  {
+   "red": "R2",
+   "tramos_evaluados": 275,
+   "tramos_que_dejan_sin_agua": 151,
+   "distribucion_cortes": {
+    "mas_50_pct": 23,
+    "entre_10_y_50_pct": 21,
+    "menos_10_pct": 107
+   },
+   "peor_corte": [
+    {
+     "tramo": 0,
+     "x": 308405.00855,
+     "y": 8622888.027233332,
+     "demanda_perdida_Ls": 33.12,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 880,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 1,
+     "x": 308426.02324999997,
+     "y": 8622895.524500001,
+     "demanda_perdida_Ls": 33.12,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 880,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 2,
+     "x": 308447.03795,
+     "y": 8622903.021766666,
+     "demanda_perdida_Ls": 33.12,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 880,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 3,
+     "x": 308454.3561,
+     "y": 8622920.272683334,
+     "demanda_perdida_Ls": 33.12,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 880,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 4,
+     "x": 308447.9777,
+     "y": 8622947.27725,
+     "demanda_perdida_Ls": 33.0,
+     "pct_demanda_perdida": 99.6,
+     "lotes_sin_servicio": 876,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 5,
+     "x": 308441.5993,
+     "y": 8622974.281816667,
+     "demanda_perdida_Ls": 32.88,
+     "pct_demanda_perdida": 99.3,
+     "lotes_sin_servicio": 872,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 6,
+     "x": 308448.22589999996,
+     "y": 8622991.56005,
+     "demanda_perdida_Ls": 32.85,
+     "pct_demanda_perdida": 99.2,
+     "lotes_sin_servicio": 871,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 7,
+     "x": 308468.462475,
+     "y": 8622996.041849999,
+     "demanda_perdida_Ls": 32.85,
+     "pct_demanda_perdida": 99.2,
+     "lotes_sin_servicio": 871,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 8,
+     "x": 308489.304025,
+     "y": 8622997.45355,
+     "demanda_perdida_Ls": 32.85,
+     "pct_demanda_perdida": 99.2,
+     "lotes_sin_servicio": 871,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 9,
+     "x": 308511.92505,
+     "y": 8622991.75587,
+     "demanda_perdida_Ls": 32.85,
+     "pct_demanda_perdida": 99.2,
+     "lotes_sin_servicio": 871,
+     "presion_min_restante": 20.3
+    }
+   ],
+   "peor_presion_sin_corte": [
+    {
+     "tramo": 40,
+     "x": 308662.64838,
+     "y": 8622979.237130001,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 11.7
+    },
+    {
+     "tramo": 41,
+     "x": 308639.76434,
+     "y": 8622991.074190002,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 11.9
+    },
+    {
+     "tramo": 42,
+     "x": 308616.88029999996,
+     "y": 8623002.91125,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 12.2
+    },
+    {
+     "tramo": 43,
+     "x": 308593.99626,
+     "y": 8623014.74831,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 12.5
+    },
+    {
+     "tramo": 44,
+     "x": 308571.11222,
+     "y": 8623026.58537,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 12.9
+    },
+    {
+     "tramo": 45,
+     "x": 308547.9753,
+     "y": 8623039.59375,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.1
+    },
+    {
+     "tramo": 71,
+     "x": 308500.183825,
+     "y": 8623077.29645,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 16.6
+    },
+    {
+     "tramo": 78,
+     "x": 308680.02469999995,
+     "y": 8622983.217212502,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 16.6
+    },
+    {
+     "tramo": 79,
+     "x": 308691.8933,
+     "y": 8623003.0144375,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 16.7
+    },
+    {
+     "tramo": 80,
+     "x": 308703.7619,
+     "y": 8623022.811662499,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 16.8
+    }
+   ],
+   "todos": [
+    {
+     "tramo": 0,
+     "x": 308405.00855,
+     "y": 8622888.027233332,
+     "demanda_perdida_Ls": 33.12,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 880,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 1,
+     "x": 308426.02324999997,
+     "y": 8622895.524500001,
+     "demanda_perdida_Ls": 33.12,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 880,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 2,
+     "x": 308447.03795,
+     "y": 8622903.021766666,
+     "demanda_perdida_Ls": 33.12,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 880,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 3,
+     "x": 308454.3561,
+     "y": 8622920.272683334,
+     "demanda_perdida_Ls": 33.12,
+     "pct_demanda_perdida": 100.0,
+     "lotes_sin_servicio": 880,
+     "presion_min_restante": null
+    },
+    {
+     "tramo": 4,
+     "x": 308447.9777,
+     "y": 8622947.27725,
+     "demanda_perdida_Ls": 33.0,
+     "pct_demanda_perdida": 99.6,
+     "lotes_sin_servicio": 876,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 5,
+     "x": 308441.5993,
+     "y": 8622974.281816667,
+     "demanda_perdida_Ls": 32.88,
+     "pct_demanda_perdida": 99.3,
+     "lotes_sin_servicio": 872,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 6,
+     "x": 308448.22589999996,
+     "y": 8622991.56005,
+     "demanda_perdida_Ls": 32.85,
+     "pct_demanda_perdida": 99.2,
+     "lotes_sin_servicio": 871,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 7,
+     "x": 308468.462475,
+     "y": 8622996.041849999,
+     "demanda_perdida_Ls": 32.85,
+     "pct_demanda_perdida": 99.2,
+     "lotes_sin_servicio": 871,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 8,
+     "x": 308489.304025,
+     "y": 8622997.45355,
+     "demanda_perdida_Ls": 32.85,
+     "pct_demanda_perdida": 99.2,
+     "lotes_sin_servicio": 871,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 9,
+     "x": 308511.92505,
+     "y": 8622991.75587,
+     "demanda_perdida_Ls": 32.85,
+     "pct_demanda_perdida": 99.2,
+     "lotes_sin_servicio": 871,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 10,
+     "x": 308536.32555,
+     "y": 8622978.94881,
+     "demanda_perdida_Ls": 32.85,
+     "pct_demanda_perdida": 99.2,
+     "lotes_sin_servicio": 871,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 11,
+     "x": 308560.72605000006,
+     "y": 8622966.14175,
+     "demanda_perdida_Ls": 32.85,
+     "pct_demanda_perdida": 99.2,
+     "lotes_sin_servicio": 871,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 12,
+     "x": 308585.12655000004,
+     "y": 8622953.334689999,
+     "demanda_perdida_Ls": 32.85,
+     "pct_demanda_perdida": 99.2,
+     "lotes_sin_servicio": 871,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 13,
+     "x": 308609.52705000003,
+     "y": 8622940.52763,
+     "demanda_perdida_Ls": 32.85,
+     "pct_demanda_perdida": 99.2,
+     "lotes_sin_servicio": 871,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 14,
+     "x": 308633.7294,
+     "y": 8622928.05325,
+     "demanda_perdida_Ls": 32.85,
+     "pct_demanda_perdida": 99.2,
+     "lotes_sin_servicio": 871,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 15,
+     "x": 308649.5494,
+     "y": 8622920.05125,
+     "demanda_perdida_Ls": 32.85,
+     "pct_demanda_perdida": 99.2,
+     "lotes_sin_servicio": 871,
+     "presion_min_restante": 20.3
+    },
+    {
+     "tramo": 16,
+     "x": 308663.93354999996,
+     "y": 8622913.23705,
+     "demanda_perdida_Ls": 20.21,
+     "pct_demanda_perdida": 61.0,
+     "lotes_sin_servicio": 635,
+     "presion_min_restante": 19.6
+    },
+    {
+     "tramo": 17,
+     "x": 308685.21681666665,
+     "y": 8622905.654966667,
+     "demanda_perdida_Ls": 20.21,
+     "pct_demanda_perdida": 61.0,
+     "lotes_sin_servicio": 635,
+     "presion_min_restante": 19.6
+    },
+    {
+     "tramo": 18,
+     "x": 308706.65085,
+     "y": 8622900.256900001,
+     "demanda_perdida_Ls": 20.21,
+     "pct_demanda_perdida": 61.0,
+     "lotes_sin_servicio": 635,
+     "presion_min_restante": 19.6
+    },
+    {
+     "tramo": 19,
+     "x": 308728.08488333336,
+     "y": 8622894.858833333,
+     "demanda_perdida_Ls": 20.21,
+     "pct_demanda_perdida": 61.0,
+     "lotes_sin_servicio": 635,
+     "presion_min_restante": 19.6
+    },
+    {
+     "tramo": 20,
+     "x": 308749.5902833333,
+     "y": 8622892.8959,
+     "demanda_perdida_Ls": 20.21,
+     "pct_demanda_perdida": 61.0,
+     "lotes_sin_servicio": 635,
+     "presion_min_restante": 19.6
+    },
+    {
+     "tramo": 21,
+     "x": 308771.16705000005,
+     "y": 8622894.3681,
+     "demanda_perdida_Ls": 20.18,
+     "pct_demanda_perdida": 60.9,
+     "lotes_sin_servicio": 634,
+     "presion_min_restante": 19.6
+    },
+    {
+     "tramo": 22,
+     "x": 308792.74381666665,
+     "y": 8622895.840300001,
+     "demanda_perdida_Ls": 20.18,
+     "pct_demanda_perdida": 60.9,
+     "lotes_sin_servicio": 634,
+     "presion_min_restante": 19.6
+    },
+    {
+     "tramo": 23,
+     "x": 308816.95900000003,
+     "y": 8622899.91856,
+     "demanda_perdida_Ls": 12.64,
+     "pct_demanda_perdida": 38.2,
+     "lotes_sin_servicio": 376,
+     "presion_min_restante": 19.3
+    },
+    {
+     "tramo": 24,
+     "x": 308843.8126,
+     "y": 8622906.602880001,
+     "demanda_perdida_Ls": 12.61,
+     "pct_demanda_perdida": 38.1,
+     "lotes_sin_servicio": 375,
+     "presion_min_restante": 19.3
+    },
+    {
+     "tramo": 25,
+     "x": 308870.6662,
+     "y": 8622913.2872,
+     "demanda_perdida_Ls": 12.61,
+     "pct_demanda_perdida": 38.1,
+     "lotes_sin_servicio": 375,
+     "presion_min_restante": 19.3
+    },
+    {
+     "tramo": 26,
+     "x": 308897.5198,
+     "y": 8622919.97152,
+     "demanda_perdida_Ls": 12.61,
+     "pct_demanda_perdida": 38.1,
+     "lotes_sin_servicio": 375,
+     "presion_min_restante": 19.3
+    },
+    {
+     "tramo": 27,
+     "x": 308924.37340000004,
+     "y": 8622926.65584,
+     "demanda_perdida_Ls": 12.61,
+     "pct_demanda_perdida": 38.1,
+     "lotes_sin_servicio": 375,
+     "presion_min_restante": 19.3
+    },
+    {
+     "tramo": 28,
+     "x": 308948.46199922846,
+     "y": 8622933.19720257,
+     "demanda_perdida_Ls": 12.61,
+     "pct_demanda_perdida": 38.1,
+     "lotes_sin_servicio": 375,
+     "presion_min_restante": 19.3
+    },
+    {
+     "tramo": 29,
+     "x": 308970.05094864976,
+     "y": 8622939.675229501,
+     "demanda_perdida_Ls": 0.17,
+     "pct_demanda_perdida": 0.5,
+     "lotes_sin_servicio": 2,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 30,
+     "x": 308991.90524903557,
+     "y": 8622946.232878216,
+     "demanda_perdida_Ls": 0.17,
+     "pct_demanda_perdida": 0.5,
+     "lotes_sin_servicio": 2,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 31,
+     "x": 309013.7595494214,
+     "y": 8622952.790526928,
+     "demanda_perdida_Ls": 0.17,
+     "pct_demanda_perdida": 0.5,
+     "lotes_sin_servicio": 2,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 32,
+     "x": 309035.6138498072,
+     "y": 8622959.348175643,
+     "demanda_perdida_Ls": 0.17,
+     "pct_demanda_perdida": 0.5,
+     "lotes_sin_servicio": 2,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 33,
+     "x": 309057.1496,
+     "y": 8622964.041475,
+     "demanda_perdida_Ls": 0.17,
+     "pct_demanda_perdida": 0.5,
+     "lotes_sin_servicio": 2,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 34,
+     "x": 309078.3668,
+     "y": 8622966.870425,
+     "demanda_perdida_Ls": 0.12,
+     "pct_demanda_perdida": 0.3,
+     "lotes_sin_servicio": 1,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 35,
+     "x": 309101.923425,
+     "y": 8622970.587575,
+     "demanda_perdida_Ls": 0.12,
+     "pct_demanda_perdida": 0.3,
+     "lotes_sin_servicio": 1,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 36,
+     "x": 309127.819475,
+     "y": 8622975.192925,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 37,
+     "x": 308654.58695,
+     "y": 8622921.4247,
+     "demanda_perdida_Ls": 12.65,
+     "pct_demanda_perdida": 38.2,
+     "lotes_sin_servicio": 236,
+     "presion_min_restante": 20.2
+    },
+    {
+     "tramo": 38,
+     "x": 308660.37755,
+     "y": 8622936.876625,
+     "demanda_perdida_Ls": 10.74,
+     "pct_demanda_perdida": 32.4,
+     "lotes_sin_servicio": 210,
+     "presion_min_restante": 20.1
+    },
+    {
+     "tramo": 39,
+     "x": 308669.51945,
+     "y": 8622961.171275001,
+     "demanda_perdida_Ls": 10.71,
+     "pct_demanda_perdida": 32.3,
+     "lotes_sin_servicio": 209,
+     "presion_min_restante": 20.1
+    },
+    {
+     "tramo": 40,
+     "x": 308662.64838,
+     "y": 8622979.237130001,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 11.7
+    },
+    {
+     "tramo": 41,
+     "x": 308639.76434,
+     "y": 8622991.074190002,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 11.9
+    },
+    {
+     "tramo": 42,
+     "x": 308616.88029999996,
+     "y": 8623002.91125,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 12.2
+    },
+    {
+     "tramo": 43,
+     "x": 308593.99626,
+     "y": 8623014.74831,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 12.5
+    },
+    {
+     "tramo": 44,
+     "x": 308571.11222,
+     "y": 8623026.58537,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 12.9
+    },
+    {
+     "tramo": 45,
+     "x": 308547.9753,
+     "y": 8623039.59375,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 13.1
+    },
+    {
+     "tramo": 46,
+     "x": 308526.18987500004,
+     "y": 8623052.146924999,
+     "demanda_perdida_Ls": 5.66,
+     "pct_demanda_perdida": 17.1,
+     "lotes_sin_servicio": 102,
+     "presion_min_restante": 20.1
+    },
+    {
+     "tramo": 47,
+     "x": 308506.008825,
+     "y": 8623063.073575001,
+     "demanda_perdida_Ls": 5.6,
+     "pct_demanda_perdida": 16.9,
+     "lotes_sin_servicio": 100,
+     "presion_min_restante": 20.1
+    },
+    {
+     "tramo": 48,
+     "x": 308484.6021,
+     "y": 8623061.0951,
+     "demanda_perdida_Ls": 0.53,
+     "pct_demanda_perdida": 1.6,
+     "lotes_sin_servicio": 5,
+     "presion_min_restante": 18.8
+    },
+    {
+     "tramo": 49,
+     "x": 308462.160725,
+     "y": 8623049.966075,
+     "demanda_perdida_Ls": 0.09,
+     "pct_demanda_perdida": 0.3,
+     "lotes_sin_servicio": 3,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 50,
+     "x": 308439.910375,
+     "y": 8623042.591625001,
+     "demanda_perdida_Ls": 0.03,
+     "pct_demanda_perdida": 0.1,
+     "lotes_sin_servicio": 1,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 51,
+     "x": 308488.669875,
+     "y": 8623072.010275,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 17.5
+    },
+    {
+     "tramo": 52,
+     "x": 308474.173025,
+     "y": 8623078.957025,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 17.5
+    },
+    {
+     "tramo": 53,
+     "x": 308452.6394,
+     "y": 8623085.7149,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 17.6
+    },
+    {
+     "tramo": 54,
+     "x": 308424.95389999996,
+     "y": 8623087.7361,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 17.7
+    },
+    {
+     "tramo": 55,
+     "x": 308406.91318333335,
+     "y": 8623100.467366666,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 17.7
+    },
+    {
+     "tramo": 56,
+     "x": 308397.63234999997,
+     "y": 8623128.456500001,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 57,
+     "x": 308388.35151666665,
+     "y": 8623156.445633333,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 58,
+     "x": 308379.0706833333,
+     "y": 8623184.434766667,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 59,
+     "x": 308369.78984999994,
+     "y": 8623212.4239,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.8
+    },
+    {
+     "tramo": 60,
+     "x": 308360.5090166667,
+     "y": 8623240.413033333,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.8
+    },
+    {
+     "tramo": 61,
+     "x": 308370.13035,
+     "y": 8623250.0806,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.8
+    },
+    {
+     "tramo": 62,
+     "x": 308397.21952499996,
+     "y": 8623238.241974998,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.8
+    },
+    {
+     "tramo": 63,
+     "x": 308422.874375,
+     "y": 8623223.218725,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 64,
+     "x": 308448.52922499995,
+     "y": 8623208.195475,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 65,
+     "x": 308474.184075,
+     "y": 8623193.172224998,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.5
+    },
+    {
+     "tramo": 66,
+     "x": 308499.83892500005,
+     "y": 8623178.148975,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.5
+    },
+    {
+     "tramo": 67,
+     "x": 308525.493775,
+     "y": 8623163.125725001,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.4
+    },
+    {
+     "tramo": 68,
+     "x": 308531.98600000003,
+     "y": 8623142.60435,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.2
+    },
+    {
+     "tramo": 69,
+     "x": 308519.3156,
+     "y": 8623116.584849998,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 17.9
+    },
+    {
+     "tramo": 70,
+     "x": 308508.714875,
+     "y": 8623094.81555,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 17.1
+    },
+    {
+     "tramo": 71,
+     "x": 308500.183825,
+     "y": 8623077.29645,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 16.6
+    },
+    {
+     "tramo": 72,
+     "x": 308506.69255000004,
+     "y": 8623108.02615,
+     "demanda_perdida_Ls": 0.67,
+     "pct_demanda_perdida": 2.0,
+     "lotes_sin_servicio": 23,
+     "presion_min_restante": 18.9
+    },
+    {
+     "tramo": 73,
+     "x": 308494.11685,
+     "y": 8623116.92825,
+     "demanda_perdida_Ls": 0.65,
+     "pct_demanda_perdida": 1.9,
+     "lotes_sin_servicio": 22,
+     "presion_min_restante": 18.9
+    },
+    {
+     "tramo": 74,
+     "x": 308476.835825,
+     "y": 8623125.82575,
+     "demanda_perdida_Ls": 0.56,
+     "pct_demanda_perdida": 1.7,
+     "lotes_sin_servicio": 19,
+     "presion_min_restante": 18.9
+    },
+    {
+     "tramo": 75,
+     "x": 308454.849475,
+     "y": 8623134.71865,
+     "demanda_perdida_Ls": 0.38,
+     "pct_demanda_perdida": 1.2,
+     "lotes_sin_servicio": 13,
+     "presion_min_restante": 18.8
+    },
+    {
+     "tramo": 76,
+     "x": 308440.67154999997,
+     "y": 8623148.7825,
+     "demanda_perdida_Ls": 0.23,
+     "pct_demanda_perdida": 0.7,
+     "lotes_sin_servicio": 8,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 77,
+     "x": 308434.30204999994,
+     "y": 8623168.0173,
+     "demanda_perdida_Ls": 0.09,
+     "pct_demanda_perdida": 0.3,
+     "lotes_sin_servicio": 3,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 78,
+     "x": 308680.02469999995,
+     "y": 8622983.217212502,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 16.6
+    },
+    {
+     "tramo": 79,
+     "x": 308691.8933,
+     "y": 8623003.0144375,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 16.7
+    },
+    {
+     "tramo": 80,
+     "x": 308703.7619,
+     "y": 8623022.811662499,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 16.8
+    },
+    {
+     "tramo": 81,
+     "x": 308715.63049999997,
+     "y": 8623042.608887501,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 17.0
+    },
+    {
+     "tramo": 82,
+     "x": 308710.30240000004,
+     "y": 8623057.76655,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 17.0
+    },
+    {
+     "tramo": 83,
+     "x": 308687.77760000003,
+     "y": 8623068.284650002,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 17.2
+    },
+    {
+     "tramo": 84,
+     "x": 308666.2001125,
+     "y": 8623079.5390125,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 17.7
+    },
+    {
+     "tramo": 85,
+     "x": 308645.56993750005,
+     "y": 8623091.5296375,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 17.9
+    },
+    {
+     "tramo": 86,
+     "x": 308624.9397625,
+     "y": 8623103.520262502,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.0
+    },
+    {
+     "tramo": 87,
+     "x": 308604.30958749994,
+     "y": 8623115.5108875,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.0
+    },
+    {
+     "tramo": 88,
+     "x": 308584.07279999997,
+     "y": 8623115.061,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.1
+    },
+    {
+     "tramo": 89,
+     "x": 308567.8393166667,
+     "y": 8623098.293766666,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.2
+    },
+    {
+     "tramo": 90,
+     "x": 308555.21575,
+     "y": 8623077.6497,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.2
+    },
+    {
+     "tramo": 91,
+     "x": 308542.59218333336,
+     "y": 8623057.005633332,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.4
+    },
+    {
+     "tramo": 92,
+     "x": 308671.108075,
+     "y": 8623063.39455,
+     "demanda_perdida_Ls": 1.09,
+     "pct_demanda_perdida": 3.3,
+     "lotes_sin_servicio": 24,
+     "presion_min_restante": 18.8
+    },
+    {
+     "tramo": 93,
+     "x": 308660.29382499994,
+     "y": 8623043.096250001,
+     "demanda_perdida_Ls": 0.62,
+     "pct_demanda_perdida": 1.9,
+     "lotes_sin_servicio": 21,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 94,
+     "x": 308643.4875,
+     "y": 8623038.711583335,
+     "demanda_perdida_Ls": 0.47,
+     "pct_demanda_perdida": 1.4,
+     "lotes_sin_servicio": 16,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 95,
+     "x": 308620.68909999996,
+     "y": 8623050.24055,
+     "demanda_perdida_Ls": 0.29,
+     "pct_demanda_perdida": 0.9,
+     "lotes_sin_servicio": 10,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 96,
+     "x": 308597.8907,
+     "y": 8623061.769516665,
+     "demanda_perdida_Ls": 0.09,
+     "pct_demanda_perdida": 0.3,
+     "lotes_sin_servicio": 3,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 97,
+     "x": 308449.46465,
+     "y": 8622999.973775,
+     "demanda_perdida_Ls": 0.03,
+     "pct_demanda_perdida": 0.1,
+     "lotes_sin_servicio": 1,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 98,
+     "x": 308473.41215,
+     "y": 8623003.426125001,
+     "demanda_perdida_Ls": 0.09,
+     "pct_demanda_perdida": 0.3,
+     "lotes_sin_servicio": 3,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 99,
+     "x": 308494.405825,
+     "y": 8623004.068950001,
+     "demanda_perdida_Ls": 0.53,
+     "pct_demanda_perdida": 1.6,
+     "lotes_sin_servicio": 5,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 100,
+     "x": 308512.44567499997,
+     "y": 8623001.90225,
+     "demanda_perdida_Ls": 0.59,
+     "pct_demanda_perdida": 1.8,
+     "lotes_sin_servicio": 7,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 101,
+     "x": 308532.6606833333,
+     "y": 8622994.4781,
+     "demanda_perdida_Ls": 0.7,
+     "pct_demanda_perdida": 2.1,
+     "lotes_sin_servicio": 11,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 102,
+     "x": 308555.05085,
+     "y": 8622981.796500001,
+     "demanda_perdida_Ls": 0.82,
+     "pct_demanda_perdida": 2.5,
+     "lotes_sin_servicio": 15,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 103,
+     "x": 308577.4410166667,
+     "y": 8622969.1149,
+     "demanda_perdida_Ls": 0.91,
+     "pct_demanda_perdida": 2.7,
+     "lotes_sin_servicio": 18,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 104,
+     "x": 308599.8311833333,
+     "y": 8622956.4333,
+     "demanda_perdida_Ls": 1.03,
+     "pct_demanda_perdida": 3.1,
+     "lotes_sin_servicio": 22,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 105,
+     "x": 308622.22135,
+     "y": 8622943.751699999,
+     "demanda_perdida_Ls": 1.5,
+     "pct_demanda_perdida": 4.5,
+     "lotes_sin_servicio": 25,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 106,
+     "x": 308644.6115166667,
+     "y": 8622931.0701,
+     "demanda_perdida_Ls": 1.91,
+     "pct_demanda_perdida": 5.8,
+     "lotes_sin_servicio": 26,
+     "presion_min_restante": 18.8
+    },
+    {
+     "tramo": 107,
+     "x": 308803.5322,
+     "y": 8622903.00375,
+     "demanda_perdida_Ls": 7.54,
+     "pct_demanda_perdida": 22.8,
+     "lotes_sin_servicio": 258,
+     "presion_min_restante": 19.1
+    },
+    {
+     "tramo": 108,
+     "x": 308802.166925,
+     "y": 8622919.336849999,
+     "demanda_perdida_Ls": 1.73,
+     "pct_demanda_perdida": 5.2,
+     "lotes_sin_servicio": 59,
+     "presion_min_restante": 18.8
+    },
+    {
+     "tramo": 109,
+     "x": 308799.43637500005,
+     "y": 8622939.14835,
+     "demanda_perdida_Ls": 1.64,
+     "pct_demanda_perdida": 5.0,
+     "lotes_sin_servicio": 56,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 110,
+     "x": 308784.72915,
+     "y": 8622945.309,
+     "demanda_perdida_Ls": 0.67,
+     "pct_demanda_perdida": 2.0,
+     "lotes_sin_servicio": 23,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 111,
+     "x": 308761.1184,
+     "y": 8622941.7886,
+     "demanda_perdida_Ls": 0.5,
+     "pct_demanda_perdida": 1.5,
+     "lotes_sin_servicio": 17,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 112,
+     "x": 308740.5808,
+     "y": 8622942.238,
+     "demanda_perdida_Ls": 0.35,
+     "pct_demanda_perdida": 1.1,
+     "lotes_sin_servicio": 12,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 113,
+     "x": 308719.74337499996,
+     "y": 8622945.908174999,
+     "demanda_perdida_Ls": 0.26,
+     "pct_demanda_perdida": 0.8,
+     "lotes_sin_servicio": 9,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 114,
+     "x": 308698.606125,
+     "y": 8622952.799125,
+     "demanda_perdida_Ls": 0.09,
+     "pct_demanda_perdida": 0.3,
+     "lotes_sin_servicio": 3,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 115,
+     "x": 308795.03391666664,
+     "y": 8622959.1788,
+     "demanda_perdida_Ls": 0.88,
+     "pct_demanda_perdida": 2.7,
+     "lotes_sin_servicio": 30,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 116,
+     "x": 308788.95955,
+     "y": 8622979.428199999,
+     "demanda_perdida_Ls": 0.73,
+     "pct_demanda_perdida": 2.2,
+     "lotes_sin_servicio": 25,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 117,
+     "x": 308782.8851833333,
+     "y": 8622999.6776,
+     "demanda_perdida_Ls": 0.56,
+     "pct_demanda_perdida": 1.7,
+     "lotes_sin_servicio": 19,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 118,
+     "x": 308776.761825,
+     "y": 8623019.318525001,
+     "demanda_perdida_Ls": 0.41,
+     "pct_demanda_perdida": 1.2,
+     "lotes_sin_servicio": 14,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 119,
+     "x": 308770.589475,
+     "y": 8623038.350975,
+     "demanda_perdida_Ls": 0.29,
+     "pct_demanda_perdida": 0.9,
+     "lotes_sin_servicio": 10,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 120,
+     "x": 308778.31299999997,
+     "y": 8623051.257800002,
+     "demanda_perdida_Ls": 0.29,
+     "pct_demanda_perdida": 0.9,
+     "lotes_sin_servicio": 10,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 121,
+     "x": 308799.93239999993,
+     "y": 8623058.039,
+     "demanda_perdida_Ls": 0.15,
+     "pct_demanda_perdida": 0.4,
+     "lotes_sin_servicio": 5,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 122,
+     "x": 308809.6875,
+     "y": 8622907.60275,
+     "demanda_perdida_Ls": 5.4,
+     "pct_demanda_perdida": 16.3,
+     "lotes_sin_servicio": 185,
+     "presion_min_restante": 19.0
+    },
+    {
+     "tramo": 123,
+     "x": 308817.36345,
+     "y": 8622897.13625,
+     "demanda_perdida_Ls": 5.37,
+     "pct_demanda_perdida": 16.2,
+     "lotes_sin_servicio": 184,
+     "presion_min_restante": 19.0
+    },
+    {
+     "tramo": 124,
+     "x": 308820.64132500003,
+     "y": 8622878.51585,
+     "demanda_perdida_Ls": 4.75,
+     "pct_demanda_perdida": 14.4,
+     "lotes_sin_servicio": 163,
+     "presion_min_restante": 18.9
+    },
+    {
+     "tramo": 125,
+     "x": 308824.155775,
+     "y": 8622858.55135,
+     "demanda_perdida_Ls": 4.64,
+     "pct_demanda_perdida": 14.0,
+     "lotes_sin_servicio": 159,
+     "presion_min_restante": 18.9
+    },
+    {
+     "tramo": 126,
+     "x": 308811.25865,
+     "y": 8622846.033950001,
+     "demanda_perdida_Ls": 1.17,
+     "pct_demanda_perdida": 3.5,
+     "lotes_sin_servicio": 40,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 127,
+     "x": 308781.94995000004,
+     "y": 8622840.96365,
+     "demanda_perdida_Ls": 0.97,
+     "pct_demanda_perdida": 2.9,
+     "lotes_sin_servicio": 33,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 128,
+     "x": 308757.42732500006,
+     "y": 8622838.608875,
+     "demanda_perdida_Ls": 0.79,
+     "pct_demanda_perdida": 2.4,
+     "lotes_sin_servicio": 27,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 129,
+     "x": 308737.690775,
+     "y": 8622838.969625,
+     "demanda_perdida_Ls": 0.67,
+     "pct_demanda_perdida": 2.0,
+     "lotes_sin_servicio": 23,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 130,
+     "x": 308716.48,
+     "y": 8622842.667575002,
+     "demanda_perdida_Ls": 0.62,
+     "pct_demanda_perdida": 1.9,
+     "lotes_sin_servicio": 21,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 131,
+     "x": 308693.79500000004,
+     "y": 8622849.702725,
+     "demanda_perdida_Ls": 0.44,
+     "pct_demanda_perdida": 1.3,
+     "lotes_sin_servicio": 15,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 132,
+     "x": 308671.11,
+     "y": 8622856.737875,
+     "demanda_perdida_Ls": 0.26,
+     "pct_demanda_perdida": 0.8,
+     "lotes_sin_servicio": 9,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 133,
+     "x": 308648.42500000005,
+     "y": 8622863.773024999,
+     "demanda_perdida_Ls": 0.09,
+     "pct_demanda_perdida": 0.3,
+     "lotes_sin_servicio": 3,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 134,
+     "x": 308829.052225,
+     "y": 8622838.242449999,
+     "demanda_perdida_Ls": 3.4,
+     "pct_demanda_perdida": 10.3,
+     "lotes_sin_servicio": 117,
+     "presion_min_restante": 18.8
+    },
+    {
+     "tramo": 135,
+     "x": 308835.33067500003,
+     "y": 8622817.58915,
+     "demanda_perdida_Ls": 3.26,
+     "pct_demanda_perdida": 9.8,
+     "lotes_sin_servicio": 112,
+     "presion_min_restante": 18.8
+    },
+    {
+     "tramo": 136,
+     "x": 308827.9176166667,
+     "y": 8622805.677033333,
+     "demanda_perdida_Ls": 1.41,
+     "pct_demanda_perdida": 4.3,
+     "lotes_sin_servicio": 48,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 137,
+     "x": 308806.81305,
+     "y": 8622802.506099999,
+     "demanda_perdida_Ls": 1.29,
+     "pct_demanda_perdida": 3.9,
+     "lotes_sin_servicio": 44,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 138,
+     "x": 308785.70848333335,
+     "y": 8622799.335166667,
+     "demanda_perdida_Ls": 1.14,
+     "pct_demanda_perdida": 3.5,
+     "lotes_sin_servicio": 39,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 139,
+     "x": 308763.57585,
+     "y": 8622798.202216666,
+     "demanda_perdida_Ls": 1.0,
+     "pct_demanda_perdida": 3.0,
+     "lotes_sin_servicio": 34,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 140,
+     "x": 308740.41515,
+     "y": 8622799.107250001,
+     "demanda_perdida_Ls": 0.82,
+     "pct_demanda_perdida": 2.5,
+     "lotes_sin_servicio": 28,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 141,
+     "x": 308717.25445,
+     "y": 8622800.012283333,
+     "demanda_perdida_Ls": 0.73,
+     "pct_demanda_perdida": 2.2,
+     "lotes_sin_servicio": 25,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 142,
+     "x": 308694.1358375,
+     "y": 8622804.415237501,
+     "demanda_perdida_Ls": 0.59,
+     "pct_demanda_perdida": 1.8,
+     "lotes_sin_servicio": 20,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 143,
+     "x": 308671.0593125,
+     "y": 8622812.3161125,
+     "demanda_perdida_Ls": 0.41,
+     "pct_demanda_perdida": 1.2,
+     "lotes_sin_servicio": 14,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 144,
+     "x": 308647.9827875,
+     "y": 8622820.2169875,
+     "demanda_perdida_Ls": 0.26,
+     "pct_demanda_perdida": 0.8,
+     "lotes_sin_servicio": 9,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 145,
+     "x": 308624.9062625,
+     "y": 8622828.1178625,
+     "demanda_perdida_Ls": 0.09,
+     "pct_demanda_perdida": 0.3,
+     "lotes_sin_servicio": 3,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 146,
+     "x": 308841.6407,
+     "y": 8622797.946224999,
+     "demanda_perdida_Ls": 1.76,
+     "pct_demanda_perdida": 5.3,
+     "lotes_sin_servicio": 61,
+     "presion_min_restante": 18.8
+    },
+    {
+     "tramo": 147,
+     "x": 308847.98230000003,
+     "y": 8622779.313675001,
+     "demanda_perdida_Ls": 1.61,
+     "pct_demanda_perdida": 4.9,
+     "lotes_sin_servicio": 56,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 148,
+     "x": 308841.1653,
+     "y": 8622766.223925,
+     "demanda_perdida_Ls": 1.5,
+     "pct_demanda_perdida": 4.5,
+     "lotes_sin_servicio": 52,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 149,
+     "x": 308821.1897,
+     "y": 8622758.676975,
+     "demanda_perdida_Ls": 1.44,
+     "pct_demanda_perdida": 4.3,
+     "lotes_sin_servicio": 49,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 150,
+     "x": 308799.58465,
+     "y": 8622754.715316666,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 151,
+     "x": 308776.35014999995,
+     "y": 8622754.33895,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 152,
+     "x": 308753.11565,
+     "y": 8622753.962583333,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 153,
+     "x": 308730.02726666664,
+     "y": 8622754.57245,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 154,
+     "x": 308707.08499999996,
+     "y": 8622756.16855,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 155,
+     "x": 308684.14273333334,
+     "y": 8622757.764649998,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 156,
+     "x": 308659.53839999996,
+     "y": 8622764.36885,
+     "demanda_perdida_Ls": 0.21,
+     "pct_demanda_perdida": 0.6,
+     "lotes_sin_servicio": 7,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 157,
+     "x": 308633.272,
+     "y": 8622775.98115,
+     "demanda_perdida_Ls": 0.12,
+     "pct_demanda_perdida": 0.4,
+     "lotes_sin_servicio": 4,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 158,
+     "x": 308607.00560000003,
+     "y": 8622787.593449999,
+     "demanda_perdida_Ls": 0.03,
+     "pct_demanda_perdida": 0.1,
+     "lotes_sin_servicio": 1,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 159,
+     "x": 308804.79579999996,
+     "y": 8622749.0533,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 160,
+     "x": 308784.0376125,
+     "y": 8622739.3188375,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 161,
+     "x": 308755.3334375,
+     "y": 8622731.5503125,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 162,
+     "x": 308726.6292625,
+     "y": 8622723.7817875,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 163,
+     "x": 308697.9250875,
+     "y": 8622716.013262501,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 164,
+     "x": 308680.84765,
+     "y": 8622723.737425,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 165,
+     "x": 308675.39694999997,
+     "y": 8622746.954275,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 166,
+     "x": 308801.45425,
+     "y": 8622904.74495,
+     "demanda_perdida_Ls": 0.38,
+     "pct_demanda_perdida": 1.2,
+     "lotes_sin_servicio": 13,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 167,
+     "x": 308791.25905,
+     "y": 8622899.070300002,
+     "demanda_perdida_Ls": 0.38,
+     "pct_demanda_perdida": 1.2,
+     "lotes_sin_servicio": 13,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 168,
+     "x": 308775.02455,
+     "y": 8622897.0933,
+     "demanda_perdida_Ls": 0.35,
+     "pct_demanda_perdida": 1.1,
+     "lotes_sin_servicio": 12,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 169,
+     "x": 308753.75675,
+     "y": 8622895.814100001,
+     "demanda_perdida_Ls": 0.29,
+     "pct_demanda_perdida": 0.9,
+     "lotes_sin_servicio": 10,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 170,
+     "x": 308732.85942500003,
+     "y": 8622897.149825,
+     "demanda_perdida_Ls": 0.23,
+     "pct_demanda_perdida": 0.7,
+     "lotes_sin_servicio": 8,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 171,
+     "x": 308717.365875,
+     "y": 8622900.402675001,
+     "demanda_perdida_Ls": 0.18,
+     "pct_demanda_perdida": 0.5,
+     "lotes_sin_servicio": 6,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 172,
+     "x": 308700.997825,
+     "y": 8622904.47005,
+     "demanda_perdida_Ls": 0.12,
+     "pct_demanda_perdida": 0.4,
+     "lotes_sin_servicio": 4,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 173,
+     "x": 308683.755275,
+     "y": 8622909.351950001,
+     "demanda_perdida_Ls": 0.06,
+     "pct_demanda_perdida": 0.2,
+     "lotes_sin_servicio": 2,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 174,
+     "x": 308670.1483,
+     "y": 8622915.8958,
+     "demanda_perdida_Ls": 0.03,
+     "pct_demanda_perdida": 0.1,
+     "lotes_sin_servicio": 1,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 175,
+     "x": 308805.90895,
+     "y": 8622885.70675,
+     "demanda_perdida_Ls": 0.62,
+     "pct_demanda_perdida": 1.9,
+     "lotes_sin_servicio": 21,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 176,
+     "x": 308781.0774,
+     "y": 8622882.069125,
+     "demanda_perdida_Ls": 0.53,
+     "pct_demanda_perdida": 1.6,
+     "lotes_sin_servicio": 18,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 177,
+     "x": 308757.3646,
+     "y": 8622880.376575,
+     "demanda_perdida_Ls": 0.41,
+     "pct_demanda_perdida": 1.2,
+     "lotes_sin_servicio": 14,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 178,
+     "x": 308735.58082499995,
+     "y": 8622881.17585,
+     "demanda_perdida_Ls": 0.32,
+     "pct_demanda_perdida": 1.0,
+     "lotes_sin_servicio": 11,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 179,
+     "x": 308715.726075,
+     "y": 8622884.466950001,
+     "demanda_perdida_Ls": 0.26,
+     "pct_demanda_perdida": 0.8,
+     "lotes_sin_servicio": 9,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 180,
+     "x": 308697.376925,
+     "y": 8622888.510275,
+     "demanda_perdida_Ls": 0.18,
+     "pct_demanda_perdida": 0.5,
+     "lotes_sin_servicio": 6,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 181,
+     "x": 308680.533375,
+     "y": 8622893.305825,
+     "demanda_perdida_Ls": 0.12,
+     "pct_demanda_perdida": 0.4,
+     "lotes_sin_servicio": 4,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 182,
+     "x": 308665.0542,
+     "y": 8622898.9947,
+     "demanda_perdida_Ls": 0.03,
+     "pct_demanda_perdida": 0.1,
+     "lotes_sin_servicio": 1,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 183,
+     "x": 308859.81440000003,
+     "y": 8622960.078975,
+     "demanda_perdida_Ls": 0.88,
+     "pct_demanda_perdida": 2.7,
+     "lotes_sin_servicio": 30,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 184,
+     "x": 308880.3314,
+     "y": 8622965.821525,
+     "demanda_perdida_Ls": 0.79,
+     "pct_demanda_perdida": 2.4,
+     "lotes_sin_servicio": 27,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 185,
+     "x": 308896.3187,
+     "y": 8622977.09725,
+     "demanda_perdida_Ls": 0.65,
+     "pct_demanda_perdida": 1.9,
+     "lotes_sin_servicio": 22,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 186,
+     "x": 308898.8526,
+     "y": 8622995.908216666,
+     "demanda_perdida_Ls": 0.47,
+     "pct_demanda_perdida": 1.4,
+     "lotes_sin_servicio": 16,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 187,
+     "x": 308892.4628,
+     "y": 8623016.721250001,
+     "demanda_perdida_Ls": 0.32,
+     "pct_demanda_perdida": 1.0,
+     "lotes_sin_servicio": 11,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 188,
+     "x": 308886.073,
+     "y": 8623037.534283333,
+     "demanda_perdida_Ls": 0.18,
+     "pct_demanda_perdida": 0.5,
+     "lotes_sin_servicio": 6,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 189,
+     "x": 308834.91677500005,
+     "y": 8623067.0379,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 190,
+     "x": 308859.021325,
+     "y": 8623073.063499998,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 191,
+     "x": 308883.125875,
+     "y": 8623079.0891,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 192,
+     "x": 308907.23042499996,
+     "y": 8623085.1147,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 193,
+     "x": 309052.5496,
+     "y": 8622981.972199999,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 194,
+     "x": 309046.95759999997,
+     "y": 8623002.3126,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 195,
+     "x": 309040.6272625,
+     "y": 8623024.827399999,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 196,
+     "x": 309033.5585875,
+     "y": 8623049.516600002,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 197,
+     "x": 309026.4899125,
+     "y": 8623074.2058,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 198,
+     "x": 309019.4212375,
+     "y": 8623098.895,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 199,
+     "x": 309002.73816666665,
+     "y": 8623108.187016668,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 200,
+     "x": 308976.4407,
+     "y": 8623102.08185,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 201,
+     "x": 308950.1432333333,
+     "y": 8623095.976683334,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 202,
+     "x": 308928.13859999995,
+     "y": 8623090.5258,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 203,
+     "x": 308922.09245,
+     "y": 8623076.65055,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 204,
+     "x": 308927.71195,
+     "y": 8623053.696649998,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 205,
+     "x": 308933.33144999994,
+     "y": 8623030.74275,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 206,
+     "x": 308938.95094999997,
+     "y": 8623007.788849998,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 207,
+     "x": 308945.4596,
+     "y": 8622982.48325,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 208,
+     "x": 308947.75125,
+     "y": 8622957.4936,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 209,
+     "x": 308938.73335,
+     "y": 8622940.782850001,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 210,
+     "x": 308919.1794,
+     "y": 8622932.102433335,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 211,
+     "x": 308895.2928,
+     "y": 8622925.8411,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 212,
+     "x": 308871.40619999997,
+     "y": 8622919.579766668,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 213,
+     "x": 308960.7697,
+     "y": 8622960.4245,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 214,
+     "x": 308985.1679,
+     "y": 8622952.709649999,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 215,
+     "x": 309007.5200166667,
+     "y": 8622956.321083333,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 216,
+     "x": 309026.65025,
+     "y": 8622962.51345,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 217,
+     "x": 309045.78048333334,
+     "y": 8622968.705816666,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 218,
+     "x": 309030.41709999996,
+     "y": 8623008.54995,
+     "demanda_perdida_Ls": 0.82,
+     "pct_demanda_perdida": 2.5,
+     "lotes_sin_servicio": 28,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 219,
+     "x": 309002.93345,
+     "y": 8623002.4622,
+     "demanda_perdida_Ls": 0.65,
+     "pct_demanda_perdida": 1.9,
+     "lotes_sin_servicio": 22,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 220,
+     "x": 308986.19581666664,
+     "y": 8623011.928466666,
+     "demanda_perdida_Ls": 0.47,
+     "pct_demanda_perdida": 1.4,
+     "lotes_sin_servicio": 16,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 221,
+     "x": 308980.19885,
+     "y": 8623035.1708,
+     "demanda_perdida_Ls": 0.29,
+     "pct_demanda_perdida": 0.9,
+     "lotes_sin_servicio": 10,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 222,
+     "x": 308974.2018833333,
+     "y": 8623058.413133333,
+     "demanda_perdida_Ls": 0.12,
+     "pct_demanda_perdida": 0.4,
+     "lotes_sin_servicio": 4,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 223,
+     "x": 308951.64982461423,
+     "y": 8622960.590051286,
+     "demanda_perdida_Ls": 6.63,
+     "pct_demanda_perdida": 20.0,
+     "lotes_sin_servicio": 198,
+     "presion_min_restante": 19.0
+    },
+    {
+     "tramo": 224,
+     "x": 308956.6324738427,
+     "y": 8622944.460953858,
+     "demanda_perdida_Ls": 6.63,
+     "pct_demanda_perdida": 20.0,
+     "lotes_sin_servicio": 198,
+     "presion_min_restante": 19.0
+    },
+    {
+     "tramo": 225,
+     "x": 308826.200925,
+     "y": 8623050.672925,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 226,
+     "x": 308832.873775,
+     "y": 8623023.968575,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 227,
+     "x": 308839.54662499996,
+     "y": 8622997.264224999,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 228,
+     "x": 308846.219475,
+     "y": 8622970.559875,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 229,
+     "x": 308852.03264999995,
+     "y": 8622947.01805,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 230,
+     "x": 308856.98615,
+     "y": 8622926.638750002,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 231,
+     "x": 308962.47730316804,
+     "y": 8622924.232205052,
+     "demanda_perdida_Ls": 5.81,
+     "pct_demanda_perdida": 17.5,
+     "lotes_sin_servicio": 175,
+     "presion_min_restante": 19.0
+    },
+    {
+     "tramo": 232,
+     "x": 308969.18431259017,
+     "y": 8622899.903804865,
+     "demanda_perdida_Ls": 5.81,
+     "pct_demanda_perdida": 17.5,
+     "lotes_sin_servicio": 175,
+     "presion_min_restante": 19.0
+    },
+    {
+     "tramo": 233,
+     "x": 308975.5559151386,
+     "y": 8622876.792029176,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 234,
+     "x": 308981.5921108133,
+     "y": 8622854.896877982,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 235,
+     "x": 308987.628306488,
+     "y": 8622833.00172679,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 236,
+     "x": 308993.66450216266,
+     "y": 8622811.106575597,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 237,
+     "x": 309008.5841,
+     "y": 8622803.2935875,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 238,
+     "x": 309032.3871,
+     "y": 8622809.562762499,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 239,
+     "x": 309056.1901,
+     "y": 8622815.8319375,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 240,
+     "x": 309079.99309999996,
+     "y": 8622822.1011125,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 241,
+     "x": 309088.5402235534,
+     "y": 8622838.802114248,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 242,
+     "x": 309081.83147066017,
+     "y": 8622865.934942745,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 243,
+     "x": 309075.1227177669,
+     "y": 8622893.067771243,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 244,
+     "x": 309069.19385599025,
+     "y": 8622917.046414118,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 245,
+     "x": 309064.0448853301,
+     "y": 8622937.870871373,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 246,
+     "x": 308975.1542586506,
+     "y": 8622901.399452385,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 247,
+     "x": 308986.9544,
+     "y": 8622924.12035,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 248,
+     "x": 309007.02681666665,
+     "y": 8622935.69835,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 249,
+     "x": 309028.80425,
+     "y": 8622940.73225,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 250,
+     "x": 309050.5816833333,
+     "y": 8622945.76615,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 251,
+     "x": 308965.33645865065,
+     "y": 8622895.117152385,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 252,
+     "x": 308950.847825,
+     "y": 8622905.2758,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 253,
+     "x": 308936.273275,
+     "y": 8622910.838,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 254,
+     "x": 308918.51283333334,
+     "y": 8622910.764816668,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 255,
+     "x": 308897.56649999996,
+     "y": 8622905.05625,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 256,
+     "x": 308876.6201666667,
+     "y": 8622899.347683333,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 257,
+     "x": 308869.3683567074,
+     "y": 8622885.501669638,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 258,
+     "x": 308875.8110701223,
+     "y": 8622863.518208917,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 259,
+     "x": 308881.60814512224,
+     "y": 8622843.737758916,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 260,
+     "x": 308886.7595817074,
+     "y": 8622826.160319638,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 261,
+     "x": 308893.164075,
+     "y": 8622806.6587,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 262,
+     "x": 308900.821625,
+     "y": 8622785.2329,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 263,
+     "x": 308916.15442499996,
+     "y": 8622777.724875,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 264,
+     "x": 308939.162475,
+     "y": 8622784.134624999,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 265,
+     "x": 308962.17052499996,
+     "y": 8622790.544374999,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 266,
+     "x": 308985.178575,
+     "y": 8622796.954125,
+     "demanda_perdida_Ls": 0.0,
+     "pct_demanda_perdida": 0.0,
+     "lotes_sin_servicio": 0,
+     "presion_min_restante": 18.6
+    },
+    {
+     "tramo": 267,
+     "x": 309059.67510599026,
+     "y": 8622903.58476412,
+     "demanda_perdida_Ls": 0.67,
+     "pct_demanda_perdida": 2.0,
+     "lotes_sin_servicio": 23,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 268,
+     "x": 309035.4886353301,
+     "y": 8622897.485921372,
+     "demanda_perdida_Ls": 0.56,
+     "pct_demanda_perdida": 1.7,
+     "lotes_sin_servicio": 19,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 269,
+     "x": 309025.39934999996,
+     "y": 8622880.2705,
+     "demanda_perdida_Ls": 0.35,
+     "pct_demanda_perdida": 1.1,
+     "lotes_sin_servicio": 12,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 270,
+     "x": 309031.0847,
+     "y": 8622851.90435,
+     "demanda_perdida_Ls": 0.15,
+     "pct_demanda_perdida": 0.4,
+     "lotes_sin_servicio": 5,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 271,
+     "x": 308892.2577951223,
+     "y": 8622855.690508917,
+     "demanda_perdida_Ls": 0.67,
+     "pct_demanda_perdida": 2.0,
+     "lotes_sin_servicio": 23,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 272,
+     "x": 308918.7085317074,
+     "y": 8622862.01856964,
+     "demanda_perdida_Ls": 0.53,
+     "pct_demanda_perdida": 1.6,
+     "lotes_sin_servicio": 18,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 273,
+     "x": 308935.45582499995,
+     "y": 8622852.059375,
+     "demanda_perdida_Ls": 0.32,
+     "pct_demanda_perdida": 1.0,
+     "lotes_sin_servicio": 11,
+     "presion_min_restante": 18.7
+    },
+    {
+     "tramo": 274,
+     "x": 308942.49967499997,
+     "y": 8622825.812925,
+     "demanda_perdida_Ls": 0.15,
+     "pct_demanda_perdida": 0.4,
+     "lotes_sin_servicio": 5,
+     "presion_min_restante": 18.7
+    }
+   ]
+  }
+ ]
+}

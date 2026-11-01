@@ -1,0 +1,26 @@
+{
+ "corrida": "c03_2026-11-01",
+ "fecha": "2026-11-01T10:33:23",
+ "entradas": {
+  "parametros_agua_potable_v1.json": "d559fe29ccbe96f4",
+  "Export de Civil 3D": "4c4782a88cbcd43e (C:\\Users\\henry\\OneDrive\\Escritorio\\Control-company\\03 renacimiento del sur sac\\Lev. Topográfico\\sectores de agua.dwg)",
+  "Red dibujada (red_agua_importada.json)": "7ecd638cec85d83b; C:\\Users\\henry\\OneDrive\\Escritorio\\Control-company\\03 renacimiento del sur sac\\Lev. Topogr",
+  "Grilla del terreno": "D37A6949EF1C32B9",
+  "Cotas de lotes": "fc01af207c2547e3",
+  "Lotes (parcels_export)": "c4e52fc7c079e43a"
+ },
+ "scripts": {
+  "comparar.py": "7ab1b5bb6259",
+  "comun.py": "8f05b8f66360",
+  "correr.py": "9219f05e7f42",
+  "demanda.py": "152d7431b0d4",
+  "epanet.py": "d84c72d80cfb",
+  "exportar_dxf.py": "15cad07ef2ac",
+  "importar_red.py": "d80235e77761",
+  "informe.py": "5761aedc864a",
+  "modelo.py": "206343c05b0e",
+  "pruebas.py": "563437cf014a"
+ },
+ "parametros_sha256_16": "d559fe29ccbe96f4",
+ "cambios": {}
+}

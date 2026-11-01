@@ -1,0 +1,974 @@
+{
+  "version": "v1_primera_expediente_desague_criba",
+  "status": "CORREDORES_PRELIMINARES_NO_DISENO_HIDRAULICO",
+  "purpose": "Criba topológica y de terreno para orientar perfiles; no define tuberías, caudales, buzones, cotas de batea ni bombeo.",
+  "sources": {
+    "grafo_vial_primera_expediente_v3.json": "C61C38453D9D62BAA270F7C997CE9F0B308D4055A50E9615E57F54712956890D",
+    "grafo_vial_cotas_terreno_v1.json": "450177B8D86D6344F1C9A4E72445EA24C937EC02C4FDBE6ECDE704D6AB14410B",
+    "asignacion_lotes_grafo_v1.json": "61E35990C30DCC111823D0C48C39E82EC2003CD558FD7C4D4A37152741FC3D6A",
+    "parcels_primera_expediente.json": "FDC5C335FAF6EF2216BCB1AA425A81D6D066748DAA4A4E2811592A8664C1C30A",
+    "interfaces_referenciales_v1.json": "72F146AC429FD9832D4537B593ECD563A28BE56B5D67CA5C1AB79039A4E8381C",
+    "perfiles_ejes_terreno_v1.json": "B01F860E97D251F52A3039177E3F96E7BC158B0399A36413E18F3E2F60E139D5"
+  },
+  "method": {
+    "root": "NV-0055",
+    "rootCoordinate": [
+      308851.681,
+      8622760.3
+    ],
+    "terrainSource": "TIN Civil 3D muestreada a 1 m; cota de terreno natural",
+    "edgeCost": "longitud vial m + 1000 * max(0, cota_terreno_nodo_destino - cota_terreno_nodo_origen) m",
+    "edgeCostNote": "Penalidad arbitraria para comparar corredores; no equivale a pendiente de tubería ni reemplaza OS.070.",
+    "terrainRiseFlagM": 0.05,
+    "connections": "33 conectores del grafo inferidos por continuidad vial, pendientes de validación"
+  },
+  "coverage": {
+    "lotsInScope": 444,
+    "lotsAssignedToRoadEdge": 440,
+    "lotsWithoutRoadEdge": [
+      "E01MZQ055P",
+      "E01MZQ056P",
+      "E01MZQ064P",
+      "E01MZQ065P"
+    ],
+    "ptarLotIncludedInGeometricAssignments": "E03MZD049P",
+    "populationOrFlowAssigned": false
+  },
+  "baseSingleInterfaceCalle30": {
+    "selectedEdges": 81,
+    "treeRoadLengthM": 2942.39,
+    "adverseTerrainEdges": [
+      {
+        "edge": "TV-0043",
+        "via": "CALLE31",
+        "upstream": "NV-0058",
+        "downstream": "NV-0059",
+        "terrainRiseTowardOutletM": 7.025,
+        "lengthM": 142.012,
+        "assignedLots": 18
+      },
+      {
+        "edge": "TV-0057",
+        "via": "PASAJE03",
+        "upstream": "NV-0080",
+        "downstream": "NV-0079",
+        "terrainRiseTowardOutletM": 1.947,
+        "lengthM": 31.226,
+        "assignedLots": 8
+      },
+      {
+        "edge": "TV-0011",
+        "via": "CALLE12",
+        "upstream": "NV-0015",
+        "downstream": "NV-0014",
+        "terrainRiseTowardOutletM": 0.919,
+        "lengthM": 16.18,
+        "assignedLots": 3
+      },
+      {
+        "edge": "TV-0070",
+        "via": "CONEXION_INFERIDA",
+        "upstream": "NV-0079",
+        "downstream": "NV-0013",
+        "terrainRiseTowardOutletM": 0.625,
+        "lengthM": 9.738,
+        "assignedLots": 0
+      },
+      {
+        "edge": "TV-0054",
+        "via": "PASAJE01",
+        "upstream": "NV-0074",
+        "downstream": "NV-0075",
+        "terrainRiseTowardOutletM": 0.247,
+        "lengthM": 3.413,
+        "assignedLots": 2
+      },
+      {
+        "edge": "TV-0090",
+        "via": "CONEXION_INFERIDA",
+        "upstream": "NV-0062",
+        "downstream": "NV-0055",
+        "terrainRiseTowardOutletM": 0.144,
+        "lengthM": 6.039,
+        "assignedLots": 0
+      },
+      {
+        "edge": "TV-0045",
+        "via": "CALLE32",
+        "upstream": "NV-0061",
+        "downstream": "NV-0062",
+        "terrainRiseTowardOutletM": 0.096,
+        "lengthM": 19.449,
+        "assignedLots": 0
+      },
+      {
+        "edge": "TV-0038",
+        "via": "CALLE28",
+        "upstream": "NV-0050",
+        "downstream": "NV-0051",
+        "terrainRiseTowardOutletM": 0.087,
+        "lengthM": 6.017,
+        "assignedLots": 0
+      },
+      {
+        "edge": "TV-0031",
+        "via": "CALLE25",
+        "upstream": "NV-0041",
+        "downstream": "NV-0040",
+        "terrainRiseTowardOutletM": 0.075,
+        "lengthM": 0.838,
+        "assignedLots": 1
+      },
+      {
+        "edge": "TV-0081",
+        "via": "CONEXION_INFERIDA",
+        "upstream": "NV-0075",
+        "downstream": "NV-0033",
+        "terrainRiseTowardOutletM": 0.066,
+        "lengthM": 7.393,
+        "assignedLots": 0
+      },
+      {
+        "edge": "TV-0077",
+        "via": "CONEXION_INFERIDA",
+        "upstream": "NV-0034",
+        "downstream": "NV-0029",
+        "terrainRiseTowardOutletM": 0.065,
+        "lengthM": 7.055,
+        "assignedLots": 0
+      }
+    ],
+    "adverseTerrainEdgeCount": 11,
+    "maximumAdverseTerrainRiseM": 7.025,
+    "lotBearingEdgesOutsideTree": [
+      {
+        "edge": "TV-0001",
+        "via": "AVENIDA E",
+        "assignedLots": 13,
+        "lengthM": 70.041
+      },
+      {
+        "edge": "TV-0018",
+        "via": "CALLE15",
+        "assignedLots": 7,
+        "lengthM": 46.392
+      },
+      {
+        "edge": "TV-0019",
+        "via": "CALLE15",
+        "assignedLots": 7,
+        "lengthM": 42.519
+      },
+      {
+        "edge": "TV-0020",
+        "via": "CALLE15",
+        "assignedLots": 2,
+        "lengthM": 31.706
+      }
+    ],
+    "assignedLotsOnEdgesOutsideTree": 29
+  },
+  "conditionalInternalPTARLink": {
+    "description": "Conector geométrico oeste Calle 31 a Calle 30 dentro del predio PTAR; requiere expediente PTAR, servidumbre interna y cota de entrada. No es tubería aprobada.",
+    "edge": {
+      "id": "VX-PTAR-01",
+      "fromNode": "NV-0058",
+      "toNode": "NV-0055",
+      "length": 33.049,
+      "origin": "HIPOTESIS_INTERNA_PTAR",
+      "coordinates": [
+        [
+          308820.557,
+          8622749.186
+        ],
+        [
+          308851.681,
+          8622760.3
+        ]
+      ]
+    },
+    "summary": {
+      "selectedEdges": 81,
+      "treeRoadLengthM": 2927.566,
+      "adverseTerrainEdges": [
+        {
+          "edge": "TV-0057",
+          "via": "PASAJE03",
+          "upstream": "NV-0080",
+          "downstream": "NV-0079",
+          "terrainRiseTowardOutletM": 1.947,
+          "lengthM": 31.226,
+          "assignedLots": 8
+        },
+        {
+          "edge": "TV-0011",
+          "via": "CALLE12",
+          "upstream": "NV-0015",
+          "downstream": "NV-0014",
+          "terrainRiseTowardOutletM": 0.919,
+          "lengthM": 16.18,
+          "assignedLots": 3
+        },
+        {
+          "edge": "TV-0070",
+          "via": "CONEXION_INFERIDA",
+          "upstream": "NV-0079",
+          "downstream": "NV-0013",
+          "terrainRiseTowardOutletM": 0.625,
+          "lengthM": 9.738,
+          "assignedLots": 0
+        },
+        {
+          "edge": "TV-0054",
+          "via": "PASAJE01",
+          "upstream": "NV-0074",
+          "downstream": "NV-0075",
+          "terrainRiseTowardOutletM": 0.247,
+          "lengthM": 3.413,
+          "assignedLots": 2
+        },
+        {
+          "edge": "TV-0090",
+          "via": "CONEXION_INFERIDA",
+          "upstream": "NV-0062",
+          "downstream": "NV-0055",
+          "terrainRiseTowardOutletM": 0.144,
+          "lengthM": 6.039,
+          "assignedLots": 0
+        },
+        {
+          "edge": "TV-0045",
+          "via": "CALLE32",
+          "upstream": "NV-0061",
+          "downstream": "NV-0062",
+          "terrainRiseTowardOutletM": 0.096,
+          "lengthM": 19.449,
+          "assignedLots": 0
+        },
+        {
+          "edge": "TV-0038",
+          "via": "CALLE28",
+          "upstream": "NV-0050",
+          "downstream": "NV-0051",
+          "terrainRiseTowardOutletM": 0.087,
+          "lengthM": 6.017,
+          "assignedLots": 0
+        },
+        {
+          "edge": "TV-0031",
+          "via": "CALLE25",
+          "upstream": "NV-0041",
+          "downstream": "NV-0040",
+          "terrainRiseTowardOutletM": 0.075,
+          "lengthM": 0.838,
+          "assignedLots": 1
+        },
+        {
+          "edge": "TV-0081",
+          "via": "CONEXION_INFERIDA",
+          "upstream": "NV-0075",
+          "downstream": "NV-0033",
+          "terrainRiseTowardOutletM": 0.066,
+          "lengthM": 7.393,
+          "assignedLots": 0
+        },
+        {
+          "edge": "TV-0077",
+          "via": "CONEXION_INFERIDA",
+          "upstream": "NV-0034",
+          "downstream": "NV-0029",
+          "terrainRiseTowardOutletM": 0.065,
+          "lengthM": 7.055,
+          "assignedLots": 0
+        }
+      ],
+      "adverseTerrainEdgeCount": 10,
+      "maximumAdverseTerrainRiseM": 1.947,
+      "lotBearingEdgesOutsideTree": [
+        {
+          "edge": "TV-0001",
+          "via": "AVENIDA E",
+          "assignedLots": 13,
+          "lengthM": 70.041
+        },
+        {
+          "edge": "TV-0018",
+          "via": "CALLE15",
+          "assignedLots": 7,
+          "lengthM": 46.392
+        },
+        {
+          "edge": "TV-0019",
+          "via": "CALLE15",
+          "assignedLots": 7,
+          "lengthM": 42.519
+        },
+        {
+          "edge": "TV-0020",
+          "via": "CALLE15",
+          "assignedLots": 2,
+          "lengthM": 31.706
+        },
+        {
+          "edge": "TV-0044",
+          "via": "CALLE31",
+          "assignedLots": 1,
+          "lengthM": 47.873
+        }
+      ],
+      "assignedLotsOnEdgesOutsideTree": 30
+    }
+  },
+  "baseParentByUpstreamNode": {
+    "NV-0056": {
+      "downstream": "NV-0055",
+      "edge": "TV-0041"
+    },
+    "NV-0062": {
+      "downstream": "NV-0055",
+      "edge": "TV-0090"
+    },
+    "NV-0061": {
+      "downstream": "NV-0062",
+      "edge": "TV-0045"
+    },
+    "NV-0063": {
+      "downstream": "NV-0062",
+      "edge": "TV-0046"
+    },
+    "NV-0057": {
+      "downstream": "NV-0056",
+      "edge": "TV-0042"
+    },
+    "NV-0060": {
+      "downstream": "NV-0056",
+      "edge": "TV-0089"
+    },
+    "NV-0059": {
+      "downstream": "NV-0060",
+      "edge": "TV-0044"
+    },
+    "NV-0064": {
+      "downstream": "NV-0063",
+      "edge": "TV-0047"
+    },
+    "NV-0053": {
+      "downstream": "NV-0063",
+      "edge": "TV-0088"
+    },
+    "NV-0054": {
+      "downstream": "NV-0053",
+      "edge": "TV-0040"
+    },
+    "NV-0058": {
+      "downstream": "NV-0059",
+      "edge": "TV-0043"
+    },
+    "NV-0072": {
+      "downstream": "NV-0059",
+      "edge": "TV-0091"
+    },
+    "NV-0065": {
+      "downstream": "NV-0064",
+      "edge": "TV-0048"
+    },
+    "NV-0035": {
+      "downstream": "NV-0064",
+      "edge": "TV-0082"
+    },
+    "NV-0071": {
+      "downstream": "NV-0072",
+      "edge": "TV-0052"
+    },
+    "NV-0073": {
+      "downstream": "NV-0072",
+      "edge": "TV-0053"
+    },
+    "NV-0036": {
+      "downstream": "NV-0035",
+      "edge": "TV-0027"
+    },
+    "NV-0023": {
+      "downstream": "NV-0057",
+      "edge": "TV-0076"
+    },
+    "NV-0022": {
+      "downstream": "NV-0023",
+      "edge": "TV-0017"
+    },
+    "NV-0024": {
+      "downstream": "NV-0054",
+      "edge": "TV-0075"
+    },
+    "NV-0017": {
+      "downstream": "NV-0065",
+      "edge": "TV-0073"
+    },
+    "NV-0016": {
+      "downstream": "NV-0017",
+      "edge": "TV-0012"
+    },
+    "NV-0018": {
+      "downstream": "NV-0017",
+      "edge": "TV-0013"
+    },
+    "NV-0021": {
+      "downstream": "NV-0022",
+      "edge": "TV-0016"
+    },
+    "NV-0014": {
+      "downstream": "NV-0022",
+      "edge": "TV-0066"
+    },
+    "NV-0013": {
+      "downstream": "NV-0014",
+      "edge": "TV-0010"
+    },
+    "NV-0015": {
+      "downstream": "NV-0014",
+      "edge": "TV-0011"
+    },
+    "NV-0012": {
+      "downstream": "NV-0013",
+      "edge": "TV-0009"
+    },
+    "NV-0079": {
+      "downstream": "NV-0013",
+      "edge": "TV-0070"
+    },
+    "NV-0011": {
+      "downstream": "NV-0012",
+      "edge": "TV-0008"
+    },
+    "NV-0047": {
+      "downstream": "NV-0048",
+      "edge": "TV-0035"
+    },
+    "NV-0025": {
+      "downstream": "NV-0036",
+      "edge": "TV-0074"
+    },
+    "NV-0019": {
+      "downstream": "NV-0018",
+      "edge": "TV-0014"
+    },
+    "NV-0026": {
+      "downstream": "NV-0018",
+      "edge": "TV-0071"
+    },
+    "NV-0020": {
+      "downstream": "NV-0019",
+      "edge": "TV-0015"
+    },
+    "NV-0031": {
+      "downstream": "NV-0019",
+      "edge": "TV-0072"
+    },
+    "NV-0030": {
+      "downstream": "NV-0031",
+      "edge": "TV-0024"
+    },
+    "NV-0010": {
+      "downstream": "NV-0011",
+      "edge": "TV-0007"
+    },
+    "NV-0037": {
+      "downstream": "NV-0011",
+      "edge": "TV-0067"
+    },
+    "NV-0067": {
+      "downstream": "NV-0010",
+      "edge": "TV-0069"
+    },
+    "NV-0038": {
+      "downstream": "NV-0037",
+      "edge": "TV-0028"
+    },
+    "NV-0066": {
+      "downstream": "NV-0067",
+      "edge": "TV-0049"
+    },
+    "NV-0068": {
+      "downstream": "NV-0067",
+      "edge": "TV-0050"
+    },
+    "NV-0039": {
+      "downstream": "NV-0038",
+      "edge": "TV-0029"
+    },
+    "NV-0029": {
+      "downstream": "NV-0030",
+      "edge": "TV-0023"
+    },
+    "NV-0046": {
+      "downstream": "NV-0030",
+      "edge": "TV-0079"
+    },
+    "NV-0028": {
+      "downstream": "NV-0029",
+      "edge": "TV-0022"
+    },
+    "NV-0034": {
+      "downstream": "NV-0029",
+      "edge": "TV-0077"
+    },
+    "NV-0040": {
+      "downstream": "NV-0008",
+      "edge": "TV-0063"
+    },
+    "NV-0069": {
+      "downstream": "NV-0039",
+      "edge": "TV-0084"
+    },
+    "NV-0070": {
+      "downstream": "NV-0069",
+      "edge": "TV-0051"
+    },
+    "NV-0007": {
+      "downstream": "NV-0008",
+      "edge": "TV-0005"
+    },
+    "NV-0045": {
+      "downstream": "NV-0046",
+      "edge": "TV-0034"
+    },
+    "NV-0027": {
+      "downstream": "NV-0028",
+      "edge": "TV-0021"
+    },
+    "NV-0043": {
+      "downstream": "NV-0042",
+      "edge": "TV-0032"
+    },
+    "NV-0033": {
+      "downstream": "NV-0034",
+      "edge": "TV-0026"
+    },
+    "NV-0051": {
+      "downstream": "NV-0027",
+      "edge": "TV-0080"
+    },
+    "NV-0050": {
+      "downstream": "NV-0051",
+      "edge": "TV-0038"
+    },
+    "NV-0052": {
+      "downstream": "NV-0051",
+      "edge": "TV-0039"
+    },
+    "NV-0001": {
+      "downstream": "NV-0052",
+      "edge": "TV-0061"
+    },
+    "NV-0044": {
+      "downstream": "NV-0045",
+      "edge": "TV-0033"
+    },
+    "NV-0042": {
+      "downstream": "NV-0045",
+      "edge": "TV-0085"
+    },
+    "NV-0003": {
+      "downstream": "NV-0020",
+      "edge": "TV-0060"
+    },
+    "NV-0002": {
+      "downstream": "NV-0003",
+      "edge": "TV-0002"
+    },
+    "NV-0004": {
+      "downstream": "NV-0003",
+      "edge": "TV-0003"
+    },
+    "NV-0032": {
+      "downstream": "NV-0033",
+      "edge": "TV-0025"
+    },
+    "NV-0075": {
+      "downstream": "NV-0033",
+      "edge": "TV-0081"
+    },
+    "NV-0006": {
+      "downstream": "NV-0004",
+      "edge": "TV-0059"
+    },
+    "NV-0005": {
+      "downstream": "NV-0006",
+      "edge": "TV-0004"
+    },
+    "NV-0076": {
+      "downstream": "NV-0075",
+      "edge": "TV-0055"
+    },
+    "NV-0049": {
+      "downstream": "NV-0050",
+      "edge": "TV-0037"
+    },
+    "NV-0009": {
+      "downstream": "NV-0050",
+      "edge": "TV-0064"
+    },
+    "NV-0074": {
+      "downstream": "NV-0075",
+      "edge": "TV-0054"
+    },
+    "NV-0008": {
+      "downstream": "NV-0009",
+      "edge": "TV-0006"
+    },
+    "NV-0048": {
+      "downstream": "NV-0049",
+      "edge": "TV-0036"
+    },
+    "NV-0078": {
+      "downstream": "NV-0049",
+      "edge": "TV-0086"
+    },
+    "NV-0077": {
+      "downstream": "NV-0078",
+      "edge": "TV-0056"
+    },
+    "NV-0082": {
+      "downstream": "NV-0048",
+      "edge": "TV-0087"
+    },
+    "NV-0081": {
+      "downstream": "NV-0082",
+      "edge": "TV-0058"
+    },
+    "NV-0041": {
+      "downstream": "NV-0040",
+      "edge": "TV-0031"
+    },
+    "NV-0080": {
+      "downstream": "NV-0079",
+      "edge": "TV-0057"
+    }
+  },
+  "conditionalParentByUpstreamNode": {
+    "NV-0056": {
+      "downstream": "NV-0055",
+      "edge": "TV-0041"
+    },
+    "NV-0062": {
+      "downstream": "NV-0055",
+      "edge": "TV-0090"
+    },
+    "NV-0058": {
+      "downstream": "NV-0055",
+      "edge": "VX-PTAR-01"
+    },
+    "NV-0059": {
+      "downstream": "NV-0058",
+      "edge": "TV-0043"
+    },
+    "NV-0061": {
+      "downstream": "NV-0062",
+      "edge": "TV-0045"
+    },
+    "NV-0063": {
+      "downstream": "NV-0062",
+      "edge": "TV-0046"
+    },
+    "NV-0060": {
+      "downstream": "NV-0056",
+      "edge": "TV-0089"
+    },
+    "NV-0072": {
+      "downstream": "NV-0059",
+      "edge": "TV-0091"
+    },
+    "NV-0057": {
+      "downstream": "NV-0056",
+      "edge": "TV-0042"
+    },
+    "NV-0071": {
+      "downstream": "NV-0072",
+      "edge": "TV-0052"
+    },
+    "NV-0073": {
+      "downstream": "NV-0072",
+      "edge": "TV-0053"
+    },
+    "NV-0064": {
+      "downstream": "NV-0063",
+      "edge": "TV-0047"
+    },
+    "NV-0053": {
+      "downstream": "NV-0063",
+      "edge": "TV-0088"
+    },
+    "NV-0054": {
+      "downstream": "NV-0053",
+      "edge": "TV-0040"
+    },
+    "NV-0065": {
+      "downstream": "NV-0064",
+      "edge": "TV-0048"
+    },
+    "NV-0035": {
+      "downstream": "NV-0064",
+      "edge": "TV-0082"
+    },
+    "NV-0036": {
+      "downstream": "NV-0035",
+      "edge": "TV-0027"
+    },
+    "NV-0023": {
+      "downstream": "NV-0057",
+      "edge": "TV-0076"
+    },
+    "NV-0022": {
+      "downstream": "NV-0023",
+      "edge": "TV-0017"
+    },
+    "NV-0024": {
+      "downstream": "NV-0054",
+      "edge": "TV-0075"
+    },
+    "NV-0017": {
+      "downstream": "NV-0065",
+      "edge": "TV-0073"
+    },
+    "NV-0016": {
+      "downstream": "NV-0017",
+      "edge": "TV-0012"
+    },
+    "NV-0018": {
+      "downstream": "NV-0017",
+      "edge": "TV-0013"
+    },
+    "NV-0021": {
+      "downstream": "NV-0022",
+      "edge": "TV-0016"
+    },
+    "NV-0014": {
+      "downstream": "NV-0022",
+      "edge": "TV-0066"
+    },
+    "NV-0013": {
+      "downstream": "NV-0014",
+      "edge": "TV-0010"
+    },
+    "NV-0015": {
+      "downstream": "NV-0014",
+      "edge": "TV-0011"
+    },
+    "NV-0012": {
+      "downstream": "NV-0013",
+      "edge": "TV-0009"
+    },
+    "NV-0079": {
+      "downstream": "NV-0013",
+      "edge": "TV-0070"
+    },
+    "NV-0011": {
+      "downstream": "NV-0012",
+      "edge": "TV-0008"
+    },
+    "NV-0047": {
+      "downstream": "NV-0048",
+      "edge": "TV-0035"
+    },
+    "NV-0025": {
+      "downstream": "NV-0036",
+      "edge": "TV-0074"
+    },
+    "NV-0019": {
+      "downstream": "NV-0018",
+      "edge": "TV-0014"
+    },
+    "NV-0026": {
+      "downstream": "NV-0018",
+      "edge": "TV-0071"
+    },
+    "NV-0020": {
+      "downstream": "NV-0019",
+      "edge": "TV-0015"
+    },
+    "NV-0031": {
+      "downstream": "NV-0019",
+      "edge": "TV-0072"
+    },
+    "NV-0030": {
+      "downstream": "NV-0031",
+      "edge": "TV-0024"
+    },
+    "NV-0010": {
+      "downstream": "NV-0011",
+      "edge": "TV-0007"
+    },
+    "NV-0037": {
+      "downstream": "NV-0011",
+      "edge": "TV-0067"
+    },
+    "NV-0067": {
+      "downstream": "NV-0010",
+      "edge": "TV-0069"
+    },
+    "NV-0038": {
+      "downstream": "NV-0037",
+      "edge": "TV-0028"
+    },
+    "NV-0066": {
+      "downstream": "NV-0067",
+      "edge": "TV-0049"
+    },
+    "NV-0068": {
+      "downstream": "NV-0067",
+      "edge": "TV-0050"
+    },
+    "NV-0039": {
+      "downstream": "NV-0038",
+      "edge": "TV-0029"
+    },
+    "NV-0029": {
+      "downstream": "NV-0030",
+      "edge": "TV-0023"
+    },
+    "NV-0046": {
+      "downstream": "NV-0030",
+      "edge": "TV-0079"
+    },
+    "NV-0028": {
+      "downstream": "NV-0029",
+      "edge": "TV-0022"
+    },
+    "NV-0034": {
+      "downstream": "NV-0029",
+      "edge": "TV-0077"
+    },
+    "NV-0040": {
+      "downstream": "NV-0008",
+      "edge": "TV-0063"
+    },
+    "NV-0069": {
+      "downstream": "NV-0039",
+      "edge": "TV-0084"
+    },
+    "NV-0070": {
+      "downstream": "NV-0069",
+      "edge": "TV-0051"
+    },
+    "NV-0007": {
+      "downstream": "NV-0008",
+      "edge": "TV-0005"
+    },
+    "NV-0045": {
+      "downstream": "NV-0046",
+      "edge": "TV-0034"
+    },
+    "NV-0027": {
+      "downstream": "NV-0028",
+      "edge": "TV-0021"
+    },
+    "NV-0043": {
+      "downstream": "NV-0042",
+      "edge": "TV-0032"
+    },
+    "NV-0033": {
+      "downstream": "NV-0034",
+      "edge": "TV-0026"
+    },
+    "NV-0051": {
+      "downstream": "NV-0027",
+      "edge": "TV-0080"
+    },
+    "NV-0050": {
+      "downstream": "NV-0051",
+      "edge": "TV-0038"
+    },
+    "NV-0052": {
+      "downstream": "NV-0051",
+      "edge": "TV-0039"
+    },
+    "NV-0001": {
+      "downstream": "NV-0052",
+      "edge": "TV-0061"
+    },
+    "NV-0044": {
+      "downstream": "NV-0045",
+      "edge": "TV-0033"
+    },
+    "NV-0042": {
+      "downstream": "NV-0045",
+      "edge": "TV-0085"
+    },
+    "NV-0003": {
+      "downstream": "NV-0020",
+      "edge": "TV-0060"
+    },
+    "NV-0002": {
+      "downstream": "NV-0003",
+      "edge": "TV-0002"
+    },
+    "NV-0004": {
+      "downstream": "NV-0003",
+      "edge": "TV-0003"
+    },
+    "NV-0032": {
+      "downstream": "NV-0033",
+      "edge": "TV-0025"
+    },
+    "NV-0075": {
+      "downstream": "NV-0033",
+      "edge": "TV-0081"
+    },
+    "NV-0006": {
+      "downstream": "NV-0004",
+      "edge": "TV-0059"
+    },
+    "NV-0005": {
+      "downstream": "NV-0006",
+      "edge": "TV-0004"
+    },
+    "NV-0076": {
+      "downstream": "NV-0075",
+      "edge": "TV-0055"
+    },
+    "NV-0049": {
+      "downstream": "NV-0050",
+      "edge": "TV-0037"
+    },
+    "NV-0009": {
+      "downstream": "NV-0050",
+      "edge": "TV-0064"
+    },
+    "NV-0074": {
+      "downstream": "NV-0075",
+      "edge": "TV-0054"
+    },
+    "NV-0008": {
+      "downstream": "NV-0009",
+      "edge": "TV-0006"
+    },
+    "NV-0048": {
+      "downstream": "NV-0049",
+      "edge": "TV-0036"
+    },
+    "NV-0078": {
+      "downstream": "NV-0049",
+      "edge": "TV-0086"
+    },
+    "NV-0077": {
+      "downstream": "NV-0078",
+      "edge": "TV-0056"
+    },
+    "NV-0082": {
+      "downstream": "NV-0048",
+      "edge": "TV-0087"
+    },
+    "NV-0081": {
+      "downstream": "NV-0082",
+      "edge": "TV-0058"
+    },
+    "NV-0041": {
+      "downstream": "NV-0040",
+      "edge": "TV-0031"
+    },
+    "NV-0080": {
+      "downstream": "NV-0079",
+      "edge": "TV-0057"
+    }
+  }
+}

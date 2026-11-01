@@ -1,0 +1,298 @@
+[
+ {
+  "tipo": "Punta muerta",
+  "red": "R1",
+  "x": 308358.6997,
+  "y": 8623017.3731,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R1",
+  "x": 308164.6256,
+  "y": 8623034.7638,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Presion < diseno",
+  "red": "R1",
+  "x": 308164.6256,
+  "y": 8623034.7638,
+  "gravedad": 2,
+  "texto": "P=14.0 mca < 15 (diseno)"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R1",
+  "x": 308211.2639,
+  "y": 8623138.3617,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 309140.7675,
+  "y": 8622977.4956,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308448.6351,
+  "y": 8622984.2903,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308479.6342,
+  "y": 8622859.2034,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308510.32,
+  "y": 8622753.4131,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308455.3775,
+  "y": 8622946.4802,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308428.7852,
+  "y": 8623038.9044,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308431.1173,
+  "y": 8623177.6347,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308586.4915,
+  "y": 8623067.534,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308437.4909,
+  "y": 8622998.2476,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308688.0375,
+  "y": 8622956.2446,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308810.7421,
+  "y": 8623061.4296,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308637.0825,
+  "y": 8622867.2906,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308613.368,
+  "y": 8622832.0683,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308593.8724,
+  "y": 8622793.3996,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308665.1626,
+  "y": 8622919.9987,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308657.9968,
+  "y": 8622902.2858,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308882.8781,
+  "y": 8623047.9408,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308971.2034,
+  "y": 8623070.0343,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 309034.7661,
+  "y": 8622837.7042,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Punta muerta",
+  "red": "R2",
+  "x": 308946.0216,
+  "y": 8622812.6897,
+  "gravedad": 2,
+  "texto": "Punta muerta: prever purga o cierre en lazo"
+ },
+ {
+  "tipo": "Frontera R1/R2",
+  "red": "R1/R2",
+  "x": 308446.38465,
+  "y": 8622960.879779167,
+  "gravedad": 1,
+  "texto": "Frontera R1/R2 a 3.2 m: valvula cerrada entre redes"
+ },
+ {
+  "tipo": "Frontera R1/R2",
+  "red": "R1/R2",
+  "x": 308409.017,
+  "y": 8623085.8445,
+  "gravedad": 1,
+  "texto": "Frontera R1/R2 a 5.2 m: valvula cerrada entre redes"
+ },
+ {
+  "tipo": "Frontera R1/R2",
+  "red": "R1/R2",
+  "x": 308452.1283,
+  "y": 8622936.247958332,
+  "gravedad": 1,
+  "texto": "Frontera R1/R2 a 5.3 m: valvula cerrada entre redes"
+ },
+ {
+  "tipo": "Frontera R1/R2",
+  "red": "R1/R2",
+  "x": 308445.7535,
+  "y": 8622983.7647,
+  "gravedad": 1,
+  "texto": "Frontera R1/R2 a 5.9 m: valvula cerrada entre redes"
+ },
+ {
+  "tipo": "Frontera R1/R2",
+  "red": "R1/R2",
+  "x": 308476.13785,
+  "y": 8622857.9186,
+  "gravedad": 1,
+  "texto": "Frontera R1/R2 a 7.4 m: valvula cerrada entre redes"
+ },
+ {
+  "tipo": "Frontera R1/R2",
+  "red": "R1/R2",
+  "x": 308425.60884999996,
+  "y": 8623036.746100001,
+  "gravedad": 1,
+  "texto": "Frontera R1/R2 a 7.7 m: valvula cerrada entre redes"
+ },
+ {
+  "tipo": "Frontera R1/R2",
+  "red": "R1/R2",
+  "x": 308506.64065,
+  "y": 8622752.01215,
+  "gravedad": 1,
+  "texto": "Frontera R1/R2 a 7.9 m: valvula cerrada entre redes"
+ },
+ {
+  "tipo": "Frontera R1/R2",
+  "red": "R1/R2",
+  "x": 308457.87195,
+  "y": 8622911.6161375,
+  "gravedad": 1,
+  "texto": "Frontera R1/R2 a 9.7 m: valvula cerrada entre redes"
+ },
+ {
+  "tipo": "Llenado por bomba",
+  "red": "R1",
+  "x": 308299.5801,
+  "y": 8622837.8137,
+  "gravedad": 1,
+  "texto": "Reservorio R1: nivel max 134.7 > carga fuente 131.5 (NO VERIFICADA): llenado con bomba"
+ },
+ {
+  "tipo": "Lote sin tuberia",
+  "red": "R2",
+  "x": 309057.31,
+  "y": 8623134.77,
+  "gravedad": 2,
+  "texto": "E04MZZ001P a 48 m de la red"
+ },
+ {
+  "tipo": "Lote sin tuberia",
+  "red": "R2",
+  "x": 309085.19,
+  "y": 8623142.53,
+  "gravedad": 2,
+  "texto": "E04MZZ002P a 76 m de la red"
+ },
+ {
+  "tipo": "Lote sin tuberia",
+  "red": "R2",
+  "x": 309091.44,
+  "y": 8623063.6,
+  "gravedad": 2,
+  "texto": "E04MZZ003P a 60 m de la red"
+ },
+ {
+  "tipo": "Lote sin tuberia",
+  "red": "R2",
+  "x": 309137.97,
+  "y": 8622886.66,
+  "gravedad": 2,
+  "texto": "E04MZZ006P a 60 m de la red"
+ }
+]

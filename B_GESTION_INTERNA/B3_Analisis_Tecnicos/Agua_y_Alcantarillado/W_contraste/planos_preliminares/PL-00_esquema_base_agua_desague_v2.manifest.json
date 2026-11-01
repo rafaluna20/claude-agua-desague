@@ -1,0 +1,42 @@
+{
+  "version": "PL-00_esquema_base_agua_desague_v1",
+  "purpose": "Plano PNG de control geométrico preliminar; no es plano de red final.",
+  "generatedAtUtc": "2026-10-10T20:11:49+00:00",
+  "outputFile": "PL-00_esquema_base_agua_desague_v2.png",
+  "outputSha256": "300AB08575EE95309AE814FAEE2F5E937D17B2BA7ED85DDF7344FB38DAAD48D2",
+  "sources": {
+    "parcels": {
+      "file": "parcels_primera_expediente.json",
+      "sha256": "FDC5C335FAF6EF2216BCB1AA425A81D6D066748DAA4A4E2811592A8664C1C30A"
+    },
+    "roads": {
+      "file": "vias_primera_expediente_v1.json",
+      "sha256": "378BE88BE16212B1EBFDA66F5558125376C995B16939122B572A5B6075220F1C"
+    },
+    "boundary": {
+      "file": "limite_00_primera_expediente.json",
+      "sha256": "8FB3C658EB98811C5C64971149D3D00F030DD72984FB3351287DF642E05B8C9B"
+    },
+    "program": {
+      "file": "programa_lotes_parametrico_v1.json",
+      "sha256": "B3471674BA4F0CA10C5A4BFE53AB48E1A05EA257839922B8543D1959671FF9A8"
+    },
+    "graph": {
+      "file": "grafo_vial_primera_expediente_v3.json",
+      "sha256": "C61C38453D9D62BAA270F7C997CE9F0B308D4055A50E9615E57F54712956890D"
+    },
+    "interfaces": {
+      "file": "interfaces_referenciales_v1.json",
+      "sha256": "72F146AC429FD9832D4537B593ECD563A28BE56B5D67CA5C1AB79039A4E8381C"
+    },
+    "water_condition": {
+      "file": "condicion_borde_santa_maria_v1.json",
+      "sha256": "00DCF3463676C946775C61B6FE71D765024EA4815C4C2B7147446F5B29F3FFB9"
+    }
+  },
+  "limitations": [
+    "No se ha definido población, caudales, diámetros, buzones ni perfiles hidráulicos.",
+    "La interfaz física de Santa María y la cota/punto de llegada a PTAR siguen pendientes.",
+    "Los enlaces discontinuos y pasajes son inferencias geométricas de trabajo."
+  ]
+}

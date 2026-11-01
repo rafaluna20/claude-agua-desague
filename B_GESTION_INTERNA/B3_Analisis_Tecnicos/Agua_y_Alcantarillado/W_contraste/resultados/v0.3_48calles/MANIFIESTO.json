@@ -1,0 +1,34 @@
+{
+ "congelado": "2026-10-09",
+ "nota": "Prediseno de desague v0.3 sobre las 48 calles (datos/v3_48calles). PTAR conectado por un enlace de 7 m al nodo mas bajo cercano. 1,309 de 1,341 lotes conectados.",
+ "archivos": {
+  "Pucusana_desague_prediseno.dxf": {
+   "sha256_16": "63aa413d07bf2b38",
+   "bytes": 712970
+  },
+  "Pucusana_desague_prediseno.xlsx": {
+   "sha256_16": "0f5c685d0311d032",
+   "bytes": 36759
+  },
+  "buzones_tapas.json": {
+   "sha256_16": "23fe3f600aa265f5",
+   "bytes": 15552
+  },
+  "desague_resultado.json": {
+   "sha256_16": "15dba18a8217ea76",
+   "bytes": 263129
+  },
+  "perfil_colector_principal.png": {
+   "sha256_16": "8eca1764c069b0a3",
+   "bytes": 87312
+  },
+  "plano_desague.png": {
+   "sha256_16": "05159b2be816b6c8",
+   "bytes": 435312
+  },
+  "ptar_resumen.json": {
+   "sha256_16": "5aaecd936f1aa216",
+   "bytes": 707
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "congelado": "2026-10-09",
+ "nota": "Prediseno de desague v0.2 sobre las 40 calles (datos/v2_40calles). PTAR conectado por un enlace de 7 m al nodo mas bajo cercano; sin colector oriental provisional.",
+ "archivos": {
+  "Pucusana_desague_prediseno.dxf": {
+   "sha256_16": "625430b70bc88483",
+   "bytes": 703234
+  },
+  "Pucusana_desague_prediseno.xlsx": {
+   "sha256_16": "c05b800dc586bb5e",
+   "bytes": 35979
+  },
+  "buzones_tapas.json": {
+   "sha256_16": "92896550e1230097",
+   "bytes": 14698
+  },
+  "desague_resultado.json": {
+   "sha256_16": "0f03a2a652c8c8d7",
+   "bytes": 253320
+  },
+  "perfil_colector_principal.png": {
+   "sha256_16": "cb7d079f29d456b8",
+   "bytes": 86360
+  },
+  "plano_desague.png": {
+   "sha256_16": "82e309a12dd8774a",
+   "bytes": 435544
+  },
+  "ptar_resumen.json": {
+   "sha256_16": "c87046ebf2676d59",
+   "bytes": 706
+  }
+ }
+}

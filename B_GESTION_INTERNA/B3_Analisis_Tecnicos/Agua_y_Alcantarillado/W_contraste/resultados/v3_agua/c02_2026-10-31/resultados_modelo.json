@@ -1,0 +1,472 @@
+{
+ "resumenes": {
+  "R1": {
+   "red": "R1",
+   "lotes": 333,
+   "nodos": 66,
+   "tuberias": 68,
+   "longitud_m": 1680,
+   "nodos_aislados_del_reservorio": 0,
+   "distancia_salida_a_nodo_m": 7.0,
+   "Qmh_Ls": 10.91,
+   "Qp_Ls": 4.37,
+   "iteraciones": 5,
+   "presion_min_pico": 14.0,
+   "presion_p5_pico": 17.2,
+   "presion_mediana_pico": 28.8,
+   "nodos_con_demanda": 56,
+   "nodos_menos_10": 0,
+   "nodos_menos_15": 1,
+   "estatica_max": 39.7,
+   "nodos_mas_50": 0,
+   "v_max": 0.84,
+   "v_min": 0.01,
+   "grad_max_m_km": 7.8,
+   "DN": {
+    "90": 56,
+    "110": 5,
+    "160": 7
+   },
+   "puntas_muertas": 4,
+   "caudal_salida_reservorio_Ls": 10.91,
+   "niveles_usados": [
+    132.7,
+    134.7
+   ]
+  },
+  "R2": {
+   "red": "R2",
+   "lotes": 1008,
+   "nodos": 305,
+   "tuberias": 312,
+   "longitud_m": 7286,
+   "nodos_aislados_del_reservorio": 0,
+   "distancia_salida_a_nodo_m": 7.0,
+   "Qmh_Ls": 37.25,
+   "Qp_Ls": 14.9,
+   "iteraciones": 4,
+   "presion_min_pico": 18.4,
+   "presion_p5_pico": 21.4,
+   "presion_mediana_pico": 30.8,
+   "nodos_con_demanda": 253,
+   "nodos_menos_10": 0,
+   "nodos_menos_15": 0,
+   "estatica_max": 41.7,
+   "nodos_mas_50": 0,
+   "v_max": 0.93,
+   "v_min": 0.0,
+   "grad_max_m_km": 6.4,
+   "DN": {
+    "90": 256,
+    "110": 21,
+    "160": 12,
+    "200": 7,
+    "250": 16
+   },
+   "puntas_muertas": 21,
+   "caudal_salida_reservorio_Ls": 37.25,
+   "niveles_usados": [
+    118.2,
+    120.2
+   ]
+  }
+ },
+ "validacion_epanet": {
+  "R1": {
+   "dif_max_presion_m": 0.009,
+   "dif_max_caudal_Ls": 0.0051
+  },
+  "R2": {
+   "dif_max_presion_m": 0.011,
+   "dif_max_caudal_Ls": 0.006
+  }
+ },
+ "parametros_usados": [
+  [
+   "bombeo_llenado.eficiencia_bomba",
+   0.6,
+   "-",
+   "SUPUESTO",
+   "Supuesto de predimensionamiento"
+  ],
+  [
+   "bombeo_llenado.factor_longitud_aduccion",
+   1.15,
+   "-",
+   "SUPUESTO",
+   "Recorrido real = distancia en linea recta x factor (trazado sin dibujar)"
+  ],
+  [
+   "bombeo_llenado.horas_bombeo_dia",
+   12,
+   "h/d",
+   "SUPUESTO",
+   "Supuesto de operacion para dimensionar la linea de llenado"
+  ],
+  [
+   "bombeo_llenado.perdidas_locales_fraccion",
+   0.1,
+   "fraccion de hf",
+   "SUPUESTO",
+   "Supuesto"
+  ],
+  [
+   "bombeo_llenado.velocidad_aduccion_ms",
+   1.2,
+   "m/s",
+   "ELEGIDO",
+   "Para elegir el diametro de la aduccion"
+  ],
+  [
+   "demanda.comercial_cobertura_lote",
+   0.6,
+   "fraccion del lote",
+   "NO VERIFICADO",
+   "Asistente (area util del lote)"
+  ],
+  [
+   "demanda.comercial_l_m2_d",
+   6.0,
+   "L/m2/d",
+   "NO VERIFICADO",
+   "Valor usual de la IS.010 anterior; no esta en los textos del libro de normas"
+  ],
+  [
+   "demanda.dotacion_l_hab_d",
+   169,
+   "L/hab/d",
+   "ELEGIDO",
+   "RNE IS.010 2.2 a) mod. RM 0107-2025-VIVIENDA, clima calido (N-036, S-004)"
+  ],
+  [
+   "demanda.hab_por_vivienda",
+   6,
+   "hab/vivienda",
+   "CONFIRMADO",
+   "Usuario 2026-10-31; RNE OS.100 1.3 b) (N-073); CTPS-PR-02 4.2.3 a) (N-038)"
+  ],
+  [
+   "demanda.incendio_umbral_hab",
+   10000,
+   "hab",
+   "VERIFICADO",
+   "CTPS-PR-02 4.4.1; OS.100 1.6 (N-076)"
+  ],
+  [
+   "demanda.incendio_volumen_m3",
+   100,
+   "m3",
+   "VERIFICADO",
+   "CTPS-PR-02 7.2.x residencial (N-034)"
+  ],
+  [
+   "demanda.k1",
+   1.3,
+   "-",
+   "ELEGIDO",
+   "RNE OS.100 1.5 (N-075); CTPS usa 1.2 (N-039)"
+  ],
+  [
+   "demanda.k2",
+   2.5,
+   "-",
+   "ELEGIDO",
+   "Rango 1.8-2.5 de OS.100 1.5 y CTPS-PR-02 (N-039, N-075); se aplica sobre el caudal promedio Qp"
+  ],
+  [
+   "demanda.lote_ptar",
+   "E03MZD049P",
+   "codigo",
+   "CONFIRMADO",
+   "Expediente (S-017): sin poblacion ni consumo"
+  ],
+  [
+   "demanda.manzana_no_residencial",
+   "Z",
+   "letra",
+   "CONFIRMADO",
+   "Usuario 2026-10-31: manzana Z (E04MZZ001-006) = grifo y zonas comerciales"
+  ],
+  [
+   "demanda.pisos_multifamiliar",
+   7,
+   "pisos",
+   "CONFIRMADO",
+   "Usuario 2026-10-31 (promedio)"
+  ],
+  [
+   "demanda.regulacion_fraccion",
+   0.25,
+   "fraccion del volumen diario",
+   "VERIFICADO",
+   "CTPS-PR-02 7.2.2-7.2.5 (N-034); OS.030 4.2 (N-077): minimo 25 % con 24 h de suministro"
+  ],
+  [
+   "demanda.reserva_fraccion_qmd",
+   0.07,
+   "fraccion del consumo maximo diario",
+   "VERIFICADO",
+   "CTPS-PR-02 7.2.x (N-034): 7 % del consumo maximo diario"
+  ],
+  [
+   "demanda.riego_l_m2_d",
+   2.0,
+   "L/m2/d",
+   "NO VERIFICADO",
+   "Asistente; solo referencia, el riego va por red propia con agua tratada de la PTAR (Usuario 2026-10-31)"
+  ],
+  [
+   "demanda.umbral_multifamiliar_area_m2",
+   300.0,
+   "m2",
+   "CONFIRMADO",
+   "Libro de normas S-011 (lote residencial >= 300 m2)"
+  ],
+  [
+   "demanda.viviendas_por_lote_ordinario",
+   1,
+   "viv/lote",
+   "CONFIRMADO",
+   "Usuario 2026-10-31"
+  ],
+  [
+   "demanda.viviendas_por_piso_multifamiliar",
+   2,
+   "viv/piso",
+   "SUPUESTO",
+   "Asistente 2026-10-31 (igual a T-12); con regla por area la poblacion pasa de 10,000 hab y entra contra incendio"
+  ],
+  [
+   "fuente_agua.carga_hidraulica_m",
+   131.5,
+   "msnm",
+   "NO VERIFICADO",
+   "cota 101.5 + 30 m.c.a."
+  ],
+  [
+   "fuente_agua.punto_medidor_xy",
+   [
+    308466.6,
+    8622891.9
+   ],
+   "UTM 18S",
+   "NO VERIFICADO",
+   "Punto del medidor de Santa Maria usado en el analisis del 2026-10-31; documento fuente por citar"
+  ],
+  [
+   "fuente_agua.sensibilidad_carga_m",
+   [
+    131.5,
+    121.5,
+    111.5
+   ],
+   "msnm",
+   "SUPUESTO",
+   "Cargas alternativas si la presion declarada fuera residual y menor"
+  ],
+  [
+   "hidraulica.diametros_comerciales_dn_id_m",
+   [
+    [
+     75,
+     0.068
+    ],
+    [
+     90,
+     0.081
+    ],
+    [
+     110,
+     0.099
+    ],
+    [
+     160,
+     0.144
+    ],
+    [
+     200,
+     0.18
+    ],
+    [
+     250,
+     0.226
+    ],
+    [
+     315,
+     0.285
+    ]
+   ],
+   "[DN mm, diametro interior m]",
+   "SUPUESTO",
+   "Diametro interior supuesto = 0.9 DN (depende del material y la clase)"
+  ],
+  [
+   "hidraulica.distancia_frontera_m",
+   12.0,
+   "m",
+   "ELEGIDO",
+   "Distancia entre trazados de redes distintas para marcar una frontera"
+  ],
+  [
+   "hidraulica.distancia_max_lote_tuberia_m",
+   40.0,
+   "m",
+   "ELEGIDO",
+   "Criterio de cobertura del asistente (centroide del lote a la tuberia mas cercana)"
+  ],
+  [
+   "hidraulica.dn_minimo_mm",
+   90,
+   "mm",
+   "VERIFICADO",
+   "CTPS-PR-02 Art. 8.1.4 (N-026): DN 90 en redes de vivienda; DN 63 solo por excepcion; RNE OS.050 4.6: 75 mm"
+  ],
+  [
+   "hidraulica.gradiente_max_m_km",
+   8.0,
+   "m/km",
+   "ELEGIDO",
+   "Criterio del asistente para predimensionar"
+  ],
+  [
+   "hidraulica.hazen_williams_c",
+   140,
+   "-",
+   "SUPUESTO",
+   "Tuberia plastica nueva; material y clase aun por definir"
+  ],
+  [
+   "hidraulica.paso_discretizacion_m",
+   30.0,
+   "m",
+   "ELEGIDO",
+   "Tramos de calculo (nodos intermedios cada ~30 m)"
+  ],
+  [
+   "hidraulica.patron_24h_forma",
+   [
+    0.4,
+    0.3,
+    0.3,
+    0.3,
+    0.5,
+    1.0,
+    1.8,
+    2.5,
+    2.2,
+    1.5,
+    1.3,
+    1.2,
+    1.4,
+    1.5,
+    1.2,
+    1.0,
+    1.1,
+    1.3,
+    1.9,
+    2.3,
+    1.9,
+    1.2,
+    0.8,
+    0.5
+   ],
+   "multiplicador relativo",
+   "SUPUESTO",
+   "Forma tipica de consumo domestico; se reescala para media 1 y maximo K2"
+  ],
+  [
+   "hidraulica.presion_estatica_max_mca",
+   50.0,
+   "m.c.a.",
+   "VERIFICADO",
+   "CTPS-PR-02 8.1.3 (N-025)"
+  ],
+  [
+   "hidraulica.presion_min_diseno_mca",
+   15.0,
+   "m.c.a.",
+   "ELEGIDO",
+   "Margen de diseno sobre los 10 m de la norma (criterio del asistente para marcar nodos)"
+  ],
+  [
+   "hidraulica.presion_min_normativa_mca",
+   10.0,
+   "m.c.a.",
+   "VERIFICADO",
+   "CTPS-PR-02 8.1.3 (N-025): dinamica minima en maxima horaria"
+  ],
+  [
+   "hidraulica.tolerancia_union_m",
+   1.0,
+   "m",
+   "ELEGIDO",
+   "Distancia para unir vertices/extremos como un mismo nodo"
+  ],
+  [
+   "hidraulica.velocidad_max_diseno_ms",
+   1.2,
+   "m/s",
+   "ELEGIDO",
+   "Criterio del asistente para predimensionar (se cumple con holgura la norma)"
+  ],
+  [
+   "reservorios.capas_dibujo",
+   {
+    "reservorio1": "agua_reservorio1",
+    "reservorio2": "agua_reservorio2",
+    "matriz": "agua_matriz principal",
+    "sector1": "agua_sector1",
+    "sector2": "agua_sector2",
+    "sector3": "agua_sector3",
+    "sector4": "agua_sector4",
+    "sector5": "agua_sector5",
+    "sector6": "agua_sector6"
+   },
+   "clave -> capa del DWG",
+   "CONFIRMADO",
+   "sectores de agua.dwg (usuario, 2026-10-31)"
+  ],
+  [
+   "reservorios.dwg_esperado_contiene",
+   "sectores de agua",
+   "texto",
+   "CONFIRMADO",
+   "Nombre del DWG con el diseno de la red"
+  ],
+  [
+   "reservorios.grupos",
+   {
+    "R1": [
+     "sector1"
+    ],
+    "R2": [
+     "matriz",
+     "sector2",
+     "sector3",
+     "sector4",
+     "sector5",
+     "sector6"
+    ]
+   },
+   "red -> capas",
+   "CONFIRMADO",
+   "Usuario 2026-10-31: R1 alimenta sector1; R2 alimenta matriz y sectores 2 a 6 (sector 2 confirmado con R2)"
+  ],
+  [
+   "reservorios.niveles_calculo_m",
+   {
+    "R1": [
+     132.7,
+     134.7
+    ],
+    "R2": [
+     118.2,
+     120.2
+    ]
+   },
+   "[nivel minimo, nivel maximo] msnm",
+   "SUPUESTO",
+   "R1: terreno 130.2 + 2.5/4.5 m; R2: terreno 116.2 + 2/4 m. Alturas reales aun por definir"
+  ]
+ ]
+}

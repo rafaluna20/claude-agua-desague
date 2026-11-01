@@ -1,0 +1,36 @@
+{
+ "ptar": {
+  "poblacion_total": 8256.0,
+  "Q_medio_Ls": 12.919111111111112,
+  "Q_medio_m3d": 1116.2112000000002,
+  "Q_max_horario_Ls": 25.838222222222225,
+  "DBO5_kg_d": 412.8,
+  "DBO5_mg_L": 369.82248520710056,
+  "area_lote_m2": 871.498971758889,
+  "ingreso_fondo": 73.76203693227916,
+  "profundidad_ingreso": 5.195627568399161,
+  "cota_terreno": 78.95766450067832
+ },
+ "sin_red_por_etapa": {
+  "E01": {
+   "lotes": 469,
+   "con_red": 441,
+   "sin_red": 28
+  },
+  "E02": {
+   "lotes": 227,
+   "con_red": 227,
+   "sin_red": 0
+  },
+  "E03": {
+   "lotes": 224,
+   "con_red": 224,
+   "sin_red": 0
+  },
+  "E04": {
+   "lotes": 421,
+   "con_red": 417,
+   "sin_red": 4
+  }
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "conteo": {
+  "Vivienda ordinaria": 1315,
+  "Multifamiliar": 19,
+  "PTAR (sin poblacion)": 1,
+  "Comercial / grifo (manzana Z)": 6
+ },
+ "total_lotes": 1341,
+ "riego_referencia_m3d": 107.7659892578125,
+ "area_riego_m2": 53882.99462890625,
+ "escenarios": {
+  "BASE": {
+   "dot": 169,
+   "k2": 2.5,
+   "pob": 9486,
+   "vol_comercial": 61.52856767578125,
+   "vol_total": 1664.6625676757812,
+   "qp": 19.266927866617838,
+   "qmd": 25.04700622660319,
+   "qmh": 48.16731966654459,
+   "regulacion": 416.1656419189453,
+   "reserva": 151.4842936584961,
+   "incendio": 0,
+   "v_reservorio": 567.6499355774414
+  },
+  "K2 = 2.0": {
+   "dot": 169,
+   "k2": 2.0,
+   "pob": 9486,
+   "vol_comercial": 61.52856767578125,
+   "vol_total": 1664.6625676757812,
+   "qp": 19.266927866617838,
+   "qmd": 25.04700622660319,
+   "qmh": 38.533855733235676,
+   "regulacion": 416.1656419189453,
+   "reserva": 151.4842936584961,
+   "incendio": 0,
+   "v_reservorio": 567.6499355774414
+  },
+  "Clima templado (155 L)": {
+   "dot": 155,
+   "k2": 2.5,
+   "pob": 9486,
+   "vol_comercial": 61.52856767578125,
+   "vol_total": 1531.8585676757812,
+   "qp": 17.729844533284506,
+   "qmd": 23.04879789326986,
+   "qmh": 44.324611333211266,
+   "regulacion": 382.9646419189453,
+   "reserva": 139.39912965849615,
+   "incendio": 0,
+   "v_reservorio": 522.3637715774414
+  },
+  "Multifamiliar por area (60 % cobertura, 80 m2/viv)": {
+   "dot": 169,
+   "k2": 2.5,
+   "pob": 10788,
+   "vol_comercial": 61.52856767578125,
+   "vol_total": 1884.7005676757813,
+   "qp": 21.81366397772895,
+   "qmd": 28.357763171047637,
+   "qmh": 54.534159944322376,
+   "regulacion": 471.1751419189453,
+   "reserva": 171.50775165849615,
+   "incendio": 100,
+   "v_reservorio": 742.6828935774415
+  },
+  "Comercial al 100 % del lote": {
+   "dot": 169,
+   "k2": 2.5,
+   "pob": 9486,
+   "vol_comercial": 102.54761279296875,
+   "vol_total": 1705.6816127929687,
+   "qp": 19.741685333251954,
+   "qmd": 25.66419093322754,
+   "qmh": 49.354213333129884,
+   "regulacion": 426.4204031982422,
+   "reserva": 155.2170267641602,
+   "incendio": 0,
+   "v_reservorio": 581.6374299624024
+  },
+  "Sin comercial (referencia)": {
+   "dot": 169,
+   "k2": 2.5,
+   "pob": 9486,
+   "vol_comercial": 0.0,
+   "vol_total": 1603.134,
+   "qp": 18.554791666666667,
+   "qmd": 24.121229166666666,
+   "qmh": 46.38697916666666,
+   "regulacion": 400.7835,
+   "reserva": 145.885194,
+   "incendio": 0,
+   "v_reservorio": 546.668694
+  }
+ },
+ "entradas_sha256_16": {
+  "parcels": "c4e52fc7c079e43a",
+  "jardin": "d4505dd11dfcdbaf",
+  "aporte_recreacion": "85cbbf1752af22c4"
+ }
+}
