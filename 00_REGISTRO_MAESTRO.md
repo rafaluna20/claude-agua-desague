@@ -1,0 +1,56 @@
+# Registro maestro de documentos: Terra Lima
+
+Actualizado: 2026-10-03. Cada documento codificado del expediente debe tener una fila aquí. Reglas en `00_REGLAS_DE_DOCUMENTOS.md`.
+
+**Próximo correlativo libre por área** (la parte, A0/P1/P2, se deduce de la carpeta y se anota en la columna Parte): A: LEG-001 · EST-001 · PLA-004 · ING-001 · REC-001 — B: GES-013 · COS-005 · TEC-016 · SUP-002 · OYM-001 · COR-OUT-002 · COR-IN-001 · MKT-001 · VAL-001 · CON: número real del próximo contrato
+CON no usa correlativo propio: toma el número del contrato (005-2026 = CON-005). Un mismo código agrupa firmado, editable y ficha.
+
+Las fechas marcadas "aprox." salen de la fecha de modificación del archivo, no de un documento fechado. Corregir cuando se conozca la real.
+
+| Código | Título | Fecha | Estado | Ruta | Parte |
+|---|---|---|---|---|---|
+| TL-CON-005 | Contrato 005-2026 S&G Edifica, saneamiento Sector I (firmado) | 2026-04-08 | Original, solo lectura | `B_GESTION_INTERNA/B1_Gestion/04.04_Contratos/CON-005_SG-Edifica/originales/TL-CON-005_2026-04-08_Contrato_FIRMADO.pdf` | Interno |
+| TL-CON-005 | Contrato 005-2026, versión editable | 2026-04-08 | Referencia; manda el firmado | `B_GESTION_INTERNA/B1_Gestion/04.04_Contratos/CON-005_SG-Edifica/originales/TL-CON-005_2026-04-08_Contrato_editable.docx` | Interno |
+| TL-CON-005 | Ficha resumen del contrato 005-2026 | 2026-10-03 | Vigente | `B_GESTION_INTERNA/B1_Gestion/04.04_Contratos/CON-005_SG-Edifica/TL-CON-005_2026-10-03_FICHA_Contrato.md` | Interno |
+| TL-COS-001 | Cifras reales vs. supuestos | 2026-10-03 | Vigente | `B_GESTION_INTERNA/B2_Costos_y_Presupuestos/TL-COS-001_2026-10-03_Cifras_Reales_vs_Supuestos.md` | Interno |
+| TL-COS-002 | Análisis de rentabilidad (supuestos USD) | 2026-03-02 | Borrador sin validar; fecha aprox. | `B_GESTION_INTERNA/B2_Costos_y_Presupuestos/TL-COS-002_2026-03-02_Analisis_Rentabilidad_SUPUESTOS.md` | Interno |
+| TL-COS-003 | Estructura de cuotas de mantenimiento (supuestos) | 2026-03-02 | Borrador sin validar; fecha aprox. | `B_GESTION_INTERNA/B2_Costos_y_Presupuestos/TL-COS-003_2026-03-02_Cuotas_Mantenimiento_SUPUESTOS.md` | Interno |
+| TL-COS-004 | Presupuesto estimado por ratios (supuestos USD) | 2026-03-02 | Borrador sin validar; fecha aprox. | `B_GESTION_INTERNA/B2_Costos_y_Presupuestos/TL-COS-004_2026-03-02_Presupuesto_Estimado_Ratios_SUPUESTOS.md` | Interno |
+| TL-GES-001 | Protocolo de gobernanza y operaciones | 2026-02-23 | Vigente (firmas pendientes) | `B_GESTION_INTERNA/B1_Gestion/04.01_Plan_Ejecucion/TL-GES-001_2026-02-23_Protocolo_Gobernanza_Operaciones.md` | Interno |
+| TL-GES-002 | Calendario maestro del CEO | 2026-03-02 | Borrador; fecha aprox. | `B_GESTION_INTERNA/B1_Gestion/04.01_Plan_Ejecucion/TL-GES-002_2026-03-02_Calendario_Maestro_CEO.md` | Interno |
+| TL-GES-004 | Lista de documentos para la recepción de obras, Etapa 1 | 2026-10-03 | Vigente; actualizar al avanzar la obra | `B_GESTION_INTERNA/B1_Gestion/04.01_Plan_Ejecucion/TL-GES-004_2026-10-03_Recepcion_Obras_Seguimiento.md` | Interno |
+| TL-PLA-001 | Croquis de división P1/P2 (captura del mapa con polígonos a mano) | 2026-10-04 | BORRADOR de trabajo, no es plano oficial | `A_EXPEDIENTE_HU/A0_Comun/4_Division_P1_P2/Plano_Delimitacion_P1_P2/TL-PLA-001_2026-10-04_Croquis_v1_BORRADOR.png` | Común |
+| TL-PLA-002 | Croquis de división P1/P2, versión 2, con la PTAR (polígono rojo) | 2026-10-04 | BORRADOR de trabajo; reemplaza a TL-PLA-001 | `A_EXPEDIENTE_HU/A0_Comun/4_Division_P1_P2/Plano_Delimitacion_P1_P2/TL-PLA-002_2026-10-04_Croquis_v2_BORRADOR.png` | Común |
+| TL-PLA-003 | Croquis de división P1/P2, versión 3: la PTAR queda dentro de la Parte 1 (negro = Parte 1, morado = Parte 2) | 2026-10-04 | BORRADOR de trabajo; reemplaza a TL-PLA-002 | `A_EXPEDIENTE_HU/A0_Comun/4_Division_P1_P2/Plano_Delimitacion_P1_P2/TL-PLA-003_2026-10-04_Croquis_v3_BORRADOR.png` | Común |
+| TL-GES-012 | Checklist para revisar el FUHU original | 2026-10-05 | Para usar el 2026-10-06 | `B_GESTION_INTERNA/B1_Gestion/04.01_Plan_Ejecucion/TL-GES-012_2026-10-05_Checklist_FUHU.md` | Interno |
+| TL-GES-011 | Marco normativo de HU verificado (D.S. 029-2019-VIVIENDA) | 2026-10-05 | Texto leído; falta confirmar modificatorias; no es opinión legal | `B_GESTION_INTERNA/B1_Gestion/04.01_Plan_Ejecucion/TL-GES-011_2026-10-05_Marco_Normativo_HU_Verificado.md` | Interno |
+| TL-GES-010 | Propuesta de fases (1A, 1B, 2A, 2B, 2C) y mejoras para la HU | 2026-10-04 | Propuesta; validar con Valverde | `B_GESTION_INTERNA/B1_Gestion/04.01_Plan_Ejecucion/TL-GES-010_2026-10-04_Propuesta_Fases_y_Mejoras.md` | Interno |
+| TL-COR-OUT-001 | Consulta legal a Abogados Valverde sobre la habilitación urbana | 2026-10-04 | BORRADOR por revisar y enviar | `B_GESTION_INTERNA/B6_Correspondencia/08.04_Enviados_Recibidos/Cartas_Enviadas/TL-COR-OUT-001_2026-10-04_Consulta_Valverde.md` | Interno |
+| TL-GES-009 | Verificación del informe de no conformidad contra el reglamento SEDAPAL | 2026-10-04 | Vigente; falta RNE, especificación de agua y Anexo A-2 | `B_GESTION_INTERNA/B1_Gestion/04.01_Plan_Ejecucion/TL-GES-009_2026-10-04_Verificacion_Informe_No_Conformidad.md` | Interno |
+| TL-GES-008 | Análisis crítico y plan de salida de la HU | 2026-10-04 | Propuesta; validar con Valverde | `B_GESTION_INTERNA/B1_Gestion/04.01_Plan_Ejecucion/TL-GES-008_2026-10-04_Plan_Salida_Analisis_Critico.md` | Interno |
+| TL-GES-007 | Esquema de entrega en dos partes (propuesta) | 2026-10-04 | Propuesta; todo por validar | `B_GESTION_INTERNA/B1_Gestion/04.01_Plan_Ejecucion/TL-GES-007_2026-10-04_Esquema_Entrega_Dos_Partes.md` | Interno |
+| TL-GES-006 | Expediente maestro corporativo (documento Gemini) | 2026-10-04 | FUENTE EXTERNA SIN VALIDAR | `B_GESTION_INTERNA/B1_Gestion/04.01_Plan_Ejecucion/TL-GES-006_2026-10-04_Expediente_Maestro_Gemini_SIN_VALIDAR.md` | Interno |
+| TL-GES-005 | Registro de problemas de la habilitación urbana | 2026-10-04 | Abierto; hechos sin documentar | `B_GESTION_INTERNA/B1_Gestion/04.01_Plan_Ejecucion/TL-GES-005_2026-10-04_Registro_Problemas_HU.md` | Interno |
+| TL-GES-004 | Seguimiento de recepción de obras (Excel: responsable y fecha límite) | 2026-10-03 | Vigente; responsables propuestos, ajustar | `B_GESTION_INTERNA/B1_Gestion/04.01_Plan_Ejecucion/TL-GES-004_2026-10-03_Recepcion_Obras_Seguimiento.xlsx` | Interno |
+| TL-GES-003 | Información de la empresa y del proyecto | 2026-10-03 | Actualizado; ventas por confirmar | `B_GESTION_INTERNA/B1_Gestion/04.01_Plan_Ejecucion/TL-GES-003_2026-10-03_Informacion_Empresa_y_Proyecto.md` | Interno |
+| TL-SUP-001 | Registro diario de actividades | 2026-02-20 | Abierto; 2 entradas | `B_GESTION_INTERNA/B4_Supervision_y_Calidad/TL-SUP-001_2026-02-20_Registro_Diario_Actividades.md` | Interno |
+| TL-TEC-001 | Alerta de documentos contradictorios (agua) | 2026-10-03 | Vigente hasta decidir esquema | `B_GESTION_INTERNA/B3_Analisis_Tecnicos/Agua_y_Alcantarillado/TL-TEC-001_2026-10-03_Alerta_Documentos_Contradictorios.md` | Interno |
+| TL-TEC-002 | Autonomía sanitaria vs. reguladores | 2026-03-02 | Hipótesis; fecha aprox. | `B_GESTION_INTERNA/B3_Analisis_Tecnicos/Agua_y_Alcantarillado/TL-TEC-002_2026-03-02_Autonomia_Sanitaria.md` | Interno |
+| TL-TEC-003 | Cálculo de caudales estimados | 2026-03-02 | Supuestos; fecha aprox. | `B_GESTION_INTERNA/B3_Analisis_Tecnicos/Agua_y_Alcantarillado/TL-TEC-003_2026-03-02_Calculo_Caudales_Estimados.md` | Interno |
+| TL-TEC-004 | Estrategia Asociación Santa María | 2026-03-02 | Hipótesis; fecha aprox. | `B_GESTION_INTERNA/B3_Analisis_Tecnicos/Agua_y_Alcantarillado/TL-TEC-004_2026-03-02_Estrategia_Santa_Maria.md` | Interno |
+| TL-TEC-005 | Rol e intervención de SEDAPAL | 2026-03-02 | Hipótesis; fecha aprox. | `B_GESTION_INTERNA/B3_Analisis_Tecnicos/Agua_y_Alcantarillado/TL-TEC-005_2026-03-02_Rol_Intervencion_SEDAPAL.md` | Interno |
+| TL-TEC-006 | Evaluación de tecnologías PTAR | 2026-02-28 | Borrador; fecha aprox. | `B_GESTION_INTERNA/B3_Analisis_Tecnicos/PTAR/TL-TEC-006_2026-02-28_Evaluacion_Tecnologias_PTAR.md` | Interno |
+| TL-TEC-007 | Estrategia de ampliación de carga (Luz del Sur) | 2026-02-28 | Borrador; fecha aprox. | `B_GESTION_INTERNA/B3_Analisis_Tecnicos/Electrificacion/TL-TEC-007_2026-02-28_Estrategia_Ampliacion_Carga_LDS.md` | Interno |
+| TL-TEC-008 | Revisión del consultor eléctrico, Etapa 1 | 2026-02-28 | Borrador; fecha aprox. | `B_GESTION_INTERNA/B3_Analisis_Tecnicos/Electrificacion/TL-TEC-008_2026-02-28_Revision_Consultor_Electrico_Etapa1.md` | Interno |
+| TL-TEC-009 | Cálculo de demanda máxima total | 2026-03-02 | Supuestos; fecha aprox. | `B_GESTION_INTERNA/B3_Analisis_Tecnicos/Electrificacion/TL-TEC-009_2026-03-02_Calculo_Demanda_Maxima_Total.md` | Interno |
+| TL-TEC-010 | Estrategia de reembolso VNR | 2026-03-02 | Borrador; fecha aprox. | `B_GESTION_INTERNA/B3_Analisis_Tecnicos/Electrificacion/TL-TEC-010_2026-03-02_Estrategia_Reembolso_VNR_LDS.md` | Interno |
+| TL-TEC-011 | Factibilidad de reembolso de línea antigua | 2026-03-02 | Borrador; fecha aprox. | `B_GESTION_INTERNA/B3_Analisis_Tecnicos/Electrificacion/TL-TEC-011_2026-03-02_Factibilidad_Reembolso_Linea_Antigua.md` | Interno |
+| TL-TEC-012 | Instrucción de entrega al consultor | 2026-03-02 | Borrador; fecha aprox. | `B_GESTION_INTERNA/B3_Analisis_Tecnicos/Electrificacion/TL-TEC-012_2026-03-02_Instruccion_Entrega_Consultor.md` | Interno |
+| TL-TEC-013 | Rol e intervención de Luz del Sur | 2026-03-02 | Hipótesis; fecha aprox. | `B_GESTION_INTERNA/B3_Analisis_Tecnicos/Electrificacion/TL-TEC-013_2026-03-02_Rol_Intervencion_Luz_del_Sur.md` | Interno |
+| TL-TEC-014 | Ubicación estratégica del punto de diseño | 2026-03-02 | Borrador; fecha aprox. | `B_GESTION_INTERNA/B3_Analisis_Tecnicos/Electrificacion/TL-TEC-014_2026-03-02_Ubicacion_Estrategica_Punto_Diseno.md` | Interno |
+| TL-TEC-015 | Plan del diseño de contraste de agua y desagüe (agente principal + subagentes); espacio de trabajo `W_contraste/` | 2026-10-09 | Propuesta de trabajo; validar con ingeniero sanitario y Valverde | `B_GESTION_INTERNA/B3_Analisis_Tecnicos/Agua_y_Alcantarillado/TL-TEC-015_2026-10-09_Plan_Diseno_Contraste.md` | Interno |
+| EST (sin código) | Informe topográfico | 2026-02 aprox. | Original de terceros; nombre conservado | `A_EXPEDIENTE_HU/A0_Comun/2_Estudios_Basicos/02.01_Topografia/Memoria_Descriptiva/Informe Topográfico.pdf` | Común |
+| EST (sin código) | Planos TP-01, TP-02, TP-03, UL-01 | 2026-02 aprox. | Código propio de plano; se conserva | `A_EXPEDIENTE_HU/A0_Comun/2_Estudios_Basicos/02.01_Topografia/Planos_Topograficos/` | Común |
+| EST (sin código) | 2 fotos de BMs (WhatsApp 2026-02-18) | 2026-02-18 | Evidencia fotográfica; renombrar cuando se identifique cada BM | `A_EXPEDIENTE_HU/A0_Comun/2_Estudios_Basicos/02.01_Topografia/BMs_Referencias/` | Común |
+| EST (sin código) | MD_Topografia_HU_1350_Lotes_Ejemplo | 2026-02-28 aprox. | Ejemplo/plantilla, no documento del proyecto | `A_EXPEDIENTE_HU/A0_Comun/2_Estudios_Basicos/02.01_Topografia/` | Común |
+| (sin código) | Carpeta `obra agua y desague`: reglamento SEDAPAL CTPS-PR-02 (2 partes), especificación CTPS-ET-0060 de alcantarillado, Carta 014-2026 y sustento de S&G, informe de no conformidad (borrador sin firma), resumen operativo | 2026-08 aprox. | Referencia de terceros y borradores; conservan su nombre | `obra agua y desague/` | Interno |

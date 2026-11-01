@@ -1,0 +1,532 @@
+                                  NORMA OS. 070
+
+                                  REDES DE AGUAS RESIDUALES
+
+1. OBJETIVO
+
+       Fijar las condiciones exigibles en la elaboración del proyecto hidráulico de las
+       redes de aguas residuales funcionando en lámina libre. En el caso de
+       conducción a presión se deberá considerar lo señalado en la norma de líneas de
+       conducción.
+
+2. ALCANCES
+
+       Esta Norma contiene los requisitos mínimos a los cuales deben sujetarse los
+       proyectos y obras de infraestructura sanitaria para localidades mayores de 2000
+       habitantes.
+
+3. DEFINICIONES
+
+       Redes de recolección. Conjunto de tuberías principales y ramales colectores
+       que permiten la recolección de las aguas residuales generadas en las viviendas.
+
+       Ramal Colector. Es la tubería que se ubica en la vereda de los lotes, recolecta
+       el agua residual de una o más viviendas y la descarga a una tubería principal.
+
+       Tubería Principal. Es el colector que recibe las aguas residuales provenientes
+       de otras redes y/o ramales colectores.
+
+       Tensión Tractiva. Es el esfuerzo tangencial unitario asociado al escurrimiento
+       por gravedad en la tubería de alcantarillado, ejercido por el líquido sobre el
+       material depositado.
+
+       Pendiente Mínima. Valor mínimo de la pendiente determinada utilizando el
+       criterio de tensión tractiva que garantiza la autolimpieza de la tubería.
+
+       Profundidad. Diferencia de nivel entre la superficie de terreno y la generatriz
+       inferior interna de la tubería.
+
+       Recubrimiento. Diferencia de nivel entre la superficie de terreno y la generatriz
+       superior externa de la tubería (clave de la tubería).
+
+       Conexión Domiciliaria de Alcantarillado. Conjunto de elementos sanitarios
+       instalados con la finalidad de permitir la evacuación del agua residual
+       proveniente de cada lote.
+4. DISPOSICIONES ESPECÍFICAS PARA DISEÑOS
+
+       4.1 Levantamiento Topográfico
+
+              La información topográfica para la elaboración de proyectos incluirá:
+
+               Plano de lotización del área de estudio con curvas de nivel cada 1 m.
+                   indicando la ubicación y detalles de los servicios existentes y/o
+                   cualquier referencia importante.
+
+               Perfil longitudinal a nivel del eje del trazo de las tuberías principales y/o
+                   ramales colectores en todas las calles del área de estudio y en el eje de
+                   la vía donde técnicamente sea necesario.
+
+               Secciones transversales de todas las calles. Cuando se utilicen ramales
+                   colectores, mínimo 3 cada 100 metros en terrenos planos y mínimo 6
+                   por cuadra, donde exista desnivel pronunciado entre ambos frentes de
+                   calle y donde exista cambio de pendiente. En Todos los casos deben
+                   incluirse nivel de lotes.
+
+               Perfil longitudinal de los tramos que se encuentren fuera del área de
+                   estudio, pero que sean necesarios para el diseño de los empalmes con
+                   las redes del sistema de alcantarillado existentes.
+
+               Se ubicará en cada habilitación un BM auxiliar como mínimo y
+                   dependiendo del tamaño de la habilitación se ubicarán dos o más, en
+                   puntos estratégicamente distribuidos para verificar las cotas de cajas de
+                   inspección y/o buzones a instalar.
+
+       4.2 Suelos
+
+              Se deberá contemplar el reconocimiento general del terreno y el estudio de
+              evaluación de sus características, considerando los siguientes aspectos:
+
+               Determinación de la agresividad del suelo con indicadores de PH,
+                   sulfatos, cloruros y sales solubles totales.
+
+               Otros estudios necesarios en función de la naturaleza del terreno, a
+                   criterio del proyectista.
+
+       4.3 Población
+
+              Se deberá determinar la población y la densidad poblacional para el
+              periodo de diseño adoptado.
+
+              La determinación de la población final para el periodo de diseño adoptado
+              se realizará a partir de proyecciones, utilizando la tasa de crecimiento por
+              distritos y/o provincias establecida por el organismo oficial que regula estos
+              indicadores
+4.4 Caudal de Contribución al Alcantarillado
+
+       El caudal de contribución al alcantarillado debe ser calculado con un
+       coeficiente de retorno (C) del 80 % del caudal de agua potable consumida.
+
+4.5 Caudal de Diseño
+
+       Se determinarán para el inicio y fin del periodo de diseño. El diseño del
+       sistema de alcantarillado se realizará con el valor del caudal máximo
+       horario.
+
+4.6 Dimensionamiento Hidráulico
+
+        En todos los tramos de la red deben calcularse los caudales inicial y
+            final (Qi y Qf). El valor mínimo del caudal a considerar será de 1,5 L /s.
+
+           Las pendientes de las tuberías deben cumplir la condición de
+           autolimpieza aplicando el criterio de tensión tractiva. Cada tramo debe
+           ser verificado por el criterio de Tensión Tractiva Media (t) con un valor
+           mínimo t = 1,0 Pa, calculada para el caudal inicial (Qi), valor
+           correspondiente para un coeficiente de Manning n = 0,013. La
+           pendiente mínima que satisface esta condición puede ser determinada
+           por la siguiente expresión aproximada:
+
+                                               Somin = 0,0055 Qi–0,47
+
+             Donde:
+                        Somin. = Pendiente mínima (m/m)
+                              Qi = Caudal inicial (L/s)
+
+           Para coeficientes de Manning diferentes de 0,013, los valores de
+           Tensión Tractiva Media y pendiente mínima a adoptar deben ser
+           justificados. La expresión recomendada para el cálculo hidráulico es la
+           Fórmula de Manning.
+
+           Las tuberías y accesorios a utilizar deberán cumplir con las normas
+           técnicas peruanas vigentes y aprobadas por el ente respectivo.
+
+        La máxima pendiente admisible es la que corresponde a una velocidad
+            final Vf = 5 m/s; las situaciones especiales serán sustentadas por el
+            proyectista.
+
+        Cuando la velocidad final (Vf) es superior a la velocidad crítica (Vc), la
+            mayor altura de lámina de agua admisible debe ser 50% del diámetro
+            del colector, asegurando la ventilación del tramo. La velocidad crítica
+            es definida por la siguiente expresión:
+                                                    Vc  6  g  RH
+
+                        Donde:
+                                  Vc = Velocidad crítica (m/s)
+                                  g = Aceleración de la gravedad (m/s2)
+                                  RH = Radio hidráulico (m)
+
+        La altura de la lámina de agua debe ser siempre calculada admitiendo
+            un régimen de flujo uniforme y permanente, siendo el valor máximo
+            para el caudal final (Qf), igual o inferior a 75% del diámetro del colector.
+
+        Los diámetros nominales de las tuberías no deben ser menores de 100
+            mm. Las tuberías principales que recolectan aguas residuales de un
+            ramal colector tendrán como diámetro mínimo 160 mm.
+
+4.7 Ubicación y recubrimiento de tuberías
+
+        En las calles o avenidas de 20 m de ancho o menos se proyectará una
+            sola tubería principal de preferencia en el eje de la vía vehicular.
+
+           En avenidas de más de 20 m de ancho se proyectará una tubería
+           principal a cada lado de la calzada.
+
+        La distancia entre la línea de propiedad y el plano vertical tangente más
+            cercano de la tubería principal debe ser como mínimo 1,5 m.
+
+        La distancia mínima entre los planos verticales tangentes más próximos
+            de una tubería principal de agua y una tubería principal de aguas
+            residuales, instaladas paralelamente, será de 2 m, medido
+            horizontalmente
+
+        La mínima distancia libre horizontal medida entre ramales distribuidores
+            y ramales colectores, entre ramal distribuidor y tubería principal de agua
+            o alcantarillado, entre ramal colector y tubería principal de agua o
+            alcantarillado, ubicados paralelamente, será de 0,20 m. Dicha distancia
+            debe medirse entre los planos tangentes más próximos de las tuberías
+
+        El ramal colector de aguas residuales debe ubicarse en las veredas y
+            paralelo frente al lote. El eje de dichos ramales se ubicará de
+            preferencia sobre el eje de vereda, o en su defecto, a una distancia de
+            0,50 m a partir del límite de propiedad.
+
+        El recubrimiento sobre las tuberías no debe ser menor de 1,0 m en las
+            vías vehiculares y de 0,30 m en las vías peatonales y/o en zonas
+            rocosas, debiéndose verificar para cualquier profundidad adoptada, la
+            deformación (deflexión) de la tubería generada por cargas externas.
+            Para toda profundidad de enterramiento de tubería el proyectista
+            planteará y sustentará técnicamente la protección empleada.
+    Excepcionalmente el recubrimiento mínimo medido a partir de la clave
+    del tubo será de 0.20 m. cuando se utilicen ramales colectores y el tipo
+    de suelo sea rocoso.
+
+    Si existiera desnivel en el trazo de un ramal colector de alcantarillado,
+    se implementará la solución adecuada a través de una caja de
+    inspección, no se podrá utilizar curvas para este fin, en todos los casos
+    la solución a aplicar contará con la protección conveniente. El
+    proyectista planteará y sustentará técnicamente la solución empleada.
+
+ En todos los casos, el proyectista tiene libertad para ubicar las tuberías
+    principales, los ramales colectores de alcantarillado y los elementos que
+    forman parte de la conexión domiciliaria de agua potable y
+    alcantarillado, de forma conveniente, respetando los rangos
+    establecidos y adecuándose a las condiciones del terreno; el mismo
+    criterio se aplica a las protecciones que considere implementar.
+
+    Los casos en que la ubicación de tuberías no respete los rangos y
+    valores mínimos establecidos, deberán ser debidamente sustentados.
+
+    En las vías peatonales, pueden reducirse las distancias entre las
+    tuberías y entre éstas y el límite de propiedad, así como, los
+    recubrimientos siempre y cuando:
+
+    - Se diseñe protección especial a las tuberías para evitar su
+         fisuramiento o rotura.
+
+    - Si las vías peatonales presentan elementos (bancas, jardineras, etc.)
+         que impidan el paso de vehículos.
+
+ En caso de posibles interferencias con otros servicios públicos, se
+    deberá coordinar con las entidades afectadas con el fin de diseñar con
+    ellas, la protección adecuada. La solución que adopte debe contar con
+    la aprobación de la entidad respectiva.
+
+ En los puntos de cruce de tuberías principales de alcantarillado con
+    tuberías principales de agua de consumo humano, el diseño debe
+    contemplar el cruce de éstas por encima de las tuberías de
+    alcantarillado, con una distancia mínima de 0,25 m medida entre los
+    planos horizontales tangentes más cercanos. En el diseño se debe
+    verificar que el punto de cruce evite la cercanía a las uniones de las
+    tuberías de agua para minimizar el riesgo de contaminación del sistema
+    de agua de consumo humano.
+
+    Si por razones de niveles disponibles no es posible proyectar el cruce
+    de la forma descrita en el ítem anterior, será preciso diseñar una
+    protección de concreto en el colector, en una longitud de 3 m a cada
+    lado del punto de cruce.
+
+    La red de aguas residuales no debe ser profundizada para atender
+    predios con cota de solera por debajo del nivel de vía. En los casos en
+    que se considere necesario brindar el servicio para estas condiciones,
+    se debe realizar un análisis de la conveniencia de la profundización
+           considerando sus efectos en los tramos subsiguientes y comparándolo
+           con otras soluciones.
+
+        Las tuberías principales y los ramales colectores se proyectarán en
+            tramos rectos entre cajas de inspección o entre buzones. En casos
+            excepcionales debidamente sustentados, se podrá utilizar una curva en
+            un ramal colector, con la finalidad de garantizar la profundidad mínima
+            de enterramiento.
+
+4.8 Cámaras de inspección
+
+       Las cámaras de Inspección podrán ser cajas de inspección, buzonetas y/o
+       buzones de inspección.
+
+        Las cajas de inspección son las cámaras de inspección que se ubican
+            en el trazo de los ramales colectores, destinada a la inspección y
+            mantenimiento del mismo. Puede formar parte de la conexión
+            domiciliaria de alcantarillado. Se construirán en los siguientes casos:
+
+           - Al inicio de los tramos de arranque del ramal colector de aguas
+                residuales.
+
+           - En el cambio de dirección del ramal colector de aguas residuales.
+           - En un cambio de pendiente de los ramales colectores.
+           - En lugares donde se requieran por razones de inspección y limpieza.
+
+           En zonas de fuerte pendiente corresponderá una caja por cada lote
+           atendido, sirviendo como punto de empalme para la respectiva conexión
+           domiciliaria. En zonas de pendiente suave la conexión entre el lote y el
+           ramal colector podrá ser mediante cachimba, tee sanitaria o yee en
+           reemplazo de la caja y su registro correspondiente.
+
+           La separación máxima entre cajas será de 20 m.
+
+        Las buzonetas se utilizan en las tuberías principales en vías peatonales
+            cuando la profundidad sea menor de 1,00 m sobre la clave del tubo. Se
+            proyectarán sólo para tuberías principales de hasta 200 mm de
+            diámetro. El diámetro de las buzonetas será de 0.60 m.
+
+        Los buzones de inspección se usarán cuando la profundidad sea mayor
+            de 1,0 m sobre la clave de la tubería.
+
+           El diámetro interior de los buzones será de 1,20 m para tuberías de
+           hasta 800 mm de diámetro y de 1,50 m para las tuberías de hasta 1200
+           mm. Para tuberías de mayor diámetro las cámaras de inspección serán
+           de diseño especial. Los techos de los buzones contarán con una tapa
+           de acceso de 0,60 m de diámetro.
+
+        Los buzones y buzonetas se proyectarán en todos los lugares donde
+            sea necesario por razones de inspección, limpieza y en los siguientes
+            casos:
+
+                 - En el inicio de todo colector.
+- En todos los empalmes de colectores.
+- En los cambios de dirección.
+- En los cambios de pendiente.
+- En los cambios de diámetro.
+- En los cambios de material de las tuberías.
+
+ En los cambios de diámetro, debido a variaciones de pendiente o
+    aumento de caudal, las buzonetas y/o buzones se diseñarán de manera
+    tal que las tuberías coincidan en la clave, cuando el cambio sea de
+    menor a mayor diámetro y en el fondo cuando el cambio sea de mayor
+    a menor diámetro.
+
+ Para tuberías principales de diámetro menor de 400 mm; si el diámetro
+    inmediato aguas abajo, por mayor pendiente puede conducir un mismo
+    caudal en menor diámetro, no se usará este menor diámetro; debiendo
+    emplearse el mismo del tramo aguas arriba.
+
+ En las cámaras de inspección en que las tuberías no lleguen al mismo
+    nivel, se deberá proyectar un dispositivo de caída cuando la altura de
+    descarga o caída con respecto al fondo de la cámara sea mayor de 1 m
+    (Ver anexo 2).
+
+ La distancia entre cámaras de inspección y limpieza consecutivas está
+    limitada por el alcance de los equipos de limpieza. La separación
+    máxima depende del diámetro de las tuberías. Para el caso de las
+    tuberías principales la separación será de acuerdo a la siguiente tabla
+    N° 1.
+
+         TABLA N° 1
+
+DIÁMETRO NOMINAL DE  DISTANCIA
+
+LA TUBERÍA (mm)      MÁXIMA (m)
+
+100-150              60
+
+200                  80
+
+250 a 300            100
+
+Diámetros mayores    150
+
+ Las cámaras de inspección podrán ser prefabricadas o construidas en
+    obra. En el fondo se proyectarán canaletas en la dirección del flujo.
+
+5. CONEXIÓN PREDIAL
+       5.1 Diseño
+              Cada unidad de uso debe contar con un elemento de inspección de fácil
+              acceso a la entidad prestadora del servicio.
+       5.2 Elementos de la Conexión
+              Deberá considerar:
+                    Elemento de reunión: Cámara de inspección.
+            Elemento de conducción: Tubería con una pendiente mínima de 15
+                 por mil.
+
+            Elementos de empalme o empotramiento: Accesorio de empalme
+                 que permita la descarga en caída libre sobre la clave de la tubería.
+
+5.3 Ubicación
+
+       La conexión predial de redes de aguas residuales, se ubicará a una
+       distancia mínima de 1,20 del límite izquierdo o derecho de la propiedad. En
+       otros casos deberá justificarse adecuadamente.
+
+5.4 Diámetro
+
+       El diámetro mínimo de la conexión será de 100mm.
+                                   ANEXO 1
+       NOTACIÓN Y VALORES GUÍA REFERENCIALES
+
+A.1    Población                                       Notación           Unidades
+A.1.1  Densidad poblacional inicial                         di          habitantes/ha
+A.1.2  Densidad poblacional final                           df          habitantes/ha
+A.1.3  Población inicial                                    Pi
+A.1.4  Población final                                      Pf            habitantes
+                                                                          habitantes
+
+A.2    Coeficientes para la determinación de           Notación         Unidades
+       caudales
+
+A.2.1 Coeficiente de retorno                           C                Adimensional
+
+A.2.2 Coeficiente de caudal máximo diario              k1               Adimensional
+
+A.2.3 Coeficiente de caudal máximo horario             k2               Adimensional
+
+A.2.4 Coeficiente de caudal mínimo horario             k3               Adimensional
+
+A.2.5 Consumo efectivo percápita de agua (no incluye pérdidas de agua)
+
+A.2.5.1 Consumo efectivo inicial                       qi               L/(hab.día)
+
+A.2.5.2 Consumo efectivo final                         qf               L/(hab.día)
+
+A.3    Áreas y longitudes                              Notación         Unidades
+A.3.1  Área drenada inicial para un tramo de red            ai          hectáreas
+A.3.2  Área drenada final para un tramo de red              af          hectáreas
+A.3.3  Longitud de vías                                     L
+A.3.4  Área edificada inicial                              Aei              km
+A.3.4  Área edificada final                                Aef               m2
+                                                                             m2
+
+A.4    Contribuciones y caudales                       Notación         Unidades
+A.4.1                                                        I              L/s
+A.4.2  Contribución por infiltración                        Qi              L/s
+
+A.4.3  Contribución media inicial de aguas residuales       Qf              L/s
+       domésticas                                          Qci              L/s
+A.4.4  Contribución media final de aguas residuales        Qcf              L/s
+A.4.5  domésticas
+
+       Contribución singular inicial
+
+       Contribución singular final
+A.4.6 Caudal inicial de un tramo de red
+
+A.4.6.1 Si no existen mediciones de caudal utilizables por
+
+       el proyecto                                          Qi            L/s
+                                                                          L/s
+       Qi = (k2.Qi) + I + qci
+                                                                          L/s
+A.4.6.2 Si existen hidrogramas utilizables por el proyecto  Qi            L/s
+             Qi = Qi máx + Qci
+                                                                      Unidades
+       Qi máx =Caudal máximo del hidrograma,                           L/(s.ha)
+       calculado con ordenadas proporcionales del                      L/(s.ha)
+       hidrograma existente                                            L/(s.km)
+                                                                       L/(s.km)
+A.4.7 Caudal final de un tramo de red                                  L/(s.km)
+
+       Si no existen mediciones del caudal utilizables por            Unidades
+A.4.7.1 el proyecto                                                        m
+                                                            Qf             m2
+                                                                           m2
+       Qf = (k2. Qf) + I + Qcf                                            m
+
+A.4.7.2 Si existen hidrogramas utilizables por el proyecto  Qf
+             Qf= Qf máx + Qcf
+
+       Qi máx =Caudal máximo del hidrograma,
+       calculado con ordenadas proporcionales del
+       hidrograma existente
+
+A.5    Tasa de Contribución                                 Notación
+A.5.1                                                           Tai
+A.5.2  Tasa de contribución inicial por superficie              Taf
+A.5.3  drenada Tai = (Qi - Qci )/ ai                           Txi
+A.5.4                                                           Txf
+A.5.5  Tasa de contribución final por superficie drenada         Ti
+       Taf = (Qf - Qcf )/ af
+
+       Tasa de contribución final por superficie drenada
+       Txi = (Qi - Qci )/ L
+
+       Tasa de contribución final por superficie drenada
+       Txf = (Qf - Qcf )/ L
+
+       Tasa de contribución por infiltración
+
+A.6    Variables geométricas de la sección del flujo        Notación
+A.6.1  Diámetro                                                  do
+A.6.2  Area mojada de escurrimiento inicial                      Ai
+A.6.3  Area mojada de escurrimiento final                        Af
+A.6.4  Perímetro mojado                                          p
+
+A.7    Variables utilizadas en el dimensionamiento          Notación  Unidades
+       hidráulico
+A.7.1  Radio hidráulico                                         RH         m
+A.7.2                                                            yi        m
+A.7.3  Altura de la lámina de agua inicial                       yf        m
+
+       Altura de la lámina de agua final
+A.7.4  Pendiente mínima admisible                            So min  m/m
+A.7.5                                                        So max  m/m
+A.7.6  Pendiente máxima admisible                                    m/s
+A.7.7                                                           Vi   m/s
+A.7.8  Velocidad inicial                                        Vf    Pa
+       Vi = Qi / Ai                                             t
+
+       Velocidad final
+       Vf = Qf / Af
+
+       Tensión Tractiva Media
+       t = .RH. So
+
+A.8    Valores guía de coeficientes
+
+A.8.1  De no existir datos locales comprobados a través de investigaciones, pueden ser
+A.8.2  adoptados los siguientes valores
+A.8.3
+A.8.4  C , coeficiente de retorno                                    0,8
+A.8.5
+       k1, coeficiente de caudal máximo diario                       1,3
+
+       k2, coeficiente de caudal máximo horario                      1.8-2.5
+
+       k1, coeficiente de caudal mínimo horario                                0,5
+                                                                     0,05 a 1,0 L/(s.km)
+       Ti , Tasa de contribución de infiltración que
+       depende de las condiciones locales, tales como:
+       Nivel del acuífero, naturaleza del subsuelo,
+       material de la tubería y tipo de junta utilizada. El
+       valor adoptado debe ser justificado
+                          ANEXO 2
+DISPOSITIVO DE CAÍDA DENTRO DEL BUZÓN
+                                                   ANEXO 3
+ESQUEMA DE SISTEMA DE ALCANTARILLADO CON TUBERÍAS PRINCIPALES Y
+
+                                       RAMALES COLECTORES
+
+          LEYENDA:
+          Tubería Principal de Alcantarillado
+          Ramal Colector de Alcantarillado
+          Caja de Inspección
+          Buzón
+                                             ANEXO 4
+CAJA DE INSPECCIÓN DE ALCANTARILLADO Y CAJA PORTAMEDIDOR
+
+                                 Ramal
+                                 distribuidor
+                                 de agua
+
+Ramal
+Colector de
+alcantarillado
+
+Caja de
+Inspección de
+Alcantarillado
+
+                Ramal
+                Distribuidor
+                de agua
+
+Ramal
+colector de
+alcantarillado
+

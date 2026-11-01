@@ -1,0 +1,18 @@
+# Ficha de tarea T-03: Inventario de lo ejecutado (S&G Edifica) y brechas de información
+
+- **Responsable:** sanit-datos
+- **Objetivo (1 frase):** reunir, con su fuente, todo lo que los documentos disponibles dicen sobre la obra de agua y desagüe ya ejecutada (alcance, diámetros, materiales, PN, profundidades, cruces, buzones, avance, estado contractual), y listar con precisión qué información falta para poder contrastarla con el diseño.
+- **Entradas (rutas):**
+  - Carpeta `C:\Users\henry\OneDrive\Escritorio\exp.-terraLima_v2\obra agua y desague\`: `SUSTENTO_TECNICO_contratista.md` (carta 014-2026 de S&G: lo que alega), `informe_tecnico_deNoConformidad.md` (borrador sin firma ni envío), `resumen de  informacion de renasur.md`, `01-tuberias-y-accesorios-para-el-sistema-de-alcantarillado.md` (especificación), reglamento SEDAPAL (solo para contexto).
+  - Expediente interno: `C:\Users\henry\OneDrive\Escritorio\exp.-terraLima_v2\` — en particular `B_GESTION_INTERNA\B1_Gestion\04.04_Contratos\CON-005_SG-Edifica\` (ficha del contrato 005-2026), `B1_Gestion\04.01_Plan_Ejecucion\` (TL-GES-004, -005, -007, -008, -009, -010), `B3_Analisis_Tecnicos\Agua_y_Alcantarillado\` (TL-TEC-001 a 005), `B4_Supervision_y_Calidad\`, `A_EXPEDIENTE_HU\` (P1_Parte_1, P2_Parte_2, A0_Comun: buscar planos o memorias de agua/desagüe, DWG, PDF).
+  - `W_contraste/supuestos.md` y `W_contraste/datos/v3_48calles/` (geometría vigente de calles y lotes, por si hay que ubicar algo).
+- **Salidas esperadas:**
+  1. `datos/ejecutado_v1/inventario_ejecutado.md`: tablas con (a) alcance contractual (qué se contrató, sector, longitudes si constan, fechas, montos solo los necesarios para el contexto técnico), (b) lo ejecutado según cada fuente (diámetro, material, clase/PN, profundidad de zanja, recubrimiento, cruces agua/desagüe, número y tipo de buzones, avance físico y valorizado), cada dato con **archivo y párrafo de origen** y el estado CONFIRMADO / ALEGADO POR EL CONTRATISTA / BORRADOR / POR CONFIRMAR, (c) discrepancias entre fuentes (por ejemplo 23.86 % vs 90 % de avance, PN 7.5 vs PN 10).
+  2. `datos/ejecutado_v1/inventario_ejecutado.json`: lo mismo en forma estructurada (lista de hechos con id, tema, valor, fuente, estado).
+  3. `datos/ejecutado_v1/brechas_de_informacion.md`: qué documentos o datos faltan (planos de replanteo/as-built, polígono de la Parte 1, protocolos de prueba hidráulica, cuaderno de obra, certificados de tubería, metrados reales, fotos con ubicación, etc.), a quién pedirlos (S&G, supervisión, Asociación Santa María, ingeniero original) y por qué se necesitan para el contraste.
+  4. `datos/ejecutado_v1/archivos_utiles.md`: lista de DWG/PDF/imágenes de agua y desagüe encontrados en el expediente, con ruta completa y tamaño (sin copiarlos).
+  5. `tareas/T-03_informe.md` con el formato de `PLANTILLA_informe_entrega.md`.
+- **Criterios de aceptación (verificables):** cada hecho tiene fuente y estado; ninguna cifra sin fuente; las discrepancias están listadas, no resueltas por tu cuenta; la lista de brechas es concreta (qué archivo, de quién); se indica explícitamente si se encontró o no algún plano o dato georreferenciado de la red ejecutada.
+- **Prohibido:** estimar o rellenar datos que no estén en un documento (marcar `POR CONFIRMAR` con fecha); tratar el borrador de no conformidad o el sustento del contratista como hechos verificados; escribir fuera de `W_contraste/`; modificar documentos del expediente; emitir opinión legal (marcar PARA VALIDAR CON VALVERDE); copiar archivos grandes (solo listar).
+- **Supuestos que puede usar:** los de `supuestos.md`; todo supuesto nuevo se propone.
+- **Formato del informe de entrega:** `tareas/PLANTILLA_informe_entrega.md`.

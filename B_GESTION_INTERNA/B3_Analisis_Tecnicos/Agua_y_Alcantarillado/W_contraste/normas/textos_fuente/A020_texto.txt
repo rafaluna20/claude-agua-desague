@@ -1,0 +1,910 @@
+            NORMA TÉCNICA A.020 VIVIENDA
+DEL REGLAMENTO NACIONAL DE EDIFICACIONES
+
+                                                                       CAPÍTULO I
+
+                                                              ASPECTOS GENERALES
+
+Artículo 1.- Objeto y ﬁnalidad
+La presente Norma Técnica tiene por objeto regular las condiciones mínimas de diseño que deben cumplir las ediﬁcaciones
+residenciales, con la ﬁnalidad de cubrir las necesidades básicas de habitabilidad, funcionalidad y seguridad.
+
+Artículo 2.- Ámbito de aplicación
+La presente Norma Técnica es de aplicación obligatoria a nivel nacional, para todas aquellas ediﬁcaciones residenciales,
+que tienen como uso principal o exclusivo la residencia.
+
+Artículo 3.- Deﬁnición de ediﬁcación residencial
+
+3.1. Ediﬁcación destinada a albergar a personas o grupos familiares, en espacios cuyas características y dimensiones
+        son suﬁcientes para satisfacer las necesidades y funciones de aseo, descanso, alimentación y reunión, en
+        condiciones seguras y saludables.
+
+3.2. Las ediﬁcaciones pueden contar con espacios adicionales para su uso en actividades complementarias, y para
+        las funciones de almacenamiento de objetos domésticos y estacionamiento de vehículos. Los espacios incluyen
+        áreas techadas y no techadas y pueden ser provistos de manera aislada de la ediﬁcación principal dentro del
+        predio.
+
+Artículo 4.- Tipologías
+4.1. Las ediﬁcaciones residenciales pueden desarrollarse según la siguiente clasiﬁcación:
+
+Cuadro Nº 01. Clasiﬁcación de ediﬁcaciones residenciales
+
+Clasiﬁcación                                                  Tipología
+
+                                      Vivienda unifamiliar
+
+                                      Vivienda bifamiliar
+
+Ediﬁcación para grupos familiares     Quinta
+                                      Vivienda taller
+
+                                      Vivienda multifamiliar
+
+                                      Conjunto habitacional / residencial
+
+Ediﬁcación para grupos de individuos  Vivienda de uso colectivo
+4.2. Las viviendas de uso colectivo pueden desarrollarse en ediﬁcaciones de uso exclusivo para grupos de
+        individuos y/o en conjunto con ediﬁcaciones para grupos familiares de viviendas multifamiliares y conjuntos
+        residenciales.
+
+                                                   CAPÍTULO II
+
+CONDICIONES GENERALES DE HABITABILIDAD Y FUNCIONALIDAD
+
+Artículo 5.- Ubicación
+
+5.1. Las ediﬁcaciones residenciales en zonas urbanas se ediﬁcan en áreas con zoniﬁcación residencial o zoniﬁcación
+        compatible con el uso residencial, según lo establecido en los planes de desarrollo urbano correspondientes. No
+        se puede ediﬁcar viviendas en zonas de riesgo no mitigable, así como en áreas de reserva naturales, recreación
+        pública, equipamiento urbano, para la red vial, redes de instalaciones de servicios públicos, o bajo líneas de alta o
+        media tensión.
+
+5.2. Las viviendas unifamiliares pueden ediﬁcarse en zonas rurales, adyacentes al área de trabajo rural de las personas,
+        conforme a las características del clima y entorno, a excepción de zonas de riesgo no mitigable, declaradas por el
+        gobierno local correspondiente.
+
+Artículo 6.- Zonas bioclimáticas
+El diseño de las ediﬁcaciones residenciales debe ser capaz de responder a las características de la zona bioclimática en
+la que se encuentran, según la zoniﬁcación bioclimática que establece el RNE, tomando en cuenta las temperaturas y
+precipitaciones máximas y mínimas de la zona.
+
+Artículo 7.- Densidad habitacional
+Para el cálculo de la densidad habitacional, el número de habitantes de un núcleo de vivienda, está en función al número
+de dormitorios, según lo siguiente:
+
+                        Cuadro Nº 02. Densidad habitacional
+
+                        Vivienda                                Número de personas
+
+                        De un dormitorio                        2
+
+                        De dos dormitorios                      3
+
+                        De tres dormitorios                                           4
+                                                                1 persona adicional por dormitorio
+Con más de tres dormitorios para vivienda multifamiliar
+                      y conjunto residencial
+
+                        Vivienda de uso colectivo               1 persona por dormitorio
+
+La densidad establecida es la base para determinar el número de personas, con la cual se pueden estimar los servicios
+y equipamientos urbanos para los Planes de Desarrollo Urbano.
+
+Artículo 8.- Área techada mínima
+
+8.1. Las áreas techadas mínimas de las unidades de vivienda son las siguientes:
+
+        a) El área techada mínima de una vivienda de uso colectivo, sin capacidad de ampliación (departamentos en
+                 ediﬁcios multifamiliares y/o conjuntos residenciales) es de 16.00 m², incluye al menos el área de descanso
+                 y de aseo personal.
+
+        b) La vivienda para grupos familiares sin capacidad de ampliación (departamentos en ediﬁcios multifamiliares y/o
+                 en conjuntos residenciales sujetos al régimen de propiedad exclusiva y propiedad común) es de 40.00 m².
+
+        c) La vivienda unifamiliar en su forma inicial como módulo básico de vivienda con posibilidad de expansión es
+                 de 25.00 m², el cual debe cumplir con los requisitos básicos que permitan desarrollar las funciones de estar-
+                 cocinar-dormir, aseo y lavado, sobre el lote; debiendo mantener su condición de módulo básico hasta que
+                 sean ampliadas, para lo cual el diseño del proyecto debe considerar el terreno y el espacio adicional para la
+                 ampliación de manera integral.
+
+8.2. Para el caso de las áreas mínimas de las ediﬁcaciones residenciales que se ejecuten dentro de los programas de
+        vivienda promovidas por el Estado, aplican las normas técnicas correspondientes.
+
+Artículo 9.- Altura mínima de los ambientes
+
+9.1. La altura libre mínima entre el piso terminado y el cielo raso, depende de la zona climática donde se ubica, no
+        debiendo ser menor a 2.30 m.
+
+9.2. En los casos de viviendas con cubiertas inclinadas, la altura mínima indicada en el encuentro del muro con el cielo
+        raso del techo, puede reducirse hasta un mínimo de 1.80 m, siempre que la altura promedio de la habitación que
+        cubre, corresponda al mínimo normativo.
+9.3. En ambientes de servicios higiénicos la altura mínima puede ser hasta 2.10 m.
+
+Artículo 10.- Dimensiones de los espacios
+
+10.1. Las dimensiones de los espacios que conforman la vivienda, deben ser suﬁcientes para albergar el mobiliario requerido
+        para cada función, permitir la circulación de las personas, el desarrollo de sus actividades, así como la evacuación en
+        caso de emergencia, las mismas que deben estar en concordancia con el número de personas que la habitan.
+
+10.2. La organización de los espacios debe permitir la privacidad en el uso de los servicios higiénicos y tener la capacidad
+        para desarrollar las demás funciones de manera conjunta o independiente.
+
+10.3. El número y características del mobiliario que se propone en el diseño, debe tener dimensiones acordes con el
+        cuerpo humano (antropometría). El anteproyecto y proyecto arquitectónico deben contener la ubicación tentativa
+        del mobiliario principal para las funciones que alberga.
+
+Artículo 11.- Iluminación y ventilación
+
+11.1. Los ambientes que conforman toda ediﬁcación residencial deben estar dotados de iluminación y ventilación
+        natural, debiendo resolver mediante, al menos, una perforación en la envolvente que conforman dichos ambientes,
+        de forma vertical y/o cenital que permita la ventilación desde el exterior.
+
+11.2. En los espacios donde se desempeñen varias funciones, se pueden resolver la iluminación y ventilación a través
+        de cualquiera de ellas.
+
+11.3. Los ambientes de aseo, lavado, depósito, almacenamiento, hall, pasillos de circulación, cuarto de control, cuarto
+        de bombas, ambientes en sótanos, ambientes que por razones de seguridad no puedan tener vanos al exterior o
+        donde se realicen actividades en los que ingresen personas de manera eventual, pueden tener una solución de
+        iluminación artiﬁcial y ventilación mecánica a través de ductos exclusivos u otros ambientes.
+
+11.4. La iluminación y ventilación natural de los ambientes se debe captar a través de la vía pública, retiros laterales,
+        retiros posteriores, mediante un pozo dentro del predio y/o mediante separación entre ediﬁcaciones:
+
+a) Pozo de luz en viviendas unifamiliares, quintas y viviendas taller:
+
+                                                              Cuadro Nº 03. Cálculo de pozo de luz
+
+                              Ambientes                                             Distancia mínima
+
+Dormitorio, sala y comedor                                                                          2.00 m
+
+Cocina y patios de servicios techados                                                               1.80 m
+
+b) Pozo de luz en viviendas bifamiliares y multifamiliares:
+
+Las dimensiones del pozo de luz se calculan entre los paramentos de las ediﬁcaciones o hasta el límite de
+propiedad y en función de la altura del paramento más bajo que conforma el pozo, del número de lados con
+ediﬁcaciones propias y del uso de los ambientes que se sirven de él. Se considera como paramento más
+bajo a cualquiera de los dos lados del pozo que hagan perpendicular con la distancia mínima requerida.
+
+Asimismo, las dimensiones mínimas del pozo de luz se calculan en función de la altura de la ediﬁcación y
+por tramos cada 18.00 m; dependiendo de la altura de la ediﬁcación se considera cada tramo de manera
+independiente, sumándose conforme aumenta la altura de la ediﬁcación, según las siguientes fórmulas y
+según el Anexo 1 de la presente Norma Técnica:
+
+                              Cuadro Nº 04. Cálculo de pozo de luz
+
+                                                              Tipo de pozos de luz            Cálculo de la distancia
+                                                                                    perpendicular respecto a la altura de
+Altura de la ediﬁcación       Ambientes a iluminar y
+                                         ventilar                                      la ediﬁcación más baja opuesta
+                                                              Nº de lados del pozo
+
+                                                           A  1 y 2 lados                                   30%
+                                                              3 y 4 lados                                   25%
+                                                           B                                                35%
+Para los primeros 18.00 m                                                                                   30%
+
+                                                           A
+
+                                                           B
+
+                                         A                                                                  15%
+                                                                                                            13%
+Para los siguientes 18.00 m,             B                    1 y 2 lados                                   25%
+                                                              3 y 4 lados                                   16%
+entre 19.00 m y 36.00 m                  A
+
+                                         B
+                              Tipo de pozos de luz                                    Cálculo de la distancia
+                                                                            perpendicular respecto a la altura de
+  Altura de la ediﬁcación     Ambientes a iluminar y  Nº de lados del pozo
+                                         ventilar                              la ediﬁcación más baja opuesta
+Para los siguientes 18.00 m,
+entre 37.00 m y 54.00 m       A                                                        10%
+                                                              1 y 2 lados              10%
+Para los siguientes 18.00 m,
+entre 55.00 m y 72.00 m       B
+
+                              A                                                        15%
+                                                              3 y 4 lados              13%
+
+                              B
+
+                              A                                                        10%
+                                                              1 y 2 lados              10%
+
+                              B
+
+                              A                                                        15%
+                                                              3 y 4 lados              13%
+
+                              B
+
+A= Dormitorios, salas y comedores.
+B= Cocinas y patios techados.
+
+Notas:
+
+i. Los pozos están compuestos por 4 lados, cada uno de los lados pueden estar deﬁnidos por líneas
+      quebradas o tramos. El número de lados al que hace referencia el cuadro Nº 4 se reﬁere a aquellos
+      lados deﬁnidos por la propia ediﬁcación.
+
+ii. La distancia paralela al paramento del vano debe ser equivalente al 50% de la medida perpendicular,
+      resultante del cálculo según la tabla precedente siempre que en este sentido no hayan ambientes
+      que se doten de iluminación y ventilación natural; caso contrario debe ser resultado de su propio
+      cálculo.
+
+iii. Cuando la dimensión del pozo perpendicular al vano que sirve es inferior hasta en un 20% al mínimo
+      normativo, la dimensión en el otro sentido puede compensar dicho déﬁcit, debiendo cumplir con el área
+      de pozo producto de las medidas normativas. Esta compensación también aplica en el sentido paralelo
+      al vano al cual se sirve.
+
+iv. La altura del paramento más bajo que conforma el pozo se mide desde el alféizar de la ventana más
+      baja o 1.00 m desde el nivel de piso terminado hasta la parte alta del parapeto superior.
+
+v. Las dimensiones mínimas del pozo de luz para viviendas bifamiliares debe ser de 2.00 m para ambientes
+      de dormitorio, sala y comedor, y 1.80 m para ambientes de cocina y patios de servicios techados.
+
+vi. En todos los casos las dimensiones mínimas del cálculo del pozo de luz en vivienda multifamiliar deben
+      ser de 2.10 m.
+
+vii. Las dimensiones de un pozo de luz pueden proyectar variaciones en función de su altura tipo
+      retranques, siempre que las distancias perpendiculares a los vanos materia de cálculo, no sean
+      menores a los cálculos que se requieren en relación a la altura del paramento más bajo que conforma
+      la ediﬁcación.
+
+viii. Para todos los casos, las edificaciones con alturas superiores a los 72.00 m, se considerará
+      0.10 m de distancia perpendicular adicional del pozo, por cada metro adicional de altura de la
+      edificación.
+
+c) Separación entre ediﬁcaciones en conjuntos residenciales:
+
+                              Cuadro Nº 05. Separación entre ediﬁcaciones
+
+Ambientes                     Cálculo de la distancia perpendicular  Distancia mínima  Distancia máxima
+                              respecto a la altura de la ediﬁcación                           exigible
+      A
+      B                                     más baja opuesta                                  20.00 m
+                                                                                              15.00 m
+                                    30%                                    5.00 m
+
+                                    25%                                    4.00 m
+
+A= Dormitorios, salas y comedores.
+B= Cocinas y patios techados.
+
+Notas:
+i. La separación entre ediﬁcaciones, se calcula en relación de la distancia mínima perpendicular, medida
+
+      desde el punto central o eje del vano al muro perpendicular opuesto, medido desde el alféizar de la
+      ventana más baja o 1.00 m desde el nivel de piso terminado hasta la parte alta del parapeto superior.
+ii. Cuando las ediﬁcaciones cuenten con pozos de luz interiores y/o cuando los vanos se encuentren
+      frente a los límites de propiedades laterales o posteriores, la distancia se calcula en relación a los
+      cálculos establecidos en el literal b) del presente artículo.
+iii. En caso no existan vanos entre las ediﬁcaciones, la separación entre estas se calcula en función a la
+      actividad que se realice entre estas, pudiendo ser la separación estructural, pasajes de acceso, entre
+      otros.
+                                          CAPÍTULO III
+
+CARACTERÍSTICAS DE LOS COMPONENTES
+
+Artículo 12.- Vanos de acceso y ventanas
+
+12.1. Los vanos deben tener un cierre adecuado a las condiciones del clima, y contar con carpintería de materiales
+        compatibles con los materiales del cerramiento.
+
+12.2. Los vanos para la instalación de puertas de acceso, comunicación y salida de personas deben tener las siguientes
+        dimensiones mínimas:
+
+a) La altura mínima es de 2.10 m.
+b) Independientemente de su cálculo, los anchos mínimos de los vanos en que se instalen puertas son:
+
+                             Cuadro Nº 06. Ancho mínimo de los vanos                      Ancho mínimo
+                                Tipo de vano
+
+Acceso principal a una unidad vivienda                                                             0.90 m.
+Acceso a ambientes de descanso (dormir), reunión (estar), alimentación (cocinar y comer)           0.80 m.
+
+Acceso a ambientes de aseo y servicios (baños)                                                     0.70 m.
+Acceso principal a una vivienda multifamiliar, de uso colectivo o conjunto residencial             1.20 .
+
+12.3. En el caso de puertas de acceso a la ediﬁcación residencial con más de una hoja de cierre, una de ellas no debe
+        tener menos de 1.00 m. de ancho.
+
+12.4. Las dimensiones de los vanos destinados a iluminación y ventilación no deben ser menores al 10% de la superﬁcie
+        de la habitación a la que sirven, debiendo presentar al menos una abertura hacia el exterior no menor al 5% de la
+        superﬁcie de la habitación que se ventila.
+
+12.5. Las ventanas presentan las siguientes características:
+
+a) Los vidrios deben ser empleados según lo establecido en la Norma Técnica E.040, Vidrio del
+        RNE.
+
+b) Las ventanas deben ser de fácil operación y en todos los casos permitir su limpieza desde la habitación que
+        iluminan y ventilan.
+
+c) El alféizar de una ventana debe tener una altura mínima de 1.00 m. En caso que esta altura sea menor, en
+        la parte de la ventana entre el nivel del alféizar y 1.00 m, el vidrio debe ser ﬁjo (según las características
+        antes mencionadas) o contar con una baranda de protección interior o exterior con elementos espaciados a
+        no más de 0.15 m.
+
+Artículo 13.- Pasajes de circulación
+Los pasajes de circulación de las viviendas, permiten conectar ambientes de una vivienda o viviendas entre sí. Sin
+perjuicio del cálculo de evacuación, la dimensión mínima del ancho de los pasajes y circulaciones interiores, medida entre
+los paramentos que lo conforman, debe cumplir lo siguiente:
+
+                             Cuadro Nº 07. Ancho mínimo de los pasajes
+
+                             Tipo                                                       Ancho mínimo
+
+Interiores de las viviendas                                                               0.90 m.
+
+De acceso hasta 2 viviendas                                                               1.00 m.
+
+De acceso hasta 4 viviendas                                                               1.20 m.
+
+Áreas comunes de acceso a las viviendas                                                   1.20 m.
+
+Artículo 14.- Materiales y acabados
+
+14.1. Los materiales constitutivos de los cerramientos exteriores deben ser estables, mantener un comportamiento
+        resistente al fuego, dotar de protección acústica y evitar que el agua de lluvia o de riego de jardines ﬁltre hacia el
+        interior.
+
+14.2. Los acabados de pisos deben ser resistentes a la abrasión, al desgaste, y al punzonamiento, y mantenerse
+        estables frente al ataque de ácidos domésticos. Los pisos exteriores deben ser antideslizantes. Los pisos de las
+        cocinas deben ser resistentes a la grasa y aceite.
+
+14.3. Los materiales de acabado de los ambientes para servicios sanitarios y cualquier zona húmeda dentro de la
+        vivienda, deben ser antideslizantes en pisos e impermeables en paredes, y de superﬁcie lavable.
+Artículo 15.- Escaleras
+
+15.1. Las escaleras al interior de las viviendas, tienen las siguientes características:
+
+        a) Deben tener un ancho libre mínimo de 0.90 m entre los muros que la conforman. Cuando se desarrollen en
+                 un tramo con un lado abierto o en dos tramos sin muro intermedio, pueden tener un ancho libre mínimo de
+                 0.80 m.
+
+        b) Pueden ser del tipo caracol, tener pasos en abanico o de otro diseño, siempre que el paso tenga no menos
+                 de 0.25 m a una distancia de 0.50 m del eje alrededor del cual se desarrollan los pasos.
+
+        c) En todos los casos la escalera debe tener pasamanos por lo menos a uno de los lados a 1.00 m de altura. El
+                 espacio entre el pasamanos y los pasos de la escalera deben contar con elementos de cierre que impidan
+                 el paso de una esfera de 0.15 m.
+
+        d) Las escaleras de acceso a ambientes de uso técnico, pueden ser del tipo “gato” con protección a partir de
+                 2.10 m.
+
+15.2. Las escaleras integradas en ediﬁcios multifamiliares y conjuntos residenciales de uso colectivo o grupos
+        familiares, tienen las siguientes características:
+
+        a) Son los elementos de circulación vertical en ediﬁcaciones en general, estas no están aisladas de las
+                 circulaciones horizontales y cuyo objetivo es evacuar el tránsito de las personas y mercancías entre pisos
+                 de manera ﬂuida y visible.
+
+        b) Deben tener un ancho mínimo de 1.20 m entre muros que la conforman.
+        c) Pueden ser consideradas para el cálculo y el sustento como medios de evacuación, si la distancia de
+
+                 recorrido horizontal y vertical lo permite.
+        d) El número de escaleras se determina por piso, según la distancia de recorrido del evacuante, medido desde
+
+                 la puerta del departamento más alejada de la escalera, hasta el ingreso a un lugar seguro o el exterior y
+                 según el aforo.
+        e) El acceso al techo o áreas de equipos en azotea puede ser mediante una escalera del tipo gato, sólo para
+                 dar mantenimiento al equipamiento de la ediﬁcación.
+        f) Cuando la azotea albergue áreas de uso común el acceso debe ser mediante la continuación de la escalera
+                 de uso común.
+        g) Para viviendas bifamiliares o cuando sirva de acceso a dos unidades de vivienda en piso siguiente, la
+                 escalera exterior puede tener un ancho mínimo de 1.00 m entre muros que la conforman.
+
+15.3. Las escaleras protegidas son aquellas a prueba de fuego y humos, cuyo objetivo es la evacuación de las
+        personas; deben cumplir los siguientes requisitos:
+
+        a) Se requiere cuando se excede la distancia máxima de recorrido establecido en la tabla de protección contra
+                 incendios de la presente Norma Técnica.
+
+        b) El número de escaleras necesarias está en función de la altura de la ediﬁcación, distancia de recorrido y el
+                 aforo total del piso, según lo establecido en la tabla de protección contra incendios de la presente Norma
+                 Técnica.
+
+Artículo 16.- Ascensores
+Los ascensores son un medio de circulación vertical, obligatorio en ediﬁcios multifamiliares y conjuntos residenciales
+donde el acceso al quinto piso de la ediﬁcación, se encuentre a una altura superior a 12.00 m sobre el nivel de ingreso a
+la ediﬁcación. Se permite subir mediante escalera a uno o dos niveles adicionales por el interior de la unidad de vivienda
+a la que se accede o para acceder a la azotea desde una zona de uso común.
+
+Artículo 17.- Lotes en esquina
+Son los que se generan en el encuentro de dos vías vehiculares, peatonales y/o parque. El área libre establecida en el
+parámetro urbanístico y ediﬁcatorio para este tipo de lote, puede reducirse según la normativa municipal, si el diseño
+permite el desarrollo de las actividades dentro de la vivienda de manera adecuada.
+
+Artículo 18.- Azotea, parapetos y barandas
+
+18.1. Las azoteas no forman parte de la altura de ediﬁcación, pudiéndose emplear sobre las alturas máximas
+        permitidas, de uso exclusivo, común o mixto y accederse mediante escaleras y, cuando corresponda, por
+        ascensores.
+
+18.2. Las azoteas deben tener un sistema que permita el manejo de las aguas pluviales de manera que no afecten las
+        estructuras de la propia ediﬁcación y de las colindantes, de acuerdo a las zonas lluviosas establecidas en la norma
+        correspondiente.
+
+18.3. Se puede techar hasta un 50% del área de la azotea, debiendo considerar un retranque mínimo de 2.50 m del
+        límite exterior de la(s) fachada(s) de la ediﬁcación dependiendo de la altura de la misma.
+
+18.4. Las azoteas deben contar con parapetos o barandas con los elementos de protección correspondientes, a 1.10 m
+        de altura como mínimo, las mismas que pueden o no coincidir con el perímetro del área techada inferior. De limitar
+        con propiedades vecinas y entre muros divisorios de unidades inmobiliarias, no deben ser menores a 2.10 m de
+        altura. Las barandas deben tener una resistencia mínima de 100 kilos de carga horizontal puntual aplicada en el
+        punto medio del travesaño superior de la baranda.
+18.5. La altura del parapeto o baranda de protección se mide desde el nivel accesible contiguo.
+
+18.6. Las azoteas cuando formen parte de una sola vivienda (ﬂat, dúplex y/o triplex), puede albergar cualquier uso
+        destinado a vivienda, sea principal o complementario.
+
+Artículo 19.- Muros y tabiques
+
+19.1. Los tabiques exteriores o divisorios entre unidades inmobiliarias diferentes, deben tener características en función
+        de las condiciones climáticas externas y del comportamiento acústico al interior de los ambientes.
+
+19.2. En el caso de los tabiques que alojen tuberías de agua o desagüe, estos deben tener un ancho que permita un
+        recubrimiento mínimo de 1 cm. entre la superﬁcie del tubo y la cara exterior del tabique acabado.
+
+19.3. La altura mínima de los tabiques divisorios de zonas no cubiertas (patios y jardines) entre viviendas, debe ser de
+        2.10 m contados a partir del piso terminado del ambiente con nivel más alto.
+
+19.4. Los muros compartidos divisorios entre viviendas en ediﬁcaciones multifamiliares y conjuntos residenciales,
+        y entre estas y los pasajes de circulación común, deben ser de materiales con resistencia al fuego de 60
+        minutos.
+
+Artículo 20.- Techos y cubiertas ligeras
+
+20.1. Se permite la instalación de cubiertas ligeras debidamente sujetas a la estructura, debiendo ser herméticas
+        frente a lluvias y presentar una pendiente conforme a lo establecido en la Norma Técnica CE.040, Drenaje
+        Pluvial del RNE.
+
+20.2. El último techo de la ediﬁcación, debe tener un comportamiento térmico que disminuya la carga térmica de la
+        radiación solar, así como la temperatura radiante en la cara interior del elemento horizontal.
+
+20.3. Las cubiertas inclinadas deben permitir la reparación y mantenimiento.
+
+                                    CAPÍTULO IV
+
+                                    DOTACIÓN DE SERVICIOS
+
+Artículo 21.- Estacionamientos
+
+21.1. El estacionamiento de vehículos constituye una función complementaria a la vivienda, por lo tanto debe ser
+        considerada de manera conjunta en la ediﬁcación de las viviendas o separada de ellas. Pueden ser o no techados.
+
+21.2. El número de espacios para el estacionamiento de autos, y/o vehículos menores (motocicletas o bicicletas), debe
+        estar establecido en las normas correspondientes.
+
+21.3. En los casos que la norma correspondiente no determine el número de espacios para el estacionamiento de
+        vehículos, se deben emplear lo siguiente:
+
+a) 1 estacionamiento cada (3) tres viviendas.
+b) 1 estacionamiento cada (5) cinco unidades de viviendas de usos colectivo.
+c) 1 estacionamiento para bicicletas por cada (3) tres viviendas.
+
+Los estacionamientos para bicicletas forman parte de las áreas comunes de las ediﬁcaciones multifamiliares,
+conjuntos residenciales y/o de uso colectivo.
+
+Artículo 22.- Servicios públicos
+
+22.1. Las viviendas deben contar con redes de instalaciones de agua, redes de desagüe y redes internas que
+        provean de energía eléctrica a todos los espacios que conforman la vivienda, con una tensión de 220 voltios.
+
+22.2. Los servicios de gas y telecomunicaciones, son parte de las instalaciones de la vivienda, solo en los casos que
+        existan redes públicas o tengan la factibilidad del servicio y se instalan de acuerdo con las normas sobre la materia.
+
+Artículo 23.- Servicios sanitarios
+
+23.1. Las ediﬁcaciones para vivienda deben estar provistas de servicios sanitarios, según las siguientes cantidades
+        mínimas:
+
+Vivienda                            Cuadro Nº 08. Grupos Familiares
+                                                                                 Aparatos
+
+Hasta 25.00 m²                      1 inodoro, 1 ducha y 1 lavadero
+
+Más de 25.00 m²                     1 inodoro, 1 lavatorio, 1 ducha y 1 lavadero
+23.2. Los ambientes de aseo o donde se encuentre un aparato sanitario deben contar con una válvula de
+        control y un sumidero con trampa o registro capaz de recoger el agua que pudiera fugar en caso de un
+        desperfecto.
+
+23.3. Las montantes de desagüe deben estar alojadas en los ductos exclusivos, en los ductos de ventilación, en los
+        muros divisorios entre ambientes o en sus ensanches.
+
+23.4. Pueden existir redes de agua y desagüe suspendidas bajo la losa que separa dos pisos, debiendo proveerse de
+        elementos que brinden el aislamiento acústico suﬁciente para reducir la molestia que genera el ruido derivado del
+        funcionamiento de los aparatos del piso superior.
+
+Artículo 24.- Ductos
+
+24.1. Los ductos pueden servir para ventilación de ambientes de servicios sanitarios, despedir residuos sólidos o alojar
+        montantes de agua, desagüe, electricidad, telecomunicaciones o gas.
+
+24.2. Los ductos no deben abrir hacia el interior de las escaleras protegidas. Para el caso de escaleras integradas no
+        aplica esta prohibición.
+
+24.3. Las montantes verticales de agua entre el sistema de bombeo y el tanque elevado o entre estos y los
+        medidores de caudal, así como las montantes de electricidad entre el medidor y los tableros de distribución,
+        y las montantes de telecomunicaciones entre la acometida y la caja de distribución, deben estar alojadas
+        en ductos, uno de cuyos lados debe ser accesible con el ﬁn de permitir su registro, mantenimiento y
+        reparación, quedando prohibido que por un mismo ducto pasen las montantes húmedas con las redes
+        eléctricas.
+
+Artículo 25.- Medidores de servicios
+
+25.1. Toda vivienda debe contar con un medidor de consumo de agua, de energía eléctrica y, cuando se requiera, de
+        gas, debiendo instalarse conforme a las disposiciones establecidas por las entidades prestadoras de servicios
+        competentes en materia de energía eléctrica, agua y gas.
+
+25.2. Los medidores de energía eléctrica y gas pueden ser instalados en áreas comunes de las ediﬁcaciones
+        multifamiliares, conjuntos residenciales y/o vivienda de uso colectivo, y pueden estar expuestos o dentro de un
+        ambiente cerrado de uso exclusivo para el registro y mantenimiento de estos.
+
+25.3. En viviendas bifamiliares, multifamiliares, conjuntos residenciales y vivienda de uso colectivo, pueden instalarse
+        contómetros en áreas de uso común que permitan medir el consumo de manera individualizada.
+
+Artículo 26.- Residuos sólidos
+
+26.1. Las ediﬁcaciones de viviendas multifamiliares, conjuntos residenciales y/o de uso colectivo, deben contar con
+        ambientes exclusivos para almacenamiento de basura doméstica, considerando espacios para la segregación por
+        tipo, de los desechos reciclables, según las políticas establecidas por el MINAM y la NTP 900.058-2019 Gestión
+        de Residuos.
+
+26.2. Las dimensiones de los ambientes para disposición de residuos sólidos son las resultantes del cálculo de los
+        requerimientos de los ocupantes de la ediﬁcación, para un día de generación de residuos. La generación diaria
+        promedio de residuos sólidos es de 0.004 m3 (4 litros) por habitante.
+
+26.3. Estos ambientes deben contar con ventilación directa al exterior o mediante medios mecánicos hacia zonas de uso
+        común, y estar acabado con materiales impermeables de fácil limpieza.
+
+26.4. Asimismo, deben estar ubicados de manera que permitan tanto la disposición de los desechos por parte de los
+        habitantes de las viviendas, como el retiro de los contenedores hacia la vía pública o hasta los lugares de acopio
+        establecidos.
+
+                                                                       CAPÍTULO V
+
+                                                      CONDICIONES COMPLEMENTARIAS
+
+Artículo 27.- Requisitos de seguridad
+
+27.1. Las características de los componentes de seguridad se encuentran especiﬁcados en la Norma Técnica A.130
+        Requisitos de Seguridad del RNE, por lo que, junto con la presente Norma Técnica, ambas normas constituyen
+        una unidad.
+
+27.2. Los elementos de protección contra incendios con los que deben contar las ediﬁcaciones de uso residencial son
+        los siguientes:
+                                            Cuadro Nº 09. Protección contra incendios
+
+                                         Señalética /  Detectores   Central               Red de agua
+                                         Iluminación   de humo /   de Alarma
+Tipología de      Altura                               alarma de              Extintores    contra         Rociadores        Escalera Protegida
+  vivienda                                    de                     contra               Incendios                    (cualquiera de estas opciones)
+                                         emergencia       humo     Incendios               / bomba
+
+                                                                                          contraincendios
+
+Unifamiliar       -                      -             -           -          -           -                -- -----
+
+Bifamiliar        -                      1             -           -          -           -                - - 11 12 13 - -
+
+Quinta            -                      1             -           -          6           -                -- -----
+
+Taller            -                      -             2           -          6           -                - - 11 12 - - -
+
+                  Hasta 15.00m           1             2           -          6           -                9 - 11 12 13 14 15
+
+Multifamiliar     De más de 15.00m       1             3           4          7           8                9 - - 12 13 14 15
+                  hasta 30.00m
+
+y/o Conjunto
+
+residencial       De más de 30.00 hasta  1             3           5          7           8                9 - - 12 - 14 15
+                  60.00m
+
+                  Más de 60.00m          1             3           5          7           8                - 10 - 12 - 14 15
+
+                  Hasta 15.00m           1             2           -          6           -                9 - 11 12 13 14 15
+
+                  De más de 15.00m       1             3           4          7           8                9 - - 12 13 14 15
+                  hasta 30.00m
+
+De uso colectivo
+
+                  De más de 30.00 hasta  1             3           5          7           8                9 - - 12 - 14 15
+                  60.00m
+
+                  Más de 60.00m          1             3           5          7           8                - 10 - 12 - 14 15
+
+Notas:
+
+1. En escaleras, rutas de evacuación y ambientes de uso común.
+
+2. En pasajes de circulación interior de la vivienda, sin integración a una central de alarma contra incendio. En áreas de taller
+         detector de humo o temperatura con alarma incorporada.
+
+3. En pasajes de circulación al interior de la vivienda o vestíbulo de dormitorios y cerca de la puerta de salida de la vivienda,
+         detector de humos y en cocinas detector de temperatura. En pasajes de circulación común y en sótanos, detector de
+         humos. Todos los detectores deben estar conectados a la central de alarma contra incendio.
+
+4. Estaciones manuales de alarma contra incendios al ingreso de cada vestíbulo previo en escaleras protegidas conectados
+         a la central de alarma contra incendios.
+
+5. Estaciones manuales de alarma contra incendios en pasajes y áreas comunes distanciados cada 20.00 m, conectadas
+         a la central de alarma contra incendios. Central de alarma contra incendio conectada a los dispositivos de detección
+         de incendios, a la válvula de ﬂujo de agua del sistema de rociadores y al control de ascensores para uso de bomberos,
+         desactivación envío al nivel de descarga. Conectada a una fuente de energía alterna, no exclusiva.
+
+6. Extintores ubicados en lugar accesible y de acuerdo a la distancia de recorrido, conforme lo establecido en la NTP
+         350.043-1. Para quinta son exigibles para áreas comunes, y para vivienda taller en áreas destinadas a taller.
+
+7. Extintores ubicados junto a las salidas de cada nivel y conforme a lo establecido en la NTP 350.043-1 vigente, de acuerdo
+         a la distancia de recorrido en zonas comunes, ambientes de uso común y cuarto de bomba contra incendio.
+
+8. Red de agua contra incendio, con una distancia de 30.00 m desde la válvula angular en el interior de cada nivel de la
+         escalera protegida, hasta la puerta de la unidad de vivienda más alejada. Conexión para bomberos (válvula siamesa) en
+         el exterior del ediﬁcio del frente del acceso a la ediﬁcación. Bombas contra incendios mayores a 500 gpm que demuestren
+         conformidad, mediante una certiﬁcación emitida por un laboratorio acreditado por la Cooperación Internacional de
+         Acreditación de Laboratorios (ILAC) de la cual forma parte el Instituto Nacional de Calidad (INACAL), para este mismo
+         alcance, y alimentador de energía con medidor exclusivo. Cuarto de bombas con ingreso mediante exclusa y puerta
+         cortafuego RF 90’ y sistema de renovación de aire hacia zona adyacente. Gabinetes contra incendio en cada piso solo
+         para ediﬁcaciones de altura mayores a 60.00 m.
+
+9. Rociadores en sótanos de estacionamientos, cuya sumatoria de áreas techadas de todos los niveles sea igual o mayor a
+         1,000 m2, conectados a una red accionada por la bomba contra incendios certiﬁcada por el fabricante, y cisterna de agua
+         contraincendios.
+
+10. Rociadores en toda la ediﬁcación, conectados a una red accionada por una bomba contra incendios y cisterna de agua
+         contra incendios.
+
+11. Escaleras integradas. La distancia máxima de recorrido del evacuante (medida de manera horizontal y vertical) desde
+         la puerta del departamento más alejado o zona común de uso compartido hasta la puerta de salida al exterior de la
+         ediﬁcación, debe ser 56.00 m sin rociadores o 71.00 m con rociadores. También se permite escaleras cerradas.
+
+12. Escaleras protegidas con vestíbulo previo ventilado directamente al exterior.
+
+13. Escalera protegida con vestíbulo previo ventilado con sistema de inyección y extracción mecánica en cada nivel.
+
+14. Escalera protegida con vestíbulo previo ventilado con sistema de inyección y extracción mecánica centralizado y fuente
+         alterna de energía.
+
+15. Escalera abierta. Cuando la ediﬁcación sea mayor a 30.00 m de altura, el diseño debe minimizar la percepción de vértigo.
+Otros:
+
+a) Para efectos de los requisitos indicados en la presente tabla, la altura se considera desde el nivel de la vereda hasta el
+         nivel de piso terminado del último nivel de circulación común.
+
+b) La distancia máxima de recorrido del evacuante desde la puerta del departamento más alejado o zona común de uso
+         compartido hasta la puerta de la escalera protegida debe ser 34.00 m sin rociadores y 41.00 m con rociadores. Distancias
+         mayores requieren una escalera adicional.
+
+c) En los sótanos de estacionamientos de vehículos, la distancia máxima de recorrido desde el punto más alejado hasta la
+         escalera de evacuación o hasta la salida al exterior debe ser de 45.00 m sin rociadores y 60.00 m con rociadores.
+
+d) Las ediﬁcaciones de más de 60.00 m de altura deben contar como mínimo dos escaleras.
+
+Artículo 28.- Sistemas constructivos
+Las viviendas pueden ediﬁcarse con sistemas constructivos tradicionales o no convencionales, aprobados por el
+Ministerio de Vivienda, Construcción y Saneamiento.
+
+Artículo 29.- Sostenibilidad de la vivienda
+
+29.1. Las ediﬁcaciones residenciales se deben ejecutar respetando el medio ambiente, debiéndose priorizar el empleo
+        de energías renovables y sistemas de eﬁciencia energética según el análisis climático de la zona donde se
+        ubiquen.
+
+29.2. En las zonas donde la cantidad de horas de sol al año sea superior a 2,200, se pueden emplear sistemas de
+        generación de energía eléctrica mediante el empleo de paneles solares, debiéndose priorizar dicho sistema para
+        el uso de calentadores de agua, con la ﬁnalidad de permitir el ahorro de energía para los ocupantes.
+
+29.3. No es exigible el empleo de aguas residuales domésticas tratadas para el riego de jardines y áreas verdes.
+
+29.4. En caso el proyecto considere el reúso de aguas residuales domésticas tratadas para la carga de inodoros, debe
+        proveer una red adicional de agua tratada, diseñada de manera que su uso solo pueda tener este ﬁn y no pueda
+        ser empleada en otro consumo.
+
+29.5. Los aparatos sanitarios, accesorios y la grifería deben considerar el consumo de agua de doble descarga y con un
+        máximo de 8 y 4 litros por descarga.
+
+Artículo 30.- Densiﬁcación urbana
+En las zonas consideradas en el Plan de Desarrollo Urbano con Zoniﬁcación Residencial mayor a la establecida
+originalmente o en los proyectos de densiﬁcación urbana, es posible incrementar el número preexistente de viviendas
+sobre un lote. En este caso se puede hacer uso de los retiros o de las áreas libres para ubicar las circulaciones
+verticales de acceso a las nuevas viviendas, las mismas que deben respetar las características de la ediﬁcación y del
+entorno.
+
+                         ANEXO
+
+                   CÁLCULO DE POZO DE LUZ
+
+Cuadro Nº 10. Cálculos por tramos según la altura de la ediﬁcación
+
+Altura en        Pozo 1 a 2 lados             Pozo 3 a 4 lados
+ metros       Perpendicular al vano        Perpendicular al vano
+
+TRAMO 1        A          B                 A          B
+              30%        25%               35%        30%
+
+           5       2.10              2.10       2.10              2.10
+
+           6       2.10              2.10       2.10              2.10
+
+           7       2.10              2.10       2.45              2.10
+
+           8       2.40              2.10       2.80              2.40
+
+           9       2.70              2.25       3.15              2.70
+
+10                 3.00              2.50       3.50              3.00
+
+11                 3.30              2.75       3.85              3.30
+
+12                 3.60              3.00       4.20              3.60
+
+13                 3.90              3.25       4.55              3.90
+
+14                 4.20              3.50       4.90              4.20
+Altura en       Pozo 1 a 2 lados             Pozo 3 a 4 lados
+ metros
+                Perpendicular al vano        Perpendicular al vano
+TRAMO 1
+                A          B                 A           B
+            15
+            16  30%        25%               35%         30%
+            17
+            18       4.50              3.75       5.25              4.50
+
+                     4.80              4.00       5.60              4.80
+
+                     5.10              4.25       5.95              5.10
+
+                     5.40              4.50       6.30              5.40
+
+Altura en       Pozo 1 a 2 lados             Pozo 3 a 4 lados
+ metros
+                Perpendicular al vano        Perpendicular al vano
+TRAMO 2
+                A          B                 A           B
+            19
+            20  15%        13%               25%         16%
+            21
+            22       5.55              4.63       6.55              5.56
+            23
+            24       5.70              4.76       6.80              5.72
+            25
+            26       5.85              4.89       7.05              5.88
+            27
+            28       6.00              5.02       7.30              6.04
+            29
+            30       6.15              5.15       7.55              6.20
+            31
+            32       6.30              5.28       7.80              6.36
+            33
+            34       6.45              5.41       8.05              6.52
+            35
+            36       6.60              5.54       8.30              6.68
+
+                     6.75              5.67       8.55              6.84
+
+                     6.90              5.80       8.80              7.00
+
+                     7.05              5.93       9.05              7.16
+
+                     7.20              6.06       9.30              7.32
+
+                     7.35              6.19       9.55              7.48
+
+                     7.50              6.32       9.80              7.64
+
+                     7.65              6.45       10.05             7.80
+
+                     7.80              6.58       10.30             7.96
+
+                     7.95              6.71       10.55             8.12
+
+                     8.10              6.84       10.80             8.28
+
+Altura en       Pozo 1 a 2 lados             Pozo 3 a 4 lados
+ metros
+                Perpendicular al vano        Perpendicular al vano
+TRAMO 3
+                A          B                 A           B
+            37
+            38  10%        10%               15%         13%
+            39
+            40       8.20              6.94       10.95             8.41
+
+                     8.30              7.04       11.10             8.54
+
+                     8.40              7.14       11.25             8.67
+
+                     8.50              7.24       11.40             8.80
+Altura en       Pozo 1 a 2 lados             Pozo 3 a 4 lados
+ metros
+                Perpendicular al vano        Perpendicular al vano
+TRAMO 3
+                A           B                A           B
+            41
+            42  10%         10%              15%         13%
+            43
+            44       8.60              7.34       11.55             8.93
+            45
+            46       8.70              7.44       11.70             9.06
+            47
+            48       8.80              7.54       11.85             9.19
+            49
+                     8.90              7.64       12.00             9.32
+            50
+            51       9.00              7.74       12.15             9.45
+            52
+            53       9.10              7.84       12.30             9.58
+            54
+                     9.20              7.94       12.45             9.71
+
+                     9.30              8.04       12.60             9.84
+
+                     9.40              8.14       12.75             9.97
+
+                     9.50              8.24       12.90        10.10
+                                                  13.05        10.23
+                     9.60              8.34       13.20        10.36
+                                                  13.35        10.49
+                     9.70              8.44       13.50        10.62
+
+                     9.80              8.54
+
+                     9.90              8.64
+
+Altura en       Pozo 1 a 2 lados             Pozo 3 a 4 lados
+ metros
+                Perpendicular al vano        Perpendicular al vano
+TRAMO 4
+                A           B                A           B
+            55
+            56  10%         10%              15%         13%
+            57
+            58       10.00             8.74       13.65        10.75
+            59
+            60       10.10             8.84       13.80        10.88
+            61
+            62       10.20             8.94       13.95        11.01
+            63
+            64       10.30             9.04       14.10        11.14
+            65
+            66       10.40             9.14       14.25        11.27
+            67
+            68       10.50             9.24       14.40        11.40
+            69
+            70       10.60             9.34       14.55        11.53
+            71
+            72       10.70             9.44       14.70        11.66
+
+                     10.80             9.54       14.85        11.79
+
+                     10.90             9.64       15.00        11.92
+
+                     11.00             9.74       15.15        12.05
+
+                     11.10             9.84       15.30        12.18
+
+                     11.20             9.94       15.45        12.31
+
+                     11.30        10.04           15.60        12.44
+
+                     11.40        10.14           15.75        12.57
+
+                     11.50        10.24           15.90        12.70
+
+                     11.60        10.34           16.05        12.83
+
+                     11.70        10.44           16.20        12.96
+Gráﬁco Nº 01. Casos de pozos de luz por lados
+
+                                                 
+                     
+Gráﬁco Nº 02. Cálculo de pozos de luz
+

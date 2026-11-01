@@ -1,0 +1,409 @@
+                    SUB-TÍTULO II.3
+             OBRAS DE SANEAMIENTO
+
+                             NORMA OS.010
+
+   CAPTACIÓN Y CONDUCCIÓN DE AGUA PARA CONSUMO HUMANO
+
+1  OBJETIVO
+
+   Fijar las condiciones para la elaboración de los proyectos de captación y
+   conducción de agua para consumo humano.
+
+2  ALCANCES
+
+   Esta Norma fija los requisitos mínimos a los que deben sujetarse los diseños de
+   captación y conducción de agua para consumo humano, en localidades
+   mayores de 2000 habitantes.
+
+3  FUENTE
+
+   A fin de definir la o las fuentes de abastecimiento de agua para consumo
+   humano, se deberán realizar los estudios que aseguren la calidad y cantidad
+   que requiere el sistema, entre los que incluyan: identificación de fuentes
+   alternativas, ubicación geográfica, topografía, rendimientos mínimos,
+   variaciones anuales, análisis físico químicos, vulnerabilidad y microbiológicos y
+   otros estudios que sean necesarios.
+
+   La fuente de abastecimiento a utilizarse en forma directa o con obras de
+   regulación, deberá asegurar el caudal máximo diario para el período de diseño.
+
+   La calidad del agua de la fuente, deberá satisfacer los requisitos establecidos
+   en la Legislación vigente en el País.
+
+4. CAPTACIÓN
+
+         El diseño de las obras deberá garantizar como mínimo la captación del caudal
+         máximo diario necesario protegiendo a la fuente de la contaminación.
+         Se tendrán en cuenta las siguientes consideraciones generales:
+
+         4.1 AGUAS SUPERFICIALES
+
+                   a) Las obras de toma que se ejecuten en los cursos de aguas
+                           superficiales, en lo posible no deberán modificar el flujo normal de
+                           la fuente, deben ubicarse en zonas que no causen erosión o
+                           sedimentación y deberán estar por debajo de los niveles mínimos
+                           de agua en periodos de estiaje.
+
+                   b) Toda toma debe disponer de los elementos necesarios para
+                           impedir el paso de sólidos y facilitar su remoción, así como de un
+                 sistema de regulación y control. El exceso de captación deberá
+                 retornar al curso original.
+
+         c) La toma deberá ubicarse de tal manera que las variaciones de
+                 nivel no alteren el funcionamiento normal de la captación.
+
+4.2 AGUAS SUBTERRÁNEAS
+
+       El uso de las aguas subterráneas se determinará mediante un estudio a
+       través del cual se evaluará la disponibilidad del recurso de agua en
+       cantidad, calidad y oportunidad para el fin requerido.
+
+       4.2.1 Pozos Profundos
+
+                   a) Los pozos deberán ser perforados previa autorización de los
+                        organismos competentes del Ministerio de Agricultura, en
+                        concordancia con la Ley General de Aguas vigente. Así
+                        mismo, concluida la construcción y equipamiento del pozo
+                        se deberá solicitar licencia de uso de agua al mismo
+                        organismo.
+
+                   b) La ubicación de los pozos y su diseño preliminar serán
+                        determinados como resultado del correspondiente estudio
+                        hidrogeológico específico a nivel de diseño de obra. En la
+                        ubicación no sólo se considerará las mejores condiciones
+                        hidrogeológicas del acuífero sino también el suficiente
+                        distanciamiento que debe existir con relación a otros pozos
+                        vecinos existentes y/ o proyectados para evitar problemas
+                        de interferencias.
+
+                   c) El menor diámetro del forro de los pozos deberá ser por lo
+                        menos de 8 cm mayor que el diámetro exterior de los
+                        impulsores de la bomba por instalarse.
+
+                   d) Durante la perforación del pozo se determinará su diseño
+                        definitivo, sobre la base de los resultados del estudio de las
+                        muestras del terreno extraído durante la perforación y los
+                        correspondientes registros geofísicos. El ajuste del diseño se
+                        refiere sobre todo a la profundidad final de la perforación,
+                        localización y longitud de los filtros.
+
+                   e) Los filtros serán diseñados considerando el caudal de
+                        bombeo; la granulometría y espesor de los estratos;
+                        velocidad de entrada, así como la calidad de las aguas.
+
+                   f) La construcción de los pozos se hará en forma tal que se
+                        evite el arenamiento de ellos, y se obtenga un óptimo
+                        rendimiento a una alta eficiencia hidráulica, lo que se
+                        conseguirá con uno o varios métodos de desarrollo.
+
+                   g) Todo pozo, una vez terminada su construcción, deberá ser
+                        sometido a una prueba de rendimiento a caudal variable
+                        durante 72 horas continuas como mínimo, con la finalidad
+                        de determinar el caudal explotable y las condiciones para su
+                equipamiento. Los resultados de la prueba deberán ser
+                expresados en gráficos que relacionen la depresión con los
+                caudales, indicándose el tiempo de bombeo.
+
+           h) Durante la construcción del pozo y pruebas de rendimiento
+                se deberá tomar muestras de agua a fin de determinar su
+                calidad y conveniencia de utilización.
+
+4.2.2 Pozos Excavados
+
+           a) Salvo el caso de pozos excavados para uso doméstico
+                unifamiliar, todos los demás deben perforarse previa
+                autorización del Ministerio de Agricultura. Así mismo,
+                concluida la construcción y equipamiento del pozo se deberá
+                solicitar licencia de uso de agua al mismo organismo.
+
+           b) El diámetro de excavación será aquel que permita realizar
+                las operaciones de excavación y revestimiento del pozo,
+                señalándose a manera de referencia 1,50 m.
+
+           c) La profundidad del pozo excavado se determinará en base a
+                la profundidad del nivel estático de la napa y de la máxima
+                profundidad que técnicamente se pueda excavar por debajo
+                del nivel estático.
+
+           d) El revestimiento del pozo excavado deberá ser con anillos
+                ciego de concreto del tipo deslizante o fijo, hasta el nivel
+                estático y con aberturas por debajo de él.
+
+           e) En la construcción del pozo se deberá considerar una
+                escalera de acceso hasta el fondo para permitir la limpieza y
+                mantenimiento, así como para la posible profundización en el
+                futuro.
+
+           f) El motor de la bomba puede estar instalado en la superficie
+                del terreno o en una plataforma en el interior del pozo,
+                debiéndose considerar en este último caso las medidas de
+                seguridad para evitar la contaminación del agua.
+
+           g) Los pozos deberán contar con sellos sanitarios, cerrándose
+                la boca con una tapa hermética para evitar la contaminación
+                del acuífero, así como accidentes personales. La cubierta
+                del pozo deberá sobresalir 0,50 m como mínimo, con relación
+                al nivel de inundación.
+
+           h) Todo pozo, una vez terminada su construcción, deberá ser
+                sometido a una prueba de rendimiento, para determinar su
+                caudal de explotación y las características técnicas de su
+                equipamiento.
+
+           i) Durante la construcción del pozo y pruebas de rendimiento
+                se deberá tomar muestras de agua a fin de determinar su
+                calidad y conveniencia de utilización.
+4.2.3 Galerías Filtrantes
+
+           a) Las galerías filtrantes serán diseñadas previo estudio, de
+                acuerdo a la ubicación del nivel de la napa, rendimiento del
+                acuífero y al corte geológico obtenido mediante excavaciones
+                de prueba.
+
+           b) La tubería a emplearse deberá colocarse con juntas no
+                estancas y que asegure su alineamiento.
+
+           c) El área filtrante circundante a la tubería se formará con grava
+                seleccionada y lavada, de granulometría y espesor adecuado
+                a las características del terreno y a las perforaciones de la
+                tubería.
+
+           d) Se proveerá cámaras de inspección espaciadas
+                convenientemente en función del diámetro de la tubería, que
+                permita una operación y mantenimiento adecuado.
+
+           e) La velocidad máxima en los conductos será de 0,60 m/s
+      .
+
+           f) La zona de captación deberá estar adecuadamente protegida
+                para evitar la contaminación de las aguas subterráneas.
+
+           g) Durante la construcción de las galerías y pruebas de
+                rendimiento se deberá tomar muestras de agua a fin de
+                determinar su calidad y la conveniencia de utilización.
+
+4.2.4 Manantiales
+
+           a) La estructura de captación se construirá para obtener el
+                máximo rendimiento del afloramiento.
+
+           b) En el diseño de las estructuras de captación, deberán
+                preverse válvulas, accesorios, tubería de limpieza, rebose y
+                tapa de inspección con todas las protecciones sanitarias
+                correspondientes.
+
+           c) Al inicio de la tubería de conducción se instalará su
+                correspondiente canastilla.
+
+           d) La zona de captación deberá estar adecuadamente protegida
+                para evitar la contaminación de las aguas.
+
+           e) Deberá tener canales de drenaje en la parte superior y
+                alrededor de la captación para evitar la contaminación por las
+                aguas superficiales.
+5. CONDUCCIÓN
+
+         Se denomina obras de conducción a las estructuras y elementos que sirven
+         para transportar el agua desde la captación hasta al reservorio o planta de
+         tratamiento.
+         La estructura deberá tener capacidad para conducir como mínimo, el caudal
+         máximo diario.
+
+5.1 CONDUCCIÓN POR GRAVEDAD
+
+           5.1.1 Canales
+
+                     a) Las características y material con que se construyan los
+                          canales serán determinados en función al caudal y la
+                          calidad del agua.
+
+                     b) La velocidad del flujo no debe producir depósitos ni
+                          erosiones y en ningún caso será menor de 0,60 m/s
+
+                     c) Los canales deberán ser diseñados y construidos teniendo
+                          en cuenta las condiciones de seguridad que garanticen su
+                          funcionamiento permanente y preserven la cantidad y calidad
+                          del agua.
+
+5.1.2 Tuberías
+
+a) Para el diseño de la conducción con tuberías se tendrá en
+    cuenta las condiciones topográficas, las características del
+    suelo y la climatología de la zona a fin de determinar el tipo y
+    calidad de la tubería.
+
+b) La velocidad mínima no debe producir depósitos ni
+    erosiones, en ningún caso será menor de 0,60 m/s
+
+c) La velocidad máxima admisible será:
+
+En los tubos de concreto                  3 m/s
+En tubos de asbesto-cemento, acero y PVC  5 m/s
+
+Para otros materiales deberá justificarse la velocidad máxima
+admisible.
+
+d) Para el cálculo hidráulico de las tuberías que trabajen como
+    canal, se recomienda la fórmula de Manning, con los
+    siguientes coeficientes de rugosidad:
+
+Asbesto-cemento y PVC                     0,010
+Hierro Fundido y concreto                 0,015
+    Para otros materiales deberá justificarse los coeficientes de
+    rugosidad.
+
+e) Para el cálculo de las tuberías que trabajan con flujo a
+    presión se utilizarán fórmulas racionales. En caso de
+    aplicarse la fórmula de Hazen y Williams, se utilizarán los
+    coeficientes de fricción que se establecen en la Tabla N° 1.
+    Para el caso de tuberías no consideradas, se deberá justificar
+    técnicamente el valor utilizado.
+
+                    TABLA N°1
+
+COEFICIENTES DE FRICCIÓN “C” EN
+
+LA FÓRMULA DE HAZEN Y WILLIAMS
+
+TIPO DE TUBERIA                   “C”
+
+Acero sin costura                 120
+
+Acero soldado en espiral          100
+
+Cobre sin costura                 150
+
+Concreto                          110
+
+Fibra de vidrio                   150
+
+Hierro fundido                    100
+
+Hierro fundido con revestimiento  140
+
+Hierro galvanizado                100
+
+Polietileno, Asbesto Cemento      140
+
+Poli(cloruro de vinilo)(PVC)      150
+
+5.1.3 Accesorios
+
+         a) Válvulas de aire
+
+              En las líneas de conducción por gravedad y/o bombeo, se
+              colocarán válvulas extractoras de aire cuando haya cambio
+              de dirección en los tramos con pendiente positiva. En los
+              tramos de pendiente uniforme se colocarán cada 2.0 km
+              como máximo.
+
+              Si hubiera algún peligro de colapso de la tubería a causa del
+              material de la misma y de las condiciones de trabajo, se
+              colocarán válvulas de doble acción (admisión y expulsión).
+
+              El dimensionamiento de las válvulas se determinará en
+              función del caudal, presión y diámetro de la tubería.
+
+         b) Válvulas de purga
+
+              Se colocará válvulas de purga en los puntos bajos, teniendo
+              en consideración la calidad del agua a conducirse y la
+              modalidad de funcionamiento de la línea. Las válvulas de
+              purga se dimensionarán de acuerdo a la velocidad de
+              drenaje, siendo recomendable que el diámetro de la válvula
+              sea menor que el diámetro de la tubería.
+c) Estas válvulas deberán ser instaladas en cámaras
+    adecuadas, seguras y con elementos que permitan su fácil
+    operación y mantenimiento.
+
+5.2 CONDUCCIÓN POR BOMBEO
+
+           a) Para el cálculo de las líneas de conducción por bombeo, se
+                recomienda el uso de la fórmula de Hazen y Williams. El
+                dimensionamiento se hará de acuerdo al estudio del diámetro
+                económico.
+
+           b) Se deberá considerar las mismas recomendaciones para el uso de
+                válvulas de aire y de purga del numeral 5.1.3
+
+5.3 CONSIDERACIONES ESPECIALES
+
+           a) En el caso de suelos agresivos o condiciones severas de clima,
+                deberá considerarse tuberías de material adecuado y debidamente
+                protegido.
+
+           b) Los cruces con carreteras, vías férreas y obras de arte, deberán
+                diseñarse en coordinación con el organismo competente.
+
+           c) Deberá diseñarse anclajes de concreto simple, concreto armado o
+                de otro tipo en todo accesorio, ó válvula, considerando el diámetro,
+                la presión de prueba y condición de instalación de la tubería.
+
+           d) En el diseño de toda línea de conducción se deberá tener en cuenta
+                el golpe de ariete.
+
+                  GLOSARIO
+
+ACUIFERO          Estrato subterráneo saturado de agua del
+AGUA SUBTERRANEA  cual ésta fluye fácilmente.
+AFLORAMIENTO
+CALIDAD DE AGUA   Agua localizada en el subsuelo y que
+                  generalmente requiere de excavación para
+                  su extracción.
+
+                  Son las fuentes o surgencias, que en
+                  principio deben ser consideradas como
+                  aliviaderos naturales de los acuíferos.
+
+                  Características físicas, químicas, y
+                  bacteriológicas del agua que la hacen
+                  aptas para el consumo humano, sin
+                  implicancias para la salud, incluyendo
+                  apariencia, gusto y olor.
+CAUDAL MAXIMO DIARIO  Caudal más alto en un día, observado en el
+DEPRESION             periodo de un año, sin tener en cuenta los
+FILTROS               consumos por incendios, pérdidas, etc.
+FORRO DE POZOS
+                      Entendido como abatimiento, es el
+POZO EXCAVADO         descenso que experimenta el nivel del
+POZO PERFORADO        agua cuando se está bombeando o cuando
+SELLO SANITARIO       el pozo fluye naturalmente. Es la
+TOMA DE AGUA          diferencia, medida en metros, entre el nivel
+                      estático y el nivel dinámico.
+
+                      Es la rejilla del pozo que sirve como
+                      sección de captación de un pozo que toma
+                      el agua de un acuífero de material no
+                      consolidado.
+
+                      Es la tubería de revestimiento colocada
+                      unas veces durante la perforación, otras
+                      después de acabada ésta. La que se
+                      coloca durante la perforación puede ser
+                      provisional o definitiva. La finalidad más
+                      frecuente de la primera es la de sostener el
+                      terreno mientras se avanza con la
+                      perforación. La finalidad de la segunda es
+                      revestir definitivamente el pozo.
+
+                      Es la penetración del terreno en forma
+                      manual. El diámetro mínimo es aquel que
+                      permite el trabajo de un operario en su
+                      fondo.
+
+                      Es la penetración del terreno utilizando
+                      maquinaría. En este caso la perforación
+                      puede ser iniciada con un antepozo hasta
+                      una profundidad conveniente y, luego, se
+                      continúa con el equipo de perforación.
+
+                      Elementos utilizados para mantener las
+                      condiciones sanitarias óptimas en la
+                      estructura de ingreso a la captación.
+
+                      Dispositivo o conjunto de dispositivos
+                      destinados a desviar el agua desde una
+                      fuente hasta los demás órganos
+                      constitutivos de una captación.
+
